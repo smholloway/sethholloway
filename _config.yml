@@ -9,6 +9,17 @@ author: Seth Holloway
 simple_search: http://google.com/search
 description: Polymathic, in theory.
 
+# ----------------------- #
+#    Octoflat Config      #
+# ----------------------- #
+navigation:
+- text: Blog
+  url: /index.html
+- text: Archives
+  url: /blog/archives/index.html
+- text: About
+  url: /about/index.html
+
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
@@ -98,3 +109,6 @@ google_analytics_tracking_id: UA-7555904-1
 
 # Facebook Like
 facebook_like: true
+
+# Linkedin
+linkedin_user: sethholloway
