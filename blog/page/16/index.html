@@ -1,0 +1,685 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Seth Holloway</title>
+  <meta name="author" content="Seth Holloway">
+
+  
+  <meta name="description" content="I&rsquo;m working through Agile Web Development with Rails, 4th Edition. Overall, the book is well written&mdash;readable, nice depth and breadth, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://smholloway.github.io/blog/page/16">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Seth Holloway" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7555904-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Seth Holloway</a></h1>
+  
+    <h2>More joie de vivre than savoir-vivre.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:smholloway.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/rails-3-document-on-error/">Rails 3 document. On Error</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-07-18T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;m working through <a title="Agile Web Development with Rails" href="http://pragprog.com/titles/rails4/agile-web-development-with-rails" target="_blank">Agile Web Development with Rails, 4th Edition</a>. Overall, the book is well written&mdash;readable, nice depth and breadth, great example (ecommerce site)&mdash;and I would recommend it highly; however,  Chapter 11, adding Ajax support to the cart, has given me hell.</p>
+
+<p>I spent hours working through the example a couple times, diffing my source against the <a title="Agile Web Development with Rails source code" href="http://pragprog.com/titles/rails4/source_code" target="_blank">source code provided</a>, starting and restarting the server, trying multiple browsers (Safari, Firefox, Chrome), grepping for errors,  and googling. Finally, I arrived at the solution:</p>
+
+<p>To remedy this problem, I updated my public/javascripts/prototype.js file from the <a href="http://www.prototypejs.org/download" target="_blank">prototype download page</a>. At the time of writing, that was <a href="http://prototypejs.org/assets/2010/5/13/prototype.js" target="_blank"><a href="http://prototypejs.org/assets/2010/5/13/prototype.js">http://prototypejs.org/assets/2010/5/13/prototype.js</a></a></p>
+
+<p><strong>Debugging</strong></p>
+
+<p>Here are the steps I followed to track down the problem.</p>
+
+<p>First, I noticed that the page was refreshing everytime I pressed an &ldquo;Add to Cart&rdquo; button. I made sure the necessary files were in place and the javascript input was defined for the create method I was Ajaxifying. To ensure the button was properly defined, I viewed source and ensured the element had an attribute <em>data-remote=&ldquo;true&rdquo;.</em> Despite proper HTML and Ruby, the development.log showed that I was still retrieving the page as HTML instead of JavaScript</p>
+
+<blockquote>Started POST &#8220;/line_items?product_id=3&#8221; for 127.0.0.1 at Sun Jul 18 21:06:41 -0500 2010
+Processing by LineItemsController#create as HTML
+Parameters: {&#8220;product_id&#8221;=&gt;&#8221;3&#8221;, &#8220;authenticity_token&#8221;=&gt;&#8221;Dsv044fqfo7H46jLYx3e6qnbCgqk3Tcoij6pqbOQZx4=&#8221;}</blockquote>
+
+
+<p>So I checked the browser errors. Firefox showed</p>
+
+<blockquote>Error: document.on is not a function
+Source File: http://localhost:3000/javascripts/rails.js?1277734011
+Line: 136</blockquote>
+
+
+<p>Inspecting the element in Chrome I saw</p>
+
+<blockquote>Uncaught TypeError: Object #&lt;an HTMLDocument&gt; has no method &#8216;on&#8217;</blockquote>
+
+
+<p>Looking at the rails.js file, line 136, we see</p>
+
+<blockquote>
+<pre>  document.on("click", "*[data-confirm]", function(event, element) {
+    var message = element.readAttribute('data-confirm');
+    if (!confirm(message)) event.stop();
+  });</pre>
+</blockquote>
+
+
+<p>Between the errors and the rails.js file, we see that none of the included JavaScript files nor the browser defined the method. A new <a title="Rails 3 Patch" href="https://rails.lighthouseapp.com/projects/8994/tickets/5109-make-prototypejs-compatible-with-railsjs-for-30" target="_blank">Rails 3 patch</a> will upgrade prototype from 1.6.1 to 1.7rc2, so future generations will not experience this fun.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-world-cup-shows-the-ubiquity-of-english/">The World Cup Shows the Ubiquity of English</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-07-06T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve been enjoying the World Cup for the past three weeks&mdash;while still getting all of my work done, of course. One thing that has been really neat is seeing the diverse cultures communicating. I imagine the players and referees could play without words (we&rsquo;ll let them keep whistles and hand-signs), but very frequently players verbally plead for calls and the ref explicitly announces situations to players. The on-field interactions seem to be in <a href="http://en.wikipedia.org/wiki/English_language">English</a>.</p>
+
+<p>When Paraguay, coached by an Argentinian, <a href="http://www.fifa.com/worldcup/matches/round=249718/match=300061506/index.html">played</a> Spain, coached by a Spaniard, they were officiated by a Guatemalan, Costa Rican, Honduran, and Mexican; I&rsquo;d guess everyone spoke Spanish. But the situation gets more complicated if we look at when Paraguay (native Spanish speakers) <a href="http://www.fifa.com/worldcup/matches/round=249717/match=300061497/index.html">played</a> Japan (native Japanese speakers) with refs from <a href="http://en.wikipedia.org/wiki/Belgium">Belgium</a> (official languages are Dutch, French, and German). My lip-reading skills are admittedly amateur, but I perceived English. This has been the case throughout the tournament. Now, I&rsquo;m glad that I focused on furthering my English skills instead of futilely learning a foreign language because everyone speaks English. The World Cup taught me so :&ndash;)</p>
+
+<p>So, when and how are players from all of the world learning English well enough to communicate with other similarly diverse English-speakers? When did this start? Because <a href="http://en.wikipedia.org/wiki/Diego_Maradona">Maradona</a>, an old school footballer, interviews in Spanish using a translator.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/now-thats-impressive/">Now That&#8217;s Impressive!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-06-02T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A friend of mine sent me a video of Dustin Carter, a wrestling badass. Check out his workout:</p>
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="480" height="264" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="bgcolor" value="#" /><param name="flashvars" value="image=http://c0205201.cdn.cloudfiles.rackspacecloud.com/338413_gb6mcnfm6vags75rkhb7_l.JPG&amp;logo=http://c1184532.cdn.cloudfiles.rackspacecloud.com/flowrestling.png&amp;file=http://d18tka3ecu2l5z.cloudfront.net/46995_DustinCarterWorkout_1275486791212.mp4&amp;frontcolor=000000&amp;lightcolor=cc9900&amp;controlbar=over&amp;stretching=fill&amp;theme=#CDCC00&amp;border=0" /><param name="src" value="http://c1403192.cdn.cloudfiles.rackspacecloud.com/player.swf" /><param name="wmode" value="transparent" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="480" height="264" src="http://c1403192.cdn.cloudfiles.rackspacecloud.com/player.swf" allowfullscreen="true" wmode="transparent" flashvars="image=http://c0205201.cdn.cloudfiles.rackspacecloud.com/338413_gb6mcnfm6vags75rkhb7_l.JPG&amp;logo=http://c1184532.cdn.cloudfiles.rackspacecloud.com/flowrestling.png&amp;file=http://d18tka3ecu2l5z.cloudfront.net/46995_DustinCarterWorkout_1275486791212.mp4&amp;frontcolor=000000&amp;lightcolor=cc9900&amp;controlbar=over&amp;stretching=fill&amp;theme=#CDCC00&amp;border=0" bgcolor="#"></embed></object>
+
+
+<p>Despite having no arms and no legs  (a rare infection forced him to have both arms and legs amputated), Dustin has an awesome record. It&rsquo;s really inspirational; as one of the <a href="http://www.flowrestling.org">Flowrestling</a> comments says, &ldquo;No excuses.&rdquo;</p>
+
+<p>There&rsquo;s also a documentary on him. Here&rsquo;s a teaser:</p>
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/qmicID3JwsE&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/qmicID3JwsE&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+
+
+<p>Even Sports Illustrated has picked up on him <a href="http://sportsillustrated.cnn.com/multimedia/photo_gallery/0804/wrestling.dustin.carter/content.1.html" target="_blank">here</a>.</p>
+
+<p>I must admit, I find the lives of differently abled people quite interesting, and Dustin is no exception. It&rsquo;s amazing that he has adapted and succeeded. Well done, Dustin Carter! Keep wrestling!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/on-to-something-lighter/">On to Something Lighter</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-21T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Here are some groan worthy puns that made me smile this week. Enjoy!</p>
+
+<pre><code> * &lt;strong&gt; The roundest knight at King Arthur's round table was Sir Cumference.  He acquired his size from too much pi.&lt;/strong&gt;
+ * &lt;strong&gt;I thought I saw an eye doctor on an Alaskan island, but it turned  out to be an optical Aleutian.&lt;/strong&gt;
+ * &lt;strong&gt; She was only a whiskey maker, but he loved her still.&lt;/strong&gt;
+ * &lt;strong&gt; A rubber band pistol was confiscated from algebra class, because it was a weapon of math disruption.&lt;/strong&gt;
+ * &lt;strong&gt; No matter how much you push the envelope, it'll still be stationery.&lt;/strong&gt;
+ * &lt;strong&gt; A dog gave birth to puppies near the road and was cited for  littering.&lt;/strong&gt;
+ * &lt;strong&gt; A grenade thrown into a kitchen in France would result in Linoleum Blownapart.&lt;/strong&gt;
+ * &lt;strong&gt; Two silk worms had a race. They ended up in a tie.&lt;/strong&gt;
+ * &lt;strong&gt; A hole has been found in the nudist camp wall. The police are  looking into it.&lt;/strong&gt;
+ * &lt;strong&gt; Atheism is a non-prophet organization.&lt;/strong&gt;
+ * &lt;strong&gt; Two hats were hanging on a hat rack in the hallway. One hat said to the other: 'You stay here; I'll go on a head.'&lt;/strong&gt;
+ * &lt;strong&gt; I wondered why the baseball kept getting bigger. Then it hit me.&lt;/strong&gt;
+ * &lt;strong&gt; A sign on the lawn at a drug rehab center said: 'Keep off the  Grass.'&lt;/strong&gt;
+ * &lt;strong&gt; The short fortune-teller who escaped from prison was a small medium at large.&lt;/strong&gt;
+ * &lt;strong&gt; The man who survived mustard gas and pepper spray is now a seasoned veteran.&lt;/strong&gt;
+ * &lt;strong&gt; A backward poet writes inverse.&lt;/strong&gt;
+ * &lt;strong&gt; In a democracy it's your vote that counts. In feudalism it's your count that votes.&lt;/strong&gt;
+ * &lt;strong&gt; When cannibals ate a missionary, they got a taste of religion &lt;/strong&gt;
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/r-i-p-viola-holloway/">R.I.P. Viola Holloway</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-18T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Yesterday my grandmother, Viola Holloway, passed away after 89 fruitful years. While this is incredibly painful for me, her passing is not all sad; given her condition this semester, I can say she&rsquo;s in a  better place now.</p>
+
+<p>Viola was an awesome grandma, and I&rsquo;m going to miss her tremendously. She always had treats and encouraging words for me! I will cherish the memories and try to be as loving and supportive of my progeny as she was of hers.</p>
+
+<p>Exercise. Be happy. Live simply. Viola had it right.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/go-visit-petite-pensieri-at-first-thursday-tonight/">Go Visit Petite Pensieri at First Thursday Tonight!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-06T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>After birthing a super cute baby boy, a good friend, Tahra, started a business selling handcrafted baby items (with another friend in a similar situation, Katie). The business, <a title="Petite Pensieri" href="http://www.etsy.com/shop/PetitePensieri" target="_blank">Petite Pensieri</a>, is very inspiring; I have been impressed by so many elements! Tahra and Katie have shown tremendous initiative and their products are high-quality and useful.</p>
+
+<p>From a technological standpoint, <a title="Etsy" href="http://www.etsy.com/" target="_blank">Etsy</a> offers an amazing platform for handmade items. The service allows you to quickly and easily list items for sale. <a title="Etsy Fees" href="http://www.etsy.com/fees.php" target="_blank">Etsy&rsquo;s fees</a> are quite reasonble: &ldquo;It costs 20 cents to list an item for four months. When your item sells,  you’ll pay a 3.5% transaction fee.&rdquo; <a title="Shopify" href="http://www.shopify.com/" target="_blank">Shopify</a> is a similar idea: you create an online storefront and they manage everything else for a fee. The monthly <a title="Shopify: Fees" href="https://app.shopify.com/services/signup" target="_blank">cost of Shopify</a> ranges from $24 (for 100 products and a 2% transaction fee) to $699 per month (for 50,000 products and no transaction fee), so the two sites addresses slightly different needs. With some quick math I&rsquo;d say Etsy is cheaper up to $1,600 worth of sales a month (24+0.02<em>x = 0.035</em>x &ndash;&gt; 24 = 0.015*x &ndash;&gt; 1600 = x). To be fair, Shopify wins if, for example, you want custom domain names and landing pages or selling goods that don&rsquo;t qualify for Etsy.</p>
+
+<p>Tonight, Tahra and Katie will be offering their awesome wares at <a title="About.com: First Thursday in Austin" href="http://austin.about.com/od/eventsandactivities/a/first_thursday_austin.htm" target="_blank">First Thursday</a>. If you&rsquo;re around, go enjoy the experience and keep Austin weird (or at least local ;&ndash;))! If you&rsquo;re going to a baby shower, buy something nice from <a title="Petite Pensieri" href="http://www.etsy.com/shop/PetitePensieri" target="_blank">Petite Pensieri</a> and the baby will thank you later!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/the-timeline-resume/">The Timeline Resume</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-15T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Over the weekend I published <a title="Seth Holloway Timeline Resume" href="http://www.sethholloway.com/timelineResume.html" target="_blank">my resume as a timeline</a>. With the standard text-based resume I found it hard to show my simultaneous jobs (for example, in Spring 2010 I was pursuing my PhD, working part-time at IBM, researching under Christine, teaching/grading Project Management, keeping up the lab&rsquo;s computing infrastructure, supervising Michael Hanna, assisting a couple companies with their computing needs, and actively participating in two organizations). The timeline allows me to show these jobs at once rather than tacitly asking the reader to juggle all the &ldquo;X &ndash; Present&rdquo; entries under multiple headings.</p>
+
+<p><img class="size-medium wp-image-1011" title="TimelineResume" src="/images/TimelineResume-300x120.png" alt="Seth Holloway's timeline resume" width="300" height="120" /></p>
+
+<p>It was a great project with HTML/CSS and JavaScript! I was inspired  by other great infographics, but after I had published the resume, I  found there were some other timeline resumes I could have used as a  guide. In any case, I like mine and I hope you do too!</p>
+
+<p>Do you see any improvements I could make? Anything that is unclear or  hard to use?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/seth-holloway-not-seth-halloway/">Seth Holloway&#8230; Not Seth Halloway!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-12T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve long been in the habit of spelling my last name for people after I tell them. Some people reply almost indignantly, &ldquo;How else would you spell it?!&rdquo; Well, I set up my <a title="Google Webmaster Tools" href="https://www.google.com/webmasters/tools/home?hl=en" target="_blank">Google Webmaster tools</a> and people are stumbling upon the site from the query &ldquo;<a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank">seth halloway</a>.&rdquo; Perhaps it&rsquo;s time to publish all the common misspellings of my name:</p>
+
+<pre><code> * &lt;a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank"&gt;seth holloway&lt;/a&gt;
+ * &lt;a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank"&gt;seth halloway&lt;/a&gt;
+ * &lt;a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank"&gt;seth hallaway&lt;/a&gt;
+ * &lt;a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank"&gt;seth hollaway&lt;/a&gt;
+</code></pre>
+
+<p>At my first grade graduation, the principal beckoned me across the stage by calling &ldquo;<a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank">seeth holloway</a>&rdquo; and I&rsquo;ve been called &ldquo;<a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank">sean holloway</a>&rdquo; and &ldquo;<a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank">scott holloway</a>!&rdquo; After attending a diverse graduate program, I have heard some amazing mispronounciations and I know that I have nothing to complain about :)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/spinning-plates/">Spinning Plates</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-17T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>One day I was enjoying a balmy afternoon at <a title="Mozart's Coffee Roasters" href="http://www.mozartscoffee.com/" target="_blank">Mozart&rsquo;s</a> with my wife. While it was not my goal to eavesdrop, I overheard two women talking about finding jobs&mdash;a common topic these days. The profound bit that I picked up on was an analogy: finding jobs is like spinning plates. If you apply too much or too little force to a plate, the plate will fall. I think this simple idea applies to all facets of life; once again, moderation is a virtue.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/flash-you-sneaky-bastard/">Flash, You Sneaky Bastard!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-02-21T00:00:00-06:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a title="Wikipedia: Flash" href="http://en.wikipedia.org/wiki/Adobe_Flash" target="_blank">Flash</a>, the popular multimedia platform that helps make websites more interactive, has cookies separate from your web browser&rsquo;s cookies. They&rsquo;re called <a title="Wikipedia: Local Shared Object" href="http://en.wikipedia.org/wiki/Local_Shared_Object" target="_blank">local shared objects (LSO)</a> and they may be a security hole&mdash;like all things Flash ;&ndash;)</p>
+
+<p>There are a number of directories where the flash cookies may be stored. For example, on Mac OS X, LSOs are stored in two locations:</p>
+
+<pre><code> * ~/Library/Preferences/Macromedia/Flash\ Player/#SharedObjects/
+ * ~/Library/Preferences/Macromedia/Flash\ Player/macromedia.com/support/flashplayer/sys/
+</code></pre>
+
+<p>And there are more possible! For a detailed list, check the <a title="Wikipedia: LSO#File Locations" href="http://en.wikipedia.org/wiki/Local_Shared_Object#File_locations" target="_blank">list of locations on Wikipedia&rsquo;s LSO entry</a>.</p>
+
+<p>You can manually navigate to these locations and delete nasty ad-tracking/malware-hosting objects; however, while deleting unwanted cookies is worthwhile, it&rsquo;s not a good long-term solution. I recommend you <a title="Flash Controls" href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager02.html" target="_blank">update your Flash settings</a> (this interface also allows you to delete your LSOs) now! There are several tabs to look through, but don&rsquo;t worry&mdash;it&rsquo;s quick. Make sure you deny access to your camera and microphone! For finer grained control, the Firefox extension <a title="Objection Firefox Addon" href="http://objection.mozdev.org/" target="_blank">Objection</a> helps track and <a title="GHacks: Delete Flash Cookies" href="http://www.ghacks.net/2008/07/30/delete-flash-cookies/" target="_blank">eliminate Flash cookies</a>.</p>
+
+<p>Whatever your strategy, I wish you luck!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/17/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/15/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/books-read-january-2014/">Books Read January 2014</a>
+      </li>
+    
+      <li class="post">
+        <a href="/hugo-award-winners-and-nominees-fantasy/">Hugo Award Winners and Nominees - Fantasy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-december-2013/">Books Read December 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-november-2013/">Books Read November 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-october-2013/">Books Read October 2013</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/smholloway">@smholloway</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'smholloway',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/107333139913866738283?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Seth Holloway -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

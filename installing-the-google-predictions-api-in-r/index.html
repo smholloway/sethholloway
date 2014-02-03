@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Installing the Google Predictions API in R - Seth Holloway</title>
+  <meta name="author" content="Seth Holloway">
+
+  
+  <meta name="description" content="Note: This post got buried and I never posted it. I haven&rsquo;t played with R in several months, so I&rsquo;m not sure if this works anymore. This &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://smholloway.github.io/installing-the-google-predictions-api-in-r">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Seth Holloway" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7555904-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Seth Holloway</a></h1>
+  
+    <h2>More joie de vivre than savoir-vivre.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:smholloway.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Installing the Google Predictions API in R</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-25T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Note: This post got buried and I never posted it. I haven&rsquo;t played with R in several months, so I&rsquo;m not sure if this works anymore.</p>
+
+<p>This assumes you have R downloaded and installed.</p>
+
+<p>Download, install, and configure GSUtil (<a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>)</p>
+
+<p>Load R. You should see an ugly console :) In the window type</p>
+
+<pre>install.packages(c("RCurl", "rjson"))</pre>
+
+
+<p>You will be prompted to select a mirror; find something close to you and continue.</p>
+
+<p>You might be frustrated that there&rsquo;s no success message:</p>
+
+<pre>trying URL 'http://www.revolution-computing.com/cran/bin/macosx/leopard/contrib/2.13/rjson_0.2.5.tgz'
+Content type 'application/x-gzip' length 133138 bytes (130 Kb)
+opened URL
+==================================================
+downloaded 130 Kb
+
+The downloaded packages are in
+    /var/folders/I3/I3YZ8e5tGOK9CY9LQ98ix++++TI/-Tmp-//RtmpFrtdp3/downloaded_packages</pre>
+
+
+<p>However, if you fail there will be an error message:</p>
+
+<pre>&gt; install.packages("seth", dependencies = TRUE)
+Warning message:
+In getDependencies(pkgs, dependencies, available, lib) :
+  package ‘seth’ is not available (for R version 2.13.0)</pre>
+
+
+<pre>&gt; install.packages("googlepredictionapi_0.1.tar.gz", repos=NULL, type="source")
+Warning: invalid package ‘googlepredictionapi_0.1.tar.gz’
+Error: ERROR: no packages specified
+Warning message:
+In install.packages("googlepredictionapi_0.1.tar.gz", repos = NULL,  :
+  installation of package 'googlepredictionapi_0.1.tar.gz' had non-zero exit status</pre>
+
+
+<p>Download the Google Predictions API for R</p>
+
+<p><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></p>
+
+<p>Install it</p>
+
+<pre>$ mkdir -p ~/R/library</pre>
+
+
+<pre>$ mv googlepredictionapi_0.1.tar.gz ~/R/library/</pre>
+
+
+<pre>$ R_LIBS_USER="~/R/library"</pre>
+
+
+<pre>$ echo 'R_LIBS_USER="~/R/library"' &gt;  $HOME/.Renviron</pre>
+
+
+
+
+<pre>R CMD INSTALL ~/R/library/googlepredictionapi_0.1.tar.gz</pre>
+
+
+<pre></pre>
+
+
+<p>Source your libraries</p>
+
+<pre>library(rjson)
+library(RCurl)
+library(googlepredictionapi)</pre>
+
+
+<p>Some useful links
+<a href="http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html">http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html</a>
+<a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
+<a href="http://code.google.com/p/r-google-prediction-api-v12/">http://code.google.com/p/r-google-prediction-api-v12/</a></p>
+
+<p><a href="http://csg.sph.umich.edu/docs/R/localpackages.html">http://csg.sph.umich.edu/docs/R/localpackages.html</a></p>
+
+<pre><code> * Load R
+
+ * Note: You will see an ugly console.
+
+ * Install the pre-reqs
+
+ * &amp;gt; install.packages(c("RCurl", "rjson"))
+ * Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.
+ * Note: A successful install will not yield a success message--it will simply not show an error message.
+
+ * Download, install, and configure GSUtil: &lt;a href="http://code.google.com/apis/storage/docs/gsutil_install.html"&gt;http://code.google.com/apis/storage/docs/gsutil_install.html&lt;/a&gt;
+ * Download the Google Predictions API for R from &lt;a href="https://code.google.com/p/google-prediction-api-r-client/"&gt;https://code.google.com/p/google-prediction-api-r-client/&lt;/a&gt;
+ * Install the plugin
+
+ * Note: I had to do it from the command line because the install failed inside R
+ * $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz
+
+ * Now, you should be able to restart R and see the API listed in the Package Manager
+ * From here we source our libraries
+
+ * &amp;gt; library(rjson)
+ * &amp;gt; library(RCurl)
+ * &amp;gt; library(googlepredictionapi)
+
+ * If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I've stopped here.
+</code></pre>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Seth Holloway</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-25T00:00:00-05:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/technical/'>technical</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://smholloway.github.io/installing-the-google-predictions-api-in-r/" data-via="sethholloway" data-counturl="http://smholloway.github.io/installing-the-google-predictions-api-in-r/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/observations-from-three-months-of-vegetarianism/" title="Previous Post: Observations from three months of vegetarianism">&laquo; Observations from three months of vegetarianism</a>
+      
+      
+        <a class="basic-alignment right" href="/my-experience-with-programming-languages/" title="Next Post: My experience with programming languages">My experience with programming languages &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/books-read-january-2014/">Books Read January 2014</a>
+      </li>
+    
+      <li class="post">
+        <a href="/hugo-award-winners-and-nominees-fantasy/">Hugo Award Winners and Nominees - Fantasy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-december-2013/">Books Read December 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-november-2013/">Books Read November 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-october-2013/">Books Read October 2013</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/smholloway">@smholloway</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'smholloway',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/107333139913866738283?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Seth Holloway -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

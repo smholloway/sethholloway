@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>A RESTful Smart Home - Seth Holloway</title>
+  <meta name="author" content="Seth Holloway">
+
+  
+  <meta name="description" content="(I found this in my drafts and thought, &ldquo;have I really not posted about my PhD research before?&rdquo; Well, here it is now. Feel free to ask &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://smholloway.github.io/a-restful-smart-home">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Seth Holloway" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7555904-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Seth Holloway</a></h1>
+  
+    <h2>More joie de vivre than savoir-vivre.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:smholloway.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">A RESTful Smart Home</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-09T00:00:00-05:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>(I found this in my drafts and thought, &ldquo;have I really not posted about my PhD research before?&rdquo; Well, here it is now. Feel free to ask if something is unclear.)</p>
+
+<p>My PhD research was on smart homes (aware homes or intelligent environments). I think of smart homes as <a title="Wikipedia: Even-based Programming" href="http://en.wikipedia.org/wiki/Event-based_programming" target="_blank">event-based</a> systems where <a title="Wikipedia: sensor" href="http://en.wikipedia.org/wiki/Sensor">sensors</a> provide inputs that trigger actions performed by <a title="Wikipedia: actuator" href="http://en.wikipedia.org/wiki/Actuator" target="_blank">actuators</a>. I believe that centralizing the logic creates a direct path forward, which functionally means that individual buildings would have a central server. To this end, I created a smart home server that would accept sensor inputs and create outputs for actuators using a RESTful Web-of-Things style API that should be easy for future devices to conform to (we termed this piece <a title="Sensor Enablement for Average Programmers" href="http://mpc.ece.utexas.edu/SEAP/">SEAP</a>). Users can create their own rules using an interface that we prototyped and tested&mdash;it was usable according to our user studies (we termed the complete system <a title="Sensor Enablement for End-Users" href="http://mpc.ece.utexas.edu/SEEU/">SEEU</a>). All of this is available on <a title="GitHub: Seth Holloway - SEEU" href="https://github.com/smholloway/seeu">GitHub</a>.</p>
+
+<p>To implement the server, I used <a title="Ruby on Rails" href="http://rubyonrails.org/" target="_blank">Ruby on Rails 3</a> and <a title="Ruby" href="http://www.ruby-lang.org/en/" target="_blank">Ruby 1.9.2</a> with <a title="jQuery" href="http://jquery.com/" target="_blank">jQuery</a> to speed and simplify JavaScript work. These technologies are fantastic! Devices (sensors and actuators) are modeled using <a title="Wikipedia: Sun SPOT" href="http://en.wikipedia.org/wiki/Sun_SPOT" target="_blank">Sun SPOT</a>s running the <a title="Wikipedia: Squawk VM" href="http://en.wikipedia.org/wiki/Squawk_virtual_machine" target="_blank">Squawk virtual machine</a> (<a title="Wikipedia: Java ME" href="http://en.wikipedia.org/wiki/Java_ME" target="_blank">Java ME</a>, equivalent to ~JRE 1.3). Using our <a title="Sensor Enablement for the Average Programmer" href="http://mpc.ece.utexas.edu/SEAP/" target="_blank">SEAP middleware</a>, sensors <a title="Wikipedia: REST" href="http://en.wikipedia.org/wiki/Representational_State_Transfer" target="_blank">REST</a>fully <a title="Wikipedia: HTTP POST" href="http://en.wikipedia.org/wiki/POST_(HTTP)" target="_blank">POST</a> their values and actuators <a title="Wikipedia: HTTP GET" href="http://en.wikipedia.org/wiki/GET_(HTTP)" target="_blank">GET</a> their state.</p>
+
+<p>And now to the fun part, the rules processing engine. I could not find a rule processing engine in open source projects nor gems/plugins; even the academic research was scarce. So, I developed my own. Rules encode actions triggered by conditions. As I see it, there are two ways to run rules: reactively or periodically. If the rules are run periodically, they are easier to control (e.g., this will run once every minute) but they lose the on-demand factor that people would expect from a lot of operations in a house. Imagine walking into your house with a guarantee that lights will turn on within one minute. No thanks! This would work for something like turning on outside lights in the evening: the front porch lights coming on within one minute of sunset is acceptable. I prefer the more direct approach: reactive rules. The tradeoff here is that rules may run once a second or they may never run. My research prototype ran rules whenever sensor inputs were received, however, I think a periodic component would be useful to guarantee rules were executed.</p>
+
+<p>How often the rules run directly affects your application&rsquo;s performance. I believe rules will be run very frequently, so I chose to store the rules directly (as opposed to storing fragments). This is fast and clear, but it is dangerous because the rules could be malformed and you open yourself to risks of crashing the system or deleting the database (if someone injected malicious code into a rule). There are standard protections against these problems like escaping inputs, employing model checkers, and wrapping execution in try/catch/rescue (or whatever method your language offers). The system had acceptable performance and I fixed any bugs I found with light penetration testing, so I am pleased overall.</p>
+
+<p>Here&rsquo;s a simple grammar for rules given a single sensor and a single actuator:</p>
+
+<blockquote>R = CA
+
+C = &lt;sensor&gt; &lt;operator&gt; &lt;value&gt; &#8230; (or conditions logically joined/ANDed together)
+
+A = &lt;actuator&gt; &lt;value&gt; &#8230; (or actions logically joined/ANDed together)</blockquote>
+
+
+<p>We derived this grammar by analyzing over 60 rules written by <a title="Seth Holloway: smart home survey" href="http://sethholloway.com/blog/2009/07/30/smart-home-user-study/" target="_blank">survey</a> participants who almost entirely constructed rules in the form of &lt;if&gt;&lt;condition(s)&gt;&lt;then&gt;&lt;action(s)&gt;. This was translated to a user interface after a paper prototype test; the best interface determined by user testing was then implemented as the front-end for creating rules in the smart home.</p>
+
+<p>Future work could include more in the grammar, including ranges of values or times. To prevent system failure, a model checker could be employed to ensure that no rules collide. You could potentially optimize the process by synthesizing all simple rules into more complex, correct rules.</p>
+
+<p>Other technical details:</p>
+
+<pre><code> * I've worked in Microsoft Windows XP, Ubuntu, and Mac OS X, with a heavy slant towards Mac OS X.
+ * &lt;a title="Heroku" href="http://heroku.com/" target="_blank"&gt;Heroku&lt;/a&gt; makes deployment easy and &lt;a title="Git" href="http://git-scm.com/" target="_blank"&gt;git&lt;/a&gt; plus &lt;a title="Dropbox" href="https://www.dropbox.com/home" target="_blank"&gt;Dropbox&lt;/a&gt; work beautifully for version control and backups.
+ * I developed using text several editors and IDEs including Eclipse, NetBeans, TextEdit, Notepad, TextMate, and Vim.
+ * Client-side testing was done using Chrome, Safari, Firefox, and Internet Explorer (sorry Opera!).
+ * Code is available &lt;a title="Github: SEEU" href="https://github.com/smholloway/SEEU" target="_blank"&gt;here&lt;/a&gt;.
+</code></pre>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Seth Holloway</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-10-09T00:00:00-05:00" pubdate data-updated="true"></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/technical/'>technical</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://smholloway.github.io/a-restful-smart-home/" data-via="sethholloway" data-counturl="http://smholloway.github.io/a-restful-smart-home/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/a-few-java-tricks-to-myself/" title="Previous Post: A few Java tricks to myself">&laquo; A few Java tricks to myself</a>
+      
+      
+        <a class="basic-alignment right" href="/what-do-you-read-an-interview-question-i-liked/" title="Next Post: "What do you read?" An interview question I liked">"What do you read?" An interview question I liked &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/books-read-january-2014/">Books Read January 2014</a>
+      </li>
+    
+      <li class="post">
+        <a href="/hugo-award-winners-and-nominees-fantasy/">Hugo Award Winners and Nominees - Fantasy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-december-2013/">Books Read December 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-november-2013/">Books Read November 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/books-read-october-2013/">Books Read October 2013</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/smholloway">@smholloway</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'smholloway',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/107333139913866738283?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Seth Holloway -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
