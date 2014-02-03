@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Review | Seth Holloway]]></title>
+  <title><![CDATA[Category: review | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/review/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Midori Sushi Is Great!]]></title>
+    <title type="html"><![CDATA[Midori sushi is great!]]></title>
     <link href="http://smholloway.github.io/midori-sushi-is-great/"/>
     <updated>2008-10-29T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/midori-sushi-is-great</id>
@@ -29,7 +29,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Weekend O' Movies]]></title>
+    <title type="html"><![CDATA[Weekend o' movies]]></title>
     <link href="http://smholloway.github.io/weekend-o-movies/"/>
     <updated>2008-09-01T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/weekend-o-movies</id>
@@ -74,7 +74,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[For the Bible Tells Me So]]></title>
+    <title type="html"><![CDATA[For The Bible Tells Me So]]></title>
     <link href="http://smholloway.github.io/for-tthe-bible-tells-me-so/"/>
     <updated>2008-08-20T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/for-tthe-bible-tells-me-so</id>

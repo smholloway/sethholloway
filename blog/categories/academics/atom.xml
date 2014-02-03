@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Academics | Seth Holloway]]></title>
+  <title><![CDATA[Category: academics | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/academics/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Abstract for My PhD Dissertation]]></title>
+    <title type="html"><![CDATA[Abstract for my PhD dissertation]]></title>
     <link href="http://smholloway.github.io/abstract-for-my-phd-dissertation/"/>
     <updated>2013-05-10T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/abstract-for-my-phd-dissertation</id>
@@ -47,7 +47,7 @@ With SEEU and SEAP, we simpli?ed the development of intelligent  environments, 
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[When to Use the PhD Suffix]]></title>
+    <title type="html"><![CDATA[When to use the PhD suffix]]></title>
     <link href="http://smholloway.github.io/when-to-use-the-phd-suffix/"/>
     <updated>2013-05-05T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/when-to-use-the-phd-suffix</id>
@@ -79,7 +79,7 @@ With SEEU and SEAP, we simpli?ed the development of intelligent  environments, 
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Online Learning Is Taking Off]]></title>
+    <title type="html"><![CDATA[Online learning is taking off]]></title>
     <link href="http://smholloway.github.io/online-learning-is-taking-off/"/>
     <updated>2012-07-22T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/online-learning-is-taking-off</id>
@@ -154,7 +154,7 @@ With SEEU and SEAP, we simpli?ed the development of intelligent  environments, 
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Merits of a PhD]]></title>
+    <title type="html"><![CDATA[The merits of a PhD]]></title>
     <link href="http://smholloway.github.io/the-merits-of-a-phd/"/>
     <updated>2011-06-20T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/the-merits-of-a-phd</id>

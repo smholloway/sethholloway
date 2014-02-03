@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Science | Seth Holloway]]></title>
+  <title><![CDATA[Category: science | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/science/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Quotes From "You and Your Research" by Hamming]]></title>
+    <title type="html"><![CDATA[Quotes from "You and Your Research" by Hamming]]></title>
     <link href="http://smholloway.github.io/quotes-from-you-and-your-research-by-hamming/"/>
     <updated>2010-02-17T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/quotes-from-you-and-your-research-by-hamming</id>
@@ -113,7 +113,7 @@ When your vision of what you want to do is what you can do single-handedly, then
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[These Airwaves Are Free!]]></title>
+    <title type="html"><![CDATA[These airwaves are free!]]></title>
     <link href="http://smholloway.github.io/these-airwaves-are-free/"/>
     <updated>2008-11-18T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/these-airwaves-are-free</id>
@@ -134,7 +134,7 @@ When your vision of what you want to do is what you can do single-handedly, then
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Can AIDS Cure Leukemia?]]></title>
+    <title type="html"><![CDATA[Can AIDS cure Leukemia?]]></title>
     <link href="http://smholloway.github.io/350/"/>
     <updated>2008-11-13T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/350</id>
@@ -145,7 +145,7 @@ When your vision of what you want to do is what you can do single-handedly, then
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[We Don't All Look Alike--it Just Seems That Way]]></title>
+    <title type="html"><![CDATA[We don't all look alike--it just seems that way]]></title>
     <link href="http://smholloway.github.io/we-dont-all-look-alike-it-just-seems-that-way/"/>
     <updated>2008-11-06T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/we-dont-all-look-alike-it-just-seems-that-way</id>
@@ -156,7 +156,7 @@ When your vision of what you want to do is what you can do single-handedly, then
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What Do Redwoods, Humans, and Bacteria Have in Common?]]></title>
+    <title type="html"><![CDATA[What do redwoods, humans, and bacteria have in common?]]></title>
     <link href="http://smholloway.github.io/what-do-redwoods-humans-and-bacteria-have-in-common/"/>
     <updated>2008-10-25T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/what-do-redwoods-humans-and-bacteria-have-in-common</id>

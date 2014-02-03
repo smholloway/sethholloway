@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Random | Seth Holloway]]></title>
+  <title><![CDATA[Category: random | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/random/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[A Bit About Music Theory]]></title>
+    <title type="html"><![CDATA[A bit about music theory]]></title>
     <link href="http://smholloway.github.io/a-bit-about-music-theory/"/>
     <updated>2011-05-20T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/a-bit-about-music-theory</id>
@@ -73,7 +73,7 @@ Pattern (intervals between notes): root, +2, +2, +1, +2, +2, +2, +1</blockquote
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Things That Make You Go "Hmm..."]]></title>
+    <title type="html"><![CDATA[Things that make you go "hmm..."]]></title>
     <link href="http://smholloway.github.io/things-that-make-you-go-hmm/"/>
     <updated>2008-11-09T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/things-that-make-you-go-hmm</id>
@@ -86,7 +86,7 @@ Pattern (intervals between notes): root, +2, +2, +1, +2, +2, +2, +1</blockquote
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Capital Metro Is Striking]]></title>
+    <title type="html"><![CDATA[Capital Metro is striking]]></title>
     <link href="http://smholloway.github.io/capital-metro-is-striking/"/>
     <updated>2008-11-01T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/capital-metro-is-striking</id>
@@ -110,7 +110,7 @@ notification states that the strike will begin on Wednesday, November 5,
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[A Few Interesting, if Not Frustrating, Articles]]></title>
+    <title type="html"><![CDATA[A few interesting, if not frustrating, articles]]></title>
     <link href="http://smholloway.github.io/a-few-interesting-if-not-frustrating-articles/"/>
     <updated>2008-10-24T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/a-few-interesting-if-not-frustrating-articles</id>
@@ -126,7 +126,7 @@ notification states that the strike will begin on Wednesday, November 5,
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[OMG! Did You Ride the New the Hills Bus Downtown? *SQUEEL*]]></title>
+    <title type="html"><![CDATA[OMG! Did you ride the new The Hills bus downtown? *SQUEEL*]]></title>
     <link href="http://smholloway.github.io/omg-did-you-ride-the-new-the-hills-bus-downtown-squeel/"/>
     <updated>2008-10-22T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/omg-did-you-ride-the-new-the-hills-bus-downtown-squeel</id>

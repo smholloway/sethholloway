@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Exercise | Seth Holloway]]></title>
+  <title><![CDATA[Category: exercise | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/exercise/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Supplements Are Unregulated and Unproven]]></title>
+    <title type="html"><![CDATA[Supplements are unregulated and unproven]]></title>
     <link href="http://smholloway.github.io/supplements-are-unregulated-and-unproven/"/>
     <updated>2013-04-25T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/supplements-are-unregulated-and-unproven</id>
@@ -68,7 +68,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Do Simple Minds Lead to Healthy Bodies?]]></title>
+    <title type="html"><![CDATA[Do simple minds lead to healthy bodies?]]></title>
     <link href="http://smholloway.github.io/do-simple-minds-lead-to-healthy-bodies/"/>
     <updated>2008-12-12T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/do-simple-minds-lead-to-healthy-bodies</id>
@@ -83,7 +83,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Are Helmets Worth It While Cycling?]]></title>
+    <title type="html"><![CDATA[Are helmets worth it while cycling?]]></title>
     <link href="http://smholloway.github.io/are-helmets-worth-it-while-cycling/"/>
     <updated>2008-10-03T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/are-helmets-worth-it-while-cycling</id>
@@ -100,7 +100,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Weather Becomes More Important When You Ride Your Bike]]></title>
+    <title type="html"><![CDATA[Weather becomes more important when you ride your bike]]></title>
     <link href="http://smholloway.github.io/weather-becomes-more-important-when-you-ride-your-bike/"/>
     <updated>2008-09-09T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/weather-becomes-more-important-when-you-ride-your-bike</id>

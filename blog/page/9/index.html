@@ -8,9 +8,10 @@
   <title>Seth Holloway</title>
   <meta name="author" content="Seth Holloway">
 
+   
+  <meta name="description" content="Polymathic, in theory.">
   
-  <meta name="description" content="Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily &hellip;">
-  
+  <meta name="keywords" content="">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -20,12 +21,15 @@
   
   <link rel="canonical" href="http://smholloway.github.io/blog/page/9">
   <link href="/favicon.png" rel="icon">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Seth Holloway" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap-collapse.js"></script>
+  <script src="/js/modernizr-2.0.js"></script>
+  <script src="/js/octopress.js" type="text/javascript"></script>
+  <script src="/js/application.js"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -47,67 +51,75 @@
 </head>
 
 <body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Seth Holloway</a></h1>
-  
-    <h2>More joie de vivre than savoir-vivre.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:smholloway.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
+  <div class="navbar navbar-inverse navbar-static-top">
+  	<div class="navbar-inner">
+  	  <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="fui-menu-24"></span>
+        </a>
+  	  	<div class="nav-collapse collapse navbar-responsive-collapse" style="height:0;">
+  	      <ul class="nav">
+    
+        <li ><a href="/index.html">Blog</a></li>
+    
+        <li ><a href="/blog/archives/index.html">Archives</a></li>
+    
+        <li ><a href="/about/index.html">About</a></li>
+    
 </ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
+<ul class="nav pull-right">
+    
+    <li><a href="http://github.com/smholloway" title="Github Profile"><i class="icon-github-sign social-navbar"></i></a></li>
+    
+    
+    
+    <li><a href="http://linkedin.com/in/sethholloway" title="Linkedin Profile"><i class="icon-linkedin-sign social-navbar"></i></a></li>
+    
+    
+    <li><a href="http://twitter.com/sethholloway" title="Twitter Profile"><i class="icon-twitter-sign social-navbar"></i></a></li>
+    
+    
+    <li><a href="http://plus.google.com/107333139913866738283" title="Google+ Profile"><i class="icon-google-plus-sign social-navbar"></i></a></li>
+    
+    
+    
+
+    
+</ul>
+
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+  <div class="container" id="main">
+      <div class="row-fluid">
+        <div id="content">
+          <div class="jumbotron">
+  <div class="container">
+    
+      Seth Holloway
+    
+    <h3 class="tagline">
+      
+        More joie de vivre than savoir-vivre.
+      
+    </h3>
+  </div>
+</div>
+
+
+<div class="blog-index">
   
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/choosing-the-right-library-for-your-java-project/">Choosing the Right Library for Your Java Project</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-30T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily into your project and prevent you from re-inventing the wheel. On the negative side, third-party libraries could add to your costs or prevent your company from being sold, they could be confusing and poorly documented, or they could work unexpectedly. I&rsquo;ve used a number of libraries in the past (Ruby and Ruby on Rails push libraries heavily; in Java I like jsoup and log4j), but I was curious how pros chose so I asked around and searched a bit.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/choosing-the-right-library-for-your-java-project/">Choosing the right library for your Java project</a></h1>
+      <p>Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily into your project and prevent you from re-inventing the wheel. On the negative side, third-party libraries could add to your costs or prevent your company from being sold, they could be confusing and poorly documented, or they could work unexpectedly. I&rsquo;ve used a number of libraries in the past (Ruby and Ruby on Rails push libraries heavily; in Java I like jsoup and log4j), but I was curious how pros chose so I asked around and searched a bit.</p>
 
 <p>You can read the <a title="Reddit: Handy Java Libraries" href="http://www.reddit.com/r/java/comments/kis7l/handy_java_libraries_you_use">Reddit take on handy Java libraries</a>.</p>
 
@@ -161,42 +173,27 @@ as little as possible.</blockquote>
 <p>Excellent advice! Thanks to Drew and Lane!</p>
 
 <p>I&rsquo;m interested in other opinions. How do you choose a library? Which do you use most frequently? Have any horror stories derived from code reuse?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/what-id-do-if-i-managed-angry-birds/">What I&#8217;d Do if I Managed Angry Birds</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-23T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&mdash;even forces&mdash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/what-id-do-if-i-managed-angry-birds/">What I&#8217;d do if I managed Angry Birds</a></h1>
+      <p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&mdash;even forces&mdash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
 
 <pre><code> * Take advantage of the robust platform: allow people to create levels--get people really involved in the game. Personally, I burn through the official levels in hours and then have to wait an unacceptable amount of time for new content. I play the new levels because there's nothing better out, but the moment I have other games then Angry Birds is out of sight and mind. User generated content is awesome! A number of other games flourished and increased their staying power when they allowed users to create new content (for example, StarCraft and Half-Life/Counter-Strike).
  * Allow people to create new game elements like birds, pigs, and environmental features. You could add more dynamic pieces like swinging ropes or sand dripping out of a vial.
@@ -209,42 +206,27 @@ as little as possible.</blockquote>
 </code></pre>
 
 <p>Would you enjoy any of these features? What would you do if you managed Angry Birds?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/a-few-programming-notes-to-myself/">A Few Programming Notes to Myself</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-22T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>In JavaScript, if on a non-boolean input will check existence. In Ruby, the same test will also check for existence with &ldquo;&rdquo; considered true; you receive a warning (warning: string literal in condition). Python performs like JavaScript. In Java, you receive a type error (Type mismatch: cannot convert from String to boolean). I show the output from JavaScript console, irb, python, and Java.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-few-programming-notes-to-myself/">A few programming notes to myself</a></h1>
+      <p>In JavaScript, if on a non-boolean input will check existence. In Ruby, the same test will also check for existence with &ldquo;&rdquo; considered true; you receive a warning (warning: string literal in condition). Python performs like JavaScript. In Java, you receive a type error (Type mismatch: cannot convert from String to boolean). I show the output from JavaScript console, irb, python, and Java.</p>
 
 <p>JavaScript</p>
 
@@ -332,42 +314,27 @@ System.out.println(string.length());
 <p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
 
 <p>====================</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in Various Units</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-19T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in various units</a></h1>
+      <p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
 
 <pre>L1 cache reference
           0.5 ns | 0.0005 us  | 0.0000005 ms | 0.0000000005 s
@@ -413,42 +380,27 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 
 
 
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/gmail-extensions/">Gmail Extensions</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-17T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A friend of mine mentioned that he didn&rsquo;t like Gmail&rsquo;s built-in tasks, which prompted me to share a couple Chrome extensions (they exist for Firefox too) that I have come to enjoy. Here they</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/gmail-extensions/">Gmail extensions</a></h1>
+      <p>A friend of mine mentioned that he didn&rsquo;t like Gmail&rsquo;s built-in tasks, which prompted me to share a couple Chrome extensions (they exist for Firefox too) that I have come to enjoy. Here they</p>
 
 <pre><code> * &lt;a title="TaskForce to-do list in Gmail" href="https://www.taskforceapp.com/"&gt;TaskForce&lt;/a&gt; - a task list that's a little better than Google's default
  * &lt;a title="Rapportive - replace ads with useful information" href="http://rapportive.com/"&gt;Rapportive&lt;/a&gt; - replaces the right sidebar ads with information about the person you're emailing--awesome!
@@ -457,42 +409,27 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 
 <div>A friend swears by <a title="Remember the Milk tasks and todos" href="http://www.rememberthemilk.com/">Remember the Milk</a>, but I&#8217;m fine with my current to-do style. Are you using any user scripts or extensions to improve your Gmail? I&#8217;d love to hear about it.</div>
 
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/rhyme-your-way-to-better-programs-cache-hash-and-thrash/">Rhyme Your Way to Better Programs: Cache, Hash, and Thrash</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-15T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There are myriad ways to optimize a program, but you can go a long way with three rhyming concepts:</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/rhyme-your-way-to-better-programs-cache-hash-and-thrash/">Rhyme your way to better programs: cache, hash, and thrash</a></h1>
+      <p>There are myriad ways to optimize a program, but you can go a long way with three rhyming concepts:</p>
 
 <p><a title="Wikipedia: Cache" href="http://en.wikipedia.org/wiki/Cache">cache</a> &ndash;  Perform operations once then store them; you trade memory for speed and reduced access to database (for example).</p>
 
@@ -501,42 +438,27 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 <p><a title="Wikipedia: Thrashing" href="http://en.wikipedia.org/wiki/Thrashing_(computer_science)">thrash</a> &ndash;  Avoid competing for resources, as in database or hard drive lookups.</p>
 
 <p>I thought cache, hash, and thrash was a neat mnemonic. Do you have another go-to for optimizations? Know any other neat mnemonics?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/summer-2011-resume-updates/">Summer 2011 Resume Updates</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-14T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="http://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, &ldquo;the universe is conspiring to help us.&rdquo; Below I outline what I did and why.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/summer-2011-resume-updates/">Summer 2011 Resume Updates</a></h1>
+      <p>I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="http://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, &ldquo;the universe is conspiring to help us.&rdquo; Below I outline what I did and why.</p>
 
 <pre><code> * Name: no PhD--just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.
  * Retooled the summary to combine summary and objective. At first I removed the sections altogether because I thought it was wasted space that can hurt more than it can help. A friend convinced me that this one section grabs the reader's attention and draws them in. Now that you have their attention, do something good with it, like tell them your relevant skills!
@@ -551,42 +473,27 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 
 <div>I hope my thought process makes sense and that people like the <a title="Seth Holloway's awesome resume" href="http://sethholloway.com/resume.html">resume</a>. I really appreciate the help and know that I&#8217;ll find a great job as a result. If you have any other suggestions or see a flaw in my logic, please let me know.</div>
 
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/summer-2011-resume/">Summer 2011 Resume</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-08T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>After a fantastic summer I&rsquo;m starting the job hunt, excited for the stability, sociability, and focus. I&rsquo;d like to stay in Austin and do something cool with software; if you know of any exciting opportunities, <em>please</em> let me know.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/summer-2011-resume/">Summer 2011 Resume</a></h1>
+      <p>After a fantastic summer I&rsquo;m starting the job hunt, excited for the stability, sociability, and focus. I&rsquo;d like to stay in Austin and do something cool with software; if you know of any exciting opportunities, <em>please</em> let me know.</p>
 
 <p>I&rsquo;ve pasted my resume below in hopes of getting constructive criticism. The formatting is ugly here, so please focus on content and ordering (or any other secret mojo that I may have missed). My resume is also available as a standalone document on <a title="Seth Michael Holloway's awesome resume" href="http://sethholloway.com/resume.html">sethholloway.com</a>. Thanks in advance for any feedback! Fire away&hellip;</p>
 
@@ -729,84 +636,54 @@ PUBLICATIONS
 
 </div>
 
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/whats-the-dealio/">What&#8217;s the Dealio?</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-07T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There are so many Groupon clones, but they seem to be missing something: choice. Stop feeding me random daily deals and let me pick what I want!</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/whats-the-dealio/">What&#8217;s the dealio?</a></h1>
+      <p>There are so many Groupon clones, but they seem to be missing something: choice. Stop feeding me random daily deals and let me pick what I want!</p>
 
 <p>The state of the art seems to be deal aggregator sites that pull from Groupon, LivingSocial, Google Offers, Clickedin, and all the other daily deal sites. That&rsquo;s a start, but what&rsquo;s next? Maybe a deal search engine&hellip;</p>
 
 <p>Where&rsquo;s the marketplace for a consumer to specify what they want and have companies compete? Say I want laser hair removal, a service that has been offered on all the deal sites, but I don&rsquo;t want to wait for the offer to come up. As far as I know, there&rsquo;s no way to get the deal on demand (I&rsquo;m not even sure you can sign up to be notified when such a deal comes into existence).</p>
 
 <p>Companies want customers. Consumers want to buy certain items. Why use these cheap tricks and middlemen?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/advertising-on-linkedin-sucks/">Advertising on LinkedIn (Sucks)</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-02T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>As part of creating a business page for <a title="Oilfield Intel: oil and gas service and equipment reviews" href="http://oilfieldintelligence.com">Oilfield Intelligence</a> (a niche review site for oil and gas services and equipment), LinkedIn kindly provided $50 worth of credit for their ads. That was enough to entice me, so I set up the ads. Four pages: create your ads, choose your target audience, select pay for impressions or clicks, and input payment information.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/advertising-on-linkedin-sucks/">Advertising on LinkedIn (Sucks)</a></h1>
+      <p>As part of creating a business page for <a title="Oilfield Intel: oil and gas service and equipment reviews" href="http://oilfieldintelligence.com">Oilfield Intelligence</a> (a niche review site for oil and gas services and equipment), LinkedIn kindly provided $50 worth of credit for their ads. That was enough to entice me, so I set up the ads. Four pages: create your ads, choose your target audience, select pay for impressions or clicks, and input payment information.</p>
 
 <p>At first I chose to pay per click (CPC), but they were charging close to $5.00 per. Ouch! We do not have metrics for how much a single visitor is worth, but I suspect it is much less than $5.00 each and that&rsquo;s if we had 100% conversion rate. Normal consumer web apps run around 1% conversion rate, so you&rsquo;d need 100 people on your page before one signed up. At $5.00 per person, that&rsquo;s $500 per new account. Yikes! Unfortunately, by the time I had done the math and researched a bit more, my LinkedIn session had expired (really? log me out in a few minutes?).</p>
 
@@ -836,105 +713,42 @@ PUBLICATIONS
 <p>Compared to Facebook: the <a title="Oilfield Intelligence on Facebook" href="http://www.facebook.com/pages/Oilfield-Intelligence/256146977729169">OI Facebook page</a> seems to be ranked way higher than the <a title="Oilfield Intelligence official page on LinkedIn" href="http://www.linkedin.com/company/oilfield-intelligence">OI LinkedIn page</a>. I interpret that to mean that the Facebook page is a better use of our time than LinkedIn in general. Reading about ads, both LinkedIn and Facebook offer an abysmal 0.1% click-through-rate, so the cost per 1,000 impressions is usually equal to the cost per click.</p>
 
 <p>I&rsquo;ll admit I&rsquo;m new to setting up CPC campaigns, but LinkedIn just seems bad. Am I missing something?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
   
   <div class="pagination">
     
-      <a class="prev" href="/blog/page/10/">&larr; Older</a>
+    <a class="prev" href="/blog/page/10/">&larr; Older</a>
     
-    <a href="/blog/archives">Blog Archives</a>
+
     
     <a class="next" href="/blog/page/8/">Newer &rarr;</a>
     
   </div>
 </div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/books-read-january-2014/">Books Read January 2014</a>
-      </li>
-    
-      <li class="post">
-        <a href="/hugo-award-winners-and-nominees-fantasy/">Hugo Award Winners and Nominees - Fantasy</a>
-      </li>
-    
-      <li class="post">
-        <a href="/books-read-december-2013/">Books Read December 2013</a>
-      </li>
-    
-      <li class="post">
-        <a href="/books-read-november-2013/">Books Read November 2013</a>
-      </li>
-    
-      <li class="post">
-        <a href="/books-read-october-2013/">Books Read October 2013</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/smholloway">@smholloway</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'smholloway',
-            count: 5,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
 
 
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/107333139913866738283?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <footer class="footer-page" role="contentinfo">
+          <p>
   Copyright &copy; 2014 - Seth Holloway -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> - Theme by <a href="http://alexgaribay.com">Alex Garibay</a>
 </p>
 
-</footer>
+
+        </footer>
+      </div>
+  </div>
   
 
 
@@ -965,7 +779,7 @@ PUBLICATIONS
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

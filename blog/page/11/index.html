@@ -8,9 +8,10 @@
   <title>Seth Holloway</title>
   <meta name="author" content="Seth Holloway">
 
+   
+  <meta name="description" content="Polymathic, in theory.">
   
-  <meta name="description" content="I&rsquo;m looking for the best way to determine a statistical model. I have a lot of data that comprises some (not all) variables and the associated &hellip;">
-  
+  <meta name="keywords" content="">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -20,12 +21,15 @@
   
   <link rel="canonical" href="http://smholloway.github.io/blog/page/11">
   <link href="/favicon.png" rel="icon">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Seth Holloway" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap-collapse.js"></script>
+  <script src="/js/modernizr-2.0.js"></script>
+  <script src="/js/octopress.js" type="text/javascript"></script>
+  <script src="/js/application.js"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -47,107 +51,100 @@
 </head>
 
 <body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Seth Holloway</a></h1>
-  
-    <h2>More joie de vivre than savoir-vivre.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:smholloway.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
+  <div class="navbar navbar-inverse navbar-static-top">
+  	<div class="navbar-inner">
+  	  <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="fui-menu-24"></span>
+        </a>
+  	  	<div class="nav-collapse collapse navbar-responsive-collapse" style="height:0;">
+  	      <ul class="nav">
+    
+        <li ><a href="/index.html">Blog</a></li>
+    
+        <li ><a href="/blog/archives/index.html">Archives</a></li>
+    
+        <li ><a href="/about/index.html">About</a></li>
+    
 </ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
+<ul class="nav pull-right">
+    
+    <li><a href="http://github.com/smholloway" title="Github Profile"><i class="icon-github-sign social-navbar"></i></a></li>
+    
+    
+    
+    <li><a href="http://linkedin.com/in/sethholloway" title="Linkedin Profile"><i class="icon-linkedin-sign social-navbar"></i></a></li>
+    
+    
+    <li><a href="http://twitter.com/sethholloway" title="Twitter Profile"><i class="icon-twitter-sign social-navbar"></i></a></li>
+    
+    
+    <li><a href="http://plus.google.com/107333139913866738283" title="Google+ Profile"><i class="icon-google-plus-sign social-navbar"></i></a></li>
+    
+    
+    
+
+    
+</ul>
+
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+  <div class="container" id="main">
+      <div class="row-fluid">
+        <div id="content">
+          <div class="jumbotron">
+  <div class="container">
+    
+      Seth Holloway
+    
+    <h3 class="tagline">
+      
+        More joie de vivre than savoir-vivre.
+      
+    </h3>
+  </div>
+</div>
+
+
+<div class="blog-index">
   
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/best-way-to-determine-a-statistical-model/">Best Way to Determine a Statistical Model?</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-07-26T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&rsquo;m looking for the best way to determine a statistical model. I have a lot of data that comprises some (not all) variables and the associated outputs. Now, I would like to solve for the weights for the variables.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/best-way-to-determine-a-statistical-model/">Best way to determine a statistical model?</a></h1>
+      <p>I&rsquo;m looking for the best way to determine a statistical model. I have a lot of data that comprises some (not all) variables and the associated outputs. Now, I would like to solve for the weights for the variables.</p>
 
 <p>In the past I used Excel as well as a now defunct super spreadsheet application.  <a title="Weka from the University of Waikato" href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> was recommended, but I&rsquo;m curious what other options exist. Is there a software package that will run different regressions, ultimately provided the best fit model?</p>
 
 <p>Any help will be appreciated!</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/some-fun-stuff-ive-done-recently/">Some Fun Stuff I&#8217;ve Done Recently</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-07-10T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Since graduating I&rsquo;ve had an awesome time building things. I have learned a ton, and I&rsquo;m excited to continue learning! You can find a sample of my recent work at <a href="http://pairstream.com/">PairSTREAM</a>. Note: These are mostly proofs of concept or app in indefinite beta. The site highlights a number of apps:</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/some-fun-stuff-ive-done-recently/">Some fun stuff I&#8217;ve done recently</a></h1>
+      <p>Since graduating I&rsquo;ve had an awesome time building things. I have learned a ton, and I&rsquo;m excited to continue learning! You can find a sample of my recent work at <a href="http://pairstream.com/">PairSTREAM</a>. Note: These are mostly proofs of concept or app in indefinite beta. The site highlights a number of apps:</p>
 
 <pre><code> * &lt;a title="PairSTREAM - Marry Murder Mate" href="http://pairstream.com/random-game.php"&gt;Marry Murder Mate&lt;/a&gt; - the party game (also known as F*ck Marry Kill, Screw Marry Kill, ...) applied to your Facebook friends
  * &lt;a title="PairSTREAM - Facebook Random Messages" href="http://fb-rand-messages.appspot.com/"&gt;Facebook Random Messages&lt;/a&gt; - digital message in a bottle carried on the ocean of Facebook
@@ -162,42 +159,27 @@
 <p>Beyond the above apps, I have played with browser extensions (Chrome and Firefox), blogging (Wordpress, Tumblr, Posterous, Blogger), Amazon (Web Services and Affiliate program), Google (search, AdWords, AdSense, Web Elements), Microsoft (BizSpark), iOS, Fog Creek (for Student and Startups &ndash; Kiln, FogBugz), node.js (including Joyent&rsquo;s SmartMachine). I&rsquo;ve read about many more, but haven&rsquo;t had a chance to implement anything yet. I&rsquo;m working to improve my business accumen, marketing abilities, and design skills. So much to do, so little time! But life is good :)</p>
 
 <p>I&rsquo;m working on some other fun stuff now, but I&rsquo;ll save that for another post.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/user-scripts-in-chrome/">User Scripts in Chrome</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-07-07T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Back in the day I used <a title="Firefox addon: Greasemonkey" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> and <a title="Firefox addon: Stylish" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a> for Firefox&mdash;even contributing something to <a title="Userscripts dot org" href="http://www.userscripts.org">userscripts.org</a> (a huge repository of GreaseMonkey and Stylish scripts). Chrome is currently my browser of choice, and I thought of how nice it would be to tweak sites using a little homegrown JavaScript. Turns out, Chrome has Greasemonkey&rsquo;s user script capability built-in.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/user-scripts-in-chrome/">User scripts in Chrome</a></h1>
+      <p>Back in the day I used <a title="Firefox addon: Greasemonkey" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> and <a title="Firefox addon: Stylish" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a> for Firefox&mdash;even contributing something to <a title="Userscripts dot org" href="http://www.userscripts.org">userscripts.org</a> (a huge repository of GreaseMonkey and Stylish scripts). Chrome is currently my browser of choice, and I thought of how nice it would be to tweak sites using a little homegrown JavaScript. Turns out, Chrome has Greasemonkey&rsquo;s user script capability built-in.</p>
 
 <p>Any file named &lt;whatever&gt;.user.js will be interpreted as a user script. Simply open the file in Chrome and install it. Now you have a dead simple Chrome extension! As you can see below, there are a couple steps in the install process:</p>
 
@@ -222,42 +204,27 @@
 <p>If you prefer a more high tech/user friendly version, check out the <a title="Chrome Extension: Personalized Web" href="https://chrome.google.com/webstore/detail/plcnnpdmhobdfbponjpedobekiogmbco#">Personalized Web extension</a> in Chrome.</p>
 
 <p>HT to <a title="Lucas Wiman" href="http://twitter.com/#!/lucaswiman">Lucas</a> for the Personalized Web link and idea for what to demonstrate.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/we-need-an-integrated-front-back-web-programming-language/">We Need an Integrated Front-back Web Programming Language</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-30T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Modern web programming requires a lot of knowledge&mdash;too much, I&rsquo;d say. To write a complete web application you need to work with HTML, CSS, JavaScript, a programming language (PHP, Python, Ruby, Java, etc), and a database. Even if you&rsquo;re a head-down back-end programmer, you should know about the structure and style of the front-end; as a front-end designer, you would do well to understand the framework and database.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/we-need-an-integrated-front-back-web-programming-language/">We need an integrated front-back web programming language</a></h1>
+      <p>Modern web programming requires a lot of knowledge&mdash;too much, I&rsquo;d say. To write a complete web application you need to work with HTML, CSS, JavaScript, a programming language (PHP, Python, Ruby, Java, etc), and a database. Even if you&rsquo;re a head-down back-end programmer, you should know about the structure and style of the front-end; as a front-end designer, you would do well to understand the framework and database.</p>
 
 <p>There has been a huge explosion of web frameworks radically lowering the barrier to entry for any and all programmers. So, you know C++ and there&rsquo;s a C++ web framework, but you&rsquo;ll still need to know HTML, CSS, and JavaScript on the front-end and a database on the back-end. Node.js is potentially interesting for many reasons, but perhaps the most exciting thing is that you can program the front- and back-end using JavaScript. Better than having to learn JavaScript and a back-end language, but you will still need to know a database, HTML, and CSS.</p>
 
@@ -268,42 +235,27 @@
 <p>While we research an integrated web language there&rsquo;s also room for people to research a new application container. The web browser replacement could use the same stack (TCP/IP, HTTP and HTML) or define new protocols.</p>
 
 <p>Did I miss an option? What do you think will win?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/highlighting-the-current-page-link-in-a-navigation-bar-template/">Highlighting the Current Page Link in a Navigation Bar Template</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-29T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have not seen anything about how to properly highlight what page you&rsquo;re currently on when using a templated navigation bar on a dynamic webpage&hellip; I couldn&rsquo;t even google for a solution because I don&rsquo;t know the correct terminology.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/highlighting-the-current-page-link-in-a-navigation-bar-template/">Highlighting the current page link in a navigation bar template</a></h1>
+      <p>I have not seen anything about how to properly highlight what page you&rsquo;re currently on when using a templated navigation bar on a dynamic webpage&hellip; I couldn&rsquo;t even google for a solution because I don&rsquo;t know the correct terminology.</p>
 
 <p>There are a number of ways to highlight the link to the page you&rsquo;re currently on. For example, you could pass a parameter and alter the view based on the parameter; or you could include the navigation pane in each content view then apply the highlight with the page. I don&rsquo;t think either of those solutions is very clean, so here&rsquo;s my solution using HTML, CSS, and jQuery (it should work across browsers).</p>
 
@@ -363,42 +315,27 @@
 <p>You could do this without jQuery, but it is my favorite JavaScript library and I like to use it :)</p>
 
 <p>Does anyone know of a better way?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/a-few-thoughts-on-ruby/">A Few Thoughts on Ruby</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-26T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is not an exhaustive post, just a few thoughts in reaction to reading about and working with <a title="Ruby Lang Dot Org" href="http://www.ruby-lang.org/en/">Ruby</a>.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-few-thoughts-on-ruby/">A few thoughts on Ruby</a></h1>
+      <p>This is not an exhaustive post, just a few thoughts in reaction to reading about and working with <a title="Ruby Lang Dot Org" href="http://www.ruby-lang.org/en/">Ruby</a>.</p>
 
 <p><a title="Wikipedia: Ruby" href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a>, a dynamic OO language, was developed by Yukihiro &ldquo;Matz&rdquo; Matsumoto in the mid &lsquo;90s. He wanted a powerful, unsurprising language. He borrowed from Perl, Smalltalk, and Lisp (even though <a title="Stege Yegge: Lisp is not an acceptable Lisp" href="http://steve-yegge.blogspot.com/2006/04/lisp-is-not-acceptable-lisp.html">Lisp is not an acceptable Lisp</a>) while trying to focus on usability and following the <a title="Wikipedia: POLA" href="http://en.wikipedia.org/wiki/Principle_of_least_astonishment">principle of least astonishment (POLA)</a>.</p>
 
@@ -420,42 +357,27 @@
 </code></pre>
 
 <p>That&rsquo;s all I&rsquo;ve got for now! Did I miss something?</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/my-latex-resume-template/">My LaTeX Resume Template</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-24T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Several years ago I started writing my <a href="https://github.com/smholloway/resume/tree/master/latex">resume in LaTeX</a>. It was a great way to learn LaTeX and have fine-grained control over my resume. Overall, I&rsquo;m pleased with it, but I must admit that updating and recompiling the file can be a chore.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/my-latex-resume-template/">My LaTeX resume template</a></h1>
+      <p>Several years ago I started writing my <a href="https://github.com/smholloway/resume/tree/master/latex">resume in LaTeX</a>. It was a great way to learn LaTeX and have fine-grained control over my resume. Overall, I&rsquo;m pleased with it, but I must admit that updating and recompiling the file can be a chore.</p>
 
 <p>I&rsquo;ve had several people ask for my LaTeX resume template, so I figured I would share the wealth. You can find my custom resume file, mostly reduced to a template, in the <a href="https://github.com/smholloway/resume/tree/master/latex">latex folder of my resume repo on GitHub</a>.</p>
 
@@ -524,80 +446,50 @@
 
 
 <p>Beyond that, you&rsquo;re on your own! Tinker a bit and see what you come up with.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/horray-for-heroku-git-and-rails/">Horray for Heroku, Git, and Rails!</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-23T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Last year I started playing with Heroku, and I&rsquo;ve been very impressed so far. Heroku is a free (for basic service) Ruby on Rails hosting environment running in the cloud (Amazon EC2 in this case). Heroku is super simple to set up and use because you deploy with Git! The Git backing encourages version control and allows you to push bug fixes to your central repository as well as the productive server.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/horray-for-heroku-git-and-rails/">Horray for Heroku, Git, and Rails!</a></h1>
+      <p>Last year I started playing with Heroku, and I&rsquo;ve been very impressed so far. Heroku is a free (for basic service) Ruby on Rails hosting environment running in the cloud (Amazon EC2 in this case). Heroku is super simple to set up and use because you deploy with Git! The Git backing encourages version control and allows you to push bug fixes to your central repository as well as the productive server.</p>
 
 <p>I&rsquo;ve played with other free hosting sites and services, blogs and social media, and cloud platforms like EC2 and Google App Engine&hellip; the Heroku workflow beats all of them. I can&rsquo;t think of an easier way to develop, test, and deploy! It seems that no one else can either: there are a lot of projects and posts about how to emulate this style in your own environment; there are also alternatives for node.js (like <a title="Joyent's node.js hosting environment" href="https://no.de/">Joyent&rsquo;s no.de service</a>), PHP (like <a title="PHP Fog" href="https://phpfog.com/">PHP Fog</a>), and word is that Heroku is working to allow all platforms. I look forward to a future where software development, setup, test, and deployment are easy and integrated in the process!</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/a-couple-quick-google-search-tricks/">A Couple Quick Google Search Tricks</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-21T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I recently stumbled upon these tricks and thought others might find them interesting too; for example, I now know that I&rsquo;m the top hit for people searching for Seth Holloway in France.</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-couple-quick-google-search-tricks/">A couple quick Google search tricks</a></h1>
+      <p>I recently stumbled upon these tricks and thought others might find them interesting too; for example, I now know that I&rsquo;m the top hit for people searching for Seth Holloway in France.</p>
 
 <p>To see results from a different location you can either</p>
 
@@ -621,42 +513,27 @@ gl=US - return results as if you were in the US
 
 </blockquote>
 
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/the-merits-of-a-phd/">The Merits of a PhD</a></h1>
-    
-    
-      <p class="meta">
-        
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-20T00:00:00-05:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I just found this buried at the bottom of my drafts&hellip; whoops! Soon I will post updated thoughts now that I&rsquo;ve completed the PhD&hellip;</p>
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/the-merits-of-a-phd/">The merits of a PhD</a></h1>
+      <p>I just found this buried at the bottom of my drafts&hellip; whoops! Soon I will post updated thoughts now that I&rsquo;ve completed the PhD&hellip;</p>
 
 <blockquote>Whenever I tell people I am working on my PhD, I see two polarized opinions. One, my preferred response, is amazement. I do appreciate the approval.
 
@@ -666,105 +543,42 @@ Another point that I&#8217;ve heard repeatedly attempts to diminish the PhD by p
 
 For me, the PhD is about self-fulfillment&#8211;the ability to stick with it and accomplish a difficult task. I&#8217;m not out for fortune or fame, and I hope that people I meet, whether they agree or disagree with the PhD, are equally realistic about their own life.</blockquote>
 
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
   
   <div class="pagination">
     
-      <a class="prev" href="/blog/page/12/">&larr; Older</a>
+    <a class="prev" href="/blog/page/12/">&larr; Older</a>
     
-    <a href="/blog/archives">Blog Archives</a>
+
     
     <a class="next" href="/blog/page/10/">Newer &rarr;</a>
     
   </div>
 </div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/books-read-january-2014/">Books Read January 2014</a>
-      </li>
-    
-      <li class="post">
-        <a href="/hugo-award-winners-and-nominees-fantasy/">Hugo Award Winners and Nominees - Fantasy</a>
-      </li>
-    
-      <li class="post">
-        <a href="/books-read-december-2013/">Books Read December 2013</a>
-      </li>
-    
-      <li class="post">
-        <a href="/books-read-november-2013/">Books Read November 2013</a>
-      </li>
-    
-      <li class="post">
-        <a href="/books-read-october-2013/">Books Read October 2013</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/smholloway">@smholloway</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'smholloway',
-            count: 5,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
 
 
-
-<section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/107333139913866738283?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <footer class="footer-page" role="contentinfo">
+          <p>
   Copyright &copy; 2014 - Seth Holloway -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> - Theme by <a href="http://alexgaribay.com">Alex Garibay</a>
 </p>
 
-</footer>
+
+        </footer>
+      </div>
+  </div>
   
 
 
@@ -795,7 +609,7 @@ For me, the PhD is about self-fulfillment&#8211;the ability to stick with it and
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

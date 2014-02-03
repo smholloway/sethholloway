@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Technical | Seth Holloway]]></title>
+  <title><![CDATA[Category: technical | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/technical/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Low Cost Genetic Testing]]></title>
+    <title type="html"><![CDATA[Low cost genetic testing]]></title>
     <link href="http://smholloway.github.io/low-cost-genetic-testing/"/>
     <updated>2013-10-05T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/low-cost-genetic-testing</id>
@@ -78,7 +78,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Shipping Isn't Everything]]></title>
+    <title type="html"><![CDATA[Shipping isn't everything]]></title>
     <link href="http://smholloway.github.io/shipping-isnt-everything/"/>
     <updated>2013-04-25T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/shipping-isnt-everything</id>
@@ -93,7 +93,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hermit Crab Software]]></title>
+    <title type="html"><![CDATA[Hermit crab software]]></title>
     <link href="http://smholloway.github.io/hermit-crab-software/"/>
     <updated>2013-04-25T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/hermit-crab-software</id>
@@ -118,7 +118,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Search Has to Solve Versioning]]></title>
+    <title type="html"><![CDATA[Search has to solve versioning]]></title>
     <link href="http://smholloway.github.io/search-has-to-solve-versioning/"/>
     <updated>2013-03-26T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/search-has-to-solve-versioning</id>

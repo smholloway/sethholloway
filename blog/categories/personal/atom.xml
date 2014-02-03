@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Personal | Seth Holloway]]></title>
+  <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Books Read January 2014]]></title>
+    <title type="html"><![CDATA[Books read January 2014]]></title>
     <link href="http://smholloway.github.io/books-read-january-2014/"/>
     <updated>2014-02-01T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/books-read-january-2014</id>
@@ -83,7 +83,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Books Read December 2013]]></title>
+    <title type="html"><![CDATA[Books read December 2013]]></title>
     <link href="http://smholloway.github.io/books-read-december-2013/"/>
     <updated>2014-01-08T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/books-read-december-2013</id>
@@ -100,7 +100,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Books Read November 2013]]></title>
+    <title type="html"><![CDATA[Books read November 2013]]></title>
     <link href="http://smholloway.github.io/books-read-november-2013/"/>
     <updated>2013-12-01T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/books-read-november-2013</id>
@@ -113,7 +113,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Books Read October 2013]]></title>
+    <title type="html"><![CDATA[Books read October 2013]]></title>
     <link href="http://smholloway.github.io/books-read-october-2013/"/>
     <updated>2013-11-07T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/books-read-october-2013</id>

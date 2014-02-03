@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Travel | Seth Holloway]]></title>
+  <title><![CDATA[Category: travel | Seth Holloway]]></title>
   <link href="http://smholloway.github.io/blog/categories/travel/atom.xml" rel="self"/>
   <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-02T19:56:39-06:00</updated>
+  <updated>2014-02-02T22:31:45-06:00</updated>
   <id>http://smholloway.github.io/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Why Don't We Improve Air Travel?]]></title>
+    <title type="html"><![CDATA[Why don't we improve air travel?]]></title>
     <link href="http://smholloway.github.io/why-dont-we-improve-air-travel/"/>
     <updated>2010-12-21T00:00:00-06:00</updated>
     <id>http://smholloway.github.io/why-dont-we-improve-air-travel</id>
@@ -46,7 +46,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Belgium and Holland Are Beautiful in the Fall]]></title>
+    <title type="html"><![CDATA[Belgium and Holland are beautiful in the Fall]]></title>
     <link href="http://smholloway.github.io/belgium-and-holland-are-beautiful-in-the-fall/"/>
     <updated>2010-09-15T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/belgium-and-holland-are-beautiful-in-the-fall</id>
@@ -61,7 +61,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The World Cup Shows the Ubiquity of English]]></title>
+    <title type="html"><![CDATA[The World Cup shows the ubiquity of English]]></title>
     <link href="http://smholloway.github.io/the-world-cup-shows-the-ubiquity-of-english/"/>
     <updated>2010-07-06T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/the-world-cup-shows-the-ubiquity-of-english</id>
@@ -74,7 +74,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Country's "Real" Name]]></title>
+    <title type="html"><![CDATA[Country's "real" name]]></title>
     <link href="http://smholloway.github.io/countrys-real-name/"/>
     <updated>2008-09-14T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/countrys-real-name</id>
@@ -89,7 +89,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Learn a New Language]]></title>
+    <title type="html"><![CDATA[Learn a new language]]></title>
     <link href="http://smholloway.github.io/learn-a-new-language/"/>
     <updated>2008-09-13T00:00:00-05:00</updated>
     <id>http://smholloway.github.io/learn-a-new-language</id>
