@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: technical | Seth Holloway]]></title>
-  <link href="http://smholloway.github.io/blog/categories/technical/atom.xml" rel="self"/>
-  <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-06T21:26:32-06:00</updated>
-  <id>http://smholloway.github.io/</id>
+  <link href="http://sethholloway.com/blog/categories/technical/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2014-02-07T22:31:23-06:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Low cost genetic testing]]></title>
-    <link href="http://smholloway.github.io/low-cost-genetic-testing/"/>
+    <link href="http://sethholloway.com/low-cost-genetic-testing/"/>
     <updated>2013-10-05T00:00:00-05:00</updated>
-    <id>http://smholloway.github.io/low-cost-genetic-testing</id>
+    <id>http://sethholloway.com/low-cost-genetic-testing</id>
     <content type="html"><![CDATA[<p>I recently spit into a cup so that <a title="23 and Me" href="http://refer.23andme.com/a/clk/18h5Np">23andme</a> can perform genetic tests. It&rsquo;s a surreal feeling: for about $100, I gain access to some sci-fi dream that was completely unheard of even a decade ago.</p>
 
 <p>The future is going to be an awesome place!</p>
@@ -26,9 +26,9 @@
   
   <entry>
     <title type="html"><![CDATA[Thoughts on Learning Clojure]]></title>
-    <link href="http://smholloway.github.io/thoughts-on-learning-clojure/"/>
+    <link href="http://sethholloway.com/thoughts-on-learning-clojure/"/>
     <updated>2013-04-26T00:00:00-05:00</updated>
-    <id>http://smholloway.github.io/thoughts-on-learning-clojure</id>
+    <id>http://sethholloway.com/thoughts-on-learning-clojure</id>
     <content type="html"><![CDATA[<p>In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time&mdash;we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.</p>
 
 <pre><code> * I like that Clojure builds on Lisp. I feel like I'm working on something cutting edge, yet proven. It feels like joining a dynasty, perhaps.
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[Shipping isn't everything]]></title>
-    <link href="http://smholloway.github.io/shipping-isnt-everything/"/>
+    <link href="http://sethholloway.com/shipping-isnt-everything/"/>
     <updated>2013-04-25T00:00:00-05:00</updated>
-    <id>http://smholloway.github.io/shipping-isnt-everything</id>
+    <id>http://sethholloway.com/shipping-isnt-everything</id>
     <content type="html"><![CDATA[<p>Stop bragging about how much you shipped!</p>
 
 <p>I understand that code does not generate revenue unless people are using it. I appreciate getting product out the door. I also love clean code a solid architecture that reduces maintenance costs and allows developers to stay productive for years to come. I cannot abide the &ldquo;ship or die&rdquo; mentality when people ship hacky, unusable software then play the &ldquo;shipping is everything&rdquo; card.</p>
@@ -94,9 +94,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hermit crab software]]></title>
-    <link href="http://smholloway.github.io/hermit-crab-software/"/>
+    <link href="http://sethholloway.com/hermit-crab-software/"/>
     <updated>2013-04-25T00:00:00-05:00</updated>
-    <id>http://smholloway.github.io/hermit-crab-software</id>
+    <id>http://sethholloway.com/hermit-crab-software</id>
     <content type="html"><![CDATA[<p>I have spent incalculable amounts of time trying to set up software environments, and if you&rsquo;ve done any programming, I&rsquo;d guess that you have had similar experiences. As a way to save everyone time and frustration, I think we should push for hermit crab software&mdash;programming environments that carry their &ldquo;home&rdquo; around with them.</p>
 
 <p><a href="http://andyjthompson.wordpress.com/tag/hermit-crab/"><img class="alignnone" title="Hermit Crab" alt="" src="http://andyjthompson.files.wordpress.com/2010/03/hermit-crab.jpg" width="262" height="264" /></a></p>
@@ -119,9 +119,9 @@
   
   <entry>
     <title type="html"><![CDATA[Search has to solve versioning]]></title>
-    <link href="http://smholloway.github.io/search-has-to-solve-versioning/"/>
+    <link href="http://sethholloway.com/search-has-to-solve-versioning/"/>
     <updated>2013-03-26T00:00:00-05:00</updated>
-    <id>http://smholloway.github.io/search-has-to-solve-versioning</id>
+    <id>http://sethholloway.com/search-has-to-solve-versioning</id>
     <content type="html"><![CDATA[<p>Search has been failing me frequently in the recent past, and the problem is only getting worse. Versions are everywhere and search is not keeping up. Here are a few examples:</p>
 
 <pre><code> * Googling for "mac lion" returns 5 results for Lion and 5 for Mountain Lion on the first page. Specifying version number (e.g., "mac lion 10.7") or date (e.g., "mac lion 2011") does not particularly help the results.

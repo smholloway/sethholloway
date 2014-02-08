@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: github | Seth Holloway]]></title>
-  <link href="http://smholloway.github.io/blog/categories/github/atom.xml" rel="self"/>
-  <link href="http://smholloway.github.io/"/>
-  <updated>2014-02-06T21:26:32-06:00</updated>
-  <id>http://smholloway.github.io/</id>
+  <link href="http://sethholloway.com/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2014-02-07T22:31:23-06:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello Github Pages]]></title>
-    <link href="http://smholloway.github.io/hello-github-pages/"/>
+    <link href="http://sethholloway.com/hello-github-pages/"/>
     <updated>2013-06-15T00:00:00-05:00</updated>
-    <id>http://smholloway.github.io/hello-github-pages</id>
+    <id>http://sethholloway.com/hello-github-pages</id>
     <content type="html"><![CDATA[<p>Included file 'JB/setup' not found in _includes directory</p>
 
 <p>This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
