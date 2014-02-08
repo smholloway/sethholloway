@@ -14,11 +14,11 @@ description: Polymathic, in theory.
 # ----------------------- #
 navigation:
 - text: Blog
-  url: /index.html
+  url: /
 - text: Archives
-  url: /blog/archives/index.html
+  url: /blog/archives/
 - text: About
-  url: /about/index.html
+  url: /about/
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
