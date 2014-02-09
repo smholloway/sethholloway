@@ -16,10 +16,8 @@ meta:
 ---
 I have received a ton of spam comments recently! These comments are almost always nonsense with a specific link. I can only think of two reasons for posting a spam link in a comment:
 
-	 * transferring google juice from the host site to the linked site (SEO)
-	 * hoping against hope that someone will read the nonsense and click your random, bogus link.
-
-
+ * transferring google juice from the host site to the linked site (SEO)
+ * hoping against hope that someone will read the nonsense and click your random, bogus link.
 
 Of the options, (1) was a viable strategy in 2006! Google nipped that in the bud because of the popularity of this technique. Now, SEO is stifled by a simple <code>rel="nofollow"</code> tag, which my site automatically embeds in comment links. So stop spamming!
 

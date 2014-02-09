@@ -19,10 +19,10 @@ After I started riding my bike more often, I got interested in bike culture. I'v
 
 Below is a picture of a typical fixie. There are a few things to notice
 
-	 * the lack of gears and a tight chain
-	 * the colored wheels
-	 * the thin, custom handlebars
-	 * somewhat flashy, although aesthetically pleasing
+ * the lack of gears and a tight chain
+ * the colored wheels
+ * the thin, custom handlebars
+ * somewhat flashy, although aesthetically pleasing
 
 <a href="http://www.tonicfab.com/uploaded_images/blk_fixie_7-794097.jpg"><img title="A typical fixie" src="http://www.tonicfab.com/uploaded_images/blk_fixie_7-794097.jpg" alt="A typical fixie" width="400" height="346" /></a>
 

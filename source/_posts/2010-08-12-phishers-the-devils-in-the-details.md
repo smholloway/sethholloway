@@ -18,6 +18,7 @@ meta:
   _wp_old_slug: ''
 ---
 Phishing is presumably big business (although <a title="Dancho Danchev's analysis of profit in the digital black market" href="http://www.zdnet.com/blog/security/microsoft-study-debunks-profitability-of-the-underground-economy/3522" target="_blank">maybe not</a>). Because email is very cheap to send, phishing has a low barrier for entry. Usually, Gmail's spam filter is so accurate that I don't see the phishing emails, however, recently some Blizzard themed messages have gotten through. I get the impression that the emails are crafted by foreigners who lack the finesse necessary to deceive people--a good thing, no doubt. As with most pursuits, the devil is in the details. Let me illustrate with the most recent email to pierce Gmail's phishing armor:
+
 <blockquote>Hello, thank you for shopping at the Blizzard Store!
 
 StarCraft II®: Wings of Liberty™: 6129523855006794206159153

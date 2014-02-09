@@ -23,10 +23,10 @@ There's another take on the <a title="NakedShorts" href="http://nakedshorts.type
 
 The description makes sense to me, at least at face value. A lot of people got rich off of real estate, but speculation and data manipulation lead to a skewed understanding of home values.  Let me explain with some numbers:
 
-	 * In 2006 there were <a title="MarketWatch Home Numbers" href="http://www.marketwatch.com/news/story/number-vacant-homes-sale-surges/story.aspx?guid={A09A933D-57BA-4583-BDF7-6E000DF9E74D}" target="_blank">126.7 million homes in America</a>.
-	 * About the same time the <a title="CIA World Factbook America" href="https://www.cia.gov/library/publications/the-world-factbook/print/us.html" target="_blank">estimated population was 301 million</a>
-	 * Of those 301 million, approximately <a title="Gov Stats" href="http://www.census.gov/population/estimates/nation/intfile2-1.txt" target="_blank">200 million were over the age of 18</a>.
-	 * Of those ~200 million over 18, about <a title="Census data for college enrollment" href="http://www.census.gov/Press-Release/www/releases/archives/facts_for_features_special_editions/002263.html" target="_blank">16 million were in college</a>
+ * In 2006 there were <a title="MarketWatch Home Numbers" href="http://www.marketwatch.com/news/story/number-vacant-homes-sale-surges/story.aspx?guid={A09A933D-57BA-4583-BDF7-6E000DF9E74D}" target="_blank">126.7 million homes in America</a>.
+ * About the same time the <a title="CIA World Factbook America" href="https://www.cia.gov/library/publications/the-world-factbook/print/us.html" target="_blank">estimated population was 301 million</a>
+ * Of those 301 million, approximately <a title="Gov Stats" href="http://www.census.gov/population/estimates/nation/intfile2-1.txt" target="_blank">200 million were over the age of 18</a>.
+ * Of those ~200 million over 18, about <a title="Census data for college enrollment" href="http://www.census.gov/Press-Release/www/releases/archives/facts_for_features_special_editions/002263.html" target="_blank">16 million were in college</a>
 
 If everyone over the age of 18 lived in a house, there would need to be 200 million homes. If everyone over the age of 18 was married, there would need to be 100 million homes. Realistically the number of people who <em>could</em> live in a home is somewhere in between--say 170 million. Now take out people in apartments, nursing homes, their parents' basement, etc and account for roommates. On the other end of the spectrum from cohabitating hippies, some people will own more than one house. For example, McCain has at least four houses, although he's <a title="McCain Not Sure How Many Houses He Owns" href="http://latimesblogs.latimes.com/laland/2008/08/mccain-not-sure.html" target="_blank">a little shaky on the exact number</a>. I'm not convinced that enough people own multiple homes to make up for the glut of housing.
 

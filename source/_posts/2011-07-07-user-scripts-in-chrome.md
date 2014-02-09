@@ -20,21 +20,13 @@ Back in the day I used <a title="Firefox addon: Greasemonkey" href="https://add
 
 Any file named &lt;whatever&gt;.user.js will be interpreted as a user script. Simply open the file in Chrome and install it. Now you have a dead simple Chrome extension! As you can see below, there are a couple steps in the install process:
 
-<img class="size-medium wp-image-1373" title="user script install step 1" src="/images/userscript-install-1-300x59.png" alt="user script install step 1" width="300" height="59" />
+<img class="size-medium wp-image-1373" title="user script install step 1" src="/images/userscript-install-1.png" alt="user script install step 1" />
 
- <br style="clear:both;"/>
+<img class="size-medium wp-image-1374" title="user script install step 2" src="/images/userscript-install-2.png" alt="user script install step 2" />
 
-<img class="size-medium wp-image-1374" title="user script install step 2" src="/images/userscript-install-2-300x125.png" alt="user script install step 2" width="300" height="125" />
+<img class="size-medium wp-image-1375" title="user script install step 3" src="/images/userscript-install-3.png" alt="user script install step 3" />
 
- <br style="clear:both;"/>
-
-<img class="size-medium wp-image-1375" title="user script install step 3" src="/images/userscript-install-3-300x14.png" alt="user script install step 3" width="300" height="14" />
-
- <br style="clear:both;"/>
-
-<img class="size-medium wp-image-1376" title="user script install step 4" src="/images/userscript-install-4-300x41.png" alt="user script install step 4" width="300" height="41" />
-
- <br style="clear:both;"/>
+<img class="size-medium wp-image-1376" title="user script install step 4" src="/images/userscript-install-4.png" alt="user script install step 4" />
 
 I created an example user script for Chrome that hides the black bar now appearing that the top of Google sites. I chose Google Reader specifically to demonstrate the @include and @exclude options. You can find it here:  <a href="https://github.com/smholloway/miscellaneous/blob/master/javascript/simple.user.js" title="Seth Holloway's GitHub: simple user script">https://github.com/smholloway/miscellaneous/blob/master/javascript/simple.user.js</a>
 

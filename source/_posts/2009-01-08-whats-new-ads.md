@@ -27,14 +27,14 @@ For ease, I used two tabs. In one tab I generated ads and another tab was used t
 
 <strong>Editing Pages.</strong> First, get to the Theme Editor:
 
-	 * Log into the administrative panel.
-	 * Click the <em>Design</em> tab
-	 * Click the <em>Theme Editor</em>
+ * Log into the administrative panel.
+ * Click the <em>Design</em> tab
+ * Click the <em>Theme Editor</em>
 
 I put the banner ad at the bottom of the single post. To do so I copied the generated code then performed these steps:
 
-	 * Selected <em>Single Post (single.php)</em>
-	 * Pasted the following code above the line "&lt;?php get_footer(); ?&gt;":
+ * Selected <em>Single Post (single.php)</em>
+ * Pasted the following code above the line "&lt;?php get_footer(); ?&gt;":
 
 <blockquote>&lt;!--- Ad support. Added by Seth Holloway on Jan 9, 2009 ---&gt;
 &lt;div id="ads"&gt;
@@ -52,8 +52,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
 &lt;/div&gt;</blockquote>
 For the sake of looks, I then needed to edit the stylesheet in the following manner:
 
-	 * Selected the <em>Stylesheet (style.css)</em>
-	 * Added this to the code:
+ * Selected the <em>Stylesheet (style.css)</em>
+ * Added this to the code:
 
 <blockquote>/* Ad support. Added by Seth Holloway on Jan 9, 2009 */
 #ads {
@@ -61,8 +61,8 @@ text-align: center;
 }</blockquote>
 I then generated the sidebar link unit, copied the code, and followed these steps:
 
-	 * Selected the <em>Sidebar (sidebar.php)</em>
-	 * Pasted the generated ad unit to the code above the final "&lt;/ul&gt;":
+ * Selected the <em>Sidebar (sidebar.php)</em>
+ * Pasted the generated ad unit to the code above the final "&lt;/ul&gt;":
 
 <blockquote>&lt;!--- Ad support. Added by Seth Holloway on Jan 9, 2009 ---&gt;
 &lt;li&gt;

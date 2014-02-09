@@ -26,8 +26,7 @@ Dell made a killing as a computer-builder without making any of their own parts.
 
 The automakers should make cars like we make computers:
 
-	 * Define the basic car components.
-	 * Make car parts more standard and interoperable.
-	 * Create new jobs creating parts, assembling vehicles, modifying cars and car parts, and researching new components.
-	 * Offer people premade vehicles at a discount or allow them to customize their components at a premium.
-
+ * Define the basic car components.
+ * Make car parts more standard and interoperable.
+ * Create new jobs creating parts, assembling vehicles, modifying cars and car parts, and researching new components.
+ * Offer people premade vehicles at a discount or allow them to customize their components at a premium.

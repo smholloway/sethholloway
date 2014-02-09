@@ -21,9 +21,9 @@ meta:
 ---
 In preparation for an exciting trip to Thailand, I got vaccinated against all (okay, a small subset of) the baddies that seek to share my body. As an American in good living conditions, I have never worried about these ailments, but they are a reality in other countries so I thought it best to be protected. Last Tuesday I was given three shots:
 
-	 * <a title="Wikipedia: Hepatitis A" href="http://en.wikipedia.org/wiki/Hepatitis_A" target="_blank">Hepatitis A</a> and <a title="Wikipedia: Hepatitis B" href="http://en.wikipedia.org/wiki/Hepatitis_B" target="_blank">B</a>
-	 * <a title="Wikipedia: Tetanus" href="http://en.wikipedia.org/wiki/Tetanus" target="_blank">Tetanus</a>/<a title="Wikipedia: Diphtheria" href="http://en.wikipedia.org/wiki/Diphtheria" target="_blank">Diphtheria</a>
-	 * <a title="Wikipedia: Influenza" href="http://en.wikipedia.org/wiki/Influenza" target="_blank">Influenza</a>
+ * <a title="Wikipedia: Hepatitis A" href="http://en.wikipedia.org/wiki/Hepatitis_A" target="_blank">Hepatitis A</a> and <a title="Wikipedia: Hepatitis B" href="http://en.wikipedia.org/wiki/Hepatitis_B" target="_blank">B</a>
+ * <a title="Wikipedia: Tetanus" href="http://en.wikipedia.org/wiki/Tetanus" target="_blank">Tetanus</a>/<a title="Wikipedia: Diphtheria" href="http://en.wikipedia.org/wiki/Diphtheria" target="_blank">Diphtheria</a>
+ * <a title="Wikipedia: Influenza" href="http://en.wikipedia.org/wiki/Influenza" target="_blank">Influenza</a>
 
 Tuesday morning my arms were sore and I had the sniffles. By afternoon I needed a nap. Wednesday, I was uncontrollably tired--I slept about 12 hours and lazed around the rest of the day. This felt very much like a weak version of the flu, so I assume the effects were caused by the flu shot.
 

@@ -29,20 +29,19 @@ And now to the fun part, the rules processing engine. I could not find a rule pr
 How often the rules run directly affects your application's performance. I believe rules will be run very frequently, so I chose to store the rules directly (as opposed to storing fragments). This is fast and clear, but it is dangerous because the rules could be malformed and you open yourself to risks of crashing the system or deleting the database (if someone injected malicious code into a rule). There are standard protections against these problems like escaping inputs, employing model checkers, and wrapping execution in try/catch/rescue (or whatever method your language offers). The system had acceptable performance and I fixed any bugs I found with light penetration testing, so I am pleased overall.
 
 Here's a simple grammar for rules given a single sensor and a single actuator:
-<blockquote>R = CA
 
-C = &lt;sensor&gt; &lt;operator&gt; &lt;value&gt; ... (or conditions logically joined/ANDed together)
+    R = CA
+    C = &lt;sensor&gt; &lt;operator&gt; &lt;value&gt; ... (or conditions logically joined/ANDed together)
+    A = &lt;actuator&gt; &lt;value&gt; ... (or actions logically joined/ANDed together)
 
-A = &lt;actuator&gt; &lt;value&gt; ... (or actions logically joined/ANDed together)</blockquote>
-We derived this grammar by analyzing over 60 rules written by <a title="Seth Holloway: smart home survey" href="http://sethholloway.com/blog/2009/07/30/smart-home-user-study/" target="_blank">survey</a> participants who almost entirely constructed rules in the form of &lt;if&gt;&lt;condition(s)&gt;&lt;then&gt;&lt;action(s)&gt;. This was translated to a user interface after a paper prototype test; the best interface determined by user testing was then implemented as the front-end for creating rules in the smart home.
+We derived this grammar by analyzing over 60 rules written by <a title="Seth Holloway: smart home survey" href="http://sethholloway.com/blog/2009/07/30/smart-home-user-study/" target="_blank">survey</a> participants who almost entirely constructed rules in the form of `&lt;if&gt;&lt;condition(s)&gt;&lt;then&gt;&lt;action(s)&gt;`. This was translated to a user interface after a paper prototype test; the best interface determined by user testing was then implemented as the front-end for creating rules in the smart home.
 
 Future work could include more in the grammar, including ranges of values or times. To prevent system failure, a model checker could be employed to ensure that no rules collide. You could potentially optimize the process by synthesizing all simple rules into more complex, correct rules.
 
 Other technical details:
 
-	 * I've worked in Microsoft Windows XP, Ubuntu, and Mac OS X, with a heavy slant towards Mac OS X.
-	 * <a title="Heroku" href="http://heroku.com/" target="_blank">Heroku</a> makes deployment easy and <a title="Git" href="http://git-scm.com/" target="_blank">git</a> plus <a title="Dropbox" href="https://www.dropbox.com/home" target="_blank">Dropbox</a> work beautifully for version control and backups.
-	 * I developed using text several editors and IDEs including Eclipse, NetBeans, TextEdit, Notepad, TextMate, and Vim.
-	 * Client-side testing was done using Chrome, Safari, Firefox, and Internet Explorer (sorry Opera!).
-	 * Code is available <a title="Github: SEEU" href="https://github.com/smholloway/SEEU" target="_blank">here</a>.
-
+ * I've worked in Microsoft Windows XP, Ubuntu, and Mac OS X, with a heavy slant towards Mac OS X.
+ * <a title="Heroku" href="http://heroku.com/" target="_blank">Heroku</a> makes deployment easy and <a title="Git" href="http://git-scm.com/" target="_blank">git</a> plus <a title="Dropbox" href="https://www.dropbox.com/home" target="_blank">Dropbox</a> work beautifully for version control and backups.
+ * I developed using text several editors and IDEs including Eclipse, NetBeans, TextEdit, Notepad, TextMate, and Vim.
+ * Client-side testing was done using Chrome, Safari, Firefox, and Internet Explorer (sorry Opera!).
+ * Code is available <a title="Github: SEEU" href="https://github.com/smholloway/SEEU" target="_blank">here</a>.

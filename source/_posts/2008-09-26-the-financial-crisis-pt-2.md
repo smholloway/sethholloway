@@ -24,11 +24,11 @@ The way I read it, the government will buy houses that are currently in trouble.
 
 My economic stimulus round two is silly, but buying houses seems like a good solution. That way Wall Street is not directly helped; instead, consumers are bailed out and the entire system benefits. I'd rather the government control a collection of houses than a few corporations. The government could do a lot of good things with houses or whole neighborhoods:
 
-	 * use the homes as government offices,
-	 * sell homes to consumers for the amount of back taxes due
-	 * give homes to veterans
-	 * subsidize housing for teachers
-	 * make a block into a military base
+ * use the homes as government offices,
+ * sell homes to consumers for the amount of back taxes due
+ * give homes to veterans
+ * subsidize housing for teachers
+ * make a block into a military base
 
 I am curious to see how the proposed plan will unfold. Ultimately, I think America needs a greater sense of personal responsibility and disincentives for failure. We all bought the bad debt that we did not understand, so we are all in this together. Companies that are in trouble should face the reaper instead of being bailed out.
 

@@ -18,11 +18,11 @@ I just completed the <a title="2012 State of Clojure survey" href="http://cemeri
 <img class="alignleft" style="margin-right: 30px;" title="Software Metrics book cover" src="http://ourcraft.files.wordpress.com/2009/08/software-metrics-cover-scan.jpg" alt="Software Metrics book cover" width="59" height="89" />
 With the availability of lots of developers online I think we could tackle harder to quantify metrics like
 
-	 * performance per line of code
-	 * performance per development time
-	 * performance per noob minute
-	 * comprehensibility per time
-	 * time to change a line of code
+ * performance per line of code
+ * performance per development time
+ * performance per noob minute
+ * comprehensibility per time
+ * time to change a line of code
 
 The first pass on how to achieve this (tons of issues, no doubt): survey all the developers you can find. Collect all the information you can through the survey and GitHub tie-ins then ask people to perform tasks like explaining a piece of code and writing/changing programs across languages. An automated approach might start by finding a series of program solutions (from a set like <a title="99 Bottles of Beer" href="http://99-bottles-of-beer.net/">99 Bottles of Beer</a>, <a title="Project Euler Problems" href="http://projecteuler.net/problems">Project Euler</a>, <a title="Rosetta Code" href="http://rosettacode.org/wiki/Rosetta_Code">Rosetta Code</a>, or <a title="99 Problems in Scala" href="http://99problemsinscala.wordpress.com/">99 Problems in X</a>), then gather data about each solution and people's feelings about each. Maybe you could seed a bug and see how long it takes people to find and fix the bug.
 

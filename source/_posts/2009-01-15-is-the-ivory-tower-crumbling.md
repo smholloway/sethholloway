@@ -20,11 +20,11 @@ Study participants seem to echo Generation Y's desire to live a well-rounded lif
 
 The study points out the issue and provides suggestions on how to alter future-professors' attitudes:
 
-	 *  Allow faculty members to shift to part-time status or temporarily elongate timelines over their academic lives without suffering career penalties.
-	 *  Allow faculty members to take time out temporarily from their academic lives for care-giving and support their return.
-	 *  Abandon the idea that academic stars are those who move through the ranks very quickly. and embrace the idea that the stars are those who produce the most important or relevant work  faster is not necessarily better.
-	 *  Embrace the idea that it is fine to have children at any point in the career path because a full array of resources exists to support academic parents.
-	 *  Challenge the stigma in which having children, particularly for women, is often equated with less seriousness and drive.
+ *  Allow faculty members to shift to part-time status or temporarily elongate timelines over their academic lives without suffering career penalties.
+ *  Allow faculty members to take time out temporarily from their academic lives for care-giving and support their return.
+ *  Abandon the idea that academic stars are those who move through the ranks very quickly. and embrace the idea that the stars are those who produce the most important or relevant work  faster is not necessarily better.
+ *  Embrace the idea that it is fine to have children at any point in the career path because a full array of resources exists to support academic parents.
+ *  Challenge the stigma in which having children, particularly for women, is often equated with less seriousness and drive.
 
 The suggestions looks surprisingly similar to options in industry. It seems that the economy will change dramatically in the next decade: baby boomers will retire or expire leaving a hole in the workforce; 70% of young people want to work for themselves; the economy has taken a slant to services; Gen Y is collaborative, socially-minded, and entitled--ideas that go against the grain of current work culture.
 

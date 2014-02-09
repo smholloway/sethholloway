@@ -20,14 +20,12 @@ As an aside, I appreciate when professors make use of their tenure and take bold
 
 I have another few essays to post, however, they don't quite fit the general theme here so I'll save them for later. Without further ado, the reading list (in no particular order):
 
-	 * <a title="Asians can't think by Kanazawa" href="http://personal.lse.ac.uk/Kanazawa/pdfs/EP2006a.pdf" target="_blank">No, It Ain't Gonna Be Like That</a> (PDF) by Kanazawa
-	 * <a title="Bruce Charlton's opinion piece on science and creativity" href="http://kernull.com/bioradio.pdf" target="_blank">Why are Modern Scientists so Dull?</a> (PDF) (or shorter HTML version <a title="Bruce Charlton Blog" href="http://charltonteaching.blogspot.com/2008/11/why-are-scientists-so-dull.html" target="_blank">here</a>) by Charlton
-	 * <a title="Hamming's amazing speech" href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html" target="_blank">You and Your Research</a> (HTML) (or PDF <a title="YouandYourResearch.pdf" href="www.cs.virginia.edu/~robins/YouAndYourResearch.pdf" target="_blank">here</a>) by Hamming
-	 * <a title="Lockhart's Lament PDF" href="http://www.maa.org/devlin/LockhartsLament.pdf" target="_blank">A Mathematician's Lament</a> (PDF) by Lockhart
-	 * <a title="Jonathan Katz from WUSTL" href="http://wuphys.wustl.edu/~katz/scientist.html" target="_blank">Don't be a Scientist</a> (HTML) by Katz
-	 * <a title="Regehr's blog" href="http://blog.regehr.org/archives/193" target="_blank">An Epidemic of Rat Farming</a> (HTML) by Regehr
-	 * <a title="Miller-McCune article" href="http://www.miller-mccune.com/science/the-real-science-gap-16191/" target="_blank">The Real Science Gap</a> (HTML) by Benderly
+ * <a title="Asians can't think by Kanazawa" href="http://personal.lse.ac.uk/Kanazawa/pdfs/EP2006a.pdf" target="_blank">No, It Ain't Gonna Be Like That</a> (PDF) by Kanazawa
+ * <a title="Bruce Charlton's opinion piece on science and creativity" href="http://kernull.com/bioradio.pdf" target="_blank">Why are Modern Scientists so Dull?</a> (PDF) (or shorter HTML version <a title="Bruce Charlton Blog" href="http://charltonteaching.blogspot.com/2008/11/why-are-scientists-so-dull.html" target="_blank">here</a>) by Charlton
+ * <a title="Hamming's amazing speech" href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html" target="_blank">You and Your Research</a> (HTML) (or PDF <a title="YouandYourResearch.pdf" href="www.cs.virginia.edu/~robins/YouAndYourResearch.pdf" target="_blank">here</a>) by Hamming
+ * <a title="Lockhart's Lament PDF" href="http://www.maa.org/devlin/LockhartsLament.pdf" target="_blank">A Mathematician's Lament</a> (PDF) by Lockhart
+ * <a title="Jonathan Katz from WUSTL" href="http://wuphys.wustl.edu/~katz/scientist.html" target="_blank">Don't be a Scientist</a> (HTML) by Katz
+ * <a title="Regehr's blog" href="http://blog.regehr.org/archives/193" target="_blank">An Epidemic of Rat Farming</a> (HTML) by Regehr
+ * <a title="Miller-McCune article" href="http://www.miller-mccune.com/science/the-real-science-gap-16191/" target="_blank">The Real Science Gap</a> (HTML) by Benderly
 
 How many of these have you read? Am I missing other gems? Agree or disagree with one strongly? Let me know!
-
-Update: Fixed links.

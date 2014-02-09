@@ -20,9 +20,9 @@ Better late than never, right?
 
 Last Sunday I returned from Vancouver where I was attending the International Conference on Software Engineering (ICSE). I met a lot of great and interesting people. A few that stand out are
 
-	 * Sherlock Licorish - the soft-spoken researcher from Guyana who told me I was an academic
-	 * <a title="Justin Erenkrantz -- UCI student and ASF pres" href="http://www.erenkrantz.com/" target="_blank">Justin Erenkrantz</a> - the President of the Apache Software Foundation who was really down to Earth and cool
-	 * <a title="Andy Ko -- CMU student to UW prof" href="http://faculty.washington.edu/ajko/" target="_blank">Andy Ko</a> - a professor finishing up his first year at University of Washington. Andy was an all-around great person: articulate, helpful, funny
+ * Sherlock Licorish - the soft-spoken researcher from Guyana who told me I was an academic
+ * <a title="Justin Erenkrantz -- UCI student and ASF pres" href="http://www.erenkrantz.com/" target="_blank">Justin Erenkrantz</a> - the President of the Apache Software Foundation who was really down to Earth and cool
+ * <a title="Andy Ko -- CMU student to UW prof" href="http://faculty.washington.edu/ajko/" target="_blank">Andy Ko</a> - a professor finishing up his first year at University of Washington. Andy was an all-around great person: articulate, helpful, funny
 
 I also had the honor of hanging out with a couple esteemed colleagues, <a title="Drew Stovall" href="http://www.dstovall.com" target="_blank">Drew Stovall</a> and <a title="Hyrum Wright" href="http://www.hyrumwright.org" target="_blank">Hyrum Wright</a>, and my wonderful wife.
 

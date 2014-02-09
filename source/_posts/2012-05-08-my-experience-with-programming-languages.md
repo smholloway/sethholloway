@@ -17,49 +17,50 @@ meta:
 ---
 I was recently browsing a <a title="Rosetta Code: Programming Languages" href="http://rosettacode.org/wiki/Category:Programming_Languages">list of programming languages on Rosetta Code</a> (there's a <a title="Wikipedia: List of Programming Languages" href="http://en.wikipedia.org/wiki/List_of_programming_languages">larger list on Wikipedia</a>) and realized I have played with a lot of languages over the years. I decided to make a list here:
 
-	 * Apex (Salesforce.com)
-	 * AppleScript
-	 * Assembly (I forget the exact flavors, but there have been a few embedded chips like the Motorola 6812, the LC-2 teaching language, and some in-line C on various AMD and Intel chips)
-	 * AutoHotKey
-	 * AWK
-	 * BASIC
-	 * Batch
-	 * C
-	 * C++
-	 * Clojure
-	 * CoffeeScript
-	 * F#
-	 * Gnuplot
-	 * Go
-	 * Groovy
-	 * Haskell
-	 * Java
-	 * JavaScript
-	 * LabVIEW
-	 * LaTeX
-	 * Lisp
-	 * LotusScript
-	 * Lua
-	 * Make
-	 * Mathematica
-	 * MATLAB
-	 * MySQL
-	 * Objective-C
-	 * Octave
-	 * Pascal
-	 * Perl
-	 * PHP
-	 * Python
-	 * R
-	 * Ruby
-	 * Scala
-	 * Scratch
-	 * Sed
-	 * SQL
-	 * TI-89 BASIC
-	 * UNIX Shell (sh, Bash) and UNIX Pipes (grep, cat, etc)
-	 * VBScript
-	 * VHDL
+ * Apex (Salesforce.com)
+ * AppleScript
+ * Assembly (I forget the exact flavors, but there have been a few embedded chips like the Motorola 6812, the LC-2 teaching language, and some in-line C on various AMD and Intel chips)
+ * AutoHotKey
+ * AWK
+ * BASIC
+ * Batch
+ * C
+ * C++
+ * C#
+ * Clojure
+ * CoffeeScript
+ * F#
+ * Gnuplot
+ * Go
+ * Groovy
+ * Haskell
+ * Java
+ * JavaScript
+ * LabVIEW
+ * LaTeX
+ * Lisp
+ * LotusScript
+ * Lua
+ * Make
+ * Mathematica
+ * MATLAB
+ * MySQL
+ * Objective-C
+ * Octave
+ * Pascal
+ * Perl
+ * PHP
+ * Python
+ * R
+ * Ruby
+ * Scala
+ * Scratch
+ * Sed
+ * SQL
+ * TI-89 BASIC
+ * UNIX Shell (sh, Bash) and UNIX Pipes (grep, cat, etc)
+ * VBScript
+ * VHDL
 
 I haven't written extensively in all of the languages and I doubt I could do much more than 'Hello, World!' (if that) in most, but those are the ones that I remember.
 

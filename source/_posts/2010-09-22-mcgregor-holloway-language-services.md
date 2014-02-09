@@ -21,15 +21,15 @@ I'm extremely proud of my wife, Andrea, as she started <a title="McGregor Hollow
 
 What are language services? Andrea's favorite term is "accent modification" but other people call it various things such as
 
-	 * changing your accent
-	 * <a title="Wikipedia: Accent Reduction" href="http://en.wikipedia.org/wiki/Accent_reduction" target="_blank">accent reduction</a>
-	 * elocution
-	 * speech instruction
-	 * voice improvement
-	 * learning English
-	 * English pronounciation
-	 * cultural studies
-	 * acting more American
-	 * speaking or talking like an American
+ * changing your accent
+ * <a title="Wikipedia: Accent Reduction" href="http://en.wikipedia.org/wiki/Accent_reduction" target="_blank">accent reduction</a>
+ * elocution
+ * speech instruction
+ * voice improvement
+ * learning English
+ * English pronounciation
+ * cultural studies
+ * acting more American
+ * speaking or talking like an American
 
 Andrea and Alison have some really neat ideas for how to help people! For now, they can support people (students and technology professionals, so far) in the Austin area. I'm a firm believer in the power of communication skills, so I encourage anyone who has problems being understood to contact them.

@@ -17,9 +17,9 @@ If you're anything like the guys over at <a title="Japanese Bug Fights" href="ht
 
 Notes:
 
-	 * I am not a Biologist; I don't know what kind of critters the fighters are.
-	 * The footage may be disturbing if you're an equal-opportunity animal lover.
-	 * The site is weird.
+ * I am not a Biologist; I don't know what kind of critters the fighters are.
+ * The footage may be disturbing if you're an equal-opportunity animal lover.
+ * The site is weird.
 
 I watched a few of the battles and was surprised by some of the outcomes.
 

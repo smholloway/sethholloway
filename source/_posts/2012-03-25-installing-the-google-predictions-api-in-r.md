@@ -91,31 +91,25 @@ http://csg.sph.umich.edu/docs/R/localpackages.html
 
 
 
+ * Load R *Note:* You will see an ugly console.
+ * Install the pre-reqs
 
+    > install.packages(c("RCurl", "rjson"))
 
-	 * Load R
+ * Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.
+ * Note: A successful install will not yield a success message--it will simply not show an error message.
 
-	 * Note: You will see an ugly console.
+ * Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>
+ * Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
+ * Install the plugin *Note:* I had to do it from the command line because the install failed inside R
 
-	 * Install the pre-reqs
+    $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz
 
-	 * &gt; install.packages(c("RCurl", "rjson"))
-	 * Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.
-	 * Note: A successful install will not yield a success message--it will simply not show an error message.
+ * Now, you should be able to restart R and see the API listed in the Package Manager
+ * From here we source our libraries
 
-	 * Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>
-	 * Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
-	 * Install the plugin
+    > library(rjson)
+    > library(RCurl)
+    > library(googlepredictionapi)
 
-	 * Note: I had to do it from the command line because the install failed inside R
-	 * $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz
-
-	 * Now, you should be able to restart R and see the API listed in the Package Manager
-	 * From here we source our libraries
-
-	 * &gt; library(rjson)
-	 * &gt; library(RCurl)
-	 * &gt; library(googlepredictionapi)
-
-	 * If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I've stopped here.
-
+ * If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I've stopped here.

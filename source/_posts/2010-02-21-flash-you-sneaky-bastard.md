@@ -19,8 +19,8 @@ meta:
 
 There are a number of directories where the flash cookies may be stored. For example, on Mac OS X, LSOs are stored in two locations:
 
-	 * ~/Library/Preferences/Macromedia/Flash\ Player/#SharedObjects/
-	 * ~/Library/Preferences/Macromedia/Flash\ Player/macromedia.com/support/flashplayer/sys/
+ * ~/Library/Preferences/Macromedia/Flash\ Player/#SharedObjects/
+ * ~/Library/Preferences/Macromedia/Flash\ Player/macromedia.com/support/flashplayer/sys/
 
 And there are more possible! For a detailed list, check the <a title="Wikipedia: LSO#File Locations" href="http://en.wikipedia.org/wiki/Local_Shared_Object#File_locations" target="_blank">list of locations on Wikipedia's LSO entry</a>.
 

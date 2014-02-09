@@ -20,9 +20,9 @@ The movie brilliantly splices in hilarious clips and displays what Maher is thin
 
 A few interesting points the movie made:
 
-	 * 16% of Americans claim no religious affiliation, but there is no lobby for these people
-	 * Religion is bigoted and unproven: If religion were a private club, it would be shut down or operate in the shadows
-	 * Religion has been used to kill millions of people throughout the ages
-	 * No one really knows
+ * 16% of Americans claim no religious affiliation, but there is no lobby for these people
+ * Religion is bigoted and unproven: If religion were a private club, it would be shut down or operate in the shadows
+ * Religion has been used to kill millions of people throughout the ages
+ * No one really knows
 
 Overall, it was really funny and concludes with a meaningful point.

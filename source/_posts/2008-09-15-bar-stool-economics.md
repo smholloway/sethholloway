@@ -21,13 +21,13 @@ Bar Stool Economics
 
 Suppose that every day, ten men go out for beer and the bill for all ten comes to $100. If they paid their bill the way we pay our taxes, it would go something like this:
 
-	 * The first four men (the poorest) would pay nothing.
-	 * The fifth would pay $1.
-	 * The sixth would pay $3.
-	 * The seventh would pay $7.
-	 * The eighth would pay $12.
-	 * The ninth would pay $18.
-	 * The tenth man (the richest) would pay $59.
+ * The first four men (the poorest) would pay nothing.
+ * The fifth would pay $1.
+ * The sixth would pay $3.
+ * The seventh would pay $7.
+ * The eighth would pay $12.
+ * The ninth would pay $18.
+ * The tenth man (the richest) would pay $59.
 
 So, that's what they decided to do. The ten men drank in the bar every day and seemed quite happy with the arrangement, until one day, the owner threw them a curve. 'Since you are all such good customers, he said, 'I'm going to reduce the cost of your daily beer by $20. Drinks for the ten now cost just $80.
 
@@ -35,12 +35,12 @@ The group still wanted to pay their bill the way we pay our taxes so the first f
 
 And so:
 
-	 * The fifth man, like the first four, now paid nothing (100% savings).
-	 * The sixth now paid $2 instead of $3 (33%savings).
-	 * The seventh now paid $5 instead of $7 (28%savings).
-	 * The eighth now paid $9 instead of $12 (25% savings).
-	 * The ninth now paid $14 instead of $18 (22% savings).
-	 * The tenth now paid $49 instead of $59 (16% savings).
+ * The fifth man, like the first four, now paid nothing (100% savings).
+ * The sixth now paid $2 instead of $3 (33%savings).
+ * The seventh now paid $5 instead of $7 (28%savings).
+ * The eighth now paid $9 instead of $12 (25% savings).
+ * The ninth now paid $14 instead of $18 (22% savings).
+ * The tenth now paid $49 instead of $59 (16% savings).
 
 Each of the six was better off than before And the first four continued to drink for free. But once outside the restaurant, the men began to compare their savings.
 

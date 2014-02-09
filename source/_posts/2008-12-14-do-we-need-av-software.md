@@ -27,14 +27,14 @@ Comparisons have shown that no one piece of antivirus software will catch all vi
 
 1) be safe:
 
-	 * Don't open links in emails. Type the URL into the address bar on your own.
-	 * Be mindful of what your friends are sending you. Would Suzy really send you a link to get rich quick?
-	 * Avoid the worst of the web (pornography, gambling, warez)
+ * Don't open links in emails. Type the URL into the address bar on your own.
+ * Be mindful of what your friends are sending you. Would Suzy really send you a link to get rich quick?
+ * Avoid the worst of the web (pornography, gambling, warez)
 
 and 2) run a few different tools:
 
-	 * <a title="AVG Free" href="http://free.avg.com/download-avg-anti-virus-free-edition" target="_blank">AVG</a> (or <a title="avast! Home Edition (free)" href="http://www.avast.com/eng/download-avast-home.html" target="_blank">avast!</a>) - Antivirus
-	 * <a title="Peer Guardian 2" href="http://phoenixlabs.org/pg2/" target="_blank">PeerGuardian 2</a> - IP Blocker
-	 * <a title="Ad-Aware" href="http://www.lavasoft.com/products/ad_aware_free.php" target="_blank">Ad-Aware</a> - Antispyware
+ * <a title="AVG Free" href="http://free.avg.com/download-avg-anti-virus-free-edition" target="_blank">AVG</a> (or <a title="avast! Home Edition (free)" href="http://www.avast.com/eng/download-avast-home.html" target="_blank">avast!</a>) - Antivirus
+ * <a title="Peer Guardian 2" href="http://phoenixlabs.org/pg2/" target="_blank">PeerGuardian 2</a> - IP Blocker
+ * <a title="Ad-Aware" href="http://www.lavasoft.com/products/ad_aware_free.php" target="_blank">Ad-Aware</a> - Antispyware
 
 So do we need AV software? Yes. You can never be totally safe, but you can mitigate your risks. Use common sense, a few tools, and perform frequent backups. Good luck!

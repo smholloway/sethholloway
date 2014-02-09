@@ -21,12 +21,11 @@ In general, I think the more we repress a behavior, the worse the consequence wh
 
 And I'm not just complaining; here are a few ideas how we could achieve the spirit of the law more effectively:
 
-	 * create an alcohol awareness course for people who want to drink before 21 (like driver's education)
-	 * allow military personnel to buy alcohol
-	 * allow college students to buy alcohol
-	 * increase public transportation
-	 * create more drunk-rides
-	 * put breathalyzers on all vehicles
-	 * increase penalties for drunken conduct
-	 * ...
-
+ * create an alcohol awareness course for people who want to drink before 21 (like driver's education)
+ * allow military personnel to buy alcohol
+ * allow college students to buy alcohol
+ * increase public transportation
+ * create more drunk-rides
+ * put breathalyzers on all vehicles
+ * increase penalties for drunken conduct
+ * ...
