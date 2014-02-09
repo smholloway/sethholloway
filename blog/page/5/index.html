@@ -127,11 +127,13 @@
 
 <p>Some issues I&rsquo;ve had recently:</p>
 
-<pre><code> * Rails issues like setting up Ruby, Rails, gems, rake, RVM, and fun things like  &lt;a title="Ruby HTTPS error" href="http://stackoverflow.com/questions/9338035/no-such-file-to-load-net-https-heroku-ruby-ubuntu-10-04"&gt;Ruby issues with HTTPS that require you to install SSL then reinstall Ruby&lt;/a&gt;
- * Persistent Java issues around &lt;a title="StackOverflow: What is Classpath hell?" href="http://stackoverflow.com/questions/373193/what-is-classpath-hell-and-is-was-it-really-a-problem-for-java"&gt;jar and classpath hell&lt;/a&gt;
- * Exciting new languages like &lt;a title="Scala" href="http://www.scala-lang.org/"&gt;Scala&lt;/a&gt; and &lt;a title="Clojure" href="http://clojure.org/"&gt;Clojure&lt;/a&gt; have moved quickly and tutorials have not kept up, so there is confusion.
- * &lt;a title="Sonar Source" href="http://www.sonarsource.com/"&gt;Sonar&lt;/a&gt; was so easy to install--simply download and unpack--I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)
-</code></pre>
+<ul>
+<li>Rails issues like setting up Ruby, Rails, gems, rake, RVM, and fun things like  <a title="Ruby HTTPS error" href="http://stackoverflow.com/questions/9338035/no-such-file-to-load-net-https-heroku-ruby-ubuntu-10-04">Ruby issues with HTTPS that require you to install SSL then reinstall Ruby</a></li>
+<li>Persistent Java issues around <a title="StackOverflow: What is Classpath hell?" href="http://stackoverflow.com/questions/373193/what-is-classpath-hell-and-is-was-it-really-a-problem-for-java">jar and classpath hell</a></li>
+<li>Exciting new languages like <a title="Scala" href="http://www.scala-lang.org/">Scala</a> and <a title="Clojure" href="http://clojure.org/">Clojure</a> have moved quickly and tutorials have not kept up, so there is confusion.</li>
+<li><a title="Sonar Source" href="http://www.sonarsource.com/">Sonar</a> was so easy to install&mdash;simply download and unpack&mdash;I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)</li>
+</ul>
+
 
 <p>There are a few promising leads like <a title="Vagrant" href="http://vagrantup.com/">Vagrant</a> and <a title="Ubuntu Juju" href="https://juju.ubuntu.com/">Juju</a>, which make it easier for everyone to share a development environment. Unfortunately, they probably can&rsquo;t help at the language level (e.g., are you using Ruby 1.9.2-p180-patched or 1.9.2-p290?). <a title="Apache Maven" href="http://maven.apache.org/">Maven</a>, <a title="Bundler" href="http://gembundler.com/">Bundler</a>, <a title="Python Installs Packages" href="http://pypi.python.org/pypi/pip">Pip</a>, and other dependency management systems help, but I&rsquo;d like to see the language make dependencies and versioning a first-class citizen. I envision the ability to download an app from source control and be running with all the right versions of the language, tools, and dependencies in one-click.</p>
 
@@ -305,13 +307,15 @@
       <h1 class="link"><a href="/search-has-to-solve-versioning/">Search has to solve versioning</a></h1>
       <p>Search has been failing me frequently in the recent past, and the problem is only getting worse. Versions are everywhere and search is not keeping up. Here are a few examples:</p>
 
-<pre><code> * Googling for "mac lion" returns 5 results for Lion and 5 for Mountain Lion on the first page. Specifying version number (e.g., "mac lion 10.7") or date (e.g., "mac lion 2011") does not particularly help the results.
- * World of Warcraft has repeated some items with each expansion (or retooled bosses like Onyxia and even whole zones like Naxxramus). Searching for the item may lead you to the 2010 incarnation. Simply adding 2012 or the expansion name is often ineffective because the pages will contain dates and expansion names throughout the content. Another example: there are over &lt;a title="Fortune Card -- what version???" href="http://www.wowhead.com/item=60840/fortune-card"&gt;50 virtually identical fortune cards&lt;/a&gt;.
- * A similar idea occurs in GitHub branches. For example, if you're looking for &lt;a title="Toopher Ruby" href="https://github.com/toopher/toopher-ruby"&gt;Toopher's Ruby client&lt;/a&gt; (which rocks!) then you might find my fork that was already merged with master.
- * In my personalized search results for "cross platform password management," Google returns an outdated &lt;a title="Outdated -- Lifehacker's five best password managers" href="http://lifehacker.com/5042616/five-best-password-managers"&gt;Lifehacker article from 2008&lt;/a&gt; above more recent articles. In this case, recency trumps Lifehacker's relevance and authority.
- * While learning Clojure (at version 1.4) I kept finding StackOverflow responses like, "here's how to do it in Clojure 1.2." The more dangerous response was "here's how to do it in Clojure" with no mention of versioning. I spent hours trying to get the outdated procedures to work only to have them fail.
- * There are bugs that exist for certain operating systems with certain versions of dependent projects. Like &lt;a title="Ruby 1.9.2 seg faults with OpenSSL" href="http://www.christopherirish.com/2011/09/02/ruby-1-9-2-segmentation-fault-and-openssl/"&gt;Ruby 1.9.2+ on Mac OS X Lion when installed with RVM 1.0 or higher&lt;/a&gt;. Searching for this was difficult because it required so many versions.
-</code></pre>
+<ul>
+<li>Googling for &ldquo;mac lion&rdquo; returns 5 results for Lion and 5 for Mountain Lion on the first page. Specifying version number (e.g., &ldquo;mac lion 10.7&rdquo;) or date (e.g., &ldquo;mac lion 2011&rdquo;) does not particularly help the results.</li>
+<li>World of Warcraft has repeated some items with each expansion (or retooled bosses like Onyxia and even whole zones like Naxxramus). Searching for the item may lead you to the 2010 incarnation. Simply adding 2012 or the expansion name is often ineffective because the pages will contain dates and expansion names throughout the content. Another example: there are over <a title="Fortune Card -- what version???" href="http://www.wowhead.com/item=60840/fortune-card">50 virtually identical fortune cards</a>.</li>
+<li>A similar idea occurs in GitHub branches. For example, if you&rsquo;re looking for <a title="Toopher Ruby" href="https://github.com/toopher/toopher-ruby">Toopher&rsquo;s Ruby client</a> (which rocks!) then you might find my fork that was already merged with master.</li>
+<li>In my personalized search results for &ldquo;cross platform password management,&rdquo; Google returns an outdated <a title="Outdated -- Lifehacker's five best password managers" href="http://lifehacker.com/5042616/five-best-password-managers">Lifehacker article from 2008</a> above more recent articles. In this case, recency trumps Lifehacker&rsquo;s relevance and authority.</li>
+<li>While learning Clojure (at version 1.4) I kept finding StackOverflow responses like, &ldquo;here&rsquo;s how to do it in Clojure 1.2.&rdquo; The more dangerous response was &ldquo;here&rsquo;s how to do it in Clojure&rdquo; with no mention of versioning. I spent hours trying to get the outdated procedures to work only to have them fail.</li>
+<li>There are bugs that exist for certain operating systems with certain versions of dependent projects. Like <a title="Ruby 1.9.2 seg faults with OpenSSL" href="http://www.christopherirish.com/2011/09/02/ruby-1-9-2-segmentation-fault-and-openssl/">Ruby 1.9.2+ on Mac OS X Lion when installed with RVM 1.0 or higher</a>. Searching for this was difficult because it required so many versions.</li>
+</ul>
+
 
 <p>Some of these examples would be prevented by using advanced search options and narrowing results to the past year; however, I feel that&rsquo;s a cop-out for a poor user experience.</p>
 
