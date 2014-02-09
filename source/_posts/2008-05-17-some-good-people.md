@@ -21,5 +21,3 @@ One of my favorite conversants, Hyrum, seems to know everything. Find out for yo
 Enchanté! My family is full of good, nay--GREAT, people! My sister, Allison, is getting her PhD at Wisconsin: <a title="genius, sister, blogger" href="http://pages.cs.wisc.edu/~ahollowa/" target="_blank">http://pages.cs.wisc.edu/~ahollowa/</a>
 
 Genius. Brother. Secret agent? You won't know until you visit <a title="genius, brother. blogger" href="http://www.laneholloway.com/" target="_blank">http://www.laneholloway.com/</a>
-
-The love of my life has her own website, and one day she may even do something with it :)  <a title="love of my life" href="http://andrea.sethholloway.com/" target="_blank">http://andrea.sethholloway.com/</a>
