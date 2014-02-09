@@ -250,50 +250,53 @@
       <h1 class="link"><a href="/my-experience-with-programming-languages/">My experience with programming languages</a></h1>
       <p>I was recently browsing a <a title="Rosetta Code: Programming Languages" href="http://rosettacode.org/wiki/Category:Programming_Languages">list of programming languages on Rosetta Code</a> (there&rsquo;s a <a title="Wikipedia: List of Programming Languages" href="http://en.wikipedia.org/wiki/List_of_programming_languages">larger list on Wikipedia</a>) and realized I have played with a lot of languages over the years. I decided to make a list here:</p>
 
-<pre><code> * Apex (Salesforce.com)
- * AppleScript
- * Assembly (I forget the exact flavors, but there have been a few embedded chips like the Motorola 6812, the LC-2 teaching language, and some in-line C on various AMD and Intel chips)
- * AutoHotKey
- * AWK
- * BASIC
- * Batch
- * C
- * C++
- * Clojure
- * CoffeeScript
- * F#
- * Gnuplot
- * Go
- * Groovy
- * Haskell
- * Java
- * JavaScript
- * LabVIEW
- * LaTeX
- * Lisp
- * LotusScript
- * Lua
- * Make
- * Mathematica
- * MATLAB
- * MySQL
- * Objective-C
- * Octave
- * Pascal
- * Perl
- * PHP
- * Python
- * R
- * Ruby
- * Scala
- * Scratch
- * Sed
- * SQL
- * TI-89 BASIC
- * UNIX Shell (sh, Bash) and UNIX Pipes (grep, cat, etc)
- * VBScript
- * VHDL
-</code></pre>
+<ul>
+<li>Apex (Salesforce.com)</li>
+<li>AppleScript</li>
+<li>Assembly (I forget the exact flavors, but there have been a few embedded chips like the Motorola 6812, the LC-2 teaching language, and some in-line C on various AMD and Intel chips)</li>
+<li>AutoHotKey</li>
+<li>AWK</li>
+<li>BASIC</li>
+<li>Batch</li>
+<li>C</li>
+<li>C++</li>
+<li>C#</li>
+<li>Clojure</li>
+<li>CoffeeScript</li>
+<li>F#</li>
+<li>Gnuplot</li>
+<li>Go</li>
+<li>Groovy</li>
+<li>Haskell</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>LabVIEW</li>
+<li>LaTeX</li>
+<li>Lisp</li>
+<li>LotusScript</li>
+<li>Lua</li>
+<li>Make</li>
+<li>Mathematica</li>
+<li>MATLAB</li>
+<li>MySQL</li>
+<li>Objective-C</li>
+<li>Octave</li>
+<li>Pascal</li>
+<li>Perl</li>
+<li>PHP</li>
+<li>Python</li>
+<li>R</li>
+<li>Ruby</li>
+<li>Scala</li>
+<li>Scratch</li>
+<li>Sed</li>
+<li>SQL</li>
+<li>TI-89 BASIC</li>
+<li>UNIX Shell (sh, Bash) and UNIX Pipes (grep, cat, etc)</li>
+<li>VBScript</li>
+<li>VHDL</li>
+</ul>
+
 
 <p>I haven&rsquo;t written extensively in all of the languages and I doubt I could do much more than &lsquo;Hello, World!&rsquo; (if that) in most, but those are the ones that I remember.</p>
 
@@ -403,32 +406,27 @@ library(googlepredictionapi)</pre>
 
 <p><a href="http://csg.sph.umich.edu/docs/R/localpackages.html">http://csg.sph.umich.edu/docs/R/localpackages.html</a></p>
 
-<pre><code> * Load R
+<ul>
+<li>Load R <em>Note:</em> You will see an ugly console.</li>
+<li><p>Install the pre-reqs</p>
 
- * Note: You will see an ugly console.
+<blockquote><p>install.packages(c(&ldquo;RCurl&rdquo;, &ldquo;rjson&rdquo;))</p></blockquote></li>
+<li><p>Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.</p></li>
+<li><p>Note: A successful install will not yield a success message&mdash;it will simply not show an error message.</p></li>
+<li><p>Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html"><a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a></a></p></li>
+<li>Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/"><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></a></li>
+<li><p>Install the plugin <em>Note:</em> I had to do it from the command line because the install failed inside R</p>
 
- * Install the pre-reqs
+<p> $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz</p></li>
+<li><p>Now, you should be able to restart R and see the API listed in the Package Manager</p></li>
+<li><p>From here we source our libraries</p>
 
- * &amp;gt; install.packages(c("RCurl", "rjson"))
- * Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.
- * Note: A successful install will not yield a success message--it will simply not show an error message.
+<blockquote><p>library(rjson)
+library(RCurl)
+library(googlepredictionapi)</p></blockquote></li>
+<li><p>If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I&rsquo;ve stopped here.</p></li>
+</ul>
 
- * Download, install, and configure GSUtil: &lt;a href="http://code.google.com/apis/storage/docs/gsutil_install.html"&gt;http://code.google.com/apis/storage/docs/gsutil_install.html&lt;/a&gt;
- * Download the Google Predictions API for R from &lt;a href="https://code.google.com/p/google-prediction-api-r-client/"&gt;https://code.google.com/p/google-prediction-api-r-client/&lt;/a&gt;
- * Install the plugin
-
- * Note: I had to do it from the command line because the install failed inside R
- * $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz
-
- * Now, you should be able to restart R and see the API listed in the Package Manager
- * From here we source our libraries
-
- * &amp;gt; library(rjson)
- * &amp;gt; library(RCurl)
- * &amp;gt; library(googlepredictionapi)
-
- * If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I've stopped here.
-</code></pre>
 
       
       
@@ -451,14 +449,16 @@ library(googlepredictionapi)</pre>
       <h1 class="link"><a href="/observations-from-three-months-of-vegetarianism/">Observations from three months of vegetarianism</a></h1>
       <p>Near the end of 2011 I decided to try a vegetarian diet for a few reasons, including the fact that I don&rsquo;t really care for meat, red and processed meats may cause cancer, I generally wanted to eat healthier, and it&rsquo;d be nice to lower my carbon footprint. Okay, technically it was not vegetarianism, rather my diet was <a title="Wikipedia: Pescetarianism" href="http://en.wikipedia.org/wiki/Pescetarianism">pescatarianism</a>, and more accurately, <a title="Wikipedia: Flexitarianism" href="http://en.wikipedia.org/wiki/Semi-vegetarianism">flexitarianism</a> (I&rsquo;ve been largely vegetarian, but chosen to eat meat a few times&mdash;mainly when I was really hungry).  After three months, here are some observations (in no particular order):</p>
 
-<pre><code> * Everyone has thoughts on food and diet. Many people want to understand and define your diet, and they are quick to point out when you're inconsistent ("Sushi?! Aren't you a vegetarian?!"). Several overweight people told me that my choice was wrong or bad.
- * A lot of people mocked vegetarianism, which is somewhat understandable because &lt;a title="Wikipedia: Vegetarianism by country" href="http://en.wikipedia.org/wiki/Vegetarianism_by_country"&gt;only about 1/30 people in the US are vegetarian&lt;/a&gt;.
- * I actually prefer veggie burgers to traditional meat patties. Veggie burgers can have better flavor and texture than meat patties. As with the old stand-by (beef), there are good and bad versions, but veggie patties have more complexity (probably because of the mixture of ingredients).
- * Most of the time it's pretty easy to be a vegetarian; it is far harder to be a healthy vegetarian. Several times I found myself eating queso or french fries instead of a lower calorie, arguably healthier entree with lean meat. There are a lot of vegetarian options around Austin and most restaurants will provide some meatless alternative, but eating roasted veggies or a bland salad while others chow down on a scrumptious entree just sucks!
- * Sometimes it's nearly impossible to be a vegetarian. A few places just have no vegetarian options! BBQ places may leave you eating nothing but bread--and some only have bread made with lard, so you're left with pickles and onions. In general, ethnic food seems friendlier to the meat-averse. If you're really disciplined you can pack your own food, skip a meal, or demand that you go somewhere else.
- * Animal derived products exist in unexpected places! For example, one of my favorite local Tex-Mex restaurants, Chuy's, uses chicken broth in their queso. As I alluded to above, some places use lard in their bread. A lot of soups and sauces use chicken or beef stock. There's meat or meat flavoring in beans--even traditional caesar salad dressing (anchovies). I rarely inquired as to how vegetarian food items were, choosing instead to go off my previous knowledge as well as the food's appearance and description.
- * Meat eaters also like vegetarian meals. If you eat a family-style meal a lot of people will eat your food even though you choose not to eat theirs! For example, everyone orders a pizza (most have meat) then cheese is the first flavor finished.
-</code></pre>
+<ul>
+<li>Everyone has thoughts on food and diet. Many people want to understand and define your diet, and they are quick to point out when you&rsquo;re inconsistent (&ldquo;Sushi?! Aren&rsquo;t you a vegetarian?!&rdquo;). Several overweight people told me that my choice was wrong or bad.</li>
+<li>A lot of people mocked vegetarianism, which is somewhat understandable because <a title="Wikipedia: Vegetarianism by country" href="http://en.wikipedia.org/wiki/Vegetarianism_by_country">only about 1/30 people in the US are vegetarian</a>.</li>
+<li>I actually prefer veggie burgers to traditional meat patties. Veggie burgers can have better flavor and texture than meat patties. As with the old stand-by (beef), there are good and bad versions, but veggie patties have more complexity (probably because of the mixture of ingredients).</li>
+<li>Most of the time it&rsquo;s pretty easy to be a vegetarian; it is far harder to be a healthy vegetarian. Several times I found myself eating queso or french fries instead of a lower calorie, arguably healthier entree with lean meat. There are a lot of vegetarian options around Austin and most restaurants will provide some meatless alternative, but eating roasted veggies or a bland salad while others chow down on a scrumptious entree just sucks!</li>
+<li>Sometimes it&rsquo;s nearly impossible to be a vegetarian. A few places just have no vegetarian options! BBQ places may leave you eating nothing but bread&mdash;and some only have bread made with lard, so you&rsquo;re left with pickles and onions. In general, ethnic food seems friendlier to the meat-averse. If you&rsquo;re really disciplined you can pack your own food, skip a meal, or demand that you go somewhere else.</li>
+<li>Animal derived products exist in unexpected places! For example, one of my favorite local Tex-Mex restaurants, Chuy&rsquo;s, uses chicken broth in their queso. As I alluded to above, some places use lard in their bread. A lot of soups and sauces use chicken or beef stock. There&rsquo;s meat or meat flavoring in beans&mdash;even traditional caesar salad dressing (anchovies). I rarely inquired as to how vegetarian food items were, choosing instead to go off my previous knowledge as well as the food&rsquo;s appearance and description.</li>
+<li>Meat eaters also like vegetarian meals. If you eat a family-style meal a lot of people will eat your food even though you choose not to eat theirs! For example, everyone orders a pizza (most have meat) then cheese is the first flavor finished.</li>
+</ul>
+
 
 <p>That&rsquo;s it for now. Did I miss something? Has anyone else experienced something different?</p>
 
@@ -508,12 +508,14 @@ library(googlepredictionapi)</pre>
 
 <p>The emails are very similar:</p>
 
-<pre><code> * the emails refer to a post and provide a subtle compliment
- * the emails are sent from a generic name with an email address that is in the form &amp;lt;first name&amp;gt;.&amp;lt;last name&amp;gt;@gmail.com
- * the emails offer $25-$50 paid via PayPal to post a link on the site
- * the emails are asking for a link to an education site
- * the emails close with a quote from a famous person
-</code></pre>
+<ul>
+<li>the emails refer to a post and provide a subtle compliment</li>
+<li>the emails are sent from a generic name with an email address that is in the form &lt;first name&gt;.&lt;last name&gt;@gmail.com</li>
+<li>the emails offer $25-$50 paid via PayPal to post a link on the site</li>
+<li>the emails are asking for a link to an education site</li>
+<li>the emails close with a quote from a famous person</li>
+</ul>
+
 
 <p>Here are a few examples:</p>
 
@@ -532,6 +534,8 @@ Jasmine Racino
 &#8216;No problem can be solved by the same consciousness that created it. We need to see the world anew.&#8217; Albert Einstein</blockquote>
 
 
+
+
 <p style="text-align: center;">&#8212;&#8212;&#8212;-</p>
 
 
@@ -545,6 +549,8 @@ Amy Wong
 &#8220;People ignore design that ignores people.&#8221; -Frank Chimero</blockquote>
 
 
+
+
 <p style="text-align: center;">&#8212;&#8212;&#8212;-</p>
 
 
@@ -554,6 +560,8 @@ Amy Wong
 I just got done reading your &#8220;A RESTful smart home&#8221; and found it really interesting!  Do you do advertising?  I&#8217;m marketing out a few sites and can pay you $50 via PayPal to add a text link into one of your older posts.  The link would go to an education site and I&#8217;d make sure it relates to your post&#8217;s content.
 Thanks and let me know if we can work something out!
 Ann-Marie Moss</blockquote>
+
+
 
 
 <p style="text-align: center;"> &#8212;&#8212;&#8212;-</p>

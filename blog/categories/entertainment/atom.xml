@@ -4,7 +4,7 @@
   <title><![CDATA[Category: entertainment | Seth Holloway]]></title>
   <link href="http://sethholloway.com/blog/categories/entertainment/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2014-02-09T15:29:42-06:00</updated>
+  <updated>2014-02-09T16:14:08-06:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -85,10 +85,10 @@
 
 <blockquote><em>Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software.  More precisely, it refers to four kinds of freedom, for the users of the software: </em>
 
-     * <em>The freedom to run the program, for any purpose (freedom 0).</em>
-     * <em>The freedom to study how the program works, and adapt it to       your needs (freedom 1). Access to the source code is a precondition       for this. </em>
-     * <em>The freedom to redistribute copies so you can help your neighbor       (freedom 2). </em>
-     * <em>The freedom to improve the program, and release your improvements       (and modified versions in general)       to the public, so that the whole community benefits (freedom 3).        Access to the source code is a precondition for this.</em>
+ * <em>The freedom to run the program, for any purpose (freedom 0).</em>
+ * <em>The freedom to study how the program works, and adapt it to your needs (freedom 1). Access to the source code is a precondition       for this. </em>
+ * <em>The freedom to redistribute copies so you can help your neighbor (freedom 2). </em>
+ * <em>The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits (freedom 3). Access to the source code is a precondition for this.</em>
 
 </blockquote>
 
@@ -101,9 +101,11 @@
 
 <p>Stallman&rsquo;s second mistake comes when he equates the digital analog of sharing physical objects into modifying and distributing new copies. Physical objects can be modified and distributed, but the owner gives up the object (for some period of time) whenever they share. As time passes the item changes hands and wears (nicks, folds, scratches, pen marks, etc). If a user wants access to the physical object again, they have to get it back from the borrower or buy a new version. Stallman is not the only person to make this mistake. Currently, there are only two possibilities with digital work:</p>
 
-<pre><code> * DRM style: one user per purchase -- no possibility of sharing
- * Napster style: many users per purchase -- sharing is common
-</code></pre>
+<ul>
+<li>DRM style: one user per purchase &mdash; no possibility of sharing</li>
+<li>Napster style: many users per purchase &mdash; sharing is common</li>
+</ul>
+
 
 <p>We need a third method that truly mirrors traditional sharing. This digital system would allow you to share with your friends without retaining a copy for yourself.</p>
 

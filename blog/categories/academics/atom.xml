@@ -4,7 +4,7 @@
   <title><![CDATA[Category: academics | Seth Holloway]]></title>
   <link href="http://sethholloway.com/blog/categories/academics/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2014-02-09T15:29:42-06:00</updated>
+  <updated>2014-02-09T16:14:08-06:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -70,29 +70,33 @@
 
 <p>Here are a few of my favorites:</p>
 
-<pre><code> * Khan Academy - &lt;a title="http://www.khanacademy.org/" href="http://www.khanacademy.org/"&gt;http://www.khanacademy.org/&lt;/a&gt;
- * Coursera - &lt;a href="http://www.coursera.org" rel="nofollow"&gt;http://www.coursera.org&lt;/a&gt;
- * Udacity - &lt;a title="http://www.udacity.com/" href="http://www.udacity.com/"&gt;http://www.udacity.com/&lt;/a&gt;
- * MIT's Open Courseware - &lt;a title="http://ocw.mit.edu/index.htm" href="http://ocw.mit.edu/index.htm"&gt;http://ocw.mit.edu/index.htm&lt;/a&gt;
- * Stanford's offerings - &lt;a title="http://see.stanford.edu/see/courses.aspx" href="http://see.stanford.edu/see/courses.aspx"&gt;http://see.stanford.edu/see/courses.aspx&lt;/a&gt;
- * Yale Open Courses - &lt;a title="http://oyc.yale.edu/" href="http://oyc.yale.edu/"&gt;http://oyc.yale.edu/&lt;/a&gt;
- * Academic Earth - &lt;a title="http://academicearth.org/" href="http://academicearth.org/"&gt;http://academicearth.org/&lt;/a&gt;
- * EdX - &lt;a title="https://www.edx.org/" href="https://www.edx.org/"&gt;https://www.edx.org/&lt;/a&gt;
- * Institute for Advanced Studies - &lt;a title="http://www.ias.edu/" href="http://www.ias.edu/"&gt;http://www.ias.edu/&lt;/a&gt;
- * Code Academy - &lt;a title="http://codeacademy.com/" href="http://codeacademy.com/"&gt;http://codeacademy.com/&lt;/a&gt;
- * Code School - &lt;a title="http://www.codeschool.com/" href="http://www.codeschool.com/"&gt;http://www.codeschool.com/&lt;/a&gt;
- * InfoQ - &lt;a title="http://www.infoq.com/" href="http://www.infoq.com/"&gt;http://www.infoq.com/&lt;/a&gt;
- * TED - &lt;a title="http://www.ted.com/" href="http://www.ted.com/"&gt;http://www.ted.com/&lt;/a&gt;
-</code></pre>
+<ul>
+<li>Khan Academy &ndash; <a title="http://www.khanacademy.org/" href="http://www.khanacademy.org/"><a href="http://www.khanacademy.org/">http://www.khanacademy.org/</a></a></li>
+<li>Coursera - <a href="http://www.coursera.org" rel="nofollow"><a href="http://www.coursera.org">http://www.coursera.org</a></a></li>
+<li>Udacity &ndash; <a title="http://www.udacity.com/" href="http://www.udacity.com/"><a href="http://www.udacity.com/">http://www.udacity.com/</a></a></li>
+<li>MIT&rsquo;s Open Courseware &ndash; <a title="http://ocw.mit.edu/index.htm" href="http://ocw.mit.edu/index.htm"><a href="http://ocw.mit.edu/index.htm">http://ocw.mit.edu/index.htm</a></a></li>
+<li>Stanford&rsquo;s offerings &ndash; <a title="http://see.stanford.edu/see/courses.aspx" href="http://see.stanford.edu/see/courses.aspx"><a href="http://see.stanford.edu/see/courses.aspx">http://see.stanford.edu/see/courses.aspx</a></a></li>
+<li>Yale Open Courses - <a title="http://oyc.yale.edu/" href="http://oyc.yale.edu/"><a href="http://oyc.yale.edu/">http://oyc.yale.edu/</a></a></li>
+<li>Academic Earth &ndash; <a title="http://academicearth.org/" href="http://academicearth.org/"><a href="http://academicearth.org/">http://academicearth.org/</a></a></li>
+<li>EdX - <a title="https://www.edx.org/" href="https://www.edx.org/"><a href="https://www.edx.org/">https://www.edx.org/</a></a></li>
+<li>Institute for Advanced Studies - <a title="http://www.ias.edu/" href="http://www.ias.edu/"><a href="http://www.ias.edu/">http://www.ias.edu/</a></a></li>
+<li>Code Academy - <a title="http://codeacademy.com/" href="http://codeacademy.com/"><a href="http://codeacademy.com/">http://codeacademy.com/</a></a></li>
+<li>Code School - <a title="http://www.codeschool.com/" href="http://www.codeschool.com/"><a href="http://www.codeschool.com/">http://www.codeschool.com/</a></a></li>
+<li>InfoQ - <a title="http://www.infoq.com/" href="http://www.infoq.com/"><a href="http://www.infoq.com/">http://www.infoq.com/</a></a></li>
+<li>TED &ndash; <a title="http://www.ted.com/" href="http://www.ted.com/"><a href="http://www.ted.com/">http://www.ted.com/</a></a></li>
+</ul>
+
 
 <p>(Updated with Coursera: Thanks, Sean!)</p>
 
 <p>I&rsquo;ve also found some gems like</p>
 
-<pre><code> * MSDN Channel9's Functional Programming Fundamentals &lt;a title="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals" href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals"&gt;http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals&lt;/a&gt;
- * John Resig's Learning Advanced JavaScript &lt;a title="http://ejohn.org/apps/learn/" href="http://ejohn.org/apps/learn/"&gt;http://ejohn.org/apps/learn/&lt;/a&gt;
- * Nathan's University, &lt;a title="http://nathansuniversity.appspot.com/" href="http://nathansuniversity.appspot.com/"&gt;http://nathansuniversity.appspot.com/&lt;/a&gt;, which aims to teach you how to create your own programming language.
-</code></pre>
+<ul>
+<li>MSDN Channel9&rsquo;s Functional Programming Fundamentals <a title="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals" href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals"><a href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals">http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals</a></a></li>
+<li>John Resig&rsquo;s Learning Advanced JavaScript <a title="http://ejohn.org/apps/learn/" href="http://ejohn.org/apps/learn/"><a href="http://ejohn.org/apps/learn/">http://ejohn.org/apps/learn/</a></a></li>
+<li>Nathan&rsquo;s University, <a title="http://nathansuniversity.appspot.com/" href="http://nathansuniversity.appspot.com/"><a href="http://nathansuniversity.appspot.com/">http://nathansuniversity.appspot.com/</a></a>, which aims to teach you how to create your own programming language.</li>
+</ul>
+
 
 <p>Any virtually any other subject has lectures appearing on sites like <a title="http://www.youtube.com/watch?v=rI8tNMsozo0" href="http://www.youtube.com/watch?v=rI8tNMsozo0">YouTube</a>, <a title="http://vimeo.com/15046335" href="http://vimeo.com/15046335">Vimeo</a>, and <a title="http://blip.tv/clojure/sam-aaron-programming-music-with-overtone-5970273" href="http://blip.tv/clojure/sam-aaron-programming-music-with-overtone-5970273">Blip.tv</a>, <a title="Lanyrd" href="http://lanyrd.com/">Lanyrd</a> (to name a few).</p>
 

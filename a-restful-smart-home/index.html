@@ -131,25 +131,25 @@
 
 <p>Here&rsquo;s a simple grammar for rules given a single sensor and a single actuator:</p>
 
-<blockquote>R = CA
+<pre><code>R = CA
+C = &amp;lt;sensor&amp;gt; &amp;lt;operator&amp;gt; &amp;lt;value&amp;gt; ... (or conditions logically joined/ANDed together)
+A = &amp;lt;actuator&amp;gt; &amp;lt;value&amp;gt; ... (or actions logically joined/ANDed together)
+</code></pre>
 
-C = &lt;sensor&gt; &lt;operator&gt; &lt;value&gt; &#8230; (or conditions logically joined/ANDed together)
-
-A = &lt;actuator&gt; &lt;value&gt; &#8230; (or actions logically joined/ANDed together)</blockquote>
-
-
-<p>We derived this grammar by analyzing over 60 rules written by <a title="Seth Holloway: smart home survey" href="http://sethholloway.com/blog/2009/07/30/smart-home-user-study/" target="_blank">survey</a> participants who almost entirely constructed rules in the form of &lt;if&gt;&lt;condition(s)&gt;&lt;then&gt;&lt;action(s)&gt;. This was translated to a user interface after a paper prototype test; the best interface determined by user testing was then implemented as the front-end for creating rules in the smart home.</p>
+<p>We derived this grammar by analyzing over 60 rules written by <a title="Seth Holloway: smart home survey" href="http://sethholloway.com/blog/2009/07/30/smart-home-user-study/" target="_blank">survey</a> participants who almost entirely constructed rules in the form of <code>&amp;lt;if&amp;gt;&amp;lt;condition(s)&amp;gt;&amp;lt;then&amp;gt;&amp;lt;action(s)&amp;gt;</code>. This was translated to a user interface after a paper prototype test; the best interface determined by user testing was then implemented as the front-end for creating rules in the smart home.</p>
 
 <p>Future work could include more in the grammar, including ranges of values or times. To prevent system failure, a model checker could be employed to ensure that no rules collide. You could potentially optimize the process by synthesizing all simple rules into more complex, correct rules.</p>
 
 <p>Other technical details:</p>
 
-<pre><code> * I've worked in Microsoft Windows XP, Ubuntu, and Mac OS X, with a heavy slant towards Mac OS X.
- * &lt;a title="Heroku" href="http://heroku.com/" target="_blank"&gt;Heroku&lt;/a&gt; makes deployment easy and &lt;a title="Git" href="http://git-scm.com/" target="_blank"&gt;git&lt;/a&gt; plus &lt;a title="Dropbox" href="https://www.dropbox.com/home" target="_blank"&gt;Dropbox&lt;/a&gt; work beautifully for version control and backups.
- * I developed using text several editors and IDEs including Eclipse, NetBeans, TextEdit, Notepad, TextMate, and Vim.
- * Client-side testing was done using Chrome, Safari, Firefox, and Internet Explorer (sorry Opera!).
- * Code is available &lt;a title="Github: SEEU" href="https://github.com/smholloway/SEEU" target="_blank"&gt;here&lt;/a&gt;.
-</code></pre>
+<ul>
+<li>I&rsquo;ve worked in Microsoft Windows XP, Ubuntu, and Mac OS X, with a heavy slant towards Mac OS X.</li>
+<li><a title="Heroku" href="http://heroku.com/" target="_blank">Heroku</a> makes deployment easy and <a title="Git" href="http://git-scm.com/" target="_blank">git</a> plus <a title="Dropbox" href="https://www.dropbox.com/home" target="_blank">Dropbox</a> work beautifully for version control and backups.</li>
+<li>I developed using text several editors and IDEs including Eclipse, NetBeans, TextEdit, Notepad, TextMate, and Vim.</li>
+<li>Client-side testing was done using Chrome, Safari, Firefox, and Internet Explorer (sorry Opera!).</li>
+<li>Code is available <a title="Github: SEEU" href="https://github.com/smholloway/SEEU" target="_blank">here</a>.</li>
+</ul>
+
 
     </div>
   </div>
