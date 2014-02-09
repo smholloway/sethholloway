@@ -13,18 +13,16 @@ published: true
 meta:
   _edit_last: '1'
 ---
-<div>I struggle with when to include the PhD suffix. I try not to flaunt my degree, but I worked hard and want the PhD to be worth something--that means I can't downplay it. Work is one place where degrees (might) matter. There are potential downsides to using the PhD at work though.</div>
-<div></div>
-<div>Here's roughly when I include (marked yes) or omit (marked no) the PhD:</div>
-<div>
+I struggle with when to include the PhD suffix. I try not to flaunt my degree, but I worked hard and want the PhD to be worth something--that means I can't downplay it. Work is one place where degrees (might) matter. There are potential downsides to using the PhD at work though.
 
-	 * Resume: yes
-	 * Email signature: yes
-	 * Business card: yes
-	 * Presentations (title slide): yes
-	 * LinkedIn: no
-	 * Name tags: no
-	 * Verbal introductions: no
+Here's roughly when I include (marked yes) or omit (marked no) the PhD:
 
-</div>
-<div>Does that seem reasonable to you? Have a missed a situation? I suppose the tried-and-true advice is "know your audience" and use the PhD when it will be advantageous.</div>
+ * Resume: yes
+ * Email signature: yes
+ * Business card: yes
+ * Presentations (title slide): yes
+ * LinkedIn: no
+ * Name tags: no
+ * Verbal introductions: no
+
+Does that seem reasonable to you? Have a missed a situation? I suppose the tried-and-true advice is "know your audience" and use the PhD when it will be advantageous.

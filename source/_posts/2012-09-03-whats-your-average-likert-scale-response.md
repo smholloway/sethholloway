@@ -27,7 +27,6 @@ Personally, I think that presenting an odd number of options is folly. In my exp
 
 The next time you respond to a survey that uses a Likert scale, do this:
 
-	 * remember the term "Likert scale" and applaud yourself for exercising your knowledge
-	 * avoid the simple middle answer--think a second and decide if you really feel a bit more to one side
-	 * take note of how positive or negative you are
-
+ * remember the term "Likert scale" and applaud yourself for exercising your knowledge
+ * avoid the simple middle answer--think a second and decide if you really feel a bit more to one side
+ * take note of how positive or negative you are

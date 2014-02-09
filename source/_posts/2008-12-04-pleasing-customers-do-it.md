@@ -25,10 +25,9 @@ Two of my favorite bloggers, <a title="Seth Godin" href="http://sethgodin.typepa
 
 My desperate plea to employers is really quite simple:
 
-	 * Empower entry level customer service representatives to solve problems--they are the ones making an impression
-	 * Give customer service representatives  respect--they drive as many sales as the marketing department
-	 * Pay customer service representatives fairly--this may require hiring people of a worthy caliber
-	 * Offer customer service representatives a career path--again, you may have to be awake while hiring
-	 * Reduce the overhead in communications--reduce wait times, shorten telephone spiels, etc.
-	 * Go out of your way to thank and appreciate customers--your business does not exist without them!
-
+	* Empower entry level customer service representatives to solve problems--they are the ones making an impression
+	* Give customer service representatives  respect--they drive as many sales as the marketing department
+	* Pay customer service representatives fairly--this may require hiring people of a worthy caliber
+	* Offer customer service representatives a career path--again, you may have to be awake while hiring
+	* Reduce the overhead in communications--reduce wait times, shorten telephone spiels, etc.
+	* Go out of your way to thank and appreciate customers--your business does not exist without them!

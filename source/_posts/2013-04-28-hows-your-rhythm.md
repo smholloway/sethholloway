@@ -20,10 +20,10 @@ In playing with the page my standard deviation normally hovered around 20ms, dri
 
 Open questions:
 
-	 * What is a good accuracy?
-	 * How long should a rhythm test last? Five seconds seems too short and five minutes seems too long.
-	 * Am I reporting the proper statistics?
-	 * Is my quick attempt at measuring rhythm flawed? JavaScript may be too slow or imprecise. Are there bugs?
-	 * How can the app be improved?
+ * What is a good accuracy?
+ * How long should a rhythm test last? Five seconds seems too short and five minutes seems too long.
+ * Am I reporting the proper statistics?
+ * Is my quick attempt at measuring rhythm flawed? JavaScript may be too slow or imprecise. Are there bugs?
+ * How can the app be improved?
 
 How's your accuracy? Got any ideas? Please let me know!

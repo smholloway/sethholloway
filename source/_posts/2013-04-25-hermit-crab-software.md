@@ -22,10 +22,10 @@ Sometimes you need a language runtime and a text editor, sometimes an IDE has ev
 
 Some issues I've had recently:
 
-	 * Rails issues like setting up Ruby, Rails, gems, rake, RVM, and fun things like  <a title="Ruby HTTPS error" href="http://stackoverflow.com/questions/9338035/no-such-file-to-load-net-https-heroku-ruby-ubuntu-10-04">Ruby issues with HTTPS that require you to install SSL then reinstall Ruby</a>
-	 * Persistent Java issues around <a title="StackOverflow: What is Classpath hell?" href="http://stackoverflow.com/questions/373193/what-is-classpath-hell-and-is-was-it-really-a-problem-for-java">jar and classpath hell</a>
-	 * Exciting new languages like <a title="Scala" href="http://www.scala-lang.org/">Scala</a> and <a title="Clojure" href="http://clojure.org/">Clojure</a> have moved quickly and tutorials have not kept up, so there is confusion.
-	 * <a title="Sonar Source" href="http://www.sonarsource.com/">Sonar</a> was so easy to install--simply download and unpack--I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)
+ * Rails issues like setting up Ruby, Rails, gems, rake, RVM, and fun things like  <a title="Ruby HTTPS error" href="http://stackoverflow.com/questions/9338035/no-such-file-to-load-net-https-heroku-ruby-ubuntu-10-04">Ruby issues with HTTPS that require you to install SSL then reinstall Ruby</a>
+ * Persistent Java issues around <a title="StackOverflow: What is Classpath hell?" href="http://stackoverflow.com/questions/373193/what-is-classpath-hell-and-is-was-it-really-a-problem-for-java">jar and classpath hell</a>
+ * Exciting new languages like <a title="Scala" href="http://www.scala-lang.org/">Scala</a> and <a title="Clojure" href="http://clojure.org/">Clojure</a> have moved quickly and tutorials have not kept up, so there is confusion.
+ * <a title="Sonar Source" href="http://www.sonarsource.com/">Sonar</a> was so easy to install--simply download and unpack--I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)
 
 There are a few promising leads like <a title="Vagrant" href="http://vagrantup.com/">Vagrant</a> and <a title="Ubuntu Juju" href="https://juju.ubuntu.com/">Juju</a>, which make it easier for everyone to share a development environment. Unfortunately, they probably can't help at the language level (e.g., are you using Ruby 1.9.2-p180-patched or 1.9.2-p290?). <a title="Apache Maven" href="http://maven.apache.org/">Maven</a>, <a title="Bundler" href="http://gembundler.com/">Bundler</a>, <a title="Python Installs Packages" href="http://pypi.python.org/pypi/pip">Pip</a>, and other dependency management systems help, but I'd like to see the language make dependencies and versioning a first-class citizen. I envision the ability to download an app from source control and be running with all the right versions of the language, tools, and dependencies in one-click.
 
