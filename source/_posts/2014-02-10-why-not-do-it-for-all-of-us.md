@@ -12,7 +12,8 @@ meta:
   _edit_last: '1'
 ---
 
-I created a repo in hopes of it becoming the most starred repo on
+I created a [repo in hopes of it becoming the most
+starred](https://github.com/smholloway/do-it-for-all-of-us/tree/master) repo on
 GitHub. That's a pretty audacious goal, I know.
 [Bootstrap](https://github.com/twbs/bootstrap) currently
 has over 64,000 stars, making it the [most popular repository on
