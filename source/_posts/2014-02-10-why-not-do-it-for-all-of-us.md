@@ -19,7 +19,7 @@ GitHub. That's a pretty audacious goal, I know.
 has over 64,000 stars, making it the [most popular repository on
 GitHub](https://github.com/search?q=stars%3a%3E1&s=stars&type=Repositories).
 
-Just check out @mdo's page:
+Just check out [@mdo's profile page](https://github.com/mdo):
 
 ![@mdo's GitHub profile is hot](/images/mdo-github-so-pro.png)
 
