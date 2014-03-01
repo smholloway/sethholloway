@@ -118,6 +118,35 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/designing-based-on-data/">Designing Based on Data</a></h1>
+      <p>After my last Usability course this semester a designer/peer, <a title="Andrea Richeson" href="http://andrearicheson.org/wordpress/" target="_blank">Andrea Richeson</a>, were chatting. She asked me if the course had changed the way I think about designers. I did not have a good answer at the time because I fancy myself a bit of a designer: I&rsquo;ve created several websites (<a title="Mobile and Pervasive Computing @ UT" href="http://mpc.ece.utexas.edu/" target="_blank">MPC</a>, <a title="Software Engineering @ UT" href="http://www.edge.utexas.edu/se/" target="_blank">SE</a>, <a title="Students in Software Engineering @ UT" href="http://www.edge.utexas.edu/se/" target="_blank">SSE</a>, <a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank">SethHolloway.com</a>) and I constantly build/tinker in both virtual and physical spaces. Beyond considering myself a programmer and designer, I found usability testing to be an amazingly practical part of creating something for people. The methods are similar to my favorite software development methodology: agile development&mdash;get the requirements, do a small piece, fix what is broken and ensure people like the effort so far, repeat. After some reflection I can say the course did not really change my view on design, it gave me a framework for evaluating and altering design based on user data.</p>
+
+<p>Fresh out of the class with a solid understanding of the art of usability testing, I was taken aback while reading a New York Times <a title="Ping - Design Based on Data" href="http://www.nytimes.com/2009/05/10/business/10ping.html" target="_blank">article about a designer who left Google and went to Twitter</a>. He left Google because of their rigid adherence to trusting data. I am confused how a designer could disagree with trusting data. If you do not like this approach, you don&rsquo;t believe in (1) the way they collect data or (2) trusting the users. The article does not explain how Google collects their data nor does it explain the designer&rsquo;s disdain, but from what I read I think Google&rsquo;s approach is perfect.</p>
+
+<p>Google receives millions of unique visitors per day and they are known for changing elements on the page (think of the whimsical, dynamic elements like logo changes and the &ldquo;Feeling Lucky&rdquo; button), so it is not hard to believe that Google would put up different designs of the same page. Now, a fraction of the millions of users sees one design and another fraction sees the other design. From the web server&rsquo;s standpoint, data collection is fairly easy&mdash;especially with AJAX-enabled dynamic pages: just stream events to the server for logging. Later, a human can analyze the data and make decisions. With sample sizes in the thousands, statistical validity is almost guaranteed!</p>
+
+<p>The approach is wonderful: people&rsquo;s behavior determines the best design for the job and the data is collected without the user&rsquo;s knowledge. What&rsquo;s better than getting people&rsquo;s feedback without their knowledge? Hidden camera shows have always exposed wonderful insights, but we can only get at the truth when people let their guard down.</p>
+
+<p>That is how I imagine the data is collected and the approach seems infalible, thus I must conclude that the designer does not believe in trusting users despite the flawless data collection methods. Even outlandish designs can yield positive results. I&rsquo;m sure I&rsquo;m missing nuances, but I side with Google. I believe in designing based on data because it keeps us moving towards usable, pleasing designs.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/happy-mothers-day/">Happy Mother&#8217;s Day!</a></h1>
       <p>Happy Mother&rsquo;s Day to all the wonderful mothers in the world! You achieved your biological imperative and kept humanity as a whole alive. Thanks for that!</p>
 
@@ -358,67 +387,6 @@
     <div class="span12 post-container">
       <h1 class="link"><a href="/congratulations-to-ryan-and-kate/">Congratulations to Ryan and Kate!</a></h1>
       <p>My brother-in-law, Ryan Mire, got engaged to his girlfriend, Kate Curran, this week. They make a great couple and are very happy together. Andrea and I are very excited for them! Another round of food, fun, and general wedding bliss. Congratulations you two!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/let-google-do-the-heavy-lifting/">Let Google do the heavy lifting!</a></h1>
-      <p>I love Google. They represent so many positive ideas about technology and offer an amazing suite of tools. Gmail is fantastic. I adore Google Calendar. Google Scholar is the only site I need for research. Google Reader is the best RSS feed reader on the market. Google Docs works a like a charm and is infinitely handy. I have entrusted my workflow to Google and had positive results. They&rsquo;ve taken over the heavy lifting and ushered in an era of browser-based productivity that I agree with wholeheartedly. I&rsquo;m excited today to use yet another Google server: I added <a title="Google Analytics" href="http://www.google.com/analytics/" target="_blank">Google Analytics</a> to the site :)</p>
-
-<p>In last week&rsquo;s <a title="Randolph Bias' awesome class" href="http://courses.ischool.utexas.edu/Bias_Randolph/2009/Spring/INF385P/" target="_blank">Introduction to Usability course</a> we discussed good and bad websites, and one student selected Google Analytics as a good website. The Analytics page provides all the necessary statistics on your sites traffic including their IP address and corresponding location, the number of unique visitors, and timing. It was characteristically Google: clean, easy to use, and hugely useful. I had no idea the service was free!</p>
-
-<p>Inspired by the class I checked into Google Analytics further and signed up. I added <a href="http://www.sethholloway.com">http://www.sethholloway.com</a> to the service and they generated the necessary javascript&mdash;they even told me where to place it (though I already <a title="Seth Holloway: Learning HTML/CSS" href="http://sethholloway.com/blog/?p=633" target="_blank">knew enough HTML</a> to insert the scripts)</p>
-
-<p>Here&rsquo;s the generated javascript:</p>
-
-<blockquote>
-<pre id="line20">&lt;<span class="start-tag">script</span><span class="attribute-name"> type</span>=<span class="attribute-value">"text/javascript"</span>&gt;
-  var gaJsHost = (("https:" == document.location.protocol) ?
-                   "https://ssl." : "http://www.");
-  document.write(unescape("%3Cscript src='" + gaJsHost +
-                          "google-analytics.com/ga.js' 
-                          type='text/javascript'%3E%3C/script%3E"));
-&lt;/<span class="end-tag">script</span>&gt;
-&lt;<span class="start-tag">script</span><span class="attribute-name"> type</span>=<span class="attribute-value">"text/javascript"</span>&gt;
-  try {
-    var pageTracker = _gat._getTracker("UA-7555904-1");
-    pageTracker._trackPageview();
-  } catch(err) {}
-&lt;/script&gt;</pre>
-</blockquote>
-
-
-<p>And the only change necessary to gather statistics from across the blog is contained in header.php. From your WordPress admin panel click Appearance-&gt;Editor-&gt;Header (header.php). Then locate this bit of code and insert the generated code where I placed the comment below:</p>
-
-<blockquote>
-<pre id="line20">&lt;?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?&gt;
-
-&lt;?php wp_head(); ?&gt;
-
-//PASTE GOOGLE ANALYTICS CODE HERE AND REMOVE THIS LINE
-
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id="page"&gt;</pre>
-</blockquote>
-
-
-<p>That&rsquo;s it! So simple! So useful! If you haven&rsquo;t already signed up for Google Analytics, do it now. The service is free, incredibly helpful and easy to use; even better, installation will take you less time than heating up that Hot Pocket!</p>
 
       
       
