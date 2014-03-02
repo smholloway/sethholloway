@@ -60,7 +60,7 @@ For more ideas on what to read, check
 ## Websites
 There's a website for everything, right? The trick is finding worthwhile ones. A few of my favorite aggregators are
 
- * Hacker News: <a href="http://news.ycombinator.com/" target="_blank">http://news.ycombinator.com/</a>
+ * Hacker News: [http://news.ycombinator.com/](http://news.ycombinator.com/)
  * Reddit Programming: <a href="http://www.reddit.com/r/Programming" target="_blank">http://www.reddit.com/r/Programming</a>
  * InfoQ: <a href="http://www.infoq.com/" target="_blank">http://www.infoq.com/</a>
 
