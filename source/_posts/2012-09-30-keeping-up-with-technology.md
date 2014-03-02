@@ -31,7 +31,7 @@ People are social creatures. We are one of the only species capable of learning 
 
 ## Local events
 
-If you're feeling social, local meetings are a fantastic way to find smart, interesting people. Around Austin we have something technical happening virtually every night of the month (see these lists: <a href="http://door64.com/calendar?" target="_blank">http://door64.com/calendar?</a> | <a href="http://geekaustin.org/guide-austin-tech-meetups" target="_blank">http://geekaustin.org/guide-austin-tech-meetups</wbr></a> | Austin Tech Meetups: <a href="http://www.meetup.com/find/?mcName=Austin&amp;categories=34" target="_blank">http://www.meetup.com/find/?mcName=Austin&amp;categories=34</wbr></a>). A couple that I've been to and enjoyed include the <a title="Austin Java User's Group" href="http://www.austinjug.org/" target="_blank">Austin Java User’s Group</a> and <a title="Austin on Rails" href="http://austinonrails.org/" target="_blank">Austin on Rails</a>.
+If you're feeling social, local meetings are a fantastic way to find smart, interesting people. Around Austin we have something technical happening virtually every night of the month (see these lists: <a href="http://door64.com/calendar?" target="_blank">http://door64.com/calendar?</a> | <a href="http://geekaustin.org/guide-austin-tech-meetups" target="_blank">http://geekaustin.org/guide-austin-tech-meetups</a> | Austin Tech Meetups: <a href="http://www.meetup.com/find/?mcName=Austin&amp;categories=34" target="_blank">http://www.meetup.com/find/?mcName=Austin&amp;categories=34</a>). A couple that I've been to and enjoyed include the <a title="Austin Java User's Group" href="http://www.austinjug.org/" target="_blank">Austin Java User’s Group</a> and <a title="Austin on Rails" href="http://austinonrails.org/" target="_blank">Austin on Rails</a>.
 
 ## Conferences
 
@@ -54,14 +54,14 @@ I like to balance theory and application, so I split time between learning by do
 
 For more ideas on what to read, check
 
- * <a href="http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html" target="_blank">http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html</wbr></wbr></a>
- * <a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read" target="_blank">http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read</wbr></wbr></wbr></a>
+ * <a href="http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html" target="_blank">http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html</a>
+ * <a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read" target="_blank">http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read</a>
 
 ## Websites
 There's a website for everything, right? The trick is finding worthwhile ones. A few of my favorite aggregators are
 
  * Hacker News: <a href="http://news.ycombinator.com/" target="_blank">http://news.ycombinator.com/</a>
- * Reddit Programming: <a href="http://www.reddit.com/r/Programming" target="_blank">http://www.reddit.com/r/Programming</wbr></a>
+ * Reddit Programming: <a href="http://www.reddit.com/r/Programming" target="_blank">http://www.reddit.com/r/Programming</a>
  * InfoQ: <a href="http://www.infoq.com/" target="_blank">http://www.infoq.com/</a>
 
 From here, I can find interesting articles and people to follow.
@@ -69,7 +69,7 @@ From here, I can find interesting articles and people to follow.
 To keep up with myriad websites, I recommend RSS, particularly <a title="Google Reader" href="http://www.google.com/reader/" target="_blank">Google Reader</a>, which is free--you just need a Google account. Reader links to Plus fairly easily, so you can share interesting content pretty easily.
 
 ## Podcasts
-For iOS devices, I love the Downcast app (<a href="http://www.downcastapp.com/" target="_blank">http://www.downcastapp.com/</a>). Some of my favorites so far include
+For iOS devices, I love the Downcast app (<a href="http://www.downcastapp.com/" target="_blank">http://www.downcastapp.com/</a>). Some of my favorite podcasts so far include
 
  * <a title="Software Engineering Radio podcast" href="http://www.se-radio.net/" target="_blank">Software Engineering Radio</a>
  * <a title="Java Posse" href="http://javaposse.com/" target="_blank">Java Posse</a>
