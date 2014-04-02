@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://sethholloway.com/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2014-03-15T11:30:04-05:00</updated>
+  <updated>2014-04-01T22:04:45-05:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read March 2014]]></title>
+    <link href="http://sethholloway.com/books-read-march-2014/"/>
+    <updated>2014-04-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-march-2014</id>
+    <content type="html"><![CDATA[<p>The books this month were fairly random; I finished a couple that I&rsquo;ve
+had for too long in a sort of literary spring cleaning.</p>
+
+<p>I also DM&rsquo;d my first Pathfinder session this month. To prepare for the session, I read quite a bit about tabletop RPGs and how to tell a story. And I took some inspiration from a few good fantasy books.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B0010SKUYM/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0010SKUYM&amp;linkCode=as2&amp;tag=theven01-20">The Name of the Wind by Patrick Rothfuss</a>. This book is really highly rated, and I see why. It started off slow, but I stuck with it and was rewarded. This ended up being an awesome, interesting story with a lot of neat, novel fantasy ideas. I&rsquo;ll finish off the second book soon, then wish the third was already out.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00ARHAAZ6/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ARHAAZ6&amp;linkCode=as2&amp;tag=theven01-20">Steelheart by Brandon Sanderson</a>. I&rsquo;d describe this story as what happens when Superman is a villain.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B006L74DMC/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006L74DMC&amp;linkCode=as2&amp;tag=theven01-20">Endurance: Shackleton&rsquo;s Incredible Voyage by Alfred Lansing</a>. Remind me not to take a boat to Antarctica. Especially not in the early 20th century. I see why this has been <a href="http://www.imdb.com/title/tt0264578/">made into a movie</a> or <a href="http://www.imdb.com/title/tt0272839/">two</a>&mdash;it is the classic &ldquo;unbelievable but true&rdquo; story.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B001PKV4J0/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001PKV4J0&amp;linkCode=as2&amp;tag=theven01-20">The Dog Whisperer: A Compassionate, Nonviolent Approach to Dog Training by Paul Owens and Norma Eckroate</a>. Not that Dog Whisperer (<a href="http://en.wikipedia.org/wiki/Cesar_Millan">Cesar Milan</a>). Concrete training advice came after a bit of introductory advice that was a little too hippie for me (for example, the authors suggest you feed your dog 100% organic meat and veggies, which I can agree with only in theory). A few of my favorite lessons:</p>
+
+<ul>
+<li>there are three Ds of dog training: distance, duration, and distraction. Once your dog can reliably perform, add distance, duration, or distraction. The grad school version of sit requires that your dog sit and stay for minutes while you&rsquo;re far away and all the dog&rsquo;s favorite things run by.</li>
+<li>speak the command once and give your dog 45 seconds to react; right when your dog does the right thing, praise generously.</li>
+<li>when your dog naturally does something you want to train, immediately name the action and praise your dog. This is called the &ldquo;Magnet Game&rdquo; and it&rsquo;s working well with my dog (we are trying to get her to show us her belly on command). Other examples are for barking (once it has been named you can encourage them to do it only on command) or incidental heeling (if your dog walks beside you, praise the dog and eventually she will learn that staying by you is best).</li>
+</ul>
+
+
+<p><a href="http://www.amazon.com/gp/product/B00ADV2H8O/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ADV2H8O&amp;linkCode=as2&amp;tag=theven01-20">Sly Flourish&rsquo;s Lazy Dungeon Master by Michael Shea</a>. This book is short and sweet with a lot of neat tips, like creating character backstories using <a href="http://en.wikipedia.org/wiki/Fiasco_(role-playing_game">Fiasco</a>). I&rsquo;m glad I read this book before the gaming session because it saved me a lot of time and helped me DM more gracefully, I think.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B006HKVI4E/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006HKVI4E&amp;linkCode=as2&amp;tag=theven01-20">How to Tell a Story by Mark Twain</a>. What a poor title. This book had no direct advice about how to tell a story, and the two stories it contained were less than stellar. At least it was short.</p>
+
+<p><a href="http://samizdat.mines.edu/howto/HowToBeAProgrammer.pdf">How to be a Programmer: A Short, Comprehensive, and Personal Summary by Robert L. Read</a>. This is a nice essay on how to be a programmer&mdash;there&rsquo;s a lot more to the job than simply writing code. Read describes skills needed as a beginner, intermediate, and advanced programmer. I think this book could form the base of a class on software or be elaborated to create a nice book on the programming profession.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[SXSW Interactive 2014 Review]]></title>
@@ -131,23 +164,6 @@ in a couple other books.</p>
 
 
 <p>This task was made bearable by scripting the look-ups with Beautiful Soup in Python. If you&rsquo;re interested, the source is available as <a title="Categorizing Hugo Award winners" href="https://github.com/smholloway/categorizing-hugo-award-winners">categorizing-hugo-award-winners on GitHub</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books read December 2013]]></title>
-    <link href="http://sethholloway.com/books-read-december-2013/"/>
-    <updated>2014-01-08T00:00:00-06:00</updated>
-    <id>http://sethholloway.com/books-read-december-2013</id>
-    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B003BQZ80M/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003BQZ80M&linkCode=as2&tag=theven01-20">Lord of Chaos: Book Six of &lsquo;The Wheel of Time&rsquo;</a> &ndash; I finished up book six of the Wheel of Time series and am ready for a break. This book felt like a slog, but ended really well. Some friends advised I skip the middle, so I think I&rsquo;ll read summaries before jumping to book 12 to start the finale.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0321193857/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321193857&linkCode=as2&tag=theven01-20">The Non-Designer&rsquo;s Design Book</a> &ndash; I thought this book had great bang for the buck. Robin Williams shows how to transform boring, bad designs using CRAP&mdash;that&rsquo;s contrast, repetition, alignment, and proximity. The second edition is a bit dated; perhaps the third edition is closer to today&rsquo;s flat UI trend.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0671212095/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=theven01-20">How to Read a Book: The Classic Guide to Intelligent Reading (A Touchstone book)</a> &ndash; This text asserts that there are four levels of reading: elementary (the basics), inspectional (quickly understanding the big idea), analytical (deep reading), and syntopical (thinking critically and comparing the words against all your related knowledge). I wish I would have read this earlier, but I probably wouldn&rsquo;t have gotten much out of it because I didn&rsquo;t think I needed it. I found that the deep dives into new subjects that I frequently did during my PhD is called syntopical reading.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B000FC11JW/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FC11JW&linkCode=as2&tag=theven01-20">The Effective Executive (Harper business Essentials)</a> &ndash; Management guru, Peter Drucker, provides a  great guide to working on the right things. As with many business books, you could summarize it in one blog post, but then you lose the nuance. I&rsquo;m curious how Drucker would argue that a busy executive should read his entire book instead of a concise summary.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0932633161/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0932633161&linkCode=as2&tag=theven01-20">Are Your Lights On?: How to Figure Out What the Problem Really Is</a> &ndash; Another book from my productivity queue. This was a quick read with some interesting points. I was intrigued by thinking about whose problem something is and how decision makers' interests rarely align with he people experiencing the problem.</p>
 ]]></content>
   </entry>
   
