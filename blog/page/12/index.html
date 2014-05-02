@@ -118,6 +118,95 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/my-latex-resume-template/">My LaTeX resume template</a></h1>
+      <p>Several years ago I started writing my <a href="https://github.com/smholloway/resume/tree/master/latex">resume in LaTeX</a>. It was a great way to learn LaTeX and have fine-grained control over my resume. Overall, I&rsquo;m pleased with it, but I must admit that updating and recompiling the file can be a chore.</p>
+
+<p>I&rsquo;ve had several people ask for my LaTeX resume template, so I figured I would share the wealth. You can find my custom resume file, mostly reduced to a template, in the <a href="https://github.com/smholloway/resume/tree/master/latex">latex folder of my resume repo on GitHub</a>.</p>
+
+<p>To generate your resume, download and edit the .tex file, then compile (I use pdflatex on Mac, Windows, and Linux). Et voila! You have a nice looking PDF resume.</p>
+
+<p><strong>Update</strong> Here&rsquo;s my reply to the question from Yash.</p>
+
+<div>I&#8217;m not sure I understand exactly what you want, but I would start by inserting a new contact section</div>
+
+
+<div></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\contact{Yash}{}{}{}</span></div>
+
+
+<div></div>
+
+
+<div></div>
+
+
+<div>You could also create a new contact command, say a contact header. Compared to the standard contact command you remove the centering and trim it down to whatever number of arguments you want. Here&#8217;s an example for a left-aligned name.</div>
+
+
+<div></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\newcommand{\contactHeader}[1]{</span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;"> \begin{changemargin}{-0.5in}{-0.5in}</span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">    {\Large \scshape {#1}}&#92; \smallskip</span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;"> \end{changemargin}</span></div>
+
+
+<div>}</div>
+
+
+<div></div>
+
+
+<div></div>
+
+
+<div>To control the spacing, consider forcing a newpage, then inserting the header like so</div>
+
+
+<div></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\newpage </span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;"> </span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\contactHeader{Yash}).</span></div>
+
+
+<div></div>
+
+
+<p>Beyond that, you&rsquo;re on your own! Tinker a bit and see what you come up with.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/horray-for-heroku-git-and-rails/">Horray for Heroku, Git, and Rails!</a></h1>
       <p>Last year I started playing with Heroku, and I&rsquo;ve been very impressed so far. Heroku is a free (for basic service) Ruby on Rails hosting environment running in the cloud (Amazon EC2 in this case). Heroku is super simple to set up and use because you deploy with Git! The Git backing encourages version control and allows you to push bug fixes to your central repository as well as the productive server.</p>
 
@@ -438,66 +527,6 @@ information by visiting
 <p>For the third: Trip/Tripp, Trey/Tre, Skip/Skipper</p>
 
 <p>Nicknames even extend to IV, V, and beyond! Maybe I would have learned this sooner if I lived with more WASPs in New England :) Have I missed any others?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/scripting-heroku-backups/">Scripting Heroku backups</a></h1>
-      <p>I was looking for a way to backup applications on Heroku and found a few options. There&rsquo;s a Rails plugin that stores your backups on Amazon S3 (<a title="Heroku S3 Backup plugin" href="https://github.com/edavis10/heroku_s3_backup"><a href="https://github.com/edavis10/heroku_s3_backup">https://github.com/edavis10/heroku_s3_backup</a></a>), but I am satisfied with local backups.</p>
-
-<p>So I updated an existing solution (<a title="Ben Scheirman's blog" href="http://flux88.com/2010/02/scripting-heroku-backups/"><a href="http://flux88.com/2010/02/scripting-heroku-backups/">http://flux88.com/2010/02/scripting-heroku-backups/</a></a>) based on Heroku&rsquo;s updated documentation (<a title="Heroku Docs: pgbackups" href="http://devcenter.heroku.com/articles/pgbackups"><a href="http://devcenter.heroku.com/articles/pgbackups">http://devcenter.heroku.com/articles/pgbackups</a></a>).</p>
-
-<pre># lib/tasks/backup.rake
-
-# Create a backup of a Rails application deployed to Heroku
-# Technique taken from Ben Scheirman - http://flux88.com/2010/02/scripting-heroku-backups/
-# Place file in lib/tasks/backup.rake (replace your_app_name with your application's Heroku name)
-# Invoke using rake your_app_name:backup
-# Dependencies: the heroku gem, the pgbackups heroku addon
-namespace :your_app_name do
-    desc 'Captures a heroku backup. Ensure you have the heroku gem and pgbackups addon installed\n
-                gem install heroku &amp;&amp; heroku addons:add pgbackups'
-
-    task :backup do
-        # capture the backup bundle
-        timestamp = `date -u '+%Y-%m-%d-%H-%M'`.chomp
-        bundle_name = "your_app_name-#{timestamp}"
-        puts "Capturing bundle #{bundle_name}..."
-        `heroku pgbackups:capture --app your_app_name '#{bundle_name}'`
-
-        # download &amp; destroy the bundle we just captured
-        puts "Downloading bundle #{bundle_name}.dump"
-        backup_url = `heroku pgbackups:url`
-        `curl -o '#{bundle_name}'.dump '#{backup_url}'`
-
-        # move the backup
-        puts "Moving bundle to backups/#{bundle_name}.dump"
-        `mkdir backups/`
-        `mv '#{bundle_name}'.dump backups/#{bundle_name}.dump`
-    end
-end</pre>
-
-
-<p>I&rsquo;ve also uploaded the file to my github account: <a title="Seth Holloway's GitHub" href="https://github.com/smholloway/miscellaneous/blob/master/rails/backup.rake"><a href="https://github.com/smholloway/miscellaneous/blob/master/rails/backup.rake">https://github.com/smholloway/miscellaneous/blob/master/rails/backup.rake</a></a></p>
-
-<p>There are a lot of things you could do to extend this further; for example, you could create a cron job to run the task periodically or schedule a few minutes every week to make the backups.</p>
-
-<p>Let me know if you can improve this or if you find it useful.</p>
 
       
       

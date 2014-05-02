@@ -86,30 +86,6 @@ For greater differentiation, I like the [programmer competency matrix](http://si
 
 ---
 
-TR: 
-S - 8
-T - 8
-L - 4
-D - 5
-T/L - 9
-
-Drew:
-S - 5
-T - 9
-L - 6
-D - 9
-T/L - 5
-
-Evan:
-S - 7
-T - 8
-L - 8
-D - 9
-T/L - 6
-
-Seth:
-S - 7
-T - 6
-L - 7
-D - 7
-T/L - 8
+anvil, hammer, arm
+tank, healer, dps
+design, documentation, architect, monkey, operations

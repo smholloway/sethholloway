@@ -118,6 +118,66 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/scripting-heroku-backups/">Scripting Heroku backups</a></h1>
+      <p>I was looking for a way to backup applications on Heroku and found a few options. There&rsquo;s a Rails plugin that stores your backups on Amazon S3 (<a title="Heroku S3 Backup plugin" href="https://github.com/edavis10/heroku_s3_backup"><a href="https://github.com/edavis10/heroku_s3_backup">https://github.com/edavis10/heroku_s3_backup</a></a>), but I am satisfied with local backups.</p>
+
+<p>So I updated an existing solution (<a title="Ben Scheirman's blog" href="http://flux88.com/2010/02/scripting-heroku-backups/"><a href="http://flux88.com/2010/02/scripting-heroku-backups/">http://flux88.com/2010/02/scripting-heroku-backups/</a></a>) based on Heroku&rsquo;s updated documentation (<a title="Heroku Docs: pgbackups" href="http://devcenter.heroku.com/articles/pgbackups"><a href="http://devcenter.heroku.com/articles/pgbackups">http://devcenter.heroku.com/articles/pgbackups</a></a>).</p>
+
+<pre># lib/tasks/backup.rake
+
+# Create a backup of a Rails application deployed to Heroku
+# Technique taken from Ben Scheirman - http://flux88.com/2010/02/scripting-heroku-backups/
+# Place file in lib/tasks/backup.rake (replace your_app_name with your application's Heroku name)
+# Invoke using rake your_app_name:backup
+# Dependencies: the heroku gem, the pgbackups heroku addon
+namespace :your_app_name do
+    desc 'Captures a heroku backup. Ensure you have the heroku gem and pgbackups addon installed\n
+                gem install heroku &amp;&amp; heroku addons:add pgbackups'
+
+    task :backup do
+        # capture the backup bundle
+        timestamp = `date -u '+%Y-%m-%d-%H-%M'`.chomp
+        bundle_name = "your_app_name-#{timestamp}"
+        puts "Capturing bundle #{bundle_name}..."
+        `heroku pgbackups:capture --app your_app_name '#{bundle_name}'`
+
+        # download &amp; destroy the bundle we just captured
+        puts "Downloading bundle #{bundle_name}.dump"
+        backup_url = `heroku pgbackups:url`
+        `curl -o '#{bundle_name}'.dump '#{backup_url}'`
+
+        # move the backup
+        puts "Moving bundle to backups/#{bundle_name}.dump"
+        `mkdir backups/`
+        `mv '#{bundle_name}'.dump backups/#{bundle_name}.dump`
+    end
+end</pre>
+
+
+<p>I&rsquo;ve also uploaded the file to my github account: <a title="Seth Holloway's GitHub" href="https://github.com/smholloway/miscellaneous/blob/master/rails/backup.rake"><a href="https://github.com/smholloway/miscellaneous/blob/master/rails/backup.rake">https://github.com/smholloway/miscellaneous/blob/master/rails/backup.rake</a></a></p>
+
+<p>There are a lot of things you could do to extend this further; for example, you could create a cron job to run the task periodically or schedule a few minutes every week to make the backups.</p>
+
+<p>Let me know if you can improve this or if you find it useful.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/people-selling-their-own-vehicles/">People selling their own vehicles</a></h1>
       <p>I&rsquo;ve become fascinated with the way that people signal they are selling their vehicles. Virtually everytime I drive somewhere, I see a car that is for sale by owner.</p>
 
@@ -425,27 +485,6 @@ Pattern (intervals between notes): root, +2, +2, +1, +2, +2, +2, +1</blockquote
 <p>(3) That&rsquo;s when I found my niche and switched to computers. I knew I was good with computers, yet I was obviously not good at basketball. It was logical to do more of the things I was good at. While not entirely true, that is how life unfolded.</p>
 
 <p>(4) Social currency! Everything we do makes us more interesting. I think this makes for a pretty funny story, and, no, it&rsquo;s not my most embarrassing moment.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/the-economic-case-for-accessibility/">The economic case for accessibility</a></h1>
-      <p>Blind and visually impaired people will never use the Internet like sighted people. It&rsquo;s not fair, but it&rsquo;s true. If it makes you feel better, visually impaired people have text read to them at 400+ words per minute (about three times faster than the rest of us). Making the web accessible is not easy, nor does it seem economically feasible when only 2.6% of the population is effected (that&rsquo;s <a title="Wikipedia: Blindness:Epidemiology" href="http://en.wikipedia.org/wiki/Blindness#Epidemiology" target="_blank">161 million people worldwide</a>). For those unconvinced that hundreds of extra hours of development and testing is worthwhile, consider the true economic value: search engine optimization (SEO). It turns out that simple accessibility changes also lead to higher PageRank, probably because web crawlers are blind. So dress up your images, links, and videos: you&rsquo;ll make your site easier to find and easier to read.</p>
 
       
       
