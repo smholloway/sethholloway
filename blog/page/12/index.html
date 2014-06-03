@@ -118,6 +118,50 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/a-few-thoughts-on-ruby/">A few thoughts on Ruby</a></h1>
+      <p>This is not an exhaustive post, just a few thoughts in reaction to reading about and working with <a title="Ruby Lang Dot Org" href="http://www.ruby-lang.org/en/">Ruby</a>.</p>
+
+<p><a title="Wikipedia: Ruby" href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a>, a dynamic OO language, was developed by Yukihiro &ldquo;Matz&rdquo; Matsumoto in the mid &lsquo;90s. He wanted a powerful, unsurprising language. He borrowed from Perl, Smalltalk, and Lisp (even though <a title="Stege Yegge: Lisp is not an acceptable Lisp" href="http://steve-yegge.blogspot.com/2006/04/lisp-is-not-acceptable-lisp.html">Lisp is not an acceptable Lisp</a>) while trying to focus on usability and following the <a title="Wikipedia: POLA" href="http://en.wikipedia.org/wiki/Principle_of_least_astonishment">principle of least astonishment (POLA)</a>.</p>
+
+<p>Ruby saw it&rsquo;s popularity rise with Ruby on Rails (a popular web framework). Ruby is a really neat language: you can be high-level, you can use functional programming techniques, &hellip; all that good stuff. But enough of the history, here are my likes and dislikes in no particular order:</p>
+
+<ul>
+<li>It is really easy to change a variable&rsquo;s type. This is a general gripe with dynamic languages. I generally like the duck-typing, but you need to be disciplined with development practices&mdash;just because you can switch from a Fixnum to a String doesn&rsquo;t mean you should!</li>
+<li>The lack of tail call optimization (TCO)! Just kidding. I borrowed this complaint from people smarter than myself.</li>
+<li>I hate seeing &ldquo;TypeError: can&rsquo;t convert Fixnum into String!&#8221; I wish Ruby would cast to string automatically; objects have to_s, but you have to explicitly append to_s when outputting non-strings. Ruby knows you&rsquo;re trying to output something as a string and Ruby has a method to cast to a string, so why not do it for me? The better way to output variables is [&#8220;variable_name = #{variable_name}&rdquo;] but I find [&ldquo;variable_name = &rdquo; + variable_name] more clear.</li>
+<li>I don&rsquo;t like returning the last statement in a function without a return keyword. You can write def sum(a,b) a+b; end and have a function that returns a+b. You can also write def sum(a,b) return a+b; end. I find the latter more clear. The problem gets worse when you have complex equations or ternary/inline if statements. Pros will probably understand this, but I have to think twice about what the method does: def foo(a,b) a&gt;0 ? a+b : a-b; end</li>
+<li>Probably my biggest complaint is lack of explicit information, like parentheses. From the example above, you have parentheses in function definitions, but parentheses are not required for function calls; using our example above, foo a b is equivalent to foo(a, b). When you mix in symbols, default parameters, aliases, and several ways to do the same thing, programs can be very hard to follow. Digging through the Ruby on Rails source has left me scratching my head more than once.</li>
+<li>I appreciate that introspection/reflection is made simple: just call Object.methods and you know the object&rsquo;s capabilities; call Object.class to find out its class.</li>
+<li>I get tripped up by the handling of Nil, True, and False. Every object can be evaluated as a boolean, but things like empty strings, empty arrays and hashes, so you end up with lots of conditionals that check for nil or empty. The Rails helper method blank? is nice, but it does not work as expected with booleans. Also all integer values evaluate to true&mdash;even 0. As an Electrical/Computer Engineer I think computers have 1s and 0s&mdash;not trues and falses&mdash;and a 0 should map to false. A nil object is false, but not all false evaluations are caused by a nil; this can necessitate extra processing to determine why the program branched the way it did.</li>
+<li>I love the range and capability of built-in functions! For example, you can turn any object into a string (Object.to_s). Need to generate permutations, just use <a title="Ruby: Array - Permutation" href="http://www.ruby-doc.org/core/classes/Array.html#M000287">Array.permutations</a>. Dealing with peoples&#8217; names? You can use <a title="Ruby: String - Capitalize" href="http://www.ruby-doc.org/core/classes/String.html#M001157">String.capitalize</a> to capitalize the first letter of each word in the string.</li>
+<li>Sometimes I have to wonder &ldquo;who named the great built-in functions?&rdquo; Can the non-standard names be explained by the language creator being Japanese or are the names just strange for me? For example in <a title="Ruby: Array" href="http://www.ruby-doc.org/core/classes/Array.html">Array</a> there are several similar methods like flatten vs flatten! vs to_a vs to_ary, as well as to_s vs inspect. In <a title="Ruby: String" href="http://www.ruby-doc.org/core/classes/String.html">String</a> there&rsquo;s chomp, chop, strip, squeeze&hellip; which one trims? Sure, I&rsquo;ve learned now but it is not obvious in my opinion.</li>
+<li>The Ruby convention is that &ldquo;dangerous&rdquo; methods are supposed to have an exclamation point, which can get confusing when exclamation points are also the NOT operator. The dangerous methods can act in place or return nil. The return bit breaks consistency because you have to selectively assign variables instead of using a standard pattern. @var = @string.strip! will make @var nil if your @string does not have whitespace (leaving @string unchanged) or it will make @var the stripped string, but @string is also changed. @var is properly assigned if you omit the exclamation point and just use @var = @string.strip.</li>
+<li>Along the lines of the &ldquo;dangerous&rdquo; methods, methods that return a boolean should have a question mark like Object.nil?. Is the following line clear to you? @var.nil? ? @var.strip : @var.strip! A little trivia: the method! and method? is a convention borrowed from Scheme.</li>
+<li>Operator precedence is tricky; for example, &amp;&amp; is equivalent to and, yet they have different precedence. Similar with or vs ||, not vs !</li>
+<li>The community is great, but the divide between Ruby and Rails is sometimes too narrow. I recently tried to find a Ruby solution and the top hits were Rails-specific. This isn&rsquo;t bad if you&rsquo;re doing Rails development, and it may be beneficial if patches make it into the language and the framework. I&rsquo;ll be curious to see how this unfolds.</li>
+</ul>
+
+
+<p>That&rsquo;s all I&rsquo;ve got for now! Did I miss something?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/my-latex-resume-template/">My LaTeX resume template</a></h1>
       <p>Several years ago I started writing my <a href="https://github.com/smholloway/resume/tree/master/latex">resume in LaTeX</a>. It was a great way to learn LaTeX and have fine-grained control over my resume. Overall, I&rsquo;m pleased with it, but I must admit that updating and recompiling the file can be a chore.</p>
 
@@ -500,33 +544,6 @@ information by visiting
  }</p></li>
 </ul>
 
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/who-knew-there-were-so-many-nicknames/">Who knew there were so many nicknames?</a></h1>
-      <p>After meeting a III I got interested in nicknames and learned a thing or two. Here&rsquo;s a quick list I compiled from people I&rsquo;ve met and information I found on the <a title="Wikipedia: Nickname" href="http://en.wikipedia.org/wiki/Nickname">intertubes</a> and <a title="Wikipedia: Suffix" href="http://en.wikipedia.org/wiki/Suffix_(name)">wikifacegoogles</a>.</p>
-
-<p>For the second: Junior, J.R., June, Chip, Duece, Two, Bud, &lt;First name initial&gt;.J. (e.g., Seth Jr. would be S.J.), Little &lt;Name&gt; (e.g., Little Seth), Younger &lt;Name&gt; (e.g., Younger Seth), Skip (particularly if the name skipped a generation), Sonny</p>
-
-<p>For the third: Trip/Tripp, Trey/Tre, Skip/Skipper</p>
-
-<p>Nicknames even extend to IV, V, and beyond! Maybe I would have learned this sooner if I lived with more WASPs in New England :) Have I missed any others?</p>
 
       
       
