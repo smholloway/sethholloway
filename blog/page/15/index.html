@@ -118,6 +118,62 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/svnignore-example-for-java/">.svnignore Example for Java</a></h1>
+      <p>.svnignore is my attempt to create the equivalent of .gitignore. After creating the file I had to set the svn:ignore property before it worked:
+<code>svn propset svn:ignore -F .svnignore .</code></p>
+
+<p>First, a little background: my PhD work uses <a title="Sun SPOT World" href="http://www.sunspotworld.com/">Sun (Oracle) SPOT devices</a> that run the <a title="Squawk VM" href="http://www.research.sun.com/projects/squawk/index.html">Java Squawk VM</a> (kinda like <a title="Wikipedia: Java Micro Edition" href="http://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition">Java ME</a>). For version control, we use <a title="Subversion" href="http://subversion.tigris.org/">Subversion</a>. In keeping with good version control practices, I want to avoid putting binary and compiled files into version control. The easiest way to do this is a solid .svnignore file. I spent a few minutes trying to find a .svnignore example for Java and could not find anything, so I built one myself based on several examples I saw.</p>
+
+<p>.svnignore</p>
+
+<blockquote>
+    *.class
+    build/*
+    j2meclasses/*
+    .classpath
+    .project
+    .settings
+    *.war
+    *~
+    *.lock
+    *.DS_Store
+    *.swp
+    *.out
+    *.bak
+    *.tmp
+    *.log
+    log*.txt
+    .idea
+    .git
+</blockquote>
+
+
+<p>From the top, ignore class files, the build directory, the classes directory, our local classpath/project/settings, the compiled deployment package (WAR/JAR), any tilde backup files, a OS X specific directory,  VI files that are being edited, log files, backup and temporary files, IDE files (thanks <a title="Lane Holloway is awesome" href="http://www.laneholloway.com/">Lane</a>), and finally any git files (this part could be expanded to include other version control systems like Bazaar or Mercurial).</p>
+
+<p>If I missed something, please let me know.</p>
+
+<p><strong>UPDATE</strong></p>
+
+<p>GitHub has published a list of .gitignore files for a number of languages: <a title="GitHub's gitignore files" href="https://github.com/github/gitignore"><a href="https://github.com/github/gitignore">https://github.com/github/gitignore</a></a>. You can pop these into your .svnignore and apply the properties.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/use-loyalty-rates-instead-of-special-introductory-pricing/">Use loyalty rates instead of special introductory pricing</a></h1>
       <p>Yesterday I heard a commercial for Time Warner Cable. They were advertising their cable/Internet bundles and named a price only to add a caveat that this price was for new subscribers only. This comes after I get a letter detailing Time Warner&rsquo;s impending price hike. It would feel great to exclaim, &ldquo;I like Time Warner! They&rsquo;ve treated me right and kept my rates fair.&rdquo; Instead, I say, &ldquo;I chose Time Warner because I don&rsquo;t have any other real options and their introductory rate was competitive.&rdquo;</p>
 
@@ -375,37 +431,6 @@
 
 
 <p>Andrea and Alison have some really neat ideas for how to help people! For now, they can support people (students and technology professionals, so far) in the Austin area. I&rsquo;m a firm believer in the power of communication skills, so I encourage anyone who has problems being understood to contact them.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/on-the-usability-of-my-old-samsung-cell-phone/">On the usability of my old Samsung cell phone</a></h1>
-      <p>For years, I lived without a smart phone. (Looking back, I&rsquo;m not sure I was truly living, but it was something resembling life.) My little Samsung phone had great battery life, clear call quality, and it fit nicely in my pocket. The phone never failed me when calling or texting (although I don&rsquo;t care for T9). Overall, great usability! For all its good, however, the alarm was really funky! I&rsquo;m not sure how the interactions developed. Let me illustrate with a few examples:</p>
-
-<ul>
-<li>Once, while traveling overseas the alarm went off despite the phone being powered off. After that, I made sure alarms were inactive before I turned off the phone.</li>
-<li>If the alarm went off and you pressed the volume up button on the side of the phone, the alarm was snoozed; however, if you pressed the volume down button, the alarm was canceled. Neat that you could control the alarm without opening the phone! But the buttons are small to begin with and they&rsquo;re adjacent to one another so it is very hard to hit the proper one.  I used the alarm for  appointments as well as my primary wake-up call. Many mornings I fumbled in the dark to grab my phone; in the process I would hit the mute button. If I was really tired, this meant I slept undisturbed for an extra couple hours. Whoops.</li>
-<li>You could not snooze or accept the alarm by opening the phone while it was going off. Near as I could figure, opening the phone while the alarm rang was equivalent to snoozing. Instead, you had to go into the alarm menu, toggle the alarm on then off. This reveals another odd feature:</li>
-<li>There were only two states: on and off. Snoozing the alarm would show the alarm as off, yet it would continue to buzz periodically. Confusing!</li>
-</ul>
-
-
-<p>So how would I fix it? A couple simple things: the alarm should properly convey the three possible states: on, snooze, off. A bell icon in addition to off could take the place of a more explicit &ldquo;SNOOZE&rdquo; state, but the information should be present. Next, make both external buttons snooze. Now, a user can quiet the alarm or give themself an extra few minutes sleep. Once you open the phone, you can tell what state the alarm is in and take the proper action. Et viola!</p>
 
       
       

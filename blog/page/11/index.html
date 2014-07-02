@@ -118,6 +118,35 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/cmo-chief-morale-officer/">CMO - Chief Morale Officer</a></h1>
+      <p>Companies should create a Chief Morale Officer (CMO) whose sole job is to improve the situation for the company&rsquo;s employees. I believe that morale is equally important as other C-level positions (accounting/finance, strategy/vision, or technology) so it should be treated with similar respect.</p>
+
+<p><a title="Wikipedia: Knowledge Worker Productivity" href="http://en.wikipedia.org/wiki/Knowledge_work_productivity" target="_blank">Knowledge worker productivity</a> is very important. We&rsquo;re seeing renewed interest in the area and a few neat studies, such as this one using <a title="Arxiv MT and productivity" href="http://www.technologyreview.com/blog/arxiv/25636/">Mechanical Turk</a>. Dan Pink gave a <a title="TED: Dan Pink on Motivation" href="http://www.ted.com/talks/dan_pink_on_motivation.html" target="_blank">great TED talk</a> on the subject in which he declares that workers need three things: mastery, autonomy, and purpose. I firmly believe that morale is the X-factor that leads to continuing success for companies.</p>
+
+<p>Google and Apple have employees that are proud, motivated, and happy. And these people continue to produce amazing products. Many acquisitions are done in hopes of gaining the best and brightest people, but as soon as these people join the new company, their morale drops and their ideas dry up. A happy worker is a productive worker; they bring ideas, energy, enthusiasm, care and concern. An unhappy programmer may hammer out 100 lines of undocumented, uncreative code a day, while a happy programmer would write 200 lines of well documented, elegant code with tests. Being happy removes distractions and helps you find your flow.</p>
+
+<p>As we move more and more towards a service economy, many jobs cannot be done by unhappy people. Happy people are better at service. <a title="Alain de Botton on the Pleasures and Sorrows of Work" href="http://www.econtalk.org/archives/2010/09/de_botton_on_th.html">Humans can be thought of as complex machines</a>. If you&rsquo;re going to acquire a complex machine, take care of it. You should not break your complex tools or your business fails. Overall, businesses should be getting nicer, although I&rsquo;m not sure that&rsquo;s true.</p>
+
+<p>Companies should create a Chief Morale Officer (CMO) whose sole job is to improve the situation for the company&rsquo;s employees. Make work fun and reap the rewards!</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/learning-htmlcss-web-design/">Learning HTML/CSS (web design)</a></h1>
       <p><strong>Note: I started writing this post and it got long, really fast. I&rsquo;m going to publish what I have and worry about tuning it up later&hellip;</strong></p>
 
@@ -567,86 +596,6 @@ Followers</a></td>
 <p>While we research an integrated web language there&rsquo;s also room for people to research a new application container. The web browser replacement could use the same stack (TCP/IP, HTTP and HTML) or define new protocols.</p>
 
 <p>Did I miss an option? What do you think will win?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/highlighting-the-current-page-link-in-a-navigation-bar-template/">Highlighting the current page link in a navigation bar template</a></h1>
-      <p>I have not seen anything about how to properly highlight what page you&rsquo;re currently on when using a templated navigation bar on a dynamic webpage&hellip; I couldn&rsquo;t even google for a solution because I don&rsquo;t know the correct terminology.</p>
-
-<p>There are a number of ways to highlight the link to the page you&rsquo;re currently on. For example, you could pass a parameter and alter the view based on the parameter; or you could include the navigation pane in each content view then apply the highlight with the page. I don&rsquo;t think either of those solutions is very clean, so here&rsquo;s my solution using HTML, CSS, and jQuery (it should work across browsers).</p>
-
-<pre>&lt;!-- index.html --&gt;</pre>
-
-
-<pre>&lt;div id="topnav"&gt;</pre>
-
-
-<pre>   &lt;ul&gt;</pre>
-
-
-<pre>       &lt;li&gt;&lt;a href="home"&gt;Home&lt;/a&gt;&lt;/li&gt;</pre>
-
-
-<pre>       &lt;li&gt;&lt;a href="about"&gt;About&lt;/a&gt;&lt;/li&gt;</pre>
-
-
-<pre>       &lt;li&gt;&lt;a href="links"&gt;Links&lt;/a&gt;&lt;/li&gt;</pre>
-
-
-<pre>       &lt;li&gt;&lt;a href="services"&gt;Services&lt;/a&gt;&lt;/li&gt;</pre>
-
-
-<pre>       &lt;li&gt;&lt;a href="contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</pre>
-
-
-<pre>   &lt;/ul&gt;</pre>
-
-
-<pre>&lt;/div&gt;</pre>
-
-
-<p>The unordered list is styled as a standard navigation menu (A List Apart has a nice article and book about it), and I have it setup to highlight whatever menu item is hovered. To highlight the current page, I set that item to the same background color as the hover effect. A little snippet here:</p>
-
-<pre>/* application.css */</pre>
-
-
-<pre>a:hover, a:focus { background: #454d2f; }</pre>
-
-
-<pre>.highlight { background: #454d2f; }</pre>
-
-
-<p>Now, all that&rsquo;s left is to let jQuery apply the highlight class to the menu item corresponding to the page we&rsquo;re on; an effect I achieve thusly:</p>
-
-<pre>// application.js</pre>
-
-
-<pre>$('#topnav').ready(function() {
-    var page = window.location.href.split("/")[3]; // after the slash at the end of the domain name 
-    if (page == "") { page = "home"; }
-    $(this).find("a[href$="+page+"]").addClass("highlight"); 
-});</pre>
-
-
-<p>You could do this without jQuery, but it is my favorite JavaScript library and I like to use it :)</p>
-
-<p>Does anyone know of a better way?</p>
 
       
       
