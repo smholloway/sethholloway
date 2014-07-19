@@ -4,7 +4,7 @@
   <title><![CDATA[Seth Holloway]]></title>
   <link href="http://sethholloway.com/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2014-07-01T21:18:57-05:00</updated>
+  <updated>2014-07-19T11:20:23-05:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Announcing Swiftgive, free mobile fundraising and tipping]]></title>
+    <link href="http://sethholloway.com/swiftgive/"/>
+    <updated>2014-07-17T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/swiftgive</id>
+    <content type="html"><![CDATA[<p>I’m proud to present <a href="https://swiftgive.com">Swiftgive.com</a>. Swiftgive provides free,
+mobile-friendly money transfer. By scanning a QR code you can easily
+give some money.</p>
+
+<p>If you’re trying to raise money, just create a fund on the site.  After
+creating a fund, you can direct people to your fund’s webpage (which
+would look something like <a href="http://swiftgive.com/funds/swiftgive">this</a>) or buy
+specially coded marketing products directly from the site. All marketing
+products have your fund’s give code on them (basically fancy QR codes).
+Give codes are readable by most barcode reading apps.</p>
+
+<p>Here’s an example&mdash;feel free to scan it and give us a few bucks ;&ndash;)</p>
+
+<p><img src="http://i.imgur.com/evnxxKy.png" alt="donate to swiftgive" /></p>
+
+<p>My friend and <a href="http://www.oilfieldintelligence.com">Oilfield
+Intelligence</a> co-founder, Ken, came
+up with the idea when he was rushing to the airport late one evening.
+He took a bus from the parking lot to the terminal and the bus driver
+provided excellent service, helping him with bags and even cracking
+jokes the entire drive.  When Ken went to tip the driver, he realized he
+didn’t have any small bills (nobody carries cash anymore!).  He had a
+cell phone and a debit card, but no cash. So, he did what any
+industrious programmer would do: he created a prototype of what tipping
+should look like. I joined him to help flesh out the concept and we’re
+now ready to pull back the curtain.</p>
+
+<p>We’ve talked to musicians, valets, and friends in various fields, and
+the response has been positive. Anyone looking to accept money&mdash;be it
+tips or fundraising&mdash;can sign up and use the site for free. You can even
+help promote someone else’s fund.</p>
+
+<p>In an alpha launch we helped transfer over $1,000, so we think the idea
+is helpful. We definitely hope that it is.</p>
+
+<p>There are other services out there that offer mobile payments, but
+Swiftgive approaches the problem a little differently. Swiftgive
+believes that mobile tipping and fundraising should be easy and
+inexpensive.</p>
+
+<p>Swiftgive makes it easy to get professional quality marketing products
+to show off your fund.  Receivers don’t need a smartphone to accept
+money&mdash;just an email address and debit card. Also, Swiftgive uses debit
+cards only.  Other services generally rely on credit cards&mdash;they use
+payment processors and pass the fees onto you. Credit card fees (usually
+around 2.9% + $0.30 per transaction) can eat away a substantial amount
+of your earnings, especially for small payments. This is the same reason
+any self-respecting business owner will grimace when you try to buy a
+pack of gum with your Visa.  We’re more interested in getting money to
+people than to credit card processing companies.</p>
+
+<p>Go forth and raise some money or tip that bus driver for great
+service&mdash;even if you don’t have any cash.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Books Read June 2014]]></title>
@@ -430,25 +491,6 @@ important product, but we can get a lot of stars ☻</p>
 <p><a href="http://www.amazon.com/gp/product/0795333765/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0795333765&amp;linkCode=as2&amp;tag=theven01-20">If This Isn&rsquo;t Nice, What Is?: Advice for the Young</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0795333765" width="1" height="1" border="0" /></p>
 
 <p><a href="http://www.amazon.com/gp/product/B006MHF95G/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006MHF95G&amp;linkCode=as2&amp;tag=theven01-20">Beethoven&rsquo;s Shadow (Kindle Single)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=B006MHF95G" width="1" height="1" border="0" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books read June 2013]]></title>
-    <link href="http://sethholloway.com/books-read-june-2013/"/>
-    <updated>2013-07-04T00:00:00-05:00</updated>
-    <id>http://sethholloway.com/books-read-june-2013</id>
-    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0553212788/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0553212788&amp;linkCode=as2&amp;tag=theven01-20">The Prince (Bantam Classics)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0553212788" width="1" height="1" border="0" /></p>
-
-<p><a href="http://www.amazon.com/gp/product/0787967076/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0787967076&amp;linkCode=as2&amp;tag=theven01-20">The Contrarian&rsquo;s Guide to Leadership</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0787967076" width="1" height="1" border="0" /></p>
-
-<p><a href="http://www.amazon.com/gp/product/1936041758/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1936041758&amp;linkCode=as2&amp;tag=theven01-20">The Art of War</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1936041758" width="1" height="1" border="0" /></p>
-
-<p><a href="http://www.amazon.com/gp/product/0884271951/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0884271951&amp;linkCode=as2&amp;tag=theven01-20">The Goal: A Process of Ongoing Improvement</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0884271951" width="1" height="1" border="0" /></p>
-
-<p><a href="http://www.amazon.com/gp/product/0061733512/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0061733512&amp;linkCode=as2&amp;tag=theven01-20">Self-Compassion: Stop Beating Yourself Up and Leave Insecurity Behind</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0061733512" width="1" height="1" border="0" /></p>
-
-<p><a href="http://www.amazon.com/gp/product/1400280222/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1400280222&amp;linkCode=as2&amp;tag=theven01-20">Mentoring 101</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1400280222" width="1" height="1" border="0" /></p>
 ]]></content>
   </entry>
   

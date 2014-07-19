@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://sethholloway.com/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2014-07-01T21:18:57-05:00</updated>
+  <updated>2014-07-19T11:20:23-05:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,67 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Announcing Swiftgive, free mobile fundraising and tipping]]></title>
+    <link href="http://sethholloway.com/swiftgive/"/>
+    <updated>2014-07-17T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/swiftgive</id>
+    <content type="html"><![CDATA[<p>I’m proud to present <a href="https://swiftgive.com">Swiftgive.com</a>. Swiftgive provides free,
+mobile-friendly money transfer. By scanning a QR code you can easily
+give some money.</p>
+
+<p>If you’re trying to raise money, just create a fund on the site.  After
+creating a fund, you can direct people to your fund’s webpage (which
+would look something like <a href="http://swiftgive.com/funds/swiftgive">this</a>) or buy
+specially coded marketing products directly from the site. All marketing
+products have your fund’s give code on them (basically fancy QR codes).
+Give codes are readable by most barcode reading apps.</p>
+
+<p>Here’s an example&mdash;feel free to scan it and give us a few bucks ;&ndash;)</p>
+
+<p><img src="http://i.imgur.com/evnxxKy.png" alt="donate to swiftgive" /></p>
+
+<p>My friend and <a href="http://www.oilfieldintelligence.com">Oilfield
+Intelligence</a> co-founder, Ken, came
+up with the idea when he was rushing to the airport late one evening.
+He took a bus from the parking lot to the terminal and the bus driver
+provided excellent service, helping him with bags and even cracking
+jokes the entire drive.  When Ken went to tip the driver, he realized he
+didn’t have any small bills (nobody carries cash anymore!).  He had a
+cell phone and a debit card, but no cash. So, he did what any
+industrious programmer would do: he created a prototype of what tipping
+should look like. I joined him to help flesh out the concept and we’re
+now ready to pull back the curtain.</p>
+
+<p>We’ve talked to musicians, valets, and friends in various fields, and
+the response has been positive. Anyone looking to accept money&mdash;be it
+tips or fundraising&mdash;can sign up and use the site for free. You can even
+help promote someone else’s fund.</p>
+
+<p>In an alpha launch we helped transfer over $1,000, so we think the idea
+is helpful. We definitely hope that it is.</p>
+
+<p>There are other services out there that offer mobile payments, but
+Swiftgive approaches the problem a little differently. Swiftgive
+believes that mobile tipping and fundraising should be easy and
+inexpensive.</p>
+
+<p>Swiftgive makes it easy to get professional quality marketing products
+to show off your fund.  Receivers don’t need a smartphone to accept
+money&mdash;just an email address and debit card. Also, Swiftgive uses debit
+cards only.  Other services generally rely on credit cards&mdash;they use
+payment processors and pass the fees onto you. Credit card fees (usually
+around 2.9% + $0.30 per transaction) can eat away a substantial amount
+of your earnings, especially for small payments. This is the same reason
+any self-respecting business owner will grimace when you try to buy a
+pack of gum with your Visa.  We’re more interested in getting money to
+people than to credit card processing companies.</p>
+
+<p>Go forth and raise some money or tip that bus driver for great
+service&mdash;even if you don’t have any cash.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Books Read June 2014]]></title>
@@ -128,40 +189,6 @@ had for too long in a sort of literary spring cleaning.</p>
 <p><a href="http://www.amazon.com/gp/product/B006HKVI4E/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006HKVI4E&amp;linkCode=as2&amp;tag=theven01-20">How to Tell a Story by Mark Twain</a>. What a poor title. This book had no direct advice about how to tell a story, and the two stories it contained were less than stellar. At least it was short.</p>
 
 <p><a href="http://samizdat.mines.edu/howto/HowToBeAProgrammer.pdf">How to be a Programmer: A Short, Comprehensive, and Personal Summary by Robert L. Read</a>. This is a nice essay on how to be a programmer&mdash;there&rsquo;s a lot more to the job than simply writing code. Read describes skills needed as a beginner, intermediate, and advanced programmer. I think this book could form the base of a class on software or be elaborated to create a nice book on the programming profession.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SXSW Interactive 2014 Review]]></title>
-    <link href="http://sethholloway.com/sxsw-interactive-2014-review/"/>
-    <updated>2014-03-15T00:00:00-05:00</updated>
-    <id>http://sethholloway.com/sxsw-interactive-2014-review</id>
-    <content type="html"><![CDATA[<p>Toopher bought the devs SXSW Interactive badges this year, and we took advantage of the conference being so close. Overall, I&rsquo;m glad I went. I&rsquo;m grateful for a company that sponsors my conference-going&mdash;it was great to experience South By with my co-workers too.  SXSW really is magical, and I&rsquo;m glad to have it in my city.</p>
-
-<h1>The Good</h1>
-
-<p>SXSW is overwhelming in the best kind of way. There&rsquo;s a lot to like:</p>
-
-<ul>
-<li>Amazing energy.</li>
-<li>Great talks in a variety of formats including book readings, panel discussions, interviews, workshops, and standard lecture-style talks. Some of the highlights include <a href="http://en.wikipedia.org/wiki/Neil_deGrasse_Tyson">Neil deGrasse Tyson</a>, <a href="http://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a>, <a href="http://en.wikipedia.org/wiki/Edward_snowden">Edward Snowden</a>, <a href="http://about.me/jeremiahlee">Jeremiah Lee</a>, and my favorite talk was given by husband and wife couple Jennifer and <a href="http://en.wikipedia.org/wiki/Jim_Moss">Jim Moss</a> who are building <a href="http://www.plasticitysoft.com/">software to improve happiness at work</a>.</li>
-<li>So much to do! At virtually anytime, there were at least three talks I would have liked to see. On top of talks, there was a trade show, various parties and giveaways, meetups, personal meetings and a man&rsquo;s gotta eat sometime. One odd exception to the too-much-to-do-at-once plight was the <a href="http://en.wikipedia.org/wiki/Adam_Savage">Adam Savage (Mythbusters)</a> keynote, which was the only event at 2pm on Monday.</li>
-</ul>
-
-
-<h1>The Bad</h1>
-
-<p>The conference is a victim of its success and has clearly outgrown its space. I think all the negatives are related to how big the conference is, although if SXSW was smaller it would lose the grandeur. Some negatives:</p>
-
-<ul>
-<li>Sessions tended to lack depth, which makes sense because there were thousands of people from diverse backgrounds. You trade depth for breadth at SXSW.</li>
-<li>Traffic of all kinds. There were just too many people getting around downtown, so the streets and sidewalks were crammed with cars, bikes, skateboard, and people on foot. The sheer number of people made for long lines for everything from bathrooms to food, to talks.</li>
-<li>Poor planning. This wasn&rsquo;t the norm, but it happened a few times; for example, <a href="http://en.wikipedia.org/wiki/Timothy_Ferriss">Tim Ferriss</a>, who could probably have packed a keynote, was tucked away in a small room so hundreds of people were turned away.</li>
-<li>Somewhat related to poor planning and traffic: it was hard to get from one session to another. I attended sessions in the Austin Convention Center, the Sheraton, the Hilton, the Driskill, the Four Seasons, the Omni, and the Palmer Event Center. With zero to 30 minutes between sessions, I was routinely late. A few times I missed getting into the next session because I stayed until the end of the current session. I felt that encouraged bad behavior, like bailing early and skipping sessions in order to wait in line for the next talk.</li>
-</ul>
-
-
-<p>There are no easy solutions here, and the organizers really did a great job. Each negative I&rsquo;ve listed could be viewed as a positive: the conference is a great place to hear about new ideas; the number of people makes the conference epic; sessions filling up means they are interesting talks, and, truthfully, across five days I was able to see almost everything I wanted to see.</p>
 ]]></content>
   </entry>
   
