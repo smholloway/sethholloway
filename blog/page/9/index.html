@@ -118,6 +118,32 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/a-brief-javascript-overview/">A brief JavaScript overview</a></h1>
+      <p>I presented <a href="https://docs.google.com/present/embed?id=df9bw4hb_115chv28jfg" title="A Brief Overview of JavaScript by Seth Holloway">a brief overview of JavaScript</a> at work last week. In only 30 minutes I was not able to cover a lot, so I tried to hit the high points. While the presentation was meant to combine with my speech, others may find it useful too.</p>
+
+<iframe src="https://docs.google.com/present/embed?id=df9bw4hb_115chv28jfg" frameborder="0" width="410" height="342"></iframe>
+
+
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/dijkstra-on-computer-science-education/">Dijkstra&#8217;s View of Computer Science Education</a></h1>
       <p><a title="Wikipedia: Dijkstra" href="http://en.wikipedia.org/wiki/Edsger_Dijkstra">Edsger Dijkstra</a>, one of the most influential figures in Computer Science and the most famous Computer Scientist to never own a computer, had very strong opinions on Computer Science education. He expressed his feelings in an essay titled &ldquo;The Cruelty of Really Teaching Computer Science.&#8221; You can read Dijkstra&rsquo;s original, hand-written note as <a title="Dijkstra's view on CS education" href="http://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1036.PDF">PDF</a>, or the <a title="Dijkstra's view transcribed" href="http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html">transcription</a>, or the Wikipedia <a title="Wikipedia: Dijkstra's view on CS education" href="http://en.wikipedia.org/wiki/The_Cruelty_of_Really_Teaching_Computer_Science">page</a>. The piece was also <a title="Slashdot: Dijkstra's view on CS education" href="http://news.slashdot.org/article.pl?sid=08%2F12%2F02%2F1410254">covered on Slashdot</a> with lots of nice comments. Here&rsquo;s an excerpt:</p>
 
@@ -660,114 +686,6 @@ as little as possible.</blockquote>
 
 
 <p>Would you enjoy any of these features? What would you do if you managed Angry Birds?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/a-few-programming-notes-to-myself/">A few programming notes to myself</a></h1>
-      <p>In JavaScript, if on a non-boolean input will check existence. In Ruby, the same test will also check for existence with &ldquo;&rdquo; considered true; you receive a warning (warning: string literal in condition). Python performs like JavaScript. In Java, you receive a type error (Type mismatch: cannot convert from String to boolean). I show the output from JavaScript console, irb, python, and Java.</p>
-
-<p>JavaScript</p>
-
-<pre>&gt; if ("false") { console.log("true"); } else { console.log("false"); }
-true</pre>
-
-
-<pre>&gt; if ("") { console.log("true"); } else { console.log("false"); }
-false</pre>
-
-
-<p>Ruby</p>
-
-<pre>puts "false" ? "true" : "false"
-(irb):4: warning: string literal in condition
-true</pre>
-
-
-<pre>&gt; puts "" ? "true" : "false"
-(irb):1: warning: string literal in condition
-true</pre>
-
-
-<p>Python</p>
-
-<pre>&gt;&gt;&gt; if ("false"):
-...     print "true"
-... else:
-...     print "false"
-...
-true</pre>
-
-
-<pre>&gt;&gt;&gt; if (""):
-...     print "true"
-... else:
-...     print "false"
-...
-false</pre>
-
-
-<p>Java</p>
-
-<pre>if ("false") {
-    System.out.println("true");
-} else {
-    System.out.println("false");
-}
-
-Exception in thread "main" java.lang.Error: Unresolved compilation problem:
-Type mismatch: cannot convert from String to boolean</pre>
-
-
-<p>No matter how the language handles it, it&rsquo;s bad coding style because of erratic behavior. Save the next programmer some grief and specify the full expression whose truthiness you are seeking.</p>
-
-<p>====================</p>
-
-<p>JavaScript is not multi-threaded; the spec does not specify any threading or synchronization. JavaScript in modern browsers is single-threaded. Handling multiple actions at once is done by firing off functions and waiting for callbacks.</p>
-
-<p>====================</p>
-
-<p>In Java, the default equals method will compare the memory location of two objects; the default hashcode implementation will return the memory address.</p>
-
-<p>====================</p>
-
-<p>In Java, all data structures in Collections offer a method, size(), to access the data structure&rsquo;s size. Primitive arrays have a property, length (note the difference in name and method vs property). Strings use a method, length(), to make things more confusing!</p>
-
-<pre>List&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
-System.out.println(list.size());
-0</pre>
-
-
-<pre>int array[] = new int[10];
-System.out.println(array.length);
-10</pre>
-
-
-<pre>String string = new String();
-System.out.println(string.length());
-0</pre>
-
-
-<p>====================</p>
-
-<p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
-
-<p>====================</p>
 
       
       
