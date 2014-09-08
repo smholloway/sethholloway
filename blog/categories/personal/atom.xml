@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://sethholloway.com/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2014-08-03T12:28:42-05:00</updated>
+  <updated>2014-09-07T22:29:43-05:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read August 2014]]></title>
+    <link href="http://sethholloway.com/books-read-august-2014/"/>
+    <updated>2014-09-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-august-2014</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0060899220/ref=as_li_tl?tag=theven01-20">Kitchen Confidential by Anthony
+Bourdain</a>. I loved the insight into the restaurant industry. Bourdain is a really good writer, which complements his crass, honest style. If you want to know what the people in the kitchen are up to, read this book.</p>
+
+<p><a href="http://www.amazon.com/gp/B0010U3Z3S/ref=as_li_tl?tag=theven01-20">The Forbidden Tower by Marion Zimmer
+Bradley</a>. Apparently this is the worst of the Darkover series, so it&rsquo;s unfortunate that it is where I started. I&rsquo;m not sure I&rsquo;ll continue the series.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0345335082/ref=as_li_tl?tag=theven01-20">Dragonquest (Dragonriders of Pern #2) by Anne
+McCaffrey</a>. Meh. I liked this book when I read it, but I don&rsquo;t have overwhelmingly positive memories now.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0140286802/ref=as_li_tl?tag=theven01-20">Collected Fictions by Jorge Luis
+Borges</a>. Sol Stein raved about <a href="http://en.wikipedia.org/wiki/Jorge_Luis_Borges">Borges</a>, and Borges sounded like an author worth reading. Short stories are really different for me because I normally read technical books or novels. That said, I found Borges&#8217; stories to be interesting.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1591843200/ref=as_li_tl?tag=theven01-20">Street Smarts: An All-Purpose Tool Kit for Entrepreneurs by Norm
+Brodsky and Bo
+Burlingham</a>. Following Lean Startup I was feeling entrepreneurial and this book looked good. It was good. Lots of good lessons. I&rsquo;ve noticed that a lot of business books rely on personal anecdotes from a single success; it&rsquo;s not bad, and I understand that making millions of dollars over many years would certainly teach you a lot, but it is odd when every lesson takes you back to a story from a single company.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1439133913/ref=as_li_tl?tag=theven01-20">Monster Hunter Vendetta by Larry
+Correia</a>. I&rsquo;ve now started two
+Correia series (Grimnoir and Monster Hunters), and I really like both.
+He writes really fun, fast-paced books that remind me of action movies.
+I&rsquo;ll be reading more of these as soon as I clear out my queue.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Books Read July 2014]]></title>
@@ -67,7 +96,7 @@ situation.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B001NLL6QW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001NLL6QW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=P4WMAT5XSTA46F4F">The Warded Man by Peter
 Brett</a>. In a world where
-demons attack at night, the world needs a hero&mdash;and they get him. This
+demons attack at night, the world needs a hero&ndash;and they get him. This
 was an entertaining fantasy tale. The first book did not feel as deep as Wheel of Time or
 A Song of Fire and Ice or Kingkiller Chronicles, although I expect the
 characters would grow into their own as the story unfolds.</p>
@@ -107,7 +136,7 @@ specially coded marketing products directly from the site. All marketing
 products have your fund’s give code on them (basically fancy QR codes).
 Give codes are readable by most barcode reading apps.</p>
 
-<p>Here’s an example&mdash;feel free to scan it and give us a few bucks ;&ndash;)</p>
+<p>Here’s an example&ndash;feel free to scan it and give us a few bucks ;-)</p>
 
 <p><img src="http://i.imgur.com/evnxxKy.png" alt="donate to swiftgive" /></p>
 
@@ -124,8 +153,8 @@ should look like. I joined him to help flesh out the concept and we’re
 now ready to pull back the curtain.</p>
 
 <p>We’ve talked to musicians, valets, and friends in various fields, and
-the response has been positive. Anyone looking to accept money&mdash;be it
-tips or fundraising&mdash;can sign up and use the site for free. You can even
+the response has been positive. Anyone looking to accept money&ndash;be it
+tips or fundraising&ndash;can sign up and use the site for free. You can even
 help promote someone else’s fund.</p>
 
 <p>In an alpha launch we helped transfer over $1,000, so we think the idea
@@ -138,8 +167,8 @@ inexpensive.</p>
 
 <p>Swiftgive makes it easy to get professional quality marketing products
 to show off your fund.  Receivers don’t need a smartphone to accept
-money&mdash;just an email address and debit card. Also, Swiftgive uses debit
-cards only.  Other services generally rely on credit cards&mdash;they use
+money&ndash;just an email address and debit card. Also, Swiftgive uses debit
+cards only.  Other services generally rely on credit cards&ndash;they use
 payment processors and pass the fees onto you. Credit card fees (usually
 around 2.9% + $0.30 per transaction) can eat away a substantial amount
 of your earnings, especially for small payments. This is the same reason
@@ -148,7 +177,7 @@ pack of gum with your Visa.  We’re more interested in getting money to
 people than to credit card processing companies.</p>
 
 <p>Go forth and raise some money or tip that bus driver for great
-service&mdash;even if you don’t have any cash.</p>
+service&ndash;even if you don’t have any cash.</p>
 ]]></content>
   </entry>
   
@@ -159,15 +188,15 @@ service&mdash;even if you don’t have any cash.</p>
     <id>http://sethholloway.com/books-read-june-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B004J4XGN6/?tag=theven01-20">Lean Startup by Eric Ries</a>. I&rsquo;m a little embarrassed that I took this long to read this book. It&rsquo;s an iconic book in the startup world that I had skipped because I watched a few Lean Startup talks and read various blogs about it. A lot of the advice is very common sense; I&rsquo;d boil it down to &ldquo;build something people want.&rdquo;</p>
 
-<p><a href="http://www.amazon.com/gp/product/B007ZBNVVW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B007ZBNVVW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=GVZ6UKTYN4WQQV5V" title="">The Developers Guide to Debugging by Thorsten Grötker, Ulrich Holtmann, Holger Keding, and Markus Wloka</a>. I was discussing what makes a good software developer with a friend and he was adamant than the best developers are the best debuggers. I read this book in hopes of filling in the knowledge that I might have learned from a debugging course in school&mdash;if one existed. The book was readable, but it was a bit too C-centric for me to fully appreciate.</p>
+<p><a href="http://www.amazon.com/gp/product/B007ZBNVVW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B007ZBNVVW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=GVZ6UKTYN4WQQV5V" title="">The Developers Guide to Debugging by Thorsten Grötker, Ulrich Holtmann, Holger Keding, and Markus Wloka</a>. I was discussing what makes a good software developer with a friend and he was adamant than the best developers are the best debuggers. I read this book in hopes of filling in the knowledge that I might have learned from a debugging course in school&ndash;if one existed. The book was readable, but it was a bit too C-centric for me to fully appreciate.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B00B5HR4A6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00B5HR4A6&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=EJTEY3HD2Y2TCALC">Tipping Sacred Cows: Kicking the Bad Work Habits that Masquerade as Virtues by Jake Breeden</a>. The book was what you&rsquo;d expect from a business book with a provocative title. There were some interesting insights; essentially, question your assumptions with respect to balance, collaboration, creativity, excellence, fairness, passion, and preparation.</p>
 
-<p><a href="http://www.amazon.com/gp/product/B004G60EHS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004G60EHS&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=7RHQZ7Y2T5QSB4U5">Hyperion by Dan Simmons</a>. This was a <a href="http://sethholloway.com/hugo-award-winners-and-nominees-fantasy/">Hugo Award winner in 1990</a>, but I wasn&rsquo;t a huge fan. The writing is solid and the story is unique. But, you only meet the cast of characters in this book. I kept waiting for something to happen and it never did&mdash;the cliffhanger just wasn&rsquo;t enough for me.</p>
+<p><a href="http://www.amazon.com/gp/product/B004G60EHS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004G60EHS&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=7RHQZ7Y2T5QSB4U5">Hyperion by Dan Simmons</a>. This was a <a href="http://sethholloway.com/hugo-award-winners-and-nominees-fantasy/">Hugo Award winner in 1990</a>, but I wasn&rsquo;t a huge fan. The writing is solid and the story is unique. But, you only meet the cast of characters in this book. I kept waiting for something to happen and it never did&ndash;the cliffhanger just wasn&rsquo;t enough for me.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B000JMKNJ2/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=L54Q2AKLBLDEJUPF">The Lies of Locke Lamora by Scott Lynch</a>. I read this based on a recommendation, and thoroughly enjoyed it. Locke Lamora is an orphan thief that we meet as a child and follow through young adulthood. I could see the book being made into a great heist movie.</p>
 
-<p><a href="http://www.amazon.com/gp/product/B00APAHLMA/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00APAHLMA&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=DBSWFF52Y6BTDVDE">Hard Magic by Larry Correa</a>. I really liked this book. It&rsquo;s set in a parallel universe circa 1940 where magic is real and several well known figures owe their success to their own inate magic. The characters were interesting and the story moved along nicely.</p>
+<p><a href="http://www.amazon.com/gp/product/B00APAHLMA/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00APAHLMA&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=DBSWFF52Y6BTDVDE">Hard Magic by Larry Correia</a>. I really liked this book. It&rsquo;s set in a parallel universe circa 1940 where magic is real and several well known figures owe their success to their own inate magic. The characters were interesting and the story moved along nicely.</p>
 ]]></content>
   </entry>
   
@@ -176,7 +205,7 @@ service&mdash;even if you don’t have any cash.</p>
     <link href="http://sethholloway.com/books-read-may-2014/"/>
     <updated>2014-06-01T00:00:00-05:00</updated>
     <id>http://sethholloway.com/books-read-may-2014</id>
-    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0786948590/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=AZ5FVM3FFEBFYLZO">The Legacy: Legend of Drizzt, Book VII by R.A. Salvatore</a>. It&rsquo;s Drizzt&mdash;what&rsquo;s not to like? I previously read books one and two; I mistakenly bought this one thinking it was three (it is actually 7). On the plus side, I can probably skip ahead in the story now that I know what happens after the books I missed!</p>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0786948590/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=AZ5FVM3FFEBFYLZO">The Legacy: Legend of Drizzt, Book VII by R.A. Salvatore</a>. It&rsquo;s Drizzt&ndash;what&rsquo;s not to like? I previously read books one and two; I mistakenly bought this one thinking it was three (it is actually 7). On the plus side, I can probably skip ahead in the story now that I know what happens after the books I missed!</p>
 
 <p><a href="http://www.amazon.com/gp/product/B000FC2L1O/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=4ANBLIVMQ7652A5D">Outlander by Diana
 Gabaldon</a>. Andrea loved this series and wanted to know if I would like it too. I did not, but I cannot say why. There was a lot of sex, but plenty of books I like have sex; there was romance that did not resonate with me; there was a lot of history, which I must admit I don&rsquo;t care about. I guess I would rather read about a badass Drow ranger defeating a golem than read about a woman lost in time.</p>
@@ -185,55 +214,10 @@ Gabaldon</a>. Andrea loved this series and wanted to know if I would like it too
 God by Shane KP Oneill</a>. This was a very quick read that introduces Dracula. The first book published in this series takes place well after this prequel, but I thought it would be good to start at the beginning. It was good, so I plan to continue this series after I finish some other books.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B000OCXG4Q/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=MTDSUNBSKW7ZSQGP">Across the Nightingale
-Floor by Lian Hearn</a>. An orphan assassin, sword-fighting, revenge and rebellion&mdash;I like it!</p>
+Floor by Lian Hearn</a>. An orphan assassin, sword-fighting, revenge and rebellion&ndash;I like it!</p>
 
 <p><a href="http://www.amazon.com/gp/product/B00JVST6CA/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=EWWY3DMHY2TQBT7R">The Wealth of Nations by Adam
-Smith</a>. I&rsquo;ve heard a ton about this book, and I&rsquo;d like to have a better grasp on economics. It started off well; Smith lays the foundation of economics and currency, and it is brilliant, logical stuff. That being said, I ultimately abandoned the book about 1/6th of the way in when the author stated how much tobacco you should expect a negro between sixteen and sixty years to pick. I know that in 1776 statements like that were not in poor taste&mdash;Smith was likely very progressive&mdash;but one too many outdated terms made me question how applicable the book truly is. I include the book in this list because I don&rsquo;t plan to finish it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read April 2014]]></title>
-    <link href="http://sethholloway.com/books-read-april-2014/"/>
-    <updated>2014-05-01T00:00:00-05:00</updated>
-    <id>http://sethholloway.com/books-read-april-2014</id>
-    <content type="html"><![CDATA[<p>I barely hit my goal of four books a month! I continued on the Kingkiller
-Chronicles and finished a couple books from Lois McMaster Bujold, who I learned
-about when looking at <a href="http://sethholloway.com/hugo-award-winners-and-nominees-fantasy/">Hugo Fantasy winners</a>.
-I also fit in one non-fiction book that had been on my &ldquo;to-read&rdquo; list for a while.</p>
-
-<p><a href="http://www.amazon.com/dp/B00475AYJQ/?tag=theven01-20">The Wise Man&rsquo;s Fear by Patrick Rothfuss</a>.
-I loved this book, and now I&rsquo;m ready for book three. Speaking of waiting
-for the conclusion of a story, <a href="http://www.patrickrothfuss.com/content/reviews.asp">George R. R. Martin said</a>,
-&ldquo;He&rsquo;s bloody good, this Rothfuss guy.&rdquo; May both Patrick Rothfuss and GRRM finish their series soon!</p>
-
-<p><a href="http://www.amazon.com/gp/product/B000FC11AQ/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000FC11AQ&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=OEM63HL3THDLOU4V">The Curse of Chalion by Lois McMaster Bujold</a>.
-I liked this book, but it fell short of what I expected from a Hugo Award winner.
-The story could have been told with many fewer words, although I don&rsquo;t claim to
-know which words needed to be cut. There were some neat concepts; e.g., in this
-universe there are five gods who visit mortals. The gods grant blessings and
-bestow curses. There are also demons that can jump into human hosts and corrupt
-the person from the inside out, while granting some supernatural abilities.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B000FC138Q/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000FC138Q&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=SQKW2GDXK57IBB5F">Paladin of Souls by Lois McMaster Bujold</a>.
-I had already completed the first book (The Curse of Chalion), so I continued
-on to this book. I preferred this one, perhaps because the story was richer for
-building on the realm of Chalion, which I had read a whole book about.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B0097CWIDY/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0097CWIDY&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=LVHIEKBKBJFQ2V4L">Boys Adrift by Leonard Sax</a>.
-I thought this book made some good points, but I was ultimately unconvinced. In
-the introduction, Sax says that on college campuses females outnumber males 2:1;
-however, he also says that college is now 58% female and 42% male. 58:42 is not
-2:1&mdash;it&rsquo;s 1.38:1. From this point on, I was much more skeptical of the
-information. Sax' <a href="http://www.boysadrift.com/factors.php">five factors</a> are
-video games, teaching methods, prescription drugs, endocrine disruptors, and
-devaluation of masculinity; of those, each have some merit, but it felt a bit
-like listening to an old person railing on young people. You know, &ldquo;back in my
-day, men were men!&rdquo; The evidence felt like a collection of anecdotes and a lot
-of just-so stories. Some of the ideas came across as shamefully outdated
-opinions, which is unfortunate. Why is it so highly rated? I suspect because
-there&rsquo;s a huge selection bias&mdash;people who do not believe boys are adrift simply
-will not read the book.</p>
+Smith</a>. I&rsquo;ve heard a ton about this book, and I&rsquo;d like to have a better grasp on economics. It started off well; Smith lays the foundation of economics and currency, and it is brilliant, logical stuff. That being said, I ultimately abandoned the book about 1/6th of the way in when the author stated how much tobacco you should expect a negro between sixteen and sixty years to pick. I know that in 1776 statements like that were not in poor taste&ndash;Smith was likely very progressive&ndash;but one too many outdated terms made me question how applicable the book truly is. I include the book in this list because I don&rsquo;t plan to finish it.</p>
 ]]></content>
   </entry>
   
