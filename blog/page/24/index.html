@@ -118,6 +118,141 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/whats-new-ads/">What&#8217;s new? Ads!</a></h1>
+      <p>I hope my lovely, intelligent readers do not mind the two new ad panels (at the bottom of individual posts and in the sidebar); RSS readers should not notice any changes. This was a fun technical project that may make me a dollar over about twenty years :)</p>
+
+<p>Here&rsquo;s how I added ads to the sidebar and the end of single posts in my WordPress blog. You may be able to do it easily with a plugin, such as one of the <a title="Wordpress Plugins for AdSense" href="http://www.quickonlinetips.com/archives/2006/11/10-best-wordpress-plugins-for-google-adsense/" target="_blank">ten featured in this article</a>, but I chose to do it manually to learn more.</p>
+
+<p>For ease, I used two tabs. In one tab I generated ads and another tab was used to edit pages.</p>
+
+<p><strong>Generating Ads.</strong> Google makes it easy with <a title="Google AdSense" href="https://www.google.com/adsense/" target="_blank">AdSense</a>. You can see your options for ads <a title="AdSense Ad Formats" href="https://www.google.com/adsense/static/en_US/AdFormats.html" target="_blank">here</a>. First, sign up for AdSense then enter the AdSense Setup page, the <a title="Google AdSense Get Ads" href="https://www.google.com/adsense/adsense-products" target="_blank">Get Ads tab</a>. Both my units are AdSense for Content; one Ad Unit and one Link Unit. After choosing the options I wanted, I was given sample code. I copied this code and switched to the other tab.</p>
+
+<p><strong>Editing Pages.</strong> First, get to the Theme Editor:</p>
+
+<ul>
+<li>Log into the administrative panel.</li>
+<li>Click the <em>Design</em> tab</li>
+<li>Click the <em>Theme Editor</em></li>
+</ul>
+
+
+<p>I put the banner ad at the bottom of the single post. To do so I copied the generated code then performed these steps:</p>
+
+<ul>
+<li>Selected <em>Single Post (single.php)</em></li>
+<li>Pasted the following code above the line &ldquo;&lt;?php get_footer(); ?&gt;&rdquo;:</li>
+</ul>
+
+
+<blockquote>&lt;!&#8212; Ad support. Added by Seth Holloway on Jan 9, 2009 &#8212;&gt;
+&lt;div id=&#8221;ads&#8221;&gt;
+&lt;script type=&#8221;text/javascript&#8221;&gt;&lt;!&#8211;
+google_ad_client = &#8220;pub-2003017988956692&#8221;;
+/* 728x90, created 1/8/09 */
+google_ad_slot = &#8220;5798236936&#8221;;
+google_ad_width = 728;
+google_ad_height = 90;
+//&#8211;&gt;
+&lt;/script&gt;
+&lt;script type=&#8221;text/javascript&#8221;
+src=&#8221;http://pagead2.googlesyndication.com/pagead/show_ads.js&#8221;&gt;
+&lt;/script&gt;
+&lt;/div&gt;</blockquote>
+
+
+<p>For the sake of looks, I then needed to edit the stylesheet in the following manner:</p>
+
+<ul>
+<li>Selected the <em>Stylesheet (style.css)</em></li>
+<li>Added this to the code:</li>
+</ul>
+
+
+<blockquote>/* Ad support. Added by Seth Holloway on Jan 9, 2009 */
+#ads {
+text-align: center;
+}</blockquote>
+
+
+<p>I then generated the sidebar link unit, copied the code, and followed these steps:</p>
+
+<ul>
+<li>Selected the <em>Sidebar (sidebar.php)</em></li>
+<li>Pasted the generated ad unit to the code above the final &ldquo;&lt;/ul&gt;&rdquo;:</li>
+</ul>
+
+
+<blockquote>&lt;!&#8212; Ad support. Added by Seth Holloway on Jan 9, 2009 &#8212;&gt;
+&lt;li&gt;
+&lt;script type=&#8221;text/javascript&#8221;&gt;&lt;!&#8211;
+google_ad_client = &#8220;pub-2003017988956692&#8221;;
+/* 120x90, created 1/8/09 */
+google_ad_slot = &#8220;2887058896&#8221;;
+google_ad_width = 120;
+google_ad_height = 90;
+//&#8211;&gt;
+&lt;/script&gt;
+&lt;script type=&#8221;text/javascript&#8221;
+src=&#8221;http://pagead2.googlesyndication.com/pagead/show_ads.js&#8221;&gt;
+&lt;/script&gt;
+&lt;/li&gt;</blockquote>
+
+
+<p>And voila! We now have two unobtrusive ads on sethholloway.com.</p>
+
+<p>Later, I would like improve the relevance of the ads and to add Digg, Reddit, and Sharethis buttons.</p>
+
+<p>Any tips for items missing from the blog? Did you notice the ads? Do you hate them?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/why-not-make-use-of-loading-screens/">Why not make use of loading screens?</a></h1>
+      <p>I&rsquo;ve seen a lot of loading screens recently: in video games, movies, TV shows, cable box resets, iPod power ons, etc. Most are effective yet bland&mdash;a logo and a progress bar. These brief moments break my attention, but do not offer enough time for me to switch context and do something else. Producers and developers could use this time to educate and inform users while simultaneously keeping people engaged. Watching <a title="IMDB: Once" href="http://www.imdb.com/title/tt0907657/" target="_blank">Once</a>? You&rsquo;ll get to read a blurb about the star, <a title="Wikipedia: Glen Hansard" href="http://en.wikipedia.org/wiki/Glen_Hansard" target="_blank">Glen Hansard</a>. Playing World of Warcraft? Read the storyline for the zone you&rsquo;re entering while you wait!</p>
+
+<p>Taking the idea a step further, a platform could allow for loading screen customizations. Imagine if your iPhone had a common thread across all applications! With the aggregate time you could read a book, polish your vocab, increase reaction speeds, read the latest headlines, learn a language, or anything else that can be chunked into simple, discrete pieces! I&rsquo;d love to get a couple lines of Atlas Shrugged in every loading screen. It&rsquo;s not the fastest way to read a book, but I&rsquo;d get through it (eventually :))!</p>
+
+<p>The code necessary to change the loading screens should be easy: add a variable to track the message number and modify the load screen to accept a variable corresponding to the message number; then increment the message number every time you display a load screen.</p>
+
+<p>I&rsquo;ve seen the idea partially in action; for example, while loading a song in Rock Band, trivia is displayed. The problem is that the pool of messages is very slim and never updated. The platforms for this game (PS3, Xbox360, and Wii) are all Internet-enabled so it should be possible to periodically update or replace the stash of messages.</p>
+
+<p>Another (somewhat) similar service, <a title="Daily Lit Dot Com" href="http://www.dailylit.com/" target="_blank">Daily Lit</a>, allows you to read books in email messages or RSS feeds. Daily Lit provides a proof-of-concept demonstrating first, that it is possible and second, that people want this form of entertainment.</p>
+
+<p>What do you think? Would you use this service? What would you want in your loading screens?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/passively-heated-homes/">Passively heated homes</a></h1>
       <p>I love architecture and green building! I&rsquo;m not as well-informed as I should be, but green homes are an area I would love to explore later in life. One of the best ideas I&rsquo;ve seen is the <a title="Wikipedia: Passive House" href="http://en.wikipedia.org/wiki/Passive_house" target="_blank">passive house</a> (Passivhaus). Passive homes seek to retain the home&rsquo;s heat with little or no extra energy usage. They achieve the effect by combining several features, notably superinsulation, a special airflow system, and optimized floorplans.</p>
 
@@ -327,63 +462,6 @@
 
 
 <p>The work is on-going. The vision is clear and we are progressing nicely. Claytronics provides an excellent motivating application example for research into manufacturing, communications, robotics, AI, and more. I look forward to a world where pario is a reality. Thanks to a technology star, Seth Goldstein, we will know that world!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/three-interesting-perhaps-out-of-date-links/">Three interesting, perhaps out-of-date, links</a></h1>
-      <p>A few interesting links I&rsquo;ve been hording:</p>
-
-<ul>
-<li><a title="Moneymag" href="http://money.cnn.com/2008/09/15/pf/broker_leak.moneymag/index.htm" target="_blank">How to protect yourself if your broker goes belly up</a></li>
-<li><a title="Newsweek" href="http://www.newsweek.com/id/160367" target="_blank">Who pays for Wall Street&rsquo;s $700B bailout?</a></li>
-<li><a title="Another Newsweek" href="http://www.newsweek.com/id/160080" target="_blank">Sam Harris on Sarah Palin and Elitism</a></li>
-</ul>
-
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/leave-it-better-than-you-found-it/">Leave it better than you found it</a></h1>
-      <p>I enjoy simple tasks that have big rewards&mdash;work smarter, not harder. For example, <a title="Seth Holloway: A Smile is Free" href="http://sethholloway.com/blog/?p=386" target="_blank">smile more</a> :)</p>
-
-<p>Another way to be a good person and get noticed (without dramatically altering your way of life) is to leave situations equal to or better than when you found them. Public restrooms would be so much more pleasant if people left them in at least the same state as when they entered. Lift the seat when appropriate; turn off the water&mdash;even if you did not turn it on; compact the trash a little with your paper towel; pick up that piece of trash when you&rsquo;re on the way to the dumpster.</p>
-
-<p>The adage holds for other situations, not just throwing away trash. Looking at someone&rsquo;s code? Add comments when you figure out the algorithm. If someone asks you for help, take a moment to provide a thorough answer or suggestions on where to find the information. Reply to forums if you stumble upon an unanswered question.</p>
-
-<p>Leaving a situation better than you found it is easy, right, and worthwhile. Take the extra moment and help make the world a better place!</p>
-
-<p><em>EDIT</em> 1) Took &ldquo;l&rdquo; out of &ldquo;waterl&rdquo; in second paragraph. Thanks <a title="You know you like it" href="http://michaelboatright.com" target="_blank">Mike</a>! 2) Corrected &ldquo;wortwhile&rdquo; in the paragraph above. Thanks Eddie!</p>
 
       
       
