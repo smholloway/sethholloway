@@ -4,7 +4,7 @@
   <title><![CDATA[Seth Holloway]]></title>
   <link href="http://sethholloway.com/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2015-04-01T10:34:50-05:00</updated>
+  <updated>2015-04-04T16:16:21-05:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -32,6 +32,73 @@ me expand on that a bit: the first book&mdash;to me&mdash;was about a rebellion 
 a novel low-magic world. The second book has to pick up the pieces of
 that rebellion, so it&rsquo;s more about government and interpersonal
 conflicts.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SXSW 2015 in Review]]></title>
+    <link href="http://sethholloway.com/sxsw-2015/"/>
+    <updated>2015-03-18T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/sxsw-2015</id>
+    <content type="html"><![CDATA[<h1>SXSW 2015</h1>
+
+<p>I enjoyed myself a lot at SXSW 2015. I made it to a lot of sessions that were interesting and thought-provoking.</p>
+
+<h2>Friday</h2>
+
+<ul>
+<li>Welcome to SXSW Interactive by Hugh Forest</li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP997613">The Climate Crisis: Challenge and Opportunity by Al Gore</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996684">How to Rock SXSW in 4 Hours by Tim Ferriss</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP42182">Fear, Shame, Empathy, &amp; More Ways to Change Behavior by Dan Pink</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP40327">Building Gender-Balanced Startups (Panel) by Sarah Buhr, Julie Ann Horvath, Stewart Alsop, Vanessa Camones</a></li>
+</ul>
+
+
+<h2>Saturday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP39145">OAuth2: The Swiss-Army Framework by Brent Shaffer</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP41723">Patagonia: Why Business Is Good for the Planet by Rose Marcario</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP42485">UFC: Women Breaking Ground Inside the Octagon (Panel) by Dana White, Ronda Rousey, Jessica Eye</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996358">Princess Reema&rsquo;s Mission to Empower Saudi Women by Princess Reema</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43837">What it Really Takes to Win in Business by Jack Welch and Gary Vaynerchuk</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP37185">Beyond Privacy: Surveillance&rsquo;s Threat To Liberty by Schneier and Wizner</a></li>
+</ul>
+
+
+<h2>Sunday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP39695">Transgender in Tech: Past, Present, Future (Panel) by Allyson Dylan Robinson, Brielle Harrison, Kortney Ziegler, and Meghan Stabler</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43232">Be Epic: The Art of Bold Decision Making by Phil Libin</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996157">AI, Immortality and the Future of Selves by Martine Rothblatt</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP36963">Data (in)Security: MIT Scientists Tackle Privacy (Panel) by Danny Weitzner, Ronald Rivest, Sam Madden</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43378">How to Fix American Politics by David Burstein</a></li>
+</ul>
+
+
+<h2>Monday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43236">The Frontiers of Computational Thinking by Stephen Wolfram</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43059">Everything Eric Ries Has Learned Since 2011 by Eric Ries</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996700">Fixing Transportation with Humanity and Technology by Logan Green</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996698">Lessons from BuzzFeed by Jonah Peretti</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996699">Bitcoin: What It Needs to Succeed (Panel) by the Cameron and Tyler Winklevoss</a></li>
+</ul>
+
+
+<h2>Tuesday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP40699">Accelerators by the Numbers: 2014 Rankings by Susan Cohen and Yael Hochberg</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996685">Better and Faster: Predict Opportunity &amp; Win in 2015 by Jeremy Grutsche</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP997484">Holacracy: A Radical New Approach to Management by Brian Robertson</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996703">Moonshots and Reality by Astro Teller</a></li>
+<li><a href="http://schedule.sxsw.com/2015/events/event_IAP36218">How to Rob a Bank: Vulnerabilities of New Money by Josh Alexander, Bo Hartman, Bob Blakely</a></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -679,23 +746,6 @@ important product, but we can get a lot of stars ☻</p>
 
 
 <p>This task was made bearable by scripting the look-ups with Beautiful Soup in Python. If you&rsquo;re interested, the source is available as <a title="Categorizing Hugo Award winners" href="https://github.com/smholloway/categorizing-hugo-award-winners">categorizing-hugo-award-winners on GitHub</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books read December 2013]]></title>
-    <link href="http://sethholloway.com/books-read-december-2013/"/>
-    <updated>2014-01-08T00:00:00-06:00</updated>
-    <id>http://sethholloway.com/books-read-december-2013</id>
-    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B003BQZ80M/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003BQZ80M&linkCode=as2&tag=theven01-20">Lord of Chaos: Book Six of &lsquo;The Wheel of Time&rsquo;</a> &ndash; I finished up book six of the Wheel of Time series and am ready for a break. This book felt like a slog, but ended really well. Some friends advised I skip the middle, so I think I&rsquo;ll read summaries before jumping to book 12 to start the finale.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0321193857/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321193857&linkCode=as2&tag=theven01-20">The Non-Designer&rsquo;s Design Book</a> &ndash; I thought this book had great bang for the buck. Robin Williams shows how to transform boring, bad designs using CRAP&mdash;that&rsquo;s contrast, repetition, alignment, and proximity. The second edition is a bit dated; perhaps the third edition is closer to today&rsquo;s flat UI trend.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0671212095/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=theven01-20">How to Read a Book: The Classic Guide to Intelligent Reading (A Touchstone book)</a> &ndash; This text asserts that there are four levels of reading: elementary (the basics), inspectional (quickly understanding the big idea), analytical (deep reading), and syntopical (thinking critically and comparing the words against all your related knowledge). I wish I would have read this earlier, but I probably wouldn&rsquo;t have gotten much out of it because I didn&rsquo;t think I needed it. I found that the deep dives into new subjects that I frequently did during my PhD is called syntopical reading.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B000FC11JW/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FC11JW&linkCode=as2&tag=theven01-20">The Effective Executive (Harper business Essentials)</a> &ndash; Management guru, Peter Drucker, provides a  great guide to working on the right things. As with many business books, you could summarize it in one blog post, but then you lose the nuance. I&rsquo;m curious how Drucker would argue that a busy executive should read his entire book instead of a concise summary.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0932633161/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0932633161&linkCode=as2&tag=theven01-20">Are Your Lights On?: How to Figure Out What the Problem Really Is</a> &ndash; Another book from my productivity queue. This was a quick read with some interesting points. I was intrigued by thinking about whose problem something is and how decision makers&#8217; interests rarely align with he people experiencing the problem.</p>
 ]]></content>
   </entry>
   
