@@ -118,6 +118,149 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/what-id-do-if-i-managed-angry-birds/">What I&#8217;d do if I managed Angry Birds</a></h1>
+      <p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&mdash;even forces&mdash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
+
+<ul>
+<li>Take advantage of the robust platform: allow people to create levels&mdash;get people really involved in the game. Personally, I burn through the official levels in hours and then have to wait an unacceptable amount of time for new content. I play the new levels because there&rsquo;s nothing better out, but the moment I have other games then Angry Birds is out of sight and mind. User generated content is awesome! A number of other games flourished and increased their staying power when they allowed users to create new content (for example, StarCraft and Half-Life/Counter-Strike).</li>
+<li>Allow people to create new game elements like birds, pigs, and environmental features. You could add more dynamic pieces like swinging ropes or sand dripping out of a vial.</li>
+<li>Publish global leaderboards with incentives like badges and special skins, additional content.</li>
+<li>Create a YouTube channel for Angry Birds. Did you know there are televised Starcraft games? It&rsquo;s a big deal. Show live footage of pros encountering new levels. Does the top player meticulously size up the level or just run and gun? These videos can help frustrated players get over the hump and defeat some levels.</li>
+<li>Spin up forums and discussions for each level. Beyond text, I would allow (encourage) videos showing different strategies.</li>
+<li>Look at scoring based on speed and precision: extreme Angry Birds.</li>
+<li>Expand into multiplayer capabilities.</li>
+<li>Keep rocking! I&rsquo;ve seen Angry Birds in commercials for pistachios and a phone, plus there are plush toys. Great marketing!</li>
+</ul>
+
+
+<p>Would you enjoy any of these features? What would you do if you managed Angry Birds?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-few-programming-notes-to-myself/">A few programming notes to myself</a></h1>
+      <p>In JavaScript, if on a non-boolean input will check existence. In Ruby, the same test will also check for existence with &ldquo;&rdquo; considered true; you receive a warning (warning: string literal in condition). Python performs like JavaScript. In Java, you receive a type error (Type mismatch: cannot convert from String to boolean). I show the output from JavaScript console, irb, python, and Java.</p>
+
+<p>JavaScript</p>
+
+<pre>&gt; if ("false") { console.log("true"); } else { console.log("false"); }
+true</pre>
+
+
+<pre>&gt; if ("") { console.log("true"); } else { console.log("false"); }
+false</pre>
+
+
+<p>Ruby</p>
+
+<pre>puts "false" ? "true" : "false"
+(irb):4: warning: string literal in condition
+true</pre>
+
+
+<pre>&gt; puts "" ? "true" : "false"
+(irb):1: warning: string literal in condition
+true</pre>
+
+
+<p>Python</p>
+
+<pre>&gt;&gt;&gt; if ("false"):
+...     print "true"
+... else:
+...     print "false"
+...
+true</pre>
+
+
+<pre>&gt;&gt;&gt; if (""):
+...     print "true"
+... else:
+...     print "false"
+...
+false</pre>
+
+
+<p>Java</p>
+
+<pre>if ("false") {
+    System.out.println("true");
+} else {
+    System.out.println("false");
+}
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+Type mismatch: cannot convert from String to boolean</pre>
+
+
+<p>No matter how the language handles it, it&rsquo;s bad coding style because of erratic behavior. Save the next programmer some grief and specify the full expression whose truthiness you are seeking.</p>
+
+<p>====================</p>
+
+<p>JavaScript is not multi-threaded; the spec does not specify any threading or synchronization. JavaScript in modern browsers is single-threaded. Handling multiple actions at once is done by firing off functions and waiting for callbacks.</p>
+
+<p>====================</p>
+
+<p>In Java, the default equals method will compare the memory location of two objects; the default hashcode implementation will return the memory address.</p>
+
+<p>====================</p>
+
+<p>In Java, all data structures in Collections offer a method, size(), to access the data structure&rsquo;s size. Primitive arrays have a property, length (note the difference in name and method vs property). Strings use a method, length(), to make things more confusing!</p>
+
+<pre>List&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
+System.out.println(list.size());
+0</pre>
+
+
+<pre>int array[] = new int[10];
+System.out.println(array.length);
+10</pre>
+
+
+<pre>String string = new String();
+System.out.println(string.length());
+0</pre>
+
+
+<p>====================</p>
+
+<p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
+
+<p>====================</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in various units</a></h1>
       <p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
 
@@ -550,81 +693,6 @@ PUBLICATIONS
 <p>Well, I think that&rsquo;s enough for now! There are more ideas, lots of literature to read, and experiments to be done! I leave you with a <a title="TED: Shawn Achor" href="http://tedxtalks.ted.com/video/TEDxBloomington-Shawn-Achor-The">great video on positive psychology</a> (If it doesn&rsquo;t play above, the video is a TED talk by Shawn Achor).</p>
 
 <p>What&rsquo;s your best idea for how to improve your own morale? What about a sweeping change to help all employees&#8217; morale?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/black-out-glass-a-way-to-keep-cars-cool-and-more/">Reflective glass: a way to keep cars cool&#8230; and more</a></h1>
-      <p>I have several ideas of how we could improve cars and driving; I imagine the subject is pretty common because we&rsquo;re surrounded by and rely so heavily on vehicles. I previously talked about<a title="Seth Holloway: Confiurable UI in cars" href="http://sethholloway.com/blog/2011/01/14/idea-configurable-user-interfaces-in-cars/"> improving cars usability by allowing users to configure their displays and controls</a>. With the recent heat wave I can&rsquo;t help but think of ways to help keep cars cool. A lot of us use car shades to block a bit of the sun, but we could do better in terms of efficiency and ease-of-use. The idea I keep coming to: cars could automatically black-out the glass when the car is off. (The technology exists and is called <a title="Wikipedia: Smart Glass" href="http://en.wikipedia.org/wiki/Smart_glass">smart glass</a>.)</p>
-
-<p>Having heavily tinted windows would keep the car cooler, but the benefits don&rsquo;t stop there! This would also provide security because people would not be able to see your valuables. Smart glass would also greatly increase privacy as no one could see if you&rsquo;re in the car changing clothes, shaving, taking a nap, etc.</p>
-
-<p>I do not know of any cars that apply the technology, but I saw the idea &ldquo;implemented&rdquo; in the vampire movie Daybreakers. The trailer quickly shows how the <a title="YouTube: Daybreakers Trailer" href="http://www.youtube.com/watch?v=-8yYNDygdZs&amp;t=64">vampire can black out the windows in his car around 1:04 in</a>. Have you seen the concept anywhere else?</p>
-
-<p>What would this feature be worth to you? I think I&rsquo;d be comfortable paying another thousand dollars for a car using smart glass that would stay cooler in the summer, provided added security and allow more privacy. What do you think?</p>
-
-<p><em>Update</em>: Steve pointed out the physics fail of having black windows (black would absorb the heat and the glass would trap it inside the heat, making the effect even worse). The idea of dynamically changing the glass to reduce heat stays the same, but we would want a reflective surface rather than a dark surface. And while I&rsquo;m making updates based on physics, let&rsquo;s put a one-way release valve near the top of the car so that convection can push warm air out of the vehicle!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/my-summer-reading-list/">My summer reading list</a></h1>
-      <p>I&rsquo;ve had a fantastic summer! I read a ton and learned a lot (I also implemented/coded/experimented a lot because I have to apply what I read in order to retain it). Here&rsquo;s a list of what I remember:</p>
-
-<ul>
-<li><a title="A Game of Thrones" href="http://www.amazon.com/gp/product/0553386794?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0553386794&amp;ref_=sr_1_1&amp;s=books&amp;qid=1314290151&amp;sr=1-1">A Game of Thrones by George R. R. Martin</a></li>
-<li><a title="A Clash of Kings" href="http://www.amazon.com/gp/product/0553381695?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0553381695&amp;redirect=true&amp;ref_=sr_1_1&amp;qid=1314289046&amp;sr=8-1&amp;assoc_ss_swlb=1">A Clash of Kings by George R. R. Martin</a></li>
-<li><a title="A Storm of Swords" href="http://www.amazon.com/gp/product/055357342X?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393177&amp;creativeASIN=055357342X&amp;ref_=sr_1_1&amp;s=books&amp;qid=1314290002&amp;sr=1-1">A Storm of Swords by George R. R. Martin</a></li>
-<li><a title="Influence the Psychology of Persuasion" href="http://www.amazon.com/gp/product/006124189X?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=006124189X&amp;ref_=sr_1_1&amp;s=books&amp;qid=1314290541&amp;sr=1-1">Influence! The Psychology of Persuasion by Robert Cialdini </a></li>
-<li><a title="The Design of Everyday Things" href="http://www.amazon.com/gp/product/0465067107?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0465067107&amp;ref_=sr_1_1&amp;s=books&amp;qid=1314290712&amp;sr=1-1">Design of Everyday Things by Don Norman</a></li>
-<li><a title="Don't Make Me Think" href="http://www.amazon.com/gp/product/0321344758?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0321344758&amp;ref_=sr_1_1&amp;s=books&amp;qid=1314290744&amp;sr=1-1">Don&rsquo;t Make Me Think by Steve Krug</a></li>
-<li><a title="CSS3 for Web Designers" href="http://www.abookapart.com/products/css3-for-web-designers">CSS3 for Web Designers by Dan Cederholm</a></li>
-<li><a title="HTML5 for Web Designers" href="http://www.abookapart.com/products/html5-for-web-designers">HTML5 for Web Designers by Jeremy Keith</a></li>
-<li><a title="Effective Java" href="http://www.amazon.com/gp/product/0321356683?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0321356683&amp;ref_=sr_1_1&amp;s=books&amp;qid=1314290397&amp;sr=1-1">Effective Java  by Joshua Bloch</a></li>
-<li><p><a title="Programming Ruby (the pickaxe)" href="http://www.amazon.com/gp/product/0974514055?ie=UTF8&amp;tag=theven01-20&amp;linkCode=shr&amp;camp=213733&amp;creative=393185&amp;creativeASIN=0974514055&amp;ref_=sr_1_3&amp;s=books&amp;qid=1314290219&amp;sr=1-3">Programming Ruby: The Pragmatic Programmers&#8217; Guide (the pickaxe book) by Dave Thomas</a></p></li>
-<li><p>Lots of blogs (I&rsquo;ll call out a few categories to make the list easier to parse)</p></li>
-<li><p>Wisdom: Seth Godin, TED.com, Language Log, Lifehacker</p></li>
-<li>Humor: xkcd, Saturday Morning Breakfast Cereal, Things Could be Worse, Ray William Johnson, THXTHXTHX</li>
-<li>Programming: Hacker News, Coding Horror, InfoQ, High Scalability, DailyJS, CSS-Tricks,</li>
-<li>Design/Usability: Six Revisions, Good Experience,</li>
-<li>SEO: SEOmoz, Distilled, SEO by the Sea, Search Engine Watch</li>
-<li>There are many more, but they are not on the top of my head for whatever reason so I omitted them (rather than digging through Reader). There are also some local sites like Austin Business News and Door64 (lots of spam with occasional posts about Austin Tech news).</li>
-</ul>
-
-
-<p>That&rsquo;s a lot of information, so forgive me for any item I did not link. If you need help finding an RSS feed for the blogs above, just let me know and I&rsquo;ll dig it up.</p>
-
-<p>Is there something I just HAVE to read? Please let me know in the comments.</p>
 
       
       
