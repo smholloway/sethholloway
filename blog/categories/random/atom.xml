@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: random | Seth Holloway]]></title>
+  <link href="http://www.sethholloway.com//github/blog/categories/random/atom.xml" rel="self"/>
+  <link href="http://www.sethholloway.com//github/"/>
+  <updated>2015-07-15T20:09:55-05:00</updated>
+  <id>http://www.sethholloway.com//github/</id>
+  <author>
+    <name><![CDATA[Seth Holloway]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A bit about music theory]]></title>
+    <link href="http://www.sethholloway.com//github/a-bit-about-music-theory/"/>
+    <updated>2011-05-20T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/a-bit-about-music-theory</id>
+    <content type="html"><![CDATA[<p>I wrote a bit about music theory with respect to guitars for my brother and decided it was worth sharing.</p>
+
+<p>Scales are a series of notes derived with a set pattern. The root note defines the scale. Let me explain further with two scales that only contain the natural notes (no sharps or flats): A minor and C major. A minor and C major are &lsquo;enharmonic&rsquo; meaning they are the same notes;  the difference between the scales is the root note and the pattern that you follow to find the next note. Observe:</p>
+
+<div>
+<div>
+<blockquote>A minor scale
+
+Notes: A, B, C, D, E, F, G, A
+
+Frets on the E string: 5, 7, 8, 10, 12, 13, 15, 17
+
+Pattern (intervals between notes): root, +2, +1, +2, +2, +1, +2, +2
+
+C major scale
+
+Notes: C, D, E, F, G, A, B, C
+
+Frets on the E string: 8, 10, 12, 13, 15, 17, 19, 20
+
+Pattern (intervals between notes): root, +2, +2, +1, +2, +2, +2, +1</blockquote>
+</div>
+</div>
+
+
+<p>You can play a minor scale by picking the root note then applying the minor pattern: root, +2, +1, +2, +2, +1, +2, +2. In the same way, you can play a major scale by picking a root note then applying the major pattern: root, +2, +2, +1, +2, +2, +2, +1. Another example:</p>
+
+<blockquote>A major scale
+
+Notes: A, B, C#, D, E, F#, G#, A
+
+Frets on the E string: 5, 7, 9, 10, 12, 14, 16, 17
+
+Pattern (intervals between notes): root, +2, +2, +1, +2, +2, +2, +1</blockquote>
+
+
+<p>In music theory terms, the +1 difference is called a &ldquo;half-tone&rdquo; difference and the +2 is termed a &ldquo;whole tone.&rdquo;</p>
+
+<p>If you play notes (mostly) from one scale, you are said to be in that key. For example, if you play notes (mostly) from the E scale, you&rsquo;re in the key of E (major is generally implied&mdash;minor must be stated).</p>
+
+<p>From scales, we can derive chords. Chords are groups of notes. The basic chord is 3 notes: 1 (root), 3, 5 of the scale.</p>
+
+<p>An A minor chord contains the notes A, C, E (1, 3, 5 of the A minor scale).</p>
+
+<p>The C major chord contains C, E, G (1, 3, 5 of the C major scale).</p>
+
+<p>And the A major chord contains A, C#, E (1, 3, 5 of the A major scale).</p>
+
+<p>That&rsquo;s a quick, high-level overview of the basis of all music. Now, rock on! \m/</p>
+
+<p>If you&rsquo;re looking for more information, there are some great resources online. One that is nicely chunked is <a href="http://www.musictheory.net/lessons">http://www.musictheory.net/lessons</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Things that make you go "hmm..."]]></title>
+    <link href="http://www.sethholloway.com//github/things-that-make-you-go-hmm/"/>
+    <updated>2008-11-09T00:00:00-06:00</updated>
+    <id>http://www.sethholloway.com//github/things-that-make-you-go-hmm</id>
+    <content type="html"><![CDATA[<p>Assuming <a title="IQ basics" href="http://www.iqcomparisonsite.com/IQBasics.aspx" target="_blank">IQ follows a normal distribution</a>, the smartest third of India outnumber the entire population of the United States of America; the smartest quarter of China outnumber the entire population of the US.</p>
+
+<p>This point was countered by an Indian friend of mine who pointed out that &ldquo;it does not matter because half of India is illiterate.&rdquo; I&rsquo;m not sure that&rsquo;s true, but I know that the above fact made me go &ldquo;hmm&hellip;&rdquo;</p>
+
+<p>This is potentially damning for countries that do not have sheer numbers as a resource. What do you think? Will nations with the highest population achieve global dominance or is there something more to the equation?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Capital Metro is striking]]></title>
+    <link href="http://www.sethholloway.com//github/capital-metro-is-striking/"/>
+    <updated>2008-11-01T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/capital-metro-is-striking</id>
+    <content type="html"><![CDATA[<p>Friday I received this ominous email:</p>
+
+<p><em>Attention:  All Members of the UT Austin Community</em></p>
+
+<p><em>At 10am on October 31, 2008, the University was notified by Capital Metro
+that a strike of the operators of the mainline bus routes was imminent.  The
+notification states that the strike will begin on Wednesday, November 5,
+2008.  There is not currently a scheduled end date for the strike&hellip;</em></p>
+
+<p>Upon further investigation I saw (from the <a title="Capmetro.org" href="http://www.capmetro.org/" target="_blank">official Capital Metro site)</a>:</p>
+
+<p><span><span style="color: red;"><strong>&ldquo;Service Advisory –</strong>Amalgamated Transit Union Local 1091, which represents most of Capital Metro’s bus operators and mechanics, has called a strike beginning Wednesday, November 5.&rdquo;</span></span></p>
+
+<p>No word of the strike is on the <a title="Amalgamated Transit Union" href="http://www.atu.org/" target="_blank">Amalgamated Transit Union site</a>, but I imagine they are protesting low wages/poor working conditions/the usual.</p>
+
+<p>Yet another reason that public transportation does not catch on here: the workers strike! Rather than ride overcrowded, infrequent buses I will ride my bike or have Andrea take me to school. I just hope the cold weather stays away long enough for me to ride to campus during the strike. In my case, cold weather means anything below 55 degrees Farhenheit :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A few interesting, if not frustrating, articles]]></title>
+    <link href="http://www.sethholloway.com//github/a-few-interesting-if-not-frustrating-articles/"/>
+    <updated>2008-10-24T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/a-few-interesting-if-not-frustrating-articles</id>
+    <content type="html"><![CDATA[<ul>
+<li><a title="Let them die" href="http://www.washingtonpost.com/wp-dyn/content/article/2008/10/23/AR2008102303352.html" target="_blank">AIG is burning through money</a> from the federal bailout with no hopes of paying back taxpayers. Horray for the bailout! I guess I&rsquo;m not surprised that this would happen at a time when schools no longer have grades and competitive sports are outlawed because they expose failure.</li>
+<li>Greenspan admits he was <a title="&quot;Greenspan recants&quot;" href="http://tbm.thebigmoney.com/articles/juicy-bits/2008/10/23/greenspan-recants" target="_blank">&ldquo;partially&rdquo; wrong</a> with his direction for the economy. This is dangerous because people are using Greenspan&rsquo;s admission as a way to trash capitalism; however, America is not a shining expample of laissez-faire markets. I&rsquo;m not positive that unfettered capitalism works, but I don&rsquo;t think we&rsquo;ve tried it yet. The greedy Wall Streeters were hardly Objectivists.</li>
+<li>McCain and Palin continue their <a title="McCain Palin can't debate so they character assassinate" href="http://www.msnbc.msn.com/id/27343688/" target="_blank">despicable smear campaign</a>. Also, why is having an elite government a bad thing? If you haven&rsquo;t seen <a title="Idiocracy, the movie" href="http://www.imdb.com/title/tt0387808/" target="_blank">Idiocracy</a> (the movie) before, watch it and vote for the most elite our nation has to offer&mdash;for the future&rsquo;s sake.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OMG! Did you ride the new The Hills bus downtown? *SQUEEL*]]></title>
+    <link href="http://www.sethholloway.com//github/omg-did-you-ride-the-new-the-hills-bus-downtown-squeel/"/>
+    <updated>2008-10-22T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/omg-did-you-ride-the-new-the-hills-bus-downtown-squeel</id>
+    <content type="html"><![CDATA[<p>Last night Andrea and I had a delightful meal at <a title="Cru" href="http://www.cruawinebar.com/" target="_blank">Cru</a>; we were enticed to try the restaurant as part of <a title="Austin Restaurant Week" href="http://www.restaurantweekaustin.com/" target="_blank">Austin Restaurant Week</a> where a number of pricey restaurants offer a special menu for less. Check it out if you&rsquo;re feeling fancy.</p>
+
+<p>But I digress. The point of this post is to convince you of my brilliant scheme! So here we go&hellip;</p>
+
+<p>Shortly after we sat down a nicely dressed (I mean rich-looking) young woman came in. Thirty minutes later, three more classy (I mean rich-looking) young women showed up. The newcomers apologized profusely for being late and said they were looking for parking.</p>
+
+<p>I found it odd that more people don&rsquo;t ride buses downtown. It&rsquo;s cheap, convenient, and avoids the hassle of parking. However, something tells me that my dining mates would never ride the bus because it is too cheap. So why not make pricey public transportation?</p>
+
+<p>People want status; some people want to show their status with pricey items. It&rsquo;s like <a title="Wikipedia Gentrification" href="http://en.wikipedia.org/wiki/Gentrification" target="_blank">gentrification</a> in our transport. The plan is simple:</p>
+
+<ul>
+<li>Set the price for riding so high that no riff raff can not afford the fare.</li>
+<li>Make the buses luxurious.</li>
+<li>Stop only at trendy locations.</li>
+<li>Brand the buses with cosmopolitan (I mean vapid) shows like The Hills and Sex and the City.</li>
+<li>Seed the first runs with celebrities.</li>
+<li>Profit.</li>
+</ul>
+
+
+<p>With the fancy buses in place the rich-looking ladies' conversation about being late would change from &ldquo;Sorry, we were trying to find parking&rdquo; to &ldquo;Oh my God! We rode The Hills bus downtown! It was so <a title="Lauren Conrad the vapid heroine of The Hills" href="http://en.wikipedia.org/wiki/Lauren_Conrad" target="_blank">LC</a>!&rdquo;</p>
+
+<p>Flawless! What do you think?</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: academics | Seth Holloway]]></title>
+  <link href="http://www.sethholloway.com//github/blog/categories/academics/atom.xml" rel="self"/>
+  <link href="http://www.sethholloway.com//github/"/>
+  <updated>2015-07-15T20:09:55-05:00</updated>
+  <id>http://www.sethholloway.com//github/</id>
+  <author>
+    <name><![CDATA[Seth Holloway]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Abstract for my PhD dissertation]]></title>
+    <link href="http://www.sethholloway.com//github/abstract-for-my-phd-dissertation/"/>
+    <updated>2013-05-10T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/abstract-for-my-phd-dissertation</id>
+    <content type="html"><![CDATA[<p>I completed my PhD in May 2011. My dissertation, <a title="Simplifying the Programming of Intelligent Environments at UT Library" href="http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-05-3368">Simplifying the Programming of Intelligent Environments</a>, was basically about making home automation usable. Below is the abstract.</p>
+
+<h3>Abstract</h3>
+
+
+<p>In the future, computers will be virtually everywhere: carried by everyone and integrated into the environment. The increased computation and communication capabilities will enable intelligent environments that react to occupants through automated decision-making. Devices (sensors and actuators) are the key to making intelligent environments a reality. We believe that devices must be made more approachable for average users. Existing approaches to application development for intelligent environments require detailed knowledge about devices and their low-leveling programming interfaces, which greatly limits the number of potential users. Instead of limiting users, we must enable everyone to program the devices around them. Intelligent environments will not be commonplace until average people can set up and manage the hardware and software necessary for their personalized applications.</p>
+
+<p>In simplifying the programming of intelligent environments, we ?rst made sensors and actuators accessible to average programmers then extended our work to end-users. We term the former contribution Sensor Enablement for Average Programmers (SEAP); the latter work is Sensor Enablement for End-Users (SEEU). In our experience, devices’ disparate, niche programming languages and communication protocols presented great di?culty in developing intelligent environments. To ease the development e?ort for average  programmers, we abstracted and standardized complex sensor and actuator  interactions, allowing users to instead think in terms of well-understood web applications. Users have said that SEAP is easy-to-use and exciting. But what about average people, end-users?</p>
+
+<p>We found that end-users are incredibly interested in intelligent environments. By engaging end-users we can create intelligent environments even faster and allow domain experts to tailor their environment. This dissertation’s second contribution, Sensor Enablement for End-Users (SEEU) provides a visual programming interface that allows users to create personalized automated behaviors given available devices and data. We performed several user studies to uncover people’s desires for intelligent environments and determine the best interface for managing an intelligent environment. SEEU combines an intuitive interface with the power and ?exibility of SEAP. SEEU is a usable end-user programming framework that allows average people to create useful applications for their intelligent environments.</p>
+
+<p>With SEEU and SEAP, we simplified the development of intelligent  environments, reducing barriers to adoption of emerging sensing and actuation technologies. We demonstrated the feasability with a series of user studies.</p>
+
+<p>So, what does this really mean? Essentially, I wanted sensors and actuators to be internet-enabled, an idea that is now called the Internet of Things (IoT). I worked on the backend to design a system that allowed developers to connect devices generically using standard HTTP. That was capped off with an end-user programming framework allowing everyone to process the newly available sensors and actuators.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[When to use the PhD suffix]]></title>
+    <link href="http://www.sethholloway.com//github/when-to-use-the-phd-suffix/"/>
+    <updated>2013-05-05T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/when-to-use-the-phd-suffix</id>
+    <content type="html"><![CDATA[<p>I struggle with when to include the PhD suffix. I try not to flaunt my degree, but I worked hard and want the PhD to be worth something&mdash;that means I can&rsquo;t downplay it. Work is one place where degrees (might) matter. There are potential downsides to using the PhD at work though.</p>
+
+<p>Here&rsquo;s roughly when I include (marked yes) or omit (marked no) the PhD:</p>
+
+<ul>
+<li>Resume: yes</li>
+<li>Email signature: yes</li>
+<li>Business card: yes</li>
+<li>Presentations (title slide): yes</li>
+<li>LinkedIn: no</li>
+<li>Name tags: no</li>
+<li>Verbal introductions: no</li>
+</ul>
+
+
+<p>Does that seem reasonable to you? Have a missed a situation? I suppose the tried-and-true advice is &ldquo;know your audience&rdquo; and use the PhD when it will be advantageous.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Online learning is taking off]]></title>
+    <link href="http://www.sethholloway.com//github/online-learning-is-taking-off/"/>
+    <updated>2012-07-22T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/online-learning-is-taking-off</id>
+    <content type="html"><![CDATA[<p>Education is changing&mdash;big time! I don&rsquo;t think we&rsquo;ll see many people leave or bypass universities for another 10 years, but we are getting back on track for the &lsquo;Information Age&rsquo; (as social media and memes settle in to their new home).</p>
+
+<p>Online learning has evolved tremendously over the past year, with new offerings from some of the world&rsquo;s most famous professors and experts. Amazing programmers have created accessible, often beautiful, interfaces with intuitive lessons and exercises. People are experimenting with delivery methods ranging from YouTube videos and podcasts to interactive code tutorials and multiple choice questions. These are exciting times!</p>
+
+<p><img title="Up, up, and awesome" alt="Up, up, and awesome" src="http://www.legaleaglelawschool.com/wp-content/uploads/2011/04/rocket-launch1.jpg" width="381" height="481" /></p>
+
+<p>Here are a few of my favorites:</p>
+
+<ul>
+<li>Khan Academy &ndash; <a title="http://www.khanacademy.org/" href="http://www.khanacademy.org/"><a href="http://www.khanacademy.org/">http://www.khanacademy.org/</a></a></li>
+<li>Coursera - <a href="http://www.coursera.org" rel="nofollow"><a href="http://www.coursera.org">http://www.coursera.org</a></a></li>
+<li>Udacity &ndash; <a title="http://www.udacity.com/" href="http://www.udacity.com/"><a href="http://www.udacity.com/">http://www.udacity.com/</a></a></li>
+<li>MIT&rsquo;s Open Courseware &ndash; <a title="http://ocw.mit.edu/index.htm" href="http://ocw.mit.edu/index.htm"><a href="http://ocw.mit.edu/index.htm">http://ocw.mit.edu/index.htm</a></a></li>
+<li>Stanford&rsquo;s offerings &ndash; <a title="http://see.stanford.edu/see/courses.aspx" href="http://see.stanford.edu/see/courses.aspx"><a href="http://see.stanford.edu/see/courses.aspx">http://see.stanford.edu/see/courses.aspx</a></a></li>
+<li>Yale Open Courses - <a title="http://oyc.yale.edu/" href="http://oyc.yale.edu/"><a href="http://oyc.yale.edu/">http://oyc.yale.edu/</a></a></li>
+<li>Academic Earth &ndash; <a title="http://academicearth.org/" href="http://academicearth.org/"><a href="http://academicearth.org/">http://academicearth.org/</a></a></li>
+<li>EdX - <a title="https://www.edx.org/" href="https://www.edx.org/"><a href="https://www.edx.org/">https://www.edx.org/</a></a></li>
+<li>Institute for Advanced Studies - <a title="http://www.ias.edu/" href="http://www.ias.edu/"><a href="http://www.ias.edu/">http://www.ias.edu/</a></a></li>
+<li>Code Academy - <a title="http://codeacademy.com/" href="http://codeacademy.com/"><a href="http://codeacademy.com/">http://codeacademy.com/</a></a></li>
+<li>Code School - <a title="http://www.codeschool.com/" href="http://www.codeschool.com/"><a href="http://www.codeschool.com/">http://www.codeschool.com/</a></a></li>
+<li>InfoQ - <a title="http://www.infoq.com/" href="http://www.infoq.com/"><a href="http://www.infoq.com/">http://www.infoq.com/</a></a></li>
+<li>TED &ndash; <a title="http://www.ted.com/" href="http://www.ted.com/"><a href="http://www.ted.com/">http://www.ted.com/</a></a></li>
+</ul>
+
+
+<p>(Updated with Coursera: Thanks, Sean!)</p>
+
+<p>I&rsquo;ve also found some gems like</p>
+
+<ul>
+<li>MSDN Channel9&rsquo;s Functional Programming Fundamentals <a title="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals" href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals"><a href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals">http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals</a></a></li>
+<li>John Resig&rsquo;s Learning Advanced JavaScript <a title="http://ejohn.org/apps/learn/" href="http://ejohn.org/apps/learn/"><a href="http://ejohn.org/apps/learn/">http://ejohn.org/apps/learn/</a></a></li>
+<li>Nathan&rsquo;s University, <a title="http://nathansuniversity.appspot.com/" href="http://nathansuniversity.appspot.com/"><a href="http://nathansuniversity.appspot.com/">http://nathansuniversity.appspot.com/</a></a>, which aims to teach you how to create your own programming language.</li>
+</ul>
+
+
+<p>Any virtually any other subject has lectures appearing on sites like <a title="http://www.youtube.com/watch?v=rI8tNMsozo0" href="http://www.youtube.com/watch?v=rI8tNMsozo0">YouTube</a>, <a title="http://vimeo.com/15046335" href="http://vimeo.com/15046335">Vimeo</a>, and <a title="http://blip.tv/clojure/sam-aaron-programming-music-with-overtone-5970273" href="http://blip.tv/clojure/sam-aaron-programming-music-with-overtone-5970273">Blip.tv</a>, <a title="Lanyrd" href="http://lanyrd.com/">Lanyrd</a> (to name a few).</p>
+
+<p>So much to learn! I think we&rsquo;ll see a lot more innovation with formats, content, and pricing. It&rsquo;s a great time to be alive :)</p>
+
+<p>Have you found another online learning site that looks promising or disruptive? How does/would online affect/have affected your education? Would you <a title="Thiel Fellowship encourages students to skip college" href="http://www.thielfellowship.org/">skip college and jump straight to starting a business</a> knowing that so much knowledge is at your fingertips?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dijkstra's View of Computer Science Education]]></title>
+    <link href="http://www.sethholloway.com//github/dijkstra-on-computer-science-education/"/>
+    <updated>2012-01-29T00:00:00-06:00</updated>
+    <id>http://www.sethholloway.com//github/dijkstra-on-computer-science-education</id>
+    <content type="html"><![CDATA[<p><a title="Wikipedia: Dijkstra" href="http://en.wikipedia.org/wiki/Edsger_Dijkstra">Edsger Dijkstra</a>, one of the most influential figures in Computer Science and the most famous Computer Scientist to never own a computer, had very strong opinions on Computer Science education. He expressed his feelings in an essay titled &ldquo;The Cruelty of Really Teaching Computer Science." You can read Dijkstra&rsquo;s original, hand-written note as <a title="Dijkstra's view on CS education" href="http://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1036.PDF">PDF</a>, or the <a title="Dijkstra's view transcribed" href="http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html">transcription</a>, or the Wikipedia <a title="Wikipedia: Dijkstra's view on CS education" href="http://en.wikipedia.org/wiki/The_Cruelty_of_Really_Teaching_Computer_Science">page</a>. The piece was also <a title="Slashdot: Dijkstra's view on CS education" href="http://news.slashdot.org/article.pl?sid=08%2F12%2F02%2F1410254">covered on Slashdot</a> with lots of nice comments. Here&rsquo;s an excerpt:</p>
+
+<blockquote>Needless to say, this vision of what computing science is about is not universally applauded. On the contrary, it has met widespread --and sometimes even violent-- opposition from all sorts of directions. I mention as examples
+
+(0) the mathematical guild, which would rather continue to believe that the Dream of Leibniz is an unrealistic illusion
+
+(1) the business community, which, having been sold to the idea that computers would make life easier, is mentally unprepared to accept that they only solve the easier problems at the price of creating much harder ones
+
+(2) the subculture of the compulsive programmer, whose ethics prescribe that one silly idea and a month of frantic coding should suffice to make him a life-long millionaire
+
+(3) computer engineering, which would rather continue to act as if it is all only a matter of higher bit rates and more flops per second
+
+(4) the military, who are now totally absorbed in the business of using computers to mutate billion-dollar budgets into the illusion of automatic safety
+
+(5) all soft sciences for which computing now acts as some sort of interdisciplinary haven
+
+(6) the educational business that feels that, if it has to teach formal mathematics to CS students, it may as well close its schools.</blockquote>
+
+
+<p>Between my time in industry and academia I&rsquo;ve participated in tens of discussions about CS education. You wouldn&rsquo;t catch me hand-writing a single-pass essay like Dijkstra, but I can agree with academic&rsquo;s long-term view that theory will allow students to understand and apply concepts throughout their career. I also understand the industry desire for real skills (like Java or C, for example) that would allow new employees to hit the ground running. This debate will continue, but I think the state of education is going to change very soon&mdash;particularly due to the <a title="Forbes - the Rise of Developeronomics" href="http://www.forbes.com/sites/venkateshrao/2011/12/05/the-rise-of-developeronomics/">rise of developeronomics</a>.</p>
+
+<p>What do you think? Is CS education valuable? Who is doing it well? How could we improve? If schools are failing, how can students augment their curriculum?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The merits of a PhD]]></title>
+    <link href="http://www.sethholloway.com//github/the-merits-of-a-phd/"/>
+    <updated>2011-06-20T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/the-merits-of-a-phd</id>
+    <content type="html"><![CDATA[<p>I just found this buried at the bottom of my drafts&hellip; whoops! Soon I will post updated thoughts now that I&rsquo;ve completed the PhD&hellip;</p>
+
+<blockquote>Whenever I tell people I am working on my PhD, I see two polarized opinions. One, my preferred response, is amazement. I do appreciate the approval.
+
+The other response flows from people who do not believe a PhD is worthwhile. In terms of average income earned over a lifetime, the PhD is statistically out-earned by the MS. To this point I assert that correlation is not causation. In large companies and government organizations, PhDs are moving out of the labs and into management roles; among start-ups--a new idea in America--PhDs are more prevalent than in large organizations. Once the income earned from the new class of PhDs (those in management and those at start-ups) is fed into the equation, we may find that income is always proportional to level of education.
+
+Another point that I've heard repeatedly attempts to diminish the PhD by pointing out the small-scale distribution of research. Yes, it is true that few people will ever read a PhD dissertation despite the fact that the dissertation is the culmination of thousands of hours of effort. However, to graduate a PhD candidate normally publishes a number of peer-reviewed papers that are read by others in the area; the candidate also has to defend his/her research to a group of eagle-eyed professors.
+
+For me, the PhD is about self-fulfillment--the ability to stick with it and accomplish a difficult task. I'm not out for fortune or fame, and I hope that people I meet, whether they agree or disagree with the PhD, are equally realistic about their own life.</blockquote>
+
+]]></content>
+  </entry>
+  
+</feed>

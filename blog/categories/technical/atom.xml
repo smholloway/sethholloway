@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: technical | Seth Holloway]]></title>
+  <link href="http://www.sethholloway.com//github/blog/categories/technical/atom.xml" rel="self"/>
+  <link href="http://www.sethholloway.com//github/"/>
+  <updated>2015-07-15T20:09:55-05:00</updated>
+  <id>http://www.sethholloway.com//github/</id>
+  <author>
+    <name><![CDATA[Seth Holloway]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Low cost genetic testing]]></title>
+    <link href="http://www.sethholloway.com//github/low-cost-genetic-testing/"/>
+    <updated>2013-10-05T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/low-cost-genetic-testing</id>
+    <content type="html"><![CDATA[<p>I recently spit into a cup so that <a title="23 and Me" href="http://refer.23andme.com/a/clk/18h5Np">23andme</a> can perform genetic tests. It&rsquo;s a surreal feeling: for about $100, I gain access to some sci-fi dream that was completely unheard of even a decade ago.</p>
+
+<p>The future is going to be an awesome place!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Thoughts on Learning Clojure]]></title>
+    <link href="http://www.sethholloway.com//github/thoughts-on-learning-clojure/"/>
+    <updated>2013-04-26T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/thoughts-on-learning-clojure</id>
+    <content type="html"><![CDATA[<p>In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time&mdash;we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.</p>
+
+<ul>
+<li>I like that Clojure builds on Lisp. I feel like I&rsquo;m working on something cutting edge, yet proven. It feels like joining a dynasty, perhaps.</li>
+<li>With Clojure, you write right to left, which is new and different. The prefix notation was not intuitive for me.</li>
+</ul>
+
+
+<p>```javascript</p>
+
+<pre><code>JavaScript: [1, 2, 3].map(function(i){return i*i;}).reduce(function(a,b){return a+b;});
+Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
+</code></pre>
+
+<p>```</p>
+
+<ul>
+<li><p>Map, Reduce, and Filter are really flexible. For example, reduce can be used to implement join really easily. Learning to think this way has not been immediate for me.</p>
+
+<p> Clojure: (reduce #(str %1 &ldquo; &rdquo; %2) &lsquo;(&ldquo;the&rdquo;, &ldquo;quick&rdquo;, &ldquo;brown&rdquo;, &ldquo;fox&rdquo;, &ldquo;jumps&rdquo;, &ldquo;over&rdquo;, &ldquo;the&rdquo;, &ldquo;lazy&rdquo;, &ldquo;dog&rdquo;))
+ JavaScript: [&ldquo;the&rdquo;, &ldquo;quick&rdquo;, &ldquo;brown&rdquo;, &ldquo;fox&rdquo;, &ldquo;jumps&rdquo;, &ldquo;over&rdquo;, &ldquo;the&rdquo;, &ldquo;lazy&rdquo;, &ldquo;dog&rdquo;].join(&ldquo; &rdquo;) == [&ldquo;the&rdquo;, &ldquo;quick&rdquo;, &ldquo;brown&rdquo;, &ldquo;fox&rdquo;, &ldquo;jumps&rdquo;, &ldquo;over&rdquo;, &ldquo;the&rdquo;, &ldquo;lazy&rdquo;, &ldquo;dog&rdquo;].reduce(function(a,b){return a + &ldquo; &rdquo; + b;})</p></li>
+<li><p>Chaining functions together is fun.</p></li>
+<li>2 + 4 is really applying the add function to two arguments (2 and 4). This seems like an obvious statement, but I normally think of the plus sign simply as an operator rather than a function. Clojure, Lisp really, wears new grooves in the brain.</li>
+<li>It can be hard to get the iterative approach out of my head. For example, Project Euler problems to find the 2,000th prime feels like &ldquo;generate 2,000 primes and return the last one&rdquo; and to find the prime after 4,000,000 would be &ldquo;while the prime is less than 4 million, find the next prime.&rdquo; I had a hard time thinking of these functionally.</li>
+<li>Lisp can be really clever and readable, and Clojure can be written almost the exact same way. Except that Lisp-style code in Clojure will blow the stack (due to the JVM&rsquo;s lack of ability to tail-call optimize) or perform like crap (the compiler needs &ldquo;hints&rdquo; to optimize performance). Suddenly, your beautiful recursive call turns into this less-readable loop-recur mess.</li>
+<li>Following on the previous point, Lisp can be really unreadable. The language does not layer on any discipline, so the developers better do it. And it turns out that naming functions appropriately is really hard.</li>
+<li>The standard library is really nice. It is lengthy, which makes it hard to learn.</li>
+<li>There are a ton of great resources online. They can be woefully out-of-date.</li>
+<li>In roughly 1 day, I was able to understand more code than I would have expected. I could not do much with that knowledge :)</li>
+<li>I felt like I had to go to Clojure because it was not coming to me. I believe this reflects Rich Hickey&rsquo;s ethos: he created the language for a reason and wants you to use it in the intended way.</li>
+<li>It was hard to convince my peers that Clojure was the language of the future. One of the most common questions was, &ldquo;are there any large system written in Clojure in production?&rdquo; Based on the reactions, I doubt Clojure will enter the mainstream anytime soon.</li>
+</ul>
+
+
+<p>Overall, I enjoyed learning Clojure and I feel it made me a better programmer. If you haven&rsquo;t checked it out, <a title="4clojure Problem 1" href="http://www.4clojure.com/problem/1">work through a few problems</a> and see what you think.</p>
+
+<p>Some resources I used along the way:</p>
+
+<ul>
+<li><a title="http://hyperpolyglot.org/lisp" href="http://hyperpolyglot.org/lisp"><a href="http://hyperpolyglot.org/lisp">http://hyperpolyglot.org/lisp</a></a></li>
+<li><a title="http://www.learningclojure.com/2010/08/reduce-not-scary.html" href="http://www.learningclojure.com/2010/08/reduce-not-scary.html"><a href="http://www.learningclojure.com/2010/08/reduce-not-scary.html">http://www.learningclojure.com/2010/08/reduce-not-scary.html</a></a></li>
+<li><a title="https://www.4clojure.com/" href="https://www.4clojure.com/"><a href="https://www.4clojure.com/">https://www.4clojure.com/</a></a></li>
+<li><a title="http://gigamonkeys.com/book/" href="http://gigamonkeys.com/book/"><a href="http://gigamonkeys.com/book/">http://gigamonkeys.com/book/</a></a></li>
+<li><a title="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer" href="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer"><a href="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer">http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer</a></a></li>
+<li><a title="https://github.com/relevance/labrepl" href="https://github.com/relevance/labrepl"><a href="https://github.com/relevance/labrepl">https://github.com/relevance/labrepl</a></a></li>
+<li><a title="http://java.ociweb.com/mark/clojure/article.html" href="http://java.ociweb.com/mark/clojure/article.html"><a href="http://java.ociweb.com/mark/clojure/article.html">http://java.ociweb.com/mark/clojure/article.html</a></a></li>
+<li><a title="http://www.lisperati.com/clojure-spels/casting.html" href="http://www.lisperati.com/clojure-spels/casting.html"><a href="http://www.lisperati.com/clojure-spels/casting.html">http://www.lisperati.com/clojure-spels/casting.html</a></a></li>
+<li><a title="http://joyofclojure.com/" href="http://joyofclojure.com/"><a href="http://joyofclojure.com/">http://joyofclojure.com/</a></a></li>
+<li><a title="http://pragprog.com/book/shcloj2/programming-clojure" href="http://pragprog.com/book/shcloj2/programming-clojure"><a href="http://pragprog.com/book/shcloj2/programming-clojure">http://pragprog.com/book/shcloj2/programming-clojure</a></a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Shipping isn't everything]]></title>
+    <link href="http://www.sethholloway.com//github/shipping-isnt-everything/"/>
+    <updated>2013-04-25T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/shipping-isnt-everything</id>
+    <content type="html"><![CDATA[<p>Stop bragging about how much you shipped!</p>
+
+<p>I understand that code does not generate revenue unless people are using it. I appreciate getting product out the door. I also love clean code a solid architecture that reduces maintenance costs and allows developers to stay productive for years to come. I cannot abide the &ldquo;ship or die&rdquo; mentality when people ship hacky, unusable software then play the &ldquo;shipping is everything&rdquo; card.</p>
+
+<p>Not all shipping is a success. <a title="Wikipedia: Chinese milk scandal" href="http://en.wikipedia.org/wiki/2008_Chinese_milk_scandal">China shipped melamine-laced milk</a> that made a ton of people sick. <a title="Wikipedia: Madoff Investment Scandal" href="http://en.wikipedia.org/wiki/Madoff_investment_scandal">Madoff shipped a lot of information</a> that led to financial ruin. <a title="NPR: Komen and Planned Parenthood" href="http://www.npr.org/blogs/thetwo-way/2012/01/31/146177902/furor-erupts-over-susan-g-komen-halt-of-grants-to-planned-parenthood">Komen shipped their plan to cut funding to Planned Parenthood</a> and faced a great backlash. <a title="Wikipedia: Mars Climate Orbiter" href="http://en.wikipedia.org/wiki/Mars_Climate_Orbiter">NASA shipped code with metric-imperial unit mismatch</a> and crashed a $300,000,000 rover. <a title="Wikipedia: Microsoft Clippy" href="http://en.wikipedia.org/wiki/Office_Assistant">Microsoft shipped Clippy</a> and people cringed. A little oversight before shipping can save lives and prevent PR nightmares.</p>
+
+<p>Let&rsquo;s stop glorifying shipping and start glorifying quality, happiness (for clients and employees), and success.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hermit crab software]]></title>
+    <link href="http://www.sethholloway.com//github/hermit-crab-software/"/>
+    <updated>2013-04-25T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/hermit-crab-software</id>
+    <content type="html"><![CDATA[<p>I have spent incalculable amounts of time trying to set up software environments, and if you&rsquo;ve done any programming, I&rsquo;d guess that you have had similar experiences. As a way to save everyone time and frustration, I think we should push for hermit crab software&mdash;programming environments that carry their &ldquo;home&rdquo; around with them.</p>
+
+<p><a href="http://andyjthompson.wordpress.com/tag/hermit-crab/"><img class="alignnone" title="Hermit Crab" alt="" src="http://andyjthompson.files.wordpress.com/2010/03/hermit-crab.jpg" width="262" height="264" /></a></p>
+
+<p>Sometimes you need a language runtime and a text editor, sometimes an IDE has everything, sometimes you have to grab the language and various tools, or the language ecosystem relies on outside libraries. Then there&rsquo;s configuration of each of the components; for example, download and set up the Clojure bundle for TextMate, add the language to your PATH, etc.</p>
+
+<p>Some issues I&rsquo;ve had recently:</p>
+
+<ul>
+<li>Rails issues like setting up Ruby, Rails, gems, rake, RVM, and fun things like  <a title="Ruby HTTPS error" href="http://stackoverflow.com/questions/9338035/no-such-file-to-load-net-https-heroku-ruby-ubuntu-10-04">Ruby issues with HTTPS that require you to install SSL then reinstall Ruby</a></li>
+<li>Persistent Java issues around <a title="StackOverflow: What is Classpath hell?" href="http://stackoverflow.com/questions/373193/what-is-classpath-hell-and-is-was-it-really-a-problem-for-java">jar and classpath hell</a></li>
+<li>Exciting new languages like <a title="Scala" href="http://www.scala-lang.org/">Scala</a> and <a title="Clojure" href="http://clojure.org/">Clojure</a> have moved quickly and tutorials have not kept up, so there is confusion.</li>
+<li><a title="Sonar Source" href="http://www.sonarsource.com/">Sonar</a> was so easy to install&mdash;simply download and unpack&mdash;I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)</li>
+</ul>
+
+
+<p>There are a few promising leads like <a title="Vagrant" href="http://vagrantup.com/">Vagrant</a> and <a title="Ubuntu Juju" href="https://juju.ubuntu.com/">Juju</a>, which make it easier for everyone to share a development environment. Unfortunately, they probably can&rsquo;t help at the language level (e.g., are you using Ruby 1.9.2-p180-patched or 1.9.2-p290?). <a title="Apache Maven" href="http://maven.apache.org/">Maven</a>, <a title="Bundler" href="http://gembundler.com/">Bundler</a>, <a title="Python Installs Packages" href="http://pypi.python.org/pypi/pip">Pip</a>, and other dependency management systems help, but I&rsquo;d like to see the language make dependencies and versioning a first-class citizen. I envision the ability to download an app from source control and be running with all the right versions of the language, tools, and dependencies in one-click.</p>
+
+<p>So, why not create software environments that carry their environments around on their back?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Search has to solve versioning]]></title>
+    <link href="http://www.sethholloway.com//github/search-has-to-solve-versioning/"/>
+    <updated>2013-03-26T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//github/search-has-to-solve-versioning</id>
+    <content type="html"><![CDATA[<p>Search has been failing me frequently in the recent past, and the problem is only getting worse. Versions are everywhere and search is not keeping up. Here are a few examples:</p>
+
+<ul>
+<li>Googling for &ldquo;mac lion&rdquo; returns 5 results for Lion and 5 for Mountain Lion on the first page. Specifying version number (e.g., &ldquo;mac lion 10.7&rdquo;) or date (e.g., &ldquo;mac lion 2011&rdquo;) does not particularly help the results.</li>
+<li>World of Warcraft has repeated some items with each expansion (or retooled bosses like Onyxia and even whole zones like Naxxramus). Searching for the item may lead you to the 2010 incarnation. Simply adding 2012 or the expansion name is often ineffective because the pages will contain dates and expansion names throughout the content. Another example: there are over <a title="Fortune Card -- what version???" href="http://www.wowhead.com/item=60840/fortune-card">50 virtually identical fortune cards</a>.</li>
+<li>A similar idea occurs in GitHub branches. For example, if you&rsquo;re looking for <a title="Toopher Ruby" href="https://github.com/toopher/toopher-ruby">Toopher&rsquo;s Ruby client</a> (which rocks!) then you might find my fork that was already merged with master.</li>
+<li>In my personalized search results for &ldquo;cross platform password management,&rdquo; Google returns an outdated <a title="Outdated -- Lifehacker's five best password managers" href="http://lifehacker.com/5042616/five-best-password-managers">Lifehacker article from 2008</a> above more recent articles. In this case, recency trumps Lifehacker&rsquo;s relevance and authority.</li>
+<li>While learning Clojure (at version 1.4) I kept finding StackOverflow responses like, &ldquo;here&rsquo;s how to do it in Clojure 1.2.&rdquo; The more dangerous response was &ldquo;here&rsquo;s how to do it in Clojure&rdquo; with no mention of versioning. I spent hours trying to get the outdated procedures to work only to have them fail.</li>
+<li>There are bugs that exist for certain operating systems with certain versions of dependent projects. Like <a title="Ruby 1.9.2 seg faults with OpenSSL" href="http://www.christopherirish.com/2011/09/02/ruby-1-9-2-segmentation-fault-and-openssl/">Ruby 1.9.2+ on Mac OS X Lion when installed with RVM 1.0 or higher</a>. Searching for this was difficult because it required so many versions.</li>
+</ul>
+
+
+<p>Some of these examples would be prevented by using advanced search options and narrowing results to the past year; however, I feel that&rsquo;s a cop-out for a poor user experience.</p>
+
+<p>Until search engines gain additional processing, I think we should get familiar with scoping search results and ask that answers contain version information for increased searchability.</p>
+
+<p>I think search has to solve versioning&mdash;what do you think?</p>
+]]></content>
+  </entry>
+  
+</feed>

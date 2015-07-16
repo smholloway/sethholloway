@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Installing the Google Predictions API in R - Seth Holloway</title>
+  <meta name="author" content="Seth Holloway">
+
+   
+  <meta name="description" content="Polymathic, in theory.">
+  
+  <meta name="keywords" content="">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.sethholloway.com//github/installing-the-google-predictions-api-in-r">
+  <link href="/favicon.png" rel="icon">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Seth Holloway" type="application/atom+xml">
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap-collapse.js"></script>
+  <script src="/js/modernizr-2.0.js"></script>
+  <script src="/js/octopress.js" type="text/javascript"></script>
+  <script src="/js/application.js"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7555904-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <div class="navbar navbar-inverse navbar-static-top">
+  	<div class="navbar-inner">
+  	  <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="fui-menu-24"></span>
+        </a>
+  	  	<div class="nav-collapse collapse navbar-responsive-collapse" style="height:0;">
+  	      <ul class="nav">
+    
+        <li ><a href="/">Blog</a></li>
+    
+        <li ><a href="/blog/archives/">Archives</a></li>
+    
+        <li ><a href="/about/">About</a></li>
+    
+</ul>
+
+<ul class="nav pull-right">
+    
+    <li><a href="http://github.com/smholloway" title="Github Profile"><i class="icon-github-sign social-navbar"></i></a></li>
+    
+    
+    
+    <li><a href="http://linkedin.com/in/sethholloway" title="Linkedin Profile"><i class="icon-linkedin-sign social-navbar"></i></a></li>
+    
+    
+    <li><a href="http://twitter.com/sethholloway" title="Twitter Profile"><i class="icon-twitter-sign social-navbar"></i></a></li>
+    
+    
+    <li><a href="http://plus.google.com/107333139913866738283" title="Google+ Profile"><i class="icon-google-plus-sign social-navbar"></i></a></li>
+    
+    
+    
+
+    
+</ul>
+
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+  <div class="container" id="main">
+      <div class="row-fluid">
+        <div id="content">
+          <div>
+<article class="hentry" role="article">
+  
+
+  <header>
+  <div class="jumbotron">
+    Installing the Google Predictions API in R
+	<h5 class="post-date">
+
+
+
+
+
+
+
+
+  
+
+
+<i class="icon-calendar-empty"></i> <time datetime="2012-03-25T00:00:00-05:00" pubdate data-updated="true"></time></h5>
+  </div>
+</header>
+  <div class="row-fluid">
+    <div class="span12">
+      <p>Note: This post got buried and I never posted it. I haven&rsquo;t played with R in several months, so I&rsquo;m not sure if this works anymore.</p>
+
+<p>This assumes you have R downloaded and installed.</p>
+
+<p>Download, install, and configure GSUtil (<a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>)</p>
+
+<p>Load R. You should see an ugly console :) In the window type</p>
+
+<pre>install.packages(c("RCurl", "rjson"))</pre>
+
+
+<p>You will be prompted to select a mirror; find something close to you and continue.</p>
+
+<p>You might be frustrated that there&rsquo;s no success message:</p>
+
+<pre>trying URL 'http://www.revolution-computing.com/cran/bin/macosx/leopard/contrib/2.13/rjson_0.2.5.tgz'
+Content type 'application/x-gzip' length 133138 bytes (130 Kb)
+opened URL
+==================================================
+downloaded 130 Kb
+
+The downloaded packages are in
+    /var/folders/I3/I3YZ8e5tGOK9CY9LQ98ix++++TI/-Tmp-//RtmpFrtdp3/downloaded_packages</pre>
+
+
+<p>However, if you fail there will be an error message:</p>
+
+<pre>&gt; install.packages("seth", dependencies = TRUE)
+Warning message:
+In getDependencies(pkgs, dependencies, available, lib) :
+  package ‘seth’ is not available (for R version 2.13.0)</pre>
+
+
+<pre>&gt; install.packages("googlepredictionapi_0.1.tar.gz", repos=NULL, type="source")
+Warning: invalid package ‘googlepredictionapi_0.1.tar.gz’
+Error: ERROR: no packages specified
+Warning message:
+In install.packages("googlepredictionapi_0.1.tar.gz", repos = NULL,  :
+  installation of package 'googlepredictionapi_0.1.tar.gz' had non-zero exit status</pre>
+
+
+<p>Download the Google Predictions API for R</p>
+
+<p><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></p>
+
+<p>Install it</p>
+
+<pre>$ mkdir -p ~/R/library</pre>
+
+
+<pre>$ mv googlepredictionapi_0.1.tar.gz ~/R/library/</pre>
+
+
+<pre>$ R_LIBS_USER="~/R/library"</pre>
+
+
+<pre>$ echo 'R_LIBS_USER="~/R/library"' &gt;  $HOME/.Renviron</pre>
+
+
+
+
+<pre>R CMD INSTALL ~/R/library/googlepredictionapi_0.1.tar.gz</pre>
+
+
+<pre></pre>
+
+
+<p>Source your libraries</p>
+
+<pre>library(rjson)
+library(RCurl)
+library(googlepredictionapi)</pre>
+
+
+<p>Some useful links
+<a href="http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html">http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html</a>
+<a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
+<a href="http://code.google.com/p/r-google-prediction-api-v12/">http://code.google.com/p/r-google-prediction-api-v12/</a></p>
+
+<p><a href="http://csg.sph.umich.edu/docs/R/localpackages.html">http://csg.sph.umich.edu/docs/R/localpackages.html</a></p>
+
+<ul>
+<li>Load R <em>Note:</em> You will see an ugly console.</li>
+<li><p>Install the pre-reqs</p>
+
+<blockquote><p>install.packages(c(&ldquo;RCurl&rdquo;, &ldquo;rjson&rdquo;))</p></blockquote></li>
+<li><p>Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.</p></li>
+<li><p>Note: A successful install will not yield a success message&mdash;it will simply not show an error message.</p></li>
+<li><p>Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html"><a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a></a></p></li>
+<li>Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/"><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></a></li>
+<li><p>Install the plugin <em>Note:</em> I had to do it from the command line because the install failed inside R</p>
+
+<p> $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz</p></li>
+<li><p>Now, you should be able to restart R and see the API listed in the Package Manager</p></li>
+<li><p>From here we source our libraries</p>
+
+<blockquote><p>library(rjson)
+library(RCurl)
+library(googlepredictionapi)</p></blockquote></li>
+<li><p>If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I&rsquo;ve stopped here.</p></li>
+</ul>
+
+
+    </div>
+  </div>
+
+
+
+  <footer>
+    <hr>
+    
+    <div class="row-fluid">
+      
+      <div class="span6">
+        <p class="meta">
+        
+        
+
+
+
+  <a href="/blog/categories/technical/"><span class="badge">technical</span></a>
+
+
+
+
+        </p>
+      </div>
+      
+      <div class="span6 social-sharing">
+        <div class="sharing">
+  <div class="addthis_toolbox addthis_default_style ">
+  
+  <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+  
+  
+  <a class="addthis_button_tweet"></a>
+  
+  
+  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+  
+  </div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+      </div>
+      
+      
+    </div>
+    
+    <div class="row-fluid">
+      <div class="span12">
+        <p class="meta">
+          
+            <a class="basic-alignment left" href="/observations-from-three-months-of-vegetarianism/" title="Previous Post: Observations from three months of vegetarianism">&laquo; Observations from three months of vegetarianism</a>
+          
+          
+            <a class="basic-alignment right" href="/my-experience-with-programming-languages/" title="Next Post: My experience with programming languages">My experience with programming languages &raquo;</a>
+          
+        </p>
+      </div>
+    </div>
+  </footer>
+</article>
+
+</div>
+
+
+
+        </div>
+      </div>
+      <div class="row-fluid">
+        <footer class="footer-page" role="contentinfo">
+          <p>
+  Copyright &copy; 2015 by Seth Holloway
+</p>
+
+
+        </footer>
+      </div>
+  </div>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
