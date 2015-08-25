@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com/sethholloway/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com/sethholloway/"/>
-  <updated>2015-07-15T20:14:40-05:00</updated>
+  <updated>2015-08-25T09:15:44-05:00</updated>
   <id>http://www.sethholloway.com/sethholloway/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,104 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[DEFCON 2015 in Review]]></title>
+    <link href="http://www.sethholloway.com/sethholloway/defcon-2015/"/>
+    <updated>2015-08-10T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com/sethholloway/defcon-2015</id>
+    <content type="html"><![CDATA[<p>DEFCON 23 was my favorite DEFCON experience so far. There were a lot of great talks and fun after-hours events. Below is
+a list of talks that I attended, for posterity&rsquo;s sake.</p>
+
+<h2>Thursday</h2>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Reed">Hardware and Trust Security: Explain it like I’m 5 &ndash; Teddy Reed and Nick
+Anderson</a></p>
+
+<h2>Friday</h2>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Szakaly">Shall We Play a Game? &ndash; Tamas Szakaly</a></p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Drake">Stagefright: Scary Code in the Heart of Android &ndash; Joshua J.
+Drake</a>. This talk explained the Android exploits that
+arise because Android pre-processes incoming messages. For example, texting a malicious image leads Android to retrieve
+and load the payload before the user even sees a notification. This should make the user interface feel faster, but it
+comes at a price.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Schneier">Bruce Schneier Q&amp;A &ndash; Bruce Schneier</a>. I &lt;3 Bruce.
+He&rsquo;s just so clear and intelligent. I hope we make him head of cyber security for the U.S.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Kamkar">Drive It Like You Hacked It: New Attacks and Tools to Wirelessly Steal Cars &ndash; Samy
+Kamkar</a>. Samy is one of my favorite security
+researchers&mdash;I highly recommend his talks. This talk was funny and informative.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Rogers">How to Hack a Tesla Model S &ndash; Marc Rogers and Kevin
+Mahaffey</a>. Tesla did an amazing job of securing their
+vehicle&mdash;especially considering how connected it is.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#AmmonRa">How to hack your way out of home detention &ndash;
+AmmonRa</a>. Neat idea. Fake the messages from your
+ankle bracelet while you cloak your existing one with a Faraday cage. You could get someone else in trouble by making
+them appear outside their confinement zone too.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#L%C3%B8ge">Tell me who you are and I will tell you your lock pattern &ndash; Marte
+Løge</a>. Turns out, people are predictable. And lock codes
+maybe aren&rsquo;t all that secure.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Rock">I Will Kill You &ndash; Chris Rock</a>. <em>My favorite talk at
+DEFCON 23.</em> Our birth and death record-keeping needs some modernization.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Sandvik">When IoT attacks: hacking a Linux-powered rifle &ndash; Runa A. Sandvik &amp; Michael
+Auger</a>. Sad to see an Austin-based company taken
+down, but come on&mdash;an internet-enabled rifle? you knew this was coming.</p>
+
+<h2>Saturday</h2>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#McGrew">I Hunt Penetration Testers: More Weaknesses in Tools and Procedures &ndash; Wesley
+McGrew</a></p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Shoshitaishvili">Angry Hacking &ndash; the next generation of binary analysis &ndash; Yan Shoshitaishvili &amp; Fish
+Wang</a></p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Miller">Remote exploitation of an unaltered passenger vehicle &ndash; Charlie Miller and Chris
+Valasek</a>. Dr. Miller and Chris Valasek are always
+entertaining. Their presentation style is unlike any others&mdash;they either rehearse a ton or they have great chemistry and
+complementary personalities. This continued their work hacking Jeeps. At the time of the talk, their exploits had been
+fixed so all is well&hellip; for now.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Ryan">Hacking Electric Skateboards: Vehicle Research For Mortals &ndash; Mike Ryan &amp; Richo
+Healey</a>. The timing on this was awesome! This came right
+after the &ldquo;hack a Jeep&rdquo; talk and the humility of the presenters (&ldquo;vehicle research for mortals&rdquo;) was great. Basically,
+if you build an internet- or bluetooth-enabled device, you will get hacked.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Kaminsky">I  want these * bugs off my * Internet &ndash; Dan
+Kaminsky</a></p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Talabis">The Bieber Project: Ad Tech 101, Fake Fans and Adventures in Buying Internet Traffic &ndash; Mark Ryan
+Talabis</a>. Online ads baffle me. I think it is really
+hard to connect ads to revenue, with an underlying belief that ads are not a wise use of capital. The presenter showed a
+Chinese ad fraud system called jingling that spawns a ton of threads and programmatically clicks links; while running
+jingling you accumulate tokens that you spend to get others to click on your links. Some people claim to make an extra
+$50/day (or far more) just by participating. Brilliant!</p>
+
+<h2>Sunday</h2>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Domas">REpsych: Psychological Warfare in Reverse Engineering &ndash; Chris
+Domas</a>. I missed the first half, but what I gathered is
+that Chris Domas was able to figure out how to create binaries that form images when viewed in a disassembler like IDA.
+He showed a silly malware that dynamically found images on your computer and made binaries that match the images&mdash;he
+joked that he would stop probing any malware that could present his portrait.</p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Wardle2">Stick That In Your (root)Pipe &amp; Smoke It &ndash; Patrick
+Wardle</a></p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Coskun">Why nation-state malwares target Telco Networks: Dissecting technical capabilities of Regin and its counterparts &ndash; Omer
+Coskun</a></p>
+
+<p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Lawshae">Let&rsquo;s Talk About SOAP, Baby. Let&rsquo;s Talk About UPNP &ndash; Ricky &ldquo;HeadlessZeke&rdquo;
+Lawshae</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Books Read March 2015]]></title>
@@ -152,64 +250,6 @@ into the scheme of things.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B004C438CW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004C438CW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=7XHAOVDX33VKT7OV">No More Mr. Nice Guy by Robert
 Glover</a>. I don&rsquo;t know how to feel about this book. I think it has a lot of really good information for nice guys who are unfulfilled; however, it raises some questions regarding masculinity and being kind but firm. Some of the positive points: men should spend time with other men, people should stand up for themselves and they should get what they want, and couples should evenly divide work.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read December 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-december-2014/"/>
-    <updated>2015-01-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-december-2014</id>
-    <content type="html"><![CDATA[<p>It was a busy month for reading. Lots of good stuff!</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00ARSJNW6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ARSJNW6&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=KQP7U6OB4WMDL2XX">Dracula Chronicles: Son of the Dragon by Victor
-Foia</a>. An interesting retelling of the life of Dracula. This book, the first of three, tracks Dracula in his teenage years as he makes his first kill. The book was really good, but I was looking for more fantasy.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00APA1NK6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00APA1NK6&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=WMOFDYAVZR4UFKHT">Spellbound by Larry
-Correia</a>. Correia has the fantasy adventure
-story down. Very entertaining. I look forward to finishing the series
-(Grimnoir Chronicles) soon.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00CD360ZQ/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00CD360ZQ&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=KKUCVAWJ3O2JOMPV">Alas, Babylon by Pat
-Frank</a>. A slice of life in the alternate reality
-where the cold war ended with nuclear war. I could see this
-book as the precursor to The Road by McCarthy. I liked it.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00D4CBA50/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00D4CBA50&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=KN3MMS2ERWTKFAU7">At the Mountains of Madness by H.P.
-Lovecraft</a>. Beware the elder
-things buried in Antarctica.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00COOFBA4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00COOFBA4&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=U74HXIB7CQ3OEZNU">How to Fail at Almost Everything and Still Win Big by Scott
-Adams</a>. Scott Adams is the creator of the workplace comic, <a href="http://www.dilbert.com/">Dilbert</a>. In this book Adams lays out his lessons on life. Some of the high points: eat well, exercise, get into a routine, optimize your personal energy, learn as many different skills as you can (because success is likely to come from some combination of your skills), and passion is just a fancy way for successful people to say they got lucky. I really liked the book; I thought it was funny and informative, and I loved the humility with which the story was told. Where many books and life stories rewrite history and show how one success begot another, Adams instead talks about how his failures lead to success. The anecdotes were modest and on-point, which I found refreshing and brave.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B009U9S6FI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B009U9S6FI&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3S6RUEUONCG3UEAU">Man&rsquo;s Search for Meaning by Viktor
-Frankl</a>. A Jewish psychiatrist&rsquo;s
-Holocaust story helps explain his world view and motivate his
-psychotherapy approach,
-<a href="http://en.wikipedia.org/wiki/Logotherapy">Logotherapy</a>. I appreciated
-that the book was honest without dwelling too much on the atrocities:
-rather than recounting every terrible thing that happened, Frankl picks
-a few key events that provide a broad understanding. Remarkably, Frankl
-does something constructive with his grief. In the book he mentions that
-Logotherapy might ask a patient why that patient does not commit
-suicide because the answer reveals your meaning, which you can then work
-with to heal. One of the most disturbing parts of the book for me was
-Frankl&rsquo;s account of returning home to a nation that ignored the
-concentration camps or downplayed their significance; he writes that for
-many survivors life after the camp was harder than life in the camp.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B009AYWPCI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B009AYWPCI&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=XSJDV3OEBODUC5IH">Futures and Frosting by Tara
-Sivec</a>. Futures and Frosting tells the
-story of how a single-mother is reunited with the father of her child;
-after a lot of confusion, the couple gets married and has another kid,
-then lives happily ever after. Without the humor, it would read like
-an angsty young adult love story.</p>
-
-<p><a href="http://www.amazon.com/gp/product/0596518382/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596518382&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=HYDQVVVHWRDD54ZB">Apprenticeship Patterns by Dave Hoover and Ade
-Oshineye</a>.
-This was probably the most accessible technical book I&rsquo;ve read. The
-application of pattern language to a career is really clever and worked
-well. As with software patterns, it&rsquo;s nice to see the path.</p>
 ]]></content>
   </entry>
   
