@@ -118,6 +118,33 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/public-transport-technology-good/">Public Transport + Technology = Good</a></h1>
+      <p>Why don&rsquo;t public transportation providers outfit their vehicles with GPS trackers and update the position in real time? This would effectively eliminate the need for time tables: just check the website/phone application to see when a bus will be near you. Traffic? No problem! The map still shows exactly where the bus is. Even the bus-drivers could use the map to coordinate with other bus-drivers on their route.</p>
+
+<p>Extending this system, the bus could text individuals whenever it is <em>X</em> minutes from a <em>bus-stop</em> (where the user sets the <em>X</em> and the <em>bus-stop</em>). I have a bus stop two minutes from my front door, so the morning bus would text me when it was five minutes away; similarly, at school I&rsquo;m about 10 minutes from the bus stop so I would want a text about 15 minutes in advance. That&rsquo;s better living through software! And the technology exists already.</p>
+
+<p>From an economics standpoint, this innovation would be justified if ridership would increase enough to offset the cost of the project (hardware, software, installation. and maintenance). My hunch is that this system would pay itself off quickly because more people would ride the bus if it were easier to catch. Who wants to wait in the rain or the sweltering heat indefinitely? A system like this would also differentiate the transportation operator and raise the bar on service. I rode a bullet train, in part, because I wanted to experience the future. I can just imagine Austinintes on vacation bragging, &ldquo;CapMetro back in Austin texts you whenever the bus is close! Why doesn&rsquo;t this city do the same?&rdquo;</p>
+
+<p>So, how about it? Why doesn&rsquo;t your city make public transportation easier? What other innovations and upgrades should we expect from public transportation?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/weekend-update/">Weekend Update</a></h1>
       <p>School has officially resumed! I am busy writing and rewriting my PhD research now as I prepare to propose in October. I wanted to make a quick post in the midst of it all.</p>
 
@@ -381,93 +408,6 @@ Christine Julien and Seth Holloway</blockquote>
 <p>source: <a title="Flickr" href="http://www.flickr.com/photos/pseudoplacebo/2330148551/sizes/o/" target="_blank"><a href="http://www.flickr.com/photos/pseudoplacebo/2330148551/sizes/o/">http://www.flickr.com/photos/pseudoplacebo/2330148551/sizes/o/</a></a></p>
 
 <p>Going just on these issues, could one&rsquo;s beliefs align more strongly with a religion other than their own? Does your self-described religion share your beliefs on these issues? Are there more important issues to you?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/working-with-latex-see-all-your-citations/">Working with LaTeX: See all your citations</a></h1>
-      <p><span style="text-decoration: underline;">UPDATE</span></p>
-
-<p>J.P. Knight left a much easier solution in the comments. If you want to see all of your citations the easy way, simply put the \nocite{*} command into your latex file as seen below.</p>
-
-<blockquote>\documentclass[11pt]{report}
-\usepackage{natbib}
-\bibpunct{(}{)}{;}{a}{,}{,}
-\begin{document}
-\bibliographystyle{apalike}
-\nocite{*}
-\bibliography{proposal}    %% your bib file name here
-\end{document}</blockquote>
-
-
-<div>Thanks J.P!</div>
-
-
-<div></div>
-
-
-<div><span style="text-decoration: underline;">ORIGINAL</span></div>
-
-
-<p>I&rsquo;m currently writing my dissertation (technically my proposal) in <a title="LaTeX Official Page" href="http://www.latex-project.org/">LaTeX</a> (think Microsoft Word without the WYSIWYG interface). As I&rsquo;m searching for citations, I am overwhelmed at the number of sources in my bibtex file. Rather than staring at the bland, perhaps bloated, syntax with curly braces, spaces, and commas, I created a little script that would let me see how the citations will look in the paper&mdash;in a nice PDF bibliography. Here, I present seeAllCitations.sh which takes in your bibtex file as an argument and creates a file with all of your potential citations. After the script completes, just &ldquo;compile&rdquo; the file as you normally would and open the resulting pdf/dvi.</p>
-
-<blockquote>#!/bin/sh
-
-# Check input for one argument
-if [ $# -ne 1 ]; then
-echo &#8220;Please input your .bib file as an argument&#8221;
-echo &#8220;Example: ./seeAllCitations.sh proposal.bib&#8221;
-exit 1
-fi
-
-#  Create the file
-echo &#8220;Creating seeAllCitations.tex that will allow you to see all citations.&#8221;
-
-# Create a simple tex file that will include citations
-echo &#8220;\documentclass[11pt]{report}
-\usepackage{cite}
-\usepackage{url}
-&#92;\begin{document}
-\n
-All citations from $1 shown below
-\n
-%% Begin citations&#8221; &gt; seeCitations.tex
-
-cat $1 |grep @ |sed s/^@.*{/&#92;&#92;&#92;cite{/ |sed s/,.*$/}&#92;&#92;&#92;&#92;/ &gt;&gt; seeCitations.tex
-
-echo &#8220;%% End citations
-\n
-&#92;\bibliographystyle{abbrv}
-&#92;\bibliography{$1}
-\n
-&#92;\end{document}&#8221; &gt;&gt; seeCitations.tex
-
-# Process completed
-echo &#8220;Process completed. Enjoy!&#8221;
-echo &#8220;Confused about what to do next? Create the document. For example:
-pdflatex seeCitations.tex
-bibtex seeCitations.tex
-pdflatex seeCitations.tex
-open seeCitations.pdf&#8221;
-exit 0</blockquote>
-
-
-<p>See any mistakes? Was that at all helpful? Do you have a different (read: better) method for checking your citations?</p>
 
       
       
