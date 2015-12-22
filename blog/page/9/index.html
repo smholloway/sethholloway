@@ -118,6 +118,43 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/new-software-metrics/">New Software Metrics</a></h1>
+      <p>I just completed the <a title="2012 State of Clojure survey" href="http://cemerick.com/2012/07/19/2012-state-of-clojure-survey/">2012 State of Clojure survey</a> and it got me thinking about how to fairly judge languages like Clojure. We need new software metrics. Performance is easy to quantify: write a program, run it a lot, and measure the time it took. Do that across multiple languages, and you can find a winner (the one offering the most operations per time). For example, check <a title="Debian Language Shootout" href="http://shootout.alioth.debian.org/">Debian&rsquo;s Language Shootout</a> where Fortran and C rule. However, solely measuring performance misses a bigger (in my opinion) problem: development speed and ease-of-use. In my limited experience, Clojure is significantly shorter and easier to reason about that equivalent C projects. To be fair, it&rsquo;s been a while since I wrote much in C, but Clojure has also been easier to understand and change than Java code. In addition, Clojure programs are (basically) concurrent out-of-the-box. I think concurrency is generally very difficult and error-prone; however, concurrency is increasingly necessary&mdash;making Clojure that much stronger. But none of that is captured in common metrics.</p>
+
+<p><img class="alignleft" style="margin-right: 30px;" title="Software Metrics book cover" src="http://ourcraft.files.wordpress.com/2009/08/software-metrics-cover-scan.jpg" alt="Software Metrics book cover" width="59" height="89" />
+With the availability of lots of developers online I think we could tackle harder to quantify metrics like</p>
+
+<ul>
+<li>performance per line of code</li>
+<li>performance per development time</li>
+<li>performance per noob minute</li>
+<li>comprehensibility per time</li>
+<li>time to change a line of code</li>
+</ul>
+
+
+<p>The first pass on how to achieve this (tons of issues, no doubt): survey all the developers you can find. Collect all the information you can through the survey and GitHub tie-ins then ask people to perform tasks like explaining a piece of code and writing/changing programs across languages. An automated approach might start by finding a series of program solutions (from a set like <a title="99 Bottles of Beer" href="http://99-bottles-of-beer.net/">99 Bottles of Beer</a>, <a title="Project Euler Problems" href="http://projecteuler.net/problems">Project Euler</a>, <a title="Rosetta Code" href="http://rosettacode.org/wiki/Rosetta_Code">Rosetta Code</a>, or <a title="99 Problems in Scala" href="http://99problemsinscala.wordpress.com/">99 Problems in X</a>), then gather data about each solution and people&rsquo;s feelings about each. Maybe you could seed a bug and see how long it takes people to find and fix the bug.</p>
+
+<p>Have I missed better software metrics? What metrics define a language you want to write in?  How can we accurately collect those metrics?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/online-learning-is-taking-off/">Online learning is taking off</a></h1>
       <p>Education is changing&mdash;big time! I don&rsquo;t think we&rsquo;ll see many people leave or bypass universities for another 10 years, but we are getting back on track for the &lsquo;Information Age&rsquo; (as social media and memes settle in to their new home).</p>
 
@@ -527,40 +564,6 @@ library(googlepredictionapi)</p></blockquote></li>
 <li><p>If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I&rsquo;ve stopped here.</p></li>
 </ul>
 
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/observations-from-three-months-of-vegetarianism/">Observations from three months of vegetarianism</a></h1>
-      <p>Near the end of 2011 I decided to try a vegetarian diet for a few reasons, including the fact that I don&rsquo;t really care for meat, red and processed meats may cause cancer, I generally wanted to eat healthier, and it&rsquo;d be nice to lower my carbon footprint. Okay, technically it was not vegetarianism, rather my diet was <a title="Wikipedia: Pescetarianism" href="http://en.wikipedia.org/wiki/Pescetarianism">pescatarianism</a>, and more accurately, <a title="Wikipedia: Flexitarianism" href="http://en.wikipedia.org/wiki/Semi-vegetarianism">flexitarianism</a> (I&rsquo;ve been largely vegetarian, but chosen to eat meat a few times&mdash;mainly when I was really hungry).  After three months, here are some observations (in no particular order):</p>
-
-<ul>
-<li>Everyone has thoughts on food and diet. Many people want to understand and define your diet, and they are quick to point out when you&rsquo;re inconsistent (&ldquo;Sushi?! Aren&rsquo;t you a vegetarian?!&rdquo;). Several overweight people told me that my choice was wrong or bad.</li>
-<li>A lot of people mocked vegetarianism, which is somewhat understandable because <a title="Wikipedia: Vegetarianism by country" href="http://en.wikipedia.org/wiki/Vegetarianism_by_country">only about 1/30 people in the US are vegetarian</a>.</li>
-<li>I actually prefer veggie burgers to traditional meat patties. Veggie burgers can have better flavor and texture than meat patties. As with the old stand-by (beef), there are good and bad versions, but veggie patties have more complexity (probably because of the mixture of ingredients).</li>
-<li>Most of the time it&rsquo;s pretty easy to be a vegetarian; it is far harder to be a healthy vegetarian. Several times I found myself eating queso or french fries instead of a lower calorie, arguably healthier entree with lean meat. There are a lot of vegetarian options around Austin and most restaurants will provide some meatless alternative, but eating roasted veggies or a bland salad while others chow down on a scrumptious entree just sucks!</li>
-<li>Sometimes it&rsquo;s nearly impossible to be a vegetarian. A few places just have no vegetarian options! BBQ places may leave you eating nothing but bread&mdash;and some only have bread made with lard, so you&rsquo;re left with pickles and onions. In general, ethnic food seems friendlier to the meat-averse. If you&rsquo;re really disciplined you can pack your own food, skip a meal, or demand that you go somewhere else.</li>
-<li>Animal derived products exist in unexpected places! For example, one of my favorite local Tex-Mex restaurants, Chuy&rsquo;s, uses chicken broth in their queso. As I alluded to above, some places use lard in their bread. A lot of soups and sauces use chicken or beef stock. There&rsquo;s meat or meat flavoring in beans&mdash;even traditional caesar salad dressing (anchovies). I rarely inquired as to how vegetarian food items were, choosing instead to go off my previous knowledge as well as the food&rsquo;s appearance and description.</li>
-<li>Meat eaters also like vegetarian meals. If you eat a family-style meal a lot of people will eat your food even though you choose not to eat theirs! For example, everyone orders a pizza (most have meat) then cheese is the first flavor finished.</li>
-</ul>
-
-
-<p>That&rsquo;s it for now. Did I miss something? Has anyone else experienced something different?</p>
 
       
       
