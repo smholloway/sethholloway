@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com/sethholloway/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com/sethholloway/"/>
-  <updated>2015-12-31T19:20:49-06:00</updated>
+  <updated>2016-01-27T06:47:52-06:00</updated>
   <id>http://www.sethholloway.com/sethholloway/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,104 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Notes from Medical School for Everyone]]></title>
+    <link href="http://www.sethholloway.com/sethholloway/notes-from-grand-rounds/"/>
+    <updated>2016-01-05T00:00:00-06:00</updated>
+    <id>http://www.sethholloway.com/sethholloway/notes-from-grand-rounds</id>
+    <content type="html"><![CDATA[<p><a href="http://www.thegreatcourses.com/courses/medical-school-for-everyone-grand-rounds-cases.html">Medical School for Everyone: Grand Rounds Cases (Great Courses) by Roy
+Benaroch, M.D.</a></p>
+
+<h1>Notes</h1>
+
+<p>Diseases like Down&rsquo;s syndrome and Ménière&rsquo;s disease are shifting to
+drop the possessive noun, so you might hear Down syndrome, Ménière disease,
+Alzheimer disease, etc.</p>
+
+<p>Doctors listen to symptoms then make a &ldquo;differential diagnosis&rdquo;, which
+is essentially a working theory. They then test the theory to confirm
+the diagnosis. (A &ldquo;differential diagnosis&rdquo; differentiates one particular
+disease from other diseases that present similar symptoms; e.g., &ldquo;it
+could be brain cancer or a stroke&mdash;differential diagnosis is stroke.&rdquo;)</p>
+
+<p>Doctors should start with the most specific symptoms. For example,
+&ldquo;stomach ache&rdquo; could be caused by hundreds of conditions while &ldquo;a large
+lump in my abdomen&rdquo; has fewer causes.</p>
+
+<p>Modern CPR recommendations are to lay the patient flat and begin
+aggressive chest compressions&mdash;no rescue breaths&mdash;while getting others
+to call 911 and seek an automated external defibrillator (AED). AEDs are
+becoming more common. They instruct laypeople how to proceed and
+administer shocks as needed.</p>
+
+<p>Unexplained weight loss means your body is not absorbing nutrients
+properly or is burning calories in an unexplained way. Diabetes and
+cancer are common causes.</p>
+
+<p>Don&rsquo;t assume that your doctors are communicating. Make sure that records
+are shared between them and that they know about one another.</p>
+
+<p>In emergency situations doctors use their A, B, Cs: Airway, Breathing,
+Circulation, Disability, Exposure. These are handled in sequence. The
+technique is meant to make a complex problem more tractable. If a
+patient has a blocked airway, they first intubate (or whatever is
+appropriate); if airway is clear they ensure the patient is breathing,
+then that the patient&rsquo;s heart is working and the patient is not losing
+blood. Disability assesses the patient&rsquo;s general competency, usually
+using the AVPU method, where the patient is graded as alert (A), voice
+responsive (V), pain responsive (P), or unresponsive (U). This is an
+alternative to the <a href="https://en.wikipedia.org/wiki/Glasgow_Coma_Scale">Glasgow Coma
+Scale</a>, which uses six
+levels of eye, verbal, and motor (EVM) responses. Exposure is about a
+more general physical exam, looking for signs of trauma.</p>
+
+<p>They think King Tut died of sickle-cell disease (a.k.a. sickle-cell
+anemia). Sickle-cell carriers are resistant to malaria, so it&rsquo;s a great
+trait to have in places where malaria is a leading cause of death;
+however, sickle-cell is more likely to kill so the benefits are lost if
+a child inherits. (Sickle-cell is inherited in an autosomal recessive
+pattern where two carrier parents have a &frac14; chance for the child to be
+unaffected, 2/4 chance for the child to be a carrier, and &frac14; chance for
+the child to have sickle-cell.)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read in 2015]]></title>
+    <link href="http://www.sethholloway.com/sethholloway/books-read-2016/"/>
+    <updated>2016-01-01T00:00:00-06:00</updated>
+    <id>http://www.sethholloway.com/sethholloway/books-read-2016</id>
+    <content type="html"><![CDATA[<p>Here&rsquo;s a recap of the books I read in 2016. They&rsquo;re roughly categorized as fiction followed by non-fiction.</p>
+
+<h3>Fiction</h3>
+
+<ul>
+<li>Candide by Voltaire</li>
+<li>Infinity Blade: Awakening by Brandon Sanderson</li>
+</ul>
+
+
+<!-- * Infinity Blade: Redemption by Brandon Sanderson -->
+
+
+<ul>
+<li>Firefight (The Reckoners, book 2) by Brandon Sanderson</li>
+<li>The Crown Tower (The Riryia Chronicles, book 1) by Michael J. Sullivan</li>
+</ul>
+
+
+<!-- * The Rose and the Thorn (The Riryia Chronicles, book 2) by Michael J. Sullivan -->
+
+
+<ul>
+<li>Library at Mount Char by Scott Hawkins</li>
+</ul>
+
+
+<h3>Non-fiction</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My favorite reads in 2015]]></title>
@@ -165,93 +263,6 @@ Wardle</a></p></li>
 Coskun</a></p></li>
 <li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Lawshae">Let&rsquo;s Talk About SOAP, Baby. Let&rsquo;s Talk About UPNP &ndash; Ricky &ldquo;HeadlessZeke&rdquo;
 Lawshae</a></p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read March 2015]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-march-2015/"/>
-    <updated>2015-04-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-march-2015</id>
-    <content type="html"><![CDATA[<p>A couple long books this month.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B0015DPXKI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0015DPXKI&amp;linkCode=as2&amp;tag=theven01-20">Anathem by Neal
-Stephenson</a>.
-Hmm. I love Neal Stephenson&mdash;Diamond Age is one of my favorite books
-ever&mdash;but this book didn&rsquo;t do it for me. I didn&rsquo;t get it. It was
-intelligent and well researched&mdash;it just wasn&rsquo;t for me.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B004H1TQBW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004H1TQBW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3QW5ERP7I3H66ZG6">The Well of Ascension by Brandon Sanderson</a>.
-Book Two of the Mistborn trilogy. It started slowly, but ended well. Let
-me expand on that a bit: the first book&mdash;to me&mdash;was about a rebellion in
-a novel low-magic world. The second book has to pick up the pieces of
-that rebellion, so it&rsquo;s more about government and interpersonal
-conflicts.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SXSW 2015 in Review]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/sxsw-2015/"/>
-    <updated>2015-03-18T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/sxsw-2015</id>
-    <content type="html"><![CDATA[<p>I enjoyed myself a lot at SXSW 2015. I made it to a lot of sessions that were interesting and thought-provoking.</p>
-
-<h2>Friday</h2>
-
-<ul>
-<li>Welcome to SXSW Interactive by Hugh Forest</li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP997613">The Climate Crisis: Challenge and Opportunity by Al Gore</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996684">How to Rock SXSW in 4 Hours by Tim Ferriss</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP42182">Fear, Shame, Empathy, &amp; More Ways to Change Behavior by Dan Pink</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP40327">Building Gender-Balanced Startups (Panel) by Sarah Buhr, Julie Ann Horvath, Stewart Alsop, Vanessa Camones</a></li>
-</ul>
-
-
-<h2>Saturday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP39145">OAuth2: The Swiss-Army Framework by Brent Shaffer</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP41723">Patagonia: Why Business Is Good for the Planet by Rose Marcario</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP42485">UFC: Women Breaking Ground Inside the Octagon (Panel) by Dana White, Ronda Rousey, Jessica Eye</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996358">Princess Reema&rsquo;s Mission to Empower Saudi Women by Princess Reema</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43837">What it Really Takes to Win in Business by Jack Welch and Gary Vaynerchuk</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP37185">Beyond Privacy: Surveillance&rsquo;s Threat To Liberty by Schneier and Wizner</a></li>
-</ul>
-
-
-<h2>Sunday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP39695">Transgender in Tech: Past, Present, Future (Panel) by Allyson Dylan Robinson, Brielle Harrison, Kortney Ziegler, and Meghan Stabler</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43232">Be Epic: The Art of Bold Decision Making by Phil Libin</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996157">AI, Immortality and the Future of Selves by Martine Rothblatt</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP36963">Data (in)Security: MIT Scientists Tackle Privacy (Panel) by Danny Weitzner, Ronald Rivest, Sam Madden</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43378">How to Fix American Politics by David Burstein</a></li>
-</ul>
-
-
-<h2>Monday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43236">The Frontiers of Computational Thinking by Stephen Wolfram</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43059">Everything Eric Ries Has Learned Since 2011 by Eric Ries</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996700">Fixing Transportation with Humanity and Technology by Logan Green</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996698">Lessons from BuzzFeed by Jonah Peretti</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996699">Bitcoin: What It Needs to Succeed (Panel) by the Cameron and Tyler Winklevoss</a></li>
-</ul>
-
-
-<h2>Tuesday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP40699">Accelerators by the Numbers: 2014 Rankings by Susan Cohen and Yael Hochberg</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996685">Better and Faster: Predict Opportunity &amp; Win in 2015 by Jeremy Grutsche</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP997484">Holacracy: A Radical New Approach to Management by Brian Robertson</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996703">Moonshots and Reality by Astro Teller</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP36218">How to Rob a Bank: Vulnerabilities of New Money by Josh Alexander, Bo Hartman, Bob Blakely</a></li>
 </ul>
 
 ]]></content>

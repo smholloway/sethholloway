@@ -118,6 +118,160 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/poem-a-day-part-1/">Poem a Day - Part 1</a></h1>
+      <p>Some creative types advocate a method to increase creativity by writing a poem a day forevermore. Here&rsquo;s my effort to increase my creativity and avoid perfectionism.</p>
+
+<h2>Sunday</h2>
+
+
+<p>Haikus are easy</p>
+
+<p>Not easy, but straightforward</p>
+
+<p>I just penned one</p>
+
+<h2>Monday</h2>
+
+
+<p>Perfection is good</p>
+
+<p>Shipped is preferable</p>
+
+<p>Why not try for both?</p>
+
+<h2>Tuesday</h2>
+
+
+<p>Now uninspired</p>
+
+<p>Creativity in waves</p>
+
+<p>Better than ever</p>
+
+<h2>Wednesday</h2>
+
+
+<p>Sassy Daisy-May</p>
+
+<p>Loves long walks, runs, and car rides</p>
+
+<p>Cuddling next to me</p>
+
+<h2>Thursday</h2>
+
+
+<p>Social media</p>
+
+<p>Ahhhhhh LinkedIn, Facebook, GitHub</p>
+
+<p>Not enough time for them</p>
+
+<h2>Friday</h2>
+
+
+<p>Televise e-sports</p>
+
+<p>Power to the nerdy folks</p>
+
+<p>Stop praising athletes</p>
+
+<h2>Saturday</h2>
+
+
+<p>No photographs please</p>
+
+<p>I am not wearing makeup</p>
+
+<p>Wait, I never do</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/thoughts-on-learning-clojure/">Thoughts on Learning Clojure</a></h1>
+      <p>In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time&mdash;we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.</p>
+
+<ul>
+<li>I like that Clojure builds on Lisp. I feel like I&rsquo;m working on something cutting edge, yet proven. It feels like joining a dynasty, perhaps.</li>
+<li>With Clojure, you write right to left, which is new and different. The prefix notation was not intuitive for me.</li>
+</ul>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">JavaScript</span><span class="o">:</span><span class="err"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">].</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">){</span><span class="k">return</span> <span class="nx">i</span><span class="o">*</span><span class="nx">i</span><span class="p">;}).</span><span class="nx">reduce</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">){</span><span class="k">return</span> <span class="nx">a</span><span class="o">+</span><span class="nx">b</span><span class="p">;});</span>
+</span><span class='line'><span class="nx">Clojure</span><span class="o">:</span><span class="err"> </span><span class="p">(</span><span class="nx">reduce</span> <span class="o">+</span> <span class="mi">0</span> <span class="p">(</span><span class="nx">map</span> <span class="err">#</span><span class="p">(</span><span class="o">*</span> <span class="o">%</span> <span class="o">%</span><span class="p">)</span> <span class="err">&#39;</span><span class="p">(</span><span class="mi">1</span> <span class="mi">2</span> <span class="mi">3</span><span class="p">)))</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li><p>Map, Reduce, and Filter are really flexible. For example, reduce can be used to implement join really easily. Learning to think this way has not been immediate for me.</p>
+
+<p> Clojure: (reduce #(str %1 &ldquo; &rdquo; %2) &lsquo;(&ldquo;the&rdquo;, &ldquo;quick&rdquo;, &ldquo;brown&rdquo;, &ldquo;fox&rdquo;, &ldquo;jumps&rdquo;, &ldquo;over&rdquo;, &ldquo;the&rdquo;, &ldquo;lazy&rdquo;, &ldquo;dog&rdquo;))
+ JavaScript: [&ldquo;the&rdquo;, &ldquo;quick&rdquo;, &ldquo;brown&rdquo;, &ldquo;fox&rdquo;, &ldquo;jumps&rdquo;, &ldquo;over&rdquo;, &ldquo;the&rdquo;, &ldquo;lazy&rdquo;, &ldquo;dog&rdquo;].join(&ldquo; &rdquo;) == [&ldquo;the&rdquo;, &ldquo;quick&rdquo;, &ldquo;brown&rdquo;, &ldquo;fox&rdquo;, &ldquo;jumps&rdquo;, &ldquo;over&rdquo;, &ldquo;the&rdquo;, &ldquo;lazy&rdquo;, &ldquo;dog&rdquo;].reduce(function(a,b){return a + &ldquo; &rdquo; + b;})</p></li>
+<li><p>Chaining functions together is fun.</p></li>
+<li>2 + 4 is really applying the add function to two arguments (2 and 4). This seems like an obvious statement, but I normally think of the plus sign simply as an operator rather than a function. Clojure, Lisp really, wears new grooves in the brain.</li>
+<li>It can be hard to get the iterative approach out of my head. For example, Project Euler problems to find the 2,000th prime feels like &ldquo;generate 2,000 primes and return the last one&rdquo; and to find the prime after 4,000,000 would be &ldquo;while the prime is less than 4 million, find the next prime.&rdquo; I had a hard time thinking of these functionally.</li>
+<li>Lisp can be really clever and readable, and Clojure can be written almost the exact same way. Except that Lisp-style code in Clojure will blow the stack (due to the JVM&rsquo;s lack of ability to tail-call optimize) or perform like crap (the compiler needs &ldquo;hints&rdquo; to optimize performance). Suddenly, your beautiful recursive call turns into this less-readable loop-recur mess.</li>
+<li>Following on the previous point, Lisp can be really unreadable. The language does not layer on any discipline, so the developers better do it. And it turns out that naming functions appropriately is really hard.</li>
+<li>The standard library is really nice. It is lengthy, which makes it hard to learn.</li>
+<li>There are a ton of great resources online. They can be woefully out-of-date.</li>
+<li>In roughly 1 day, I was able to understand more code than I would have expected. I could not do much with that knowledge :)</li>
+<li>I felt like I had to go to Clojure because it was not coming to me. I believe this reflects Rich Hickey&rsquo;s ethos: he created the language for a reason and wants you to use it in the intended way.</li>
+<li>It was hard to convince my peers that Clojure was the language of the future. One of the most common questions was, &ldquo;are there any large system written in Clojure in production?&rdquo; Based on the reactions, I doubt Clojure will enter the mainstream anytime soon.</li>
+</ul>
+
+
+<p>Overall, I enjoyed learning Clojure and I feel it made me a better programmer. If you haven&rsquo;t checked it out, <a title="4clojure Problem 1" href="http://www.4clojure.com/problem/1">work through a few problems</a> and see what you think.</p>
+
+<p>Some resources I used along the way:</p>
+
+<ul>
+<li><a title="http://hyperpolyglot.org/lisp" href="http://hyperpolyglot.org/lisp"><a href="http://hyperpolyglot.org/lisp">http://hyperpolyglot.org/lisp</a></a></li>
+<li><a title="http://www.learningclojure.com/2010/08/reduce-not-scary.html" href="http://www.learningclojure.com/2010/08/reduce-not-scary.html"><a href="http://www.learningclojure.com/2010/08/reduce-not-scary.html">http://www.learningclojure.com/2010/08/reduce-not-scary.html</a></a></li>
+<li><a title="https://www.4clojure.com/" href="https://www.4clojure.com/"><a href="https://www.4clojure.com/">https://www.4clojure.com/</a></a></li>
+<li><a title="http://gigamonkeys.com/book/" href="http://gigamonkeys.com/book/"><a href="http://gigamonkeys.com/book/">http://gigamonkeys.com/book/</a></a></li>
+<li><a title="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer" href="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer"><a href="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer">http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer</a></a></li>
+<li><a title="https://github.com/relevance/labrepl" href="https://github.com/relevance/labrepl"><a href="https://github.com/relevance/labrepl">https://github.com/relevance/labrepl</a></a></li>
+<li><a title="http://java.ociweb.com/mark/clojure/article.html" href="http://java.ociweb.com/mark/clojure/article.html"><a href="http://java.ociweb.com/mark/clojure/article.html">http://java.ociweb.com/mark/clojure/article.html</a></a></li>
+<li><a title="http://www.lisperati.com/clojure-spels/casting.html" href="http://www.lisperati.com/clojure-spels/casting.html"><a href="http://www.lisperati.com/clojure-spels/casting.html">http://www.lisperati.com/clojure-spels/casting.html</a></a></li>
+<li><a title="http://joyofclojure.com/" href="http://joyofclojure.com/"><a href="http://joyofclojure.com/">http://joyofclojure.com/</a></a></li>
+<li><a title="http://pragprog.com/book/shcloj2/programming-clojure" href="http://pragprog.com/book/shcloj2/programming-clojure"><a href="http://pragprog.com/book/shcloj2/programming-clojure">http://pragprog.com/book/shcloj2/programming-clojure</a></a></li>
+</ul>
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/the-original-and-still-the-best/">The original and still the best</a></h1>
       <p>I like the quote &ldquo;the original and still the best.&rdquo; You hear variations on this a lot. It feels like a claim made by a company that feels threatened by upstarts.</p>
 
@@ -342,63 +496,6 @@
 
     </article>
     
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/supplements-are-unregulated-and-unproven/">Supplements are unregulated and unproven</a></h1>
-      <p>Have you ever wondered how some people get so big? Rice flour!</p>
-
-<object width="425" height="344" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/3mfQTiumsO4&amp;hl=en&amp;fs=1" /><param name="allowfullscreen" value="true" /><embed width="425" height="344" type="application/x-shockwave-flash" src="http://www.youtube.com/v/3mfQTiumsO4&amp;hl=en&amp;fs=1" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object>
-
-
-<p>From <a title="YouTube: Truth about Supplements" href="http://www.youtube.com/watch?v=3mfQTiumsO4" target="_blank">YouTube</a></p>
-
-<p>The story makes an excellent point: supplements are not regulated and often hide behind a veil of proprietary secrecy. This is true for vitamins as well.</p>
-
-<p><a title="Freakonomics - the obesity epidemic" href="http://www.freakonomics.com/2010/02/26/freakonomics-radio-fat-edition-is-the-obesity-epidemic-for-real/">Listen to this Freakonomics</a> podcast for a great segment about the politics of obesity where political science professor <a title="J Eric Oliver at University of Chicago" href="http://political-science.uchicago.edu/people/faculty/oliver.shtml">Eric Oliver</a> argues that a lot of people are making a lot of money by drumming up an obsession with fitness and weight. Follow the money!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/shipping-isnt-everything/">Shipping isn&#8217;t everything</a></h1>
-      <p>Stop bragging about how much you shipped!</p>
-
-<p>I understand that code does not generate revenue unless people are using it. I appreciate getting product out the door. I also love clean code a solid architecture that reduces maintenance costs and allows developers to stay productive for years to come. I cannot abide the &ldquo;ship or die&rdquo; mentality when people ship hacky, unusable software then play the &ldquo;shipping is everything&rdquo; card.</p>
-
-<p>Not all shipping is a success. <a title="Wikipedia: Chinese milk scandal" href="http://en.wikipedia.org/wiki/2008_Chinese_milk_scandal">China shipped melamine-laced milk</a> that made a ton of people sick. <a title="Wikipedia: Madoff Investment Scandal" href="http://en.wikipedia.org/wiki/Madoff_investment_scandal">Madoff shipped a lot of information</a> that led to financial ruin. <a title="NPR: Komen and Planned Parenthood" href="http://www.npr.org/blogs/thetwo-way/2012/01/31/146177902/furor-erupts-over-susan-g-komen-halt-of-grants-to-planned-parenthood">Komen shipped their plan to cut funding to Planned Parenthood</a> and faced a great backlash. <a title="Wikipedia: Mars Climate Orbiter" href="http://en.wikipedia.org/wiki/Mars_Climate_Orbiter">NASA shipped code with metric-imperial unit mismatch</a> and crashed a $300,000,000 rover. <a title="Wikipedia: Microsoft Clippy" href="http://en.wikipedia.org/wiki/Office_Assistant">Microsoft shipped Clippy</a> and people cringed. A little oversight before shipping can save lives and prevent PR nightmares.</p>
-
-<p>Let&rsquo;s stop glorifying shipping and start glorifying quality, happiness (for clients and employees), and success.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
   
   <div class="pagination">
     
@@ -417,7 +514,7 @@
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2015 by Seth Holloway
+  Copyright &copy; 2016 by Seth Holloway
 </p>
 
 

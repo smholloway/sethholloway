@@ -118,6 +118,205 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/my-experience-with-programming-languages/">My experience with programming languages</a></h1>
+      <p>I was recently browsing a <a title="Rosetta Code: Programming Languages" href="http://rosettacode.org/wiki/Category:Programming_Languages">list of programming languages on Rosetta Code</a> (there&rsquo;s a <a title="Wikipedia: List of Programming Languages" href="http://en.wikipedia.org/wiki/List_of_programming_languages">larger list on Wikipedia</a>) and realized I have played with a lot of languages over the years. I decided to make a list here:</p>
+
+<ul>
+<li>Apex (Salesforce.com)</li>
+<li>AppleScript</li>
+<li>Assembly (I forget the exact flavors, but there have been a few embedded chips like the Motorola 6812, the LC-2 teaching language, and some in-line C on various AMD and Intel chips)</li>
+<li>AutoHotKey</li>
+<li>AWK</li>
+<li>BASIC</li>
+<li>Batch</li>
+<li>C</li>
+<li>C++</li>
+<li>C#</li>
+<li>Clojure</li>
+<li>CoffeeScript</li>
+<li>F#</li>
+<li>Gnuplot</li>
+<li>Go</li>
+<li>Groovy</li>
+<li>Haskell</li>
+<li>Java</li>
+<li>JavaScript</li>
+<li>LabVIEW</li>
+<li>LaTeX</li>
+<li>Lisp</li>
+<li>LotusScript</li>
+<li>Lua</li>
+<li>Make</li>
+<li>Mathematica</li>
+<li>MATLAB</li>
+<li>MySQL</li>
+<li>Objective-C</li>
+<li>Octave</li>
+<li>Pascal</li>
+<li>Perl</li>
+<li>PHP</li>
+<li>Python</li>
+<li>R</li>
+<li>Ruby</li>
+<li>Scala</li>
+<li>Scratch</li>
+<li>Sed</li>
+<li>SQL</li>
+<li>TI-89 BASIC</li>
+<li>UNIX Shell (sh, Bash) and UNIX Pipes (grep, cat, etc)</li>
+<li>VBScript</li>
+<li>VHDL</li>
+</ul>
+
+
+<p>I haven&rsquo;t written extensively in all of the languages and I doubt I could do much more than &lsquo;Hello, World!&rsquo; (if that) in most, but those are the ones that I remember.</p>
+
+<p>There are a few more that I didn&rsquo;t see while quickly browsing the languages list. For example, I have automated video game playing in the past using languages like UOAssist, Razor, AC Tools, and MMOGlider. One summer at Texas Instruments I wrote statistical algorithms and data mining routines for a specialized spreadsheet language called Informix Wingz/HyperScript Tools/DataPOWER (which now seems to be owned by IBM).</p>
+
+<p>Looking back, I&rsquo;ve written in a fair amount of languages, but there&rsquo;s so much to learn and do! I continue to learn and grow as I add links to my <a title="Craftsman chain of improvement" href="http://japhr.blogspot.com/2009/03/my-chain.html">craftsman&rsquo;s chain</a>. My next step is to complete the Programming Languages 101 online course from <a title="Dr. Nathan Whitehead teaches programming languages" href="http://nathansuniversity.com/">Nathan&rsquo;s University</a>. Very cool stuff!</p>
+
+<p>Update: added Assembly and UNIX shell specifics. Added Clojure and Lisp. Added Scala and F#.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/installing-the-google-predictions-api-in-r/">Installing the Google Predictions API in R</a></h1>
+      <p>Note: This post got buried and I never posted it. I haven&rsquo;t played with R in several months, so I&rsquo;m not sure if this works anymore.</p>
+
+<p>This assumes you have R downloaded and installed.</p>
+
+<p>Download, install, and configure GSUtil (<a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>)</p>
+
+<p>Load R. You should see an ugly console :) In the window type</p>
+
+<pre>install.packages(c("RCurl", "rjson"))</pre>
+
+
+<p>You will be prompted to select a mirror; find something close to you and continue.</p>
+
+<p>You might be frustrated that there&rsquo;s no success message:</p>
+
+<pre>trying URL 'http://www.revolution-computing.com/cran/bin/macosx/leopard/contrib/2.13/rjson_0.2.5.tgz'
+Content type 'application/x-gzip' length 133138 bytes (130 Kb)
+opened URL
+==================================================
+downloaded 130 Kb
+
+The downloaded packages are in
+    /var/folders/I3/I3YZ8e5tGOK9CY9LQ98ix++++TI/-Tmp-//RtmpFrtdp3/downloaded_packages</pre>
+
+
+<p>However, if you fail there will be an error message:</p>
+
+<pre>&gt; install.packages("seth", dependencies = TRUE)
+Warning message:
+In getDependencies(pkgs, dependencies, available, lib) :
+  package ‘seth’ is not available (for R version 2.13.0)</pre>
+
+
+<pre>&gt; install.packages("googlepredictionapi_0.1.tar.gz", repos=NULL, type="source")
+Warning: invalid package ‘googlepredictionapi_0.1.tar.gz’
+Error: ERROR: no packages specified
+Warning message:
+In install.packages("googlepredictionapi_0.1.tar.gz", repos = NULL,  :
+  installation of package 'googlepredictionapi_0.1.tar.gz' had non-zero exit status</pre>
+
+
+<p>Download the Google Predictions API for R</p>
+
+<p><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></p>
+
+<p>Install it</p>
+
+<pre>$ mkdir -p ~/R/library</pre>
+
+
+<pre>$ mv googlepredictionapi_0.1.tar.gz ~/R/library/</pre>
+
+
+<pre>$ R_LIBS_USER="~/R/library"</pre>
+
+
+<pre>$ echo 'R_LIBS_USER="~/R/library"' &gt;  $HOME/.Renviron</pre>
+
+
+
+
+<pre>R CMD INSTALL ~/R/library/googlepredictionapi_0.1.tar.gz</pre>
+
+
+<pre></pre>
+
+
+<p>Source your libraries</p>
+
+<pre>library(rjson)
+library(RCurl)
+library(googlepredictionapi)</pre>
+
+
+<p>Some useful links
+<a href="http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html">http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html</a>
+<a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
+<a href="http://code.google.com/p/r-google-prediction-api-v12/">http://code.google.com/p/r-google-prediction-api-v12/</a></p>
+
+<p><a href="http://csg.sph.umich.edu/docs/R/localpackages.html">http://csg.sph.umich.edu/docs/R/localpackages.html</a></p>
+
+<ul>
+<li>Load R <em>Note:</em> You will see an ugly console.</li>
+<li><p>Install the pre-reqs</p>
+
+<blockquote><p>install.packages(c(&ldquo;RCurl&rdquo;, &ldquo;rjson&rdquo;))</p></blockquote></li>
+<li><p>Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.</p></li>
+<li><p>Note: A successful install will not yield a success message&mdash;it will simply not show an error message.</p></li>
+<li><p>Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html"><a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a></a></p></li>
+<li>Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/"><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></a></li>
+<li><p>Install the plugin <em>Note:</em> I had to do it from the command line because the install failed inside R</p>
+
+<p> $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz</p></li>
+<li><p>Now, you should be able to restart R and see the API listed in the Package Manager</p></li>
+<li><p>From here we source our libraries</p>
+
+<blockquote><p>library(rjson)
+library(RCurl)
+library(googlepredictionapi)</p></blockquote></li>
+<li><p>If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I&rsquo;ve stopped here.</p></li>
+</ul>
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/observations-from-three-months-of-vegetarianism/">Observations from three months of vegetarianism</a></h1>
       <p>Near the end of 2011 I decided to try a vegetarian diet for a few reasons, including the fact that I don&rsquo;t really care for meat, red and processed meats may cause cancer, I generally wanted to eat healthier, and it&rsquo;d be nice to lower my carbon footprint. Okay, technically it was not vegetarianism, rather my diet was <a title="Wikipedia: Pescetarianism" href="http://en.wikipedia.org/wiki/Pescetarianism">pescatarianism</a>, and more accurately, <a title="Wikipedia: Flexitarianism" href="http://en.wikipedia.org/wiki/Semi-vegetarianism">flexitarianism</a> (I&rsquo;ve been largely vegetarian, but chosen to eat meat a few times&mdash;mainly when I was really hungry).  After three months, here are some observations (in no particular order):</p>
 
@@ -585,58 +784,6 @@ true</pre>
 
     </article>
     
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/sustainable-development-work-no-more-than-the-hours-you-slept/">Sustainable development: work no more than the hours you slept</a></h1>
-      <p>I&rsquo;ve been mulling over an idea for sustainable development; it&rsquo;s a simple idea that would help prevent burnout caused by working long hours several days in a row. The idea: work no more than the hours you slept the previous night. For example, if you slept 4 hours, only work 4 hours the next day. If you&rsquo;ve worked with someone who is tired, you know how detrimental they can be to quality.</p>
-
-<p>This solution doesn&rsquo;t work on the first day of long hours, and it only makes sense if work kept you up late (party people can&rsquo;t just use the work-no-more-than-you-sleep rule as an excuse).</p>
-
-<p>In my experience, the effect is amplified as you continue sleeplessly. I imagine scientific research would agree, but I don&rsquo;t have it handy. What do you think? Would this work?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/what-do-you-read-an-interview-question-i-liked/">&#8220;What do you read?&#8221; An interview question I liked</a></h1>
-      <p>Last year I interviewed several places and saw several different styles.</p>
-
-<p>One question that I thought was subtle yet effective was, &ldquo;what do you read?&rdquo; I think you can learn a lot about a person based on this question. Personally, I read a ton online but few printed words, so my answer would be very different than a friend of mine who reads tons of fiction plus scholarly papers (very few blogs or general news). Most companies probably don&rsquo;t want to hire someone that reads all day&mdash;you have to get work done sometime&mdash;but someone that stays up-to-date on industry news may perform better as an advisor and someone that reads a wide variety of books may be a good manager.</p>
-
-<p>I felt very at ease asking the question, which is good for both the interviewee and the interviewer. I think we should find out as much as possible about both sides, as comfortably as possible.</p>
-
-<p>So, what do you read?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
   
   <div class="pagination">
     
@@ -655,7 +802,7 @@ true</pre>
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2015 by Seth Holloway
+  Copyright &copy; 2016 by Seth Holloway
 </p>
 
 
