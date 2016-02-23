@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Notes from Medical School for Everyone - Seth Holloway</title>
+  <title>Android vs iOS - Seth Holloway</title>
   <meta name="author" content="Seth Holloway">
 
    
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.sethholloway.com/sethholloway/notes-from-grand-rounds">
+  <link rel="canonical" href="http://www.sethholloway.com/sethholloway/thoughts-on-android-and-ios">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -101,7 +101,7 @@
 
   <header>
   <div class="jumbotron">
-    Notes From Medical School for Everyone
+    Android vs iOS
 	<h5 class="post-date">
 
 
@@ -114,57 +114,53 @@
   
 
 
-<i class="icon-calendar-empty"></i> <time datetime="2016-01-05T00:00:00-06:00" pubdate data-updated="true"></time></h5>
+<i class="icon-calendar-empty"></i> <time datetime="2016-02-23T00:00:00-06:00" pubdate data-updated="true"></time></h5>
   </div>
 </header>
   <div class="row-fluid">
     <div class="span12">
-      <p><a href="http://www.thegreatcourses.com/courses/medical-school-for-everyone-grand-rounds-cases.html">Medical School for Everyone: Grand Rounds Cases (Great Courses) by Roy
-Benaroch, M.D.</a></p>
+      <p>As I work on Android and iOS I&rsquo;m refining my opinions. Below are my current thoughts about the two ecosystems and underlying languages.</p>
+
+<h2>Objective C vs Java</h2>
+
+<p>Note: I haven&rsquo;t used Swift enough to fairly compare Swift to Objective C. The presence of Swift calls into question the future of Objective C; however, I think Swift eliminates a lot of my gripes with Objective C.</p>
+
+<h3>Objective C wins</h3>
 
 <ul>
-<li><p>Diseases like Down&rsquo;s syndrome and Ménière&rsquo;s disease are shifting to
-drop the possessive noun, so you might hear Down syndrome, Ménière disease,
-Alzheimer disease, etc.</p></li>
-<li><p>Doctors listen to symptoms then make a &ldquo;differential diagnosis&rdquo;, which
-is essentially a working theory. They then test the theory to confirm
-the diagnosis. (A &ldquo;differential diagnosis&rdquo; differentiates one particular
-disease from other diseases that present similar symptoms; e.g., &ldquo;it
-could be brain cancer or a stroke&mdash;differential diagnosis is stroke.&rdquo;)</p></li>
-<li><p>Doctors should start with the most specific symptoms. For example,
-&ldquo;stomach ache&rdquo; could be caused by hundreds of conditions while &ldquo;a large
-lump in my abdomen&rdquo; has fewer causes.</p></li>
-<li><p>Modern CPR recommendations are to lay the patient flat and begin
-aggressive chest compressions&mdash;no rescue breaths&mdash;while getting others
-to call 911 and seek an automated external defibrillator (AED). AEDs are
-becoming more common. They instruct laypeople how to proceed and
-administer shocks as needed.</p></li>
-<li><p>Unexplained weight loss means your body is not absorbing nutrients
-properly or is burning calories in an unexplained way. Diabetes and
-cancer are common causes.</p></li>
-<li><p>Don&rsquo;t assume that your doctors are communicating. Make sure that records
-are shared between them and that they know about one another.</p></li>
-<li><p>In emergency situations doctors use their A, B, Cs: Airway, Breathing,
-Circulation, Disability, Exposure. These are handled in sequence. The
-technique is meant to make a complex problem more tractable. If a
-patient has a blocked airway, they first intubate (or whatever is
-appropriate); if airway is clear they ensure the patient is breathing,
-then that the patient&rsquo;s heart is working and the patient is not losing
-blood. Disability assesses the patient&rsquo;s general competency, usually
-using the AVPU method, where the patient is graded as alert (A), voice
-responsive (V), pain responsive (P), or unresponsive (U). This is an
-alternative to the <a href="https://en.wikipedia.org/wiki/Glasgow_Coma_Scale">Glasgow Coma
-Scale</a>, which uses six
-levels of eye, verbal, and motor (EVM) responses. Exposure is about a
-more general physical exam, looking for signs of trauma.</p></li>
-<li><p>They think King Tut died of sickle-cell disease (a.k.a. sickle-cell
-anemia). Sickle-cell carriers are resistant to malaria, so it&rsquo;s a great
-trait to have in places where malaria is a leading cause of death;
-however, sickle-cell is more likely to kill so the benefits are lost if
-a child inherits. (Sickle-cell is inherited in an autosomal recessive
-pattern where two carrier parents have a &frac14; chance for the child to be
-unaffected, 2/4 chance for the child to be a carrier, and &frac14; chance for
-the child to have sickle-cell.)</p></li>
+<li>Apple docs are generally more pleasant than JavaDocs.</li>
+<li>You can pass messages to <code>nil</code> without a <code>NullPointerException</code>.</li>
+<li><code>nil</code> is <code>false</code>, which fits how I generally think about problems and saves some typing (<code>if (foo)</code> is not as explicit but explicit null checks are noisy and easily forgotten).</li>
+<li>Method names can be more expressive: <code>stringWithCString:inputString encoding:inputEncoding</code> is more clear to me than <code>String(String inputString, String encoding)</code>, which, in practice, is often more like <code>String(String s, String e)</code>. As the signature expands the problem becomes more pronounced. Objective C essentially forces named arguments.</li>
+<li>Drama surrounding Java&rsquo;s future under Oracle; for example, Android Dalvik is definitely not Java <a href="https://en.wikipedia.org/wiki/Dalvik_">https://en.wikipedia.org/wiki/Dalvik_</a>(software)#Licensing_and_patents</li>
+</ul>
+
+
+<h3>Java wins</h3>
+
+<ul>
+<li>In wide use outside mobile development, so Java is well known and understood</li>
+<li>Simpler memory management, which decreases the amount of syntax and leads to fewer bugs. This combined with the fact that Java is more widely used means that people can more easily ramp up on Android.</li>
+</ul>
+
+
+<h2>iOS vs Android</h2>
+
+<h3>Android wins</h3>
+
+<ul>
+<li>Easy and free to create and publish apps.</li>
+<li>Registering to open URLs. In Android an app can register to open specific links, like <code>https://youtube.com</code>. This improves the user experience by operating on the link in the best app: if you have the YouTube app, open the video in the app, otherwise fall back to the default browser. iOS achieves a similar effect with custom schemes, like <code>youtube://</code>, but custom schemes aren’t as ubiquitous as HTTP(S).</li>
+<li>Strings and localization. Android forces you to use a message catalog, which has several advantages: (1) it’s better for reuse; (2) it makes it easier to refactor; (3) it centralizes text so docs and translators can engage more easily; (4) the toolchain is more stable&mdash;Xcode crashes a lot when working with localization and it doesn’t update text changes made through interface builder</li>
+</ul>
+
+
+<h3>iOS wins</h3>
+
+<ul>
+<li>One true way to do most things. iOS is pretty strict, but it&rsquo;s easier to find the proper way to do things and leads to greater consistency.</li>
+<li>More stable platform.</li>
+<li>Higher quality apps and community, on average. While Apple&rsquo;s approval process is a pain and their developer program fees are steep (compared to Android&rsquo;s $0 cost), this probably leads to higher quality.</li>
 </ul>
 
 
@@ -218,10 +214,8 @@ the child to have sickle-cell.)</p></li>
       <div class="span12">
         <p class="meta">
           
-            <a class="basic-alignment left" href="/books-read-2016/" title="Previous Post: Books Read in 2016">&laquo; Books Read in 2016</a>
+            <a class="basic-alignment left" href="/notes-from-grand-rounds/" title="Previous Post: Notes from Medical School for Everyone">&laquo; Notes from Medical School for Everyone</a>
           
-          
-            <a class="basic-alignment right" href="/thoughts-on-android-and-ios/" title="Next Post: Android vs iOS">Android vs iOS &raquo;</a>
           
         </p>
       </div>

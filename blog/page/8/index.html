@@ -118,6 +118,43 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/search-has-to-solve-versioning/">Search has to solve versioning</a></h1>
+      <p>Search has been failing me frequently in the recent past, and the problem is only getting worse. Versions are everywhere and search is not keeping up. Here are a few examples:</p>
+
+<ul>
+<li>Googling for &ldquo;mac lion&rdquo; returns 5 results for Lion and 5 for Mountain Lion on the first page. Specifying version number (e.g., &ldquo;mac lion 10.7&rdquo;) or date (e.g., &ldquo;mac lion 2011&rdquo;) does not particularly help the results.</li>
+<li>World of Warcraft has repeated some items with each expansion (or retooled bosses like Onyxia and even whole zones like Naxxramus). Searching for the item may lead you to the 2010 incarnation. Simply adding 2012 or the expansion name is often ineffective because the pages will contain dates and expansion names throughout the content. Another example: there are over <a title="Fortune Card -- what version???" href="http://www.wowhead.com/item=60840/fortune-card">50 virtually identical fortune cards</a>.</li>
+<li>A similar idea occurs in GitHub branches. For example, if you&rsquo;re looking for <a title="Toopher Ruby" href="https://github.com/toopher/toopher-ruby">Toopher&rsquo;s Ruby client</a> (which rocks!) then you might find my fork that was already merged with master.</li>
+<li>In my personalized search results for &ldquo;cross platform password management,&rdquo; Google returns an outdated <a title="Outdated -- Lifehacker's five best password managers" href="http://lifehacker.com/5042616/five-best-password-managers">Lifehacker article from 2008</a> above more recent articles. In this case, recency trumps Lifehacker&rsquo;s relevance and authority.</li>
+<li>While learning Clojure (at version 1.4) I kept finding StackOverflow responses like, &ldquo;here&rsquo;s how to do it in Clojure 1.2.&rdquo; The more dangerous response was &ldquo;here&rsquo;s how to do it in Clojure&rdquo; with no mention of versioning. I spent hours trying to get the outdated procedures to work only to have them fail.</li>
+<li>There are bugs that exist for certain operating systems with certain versions of dependent projects. Like <a title="Ruby 1.9.2 seg faults with OpenSSL" href="http://www.christopherirish.com/2011/09/02/ruby-1-9-2-segmentation-fault-and-openssl/">Ruby 1.9.2+ on Mac OS X Lion when installed with RVM 1.0 or higher</a>. Searching for this was difficult because it required so many versions.</li>
+</ul>
+
+
+<p>Some of these examples would be prevented by using advanced search options and narrowing results to the past year; however, I feel that&rsquo;s a cop-out for a poor user experience.</p>
+
+<p>Until search engines gain additional processing, I think we should get familiar with scoping search results and ask that answers contain version information for increased searchability.</p>
+
+<p>I think search has to solve versioning&mdash;what do you think?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/rpg-character-builder-resume/">RPG Character Builder Resume</a></h1>
       <p>Over the years I have played with a few different resume styles. I had the <a title="Seth Holloway's outdated LaTeX resume" href="https://github.com/smholloway/resume/tree/master/latex">LaTeX template</a>, the <a title="Seth Holloway's timeline resume" href="http://www.sethholloway.com/timelineResume.html">timeline resume</a>, the <a title="Seth Holloway's responsive design resume" href="http://www.sethholloway.com/resume.html">responsive resume</a> (resize your browser or check it out on your phone), and the old school World of Warcraft character builder style resume. This post is meant to showcase the RPG character builder resume that I never publicized. Check it out:</p>
 
@@ -479,44 +516,6 @@
 <p>Hopefully this is useful for others!</p>
 
 <p>Questions or comments? Please let me know via blog comment, email, or pull request.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/whats-your-average-likert-scale-response/">What&#8217;s your average Likert scale response?</a></h1>
-      <p>Have you ever seen a question where you select an answer from a set list like <em>Strongly disagree</em>, <em>Disagree</em>, <em>Neither agree nor disagree</em>, <em>Agree</em>, and <em>Strongly agree</em>? that&rsquo;s a <a title="Wikipedia: Likert Scale" href="http://en.wikipedia.org/wiki/Likert_scale">Likert scale</a>.</p>
-
-<p><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Example_Likert_Scale.svg/220px-Example_Likert_Scale.svg.png"><img class="alignnone" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Example_Likert_Scale.svg/220px-Example_Likert_Scale.svg.png" alt="" width="220" height="334" /></a></p>
-
-<p>Crafting a survey like this is very straightforward and easy, but doing it well is very difficult! For example, this style of survey is lacking the granularity necessary to capture answers like, &ldquo;I can see both sides&rdquo; or &ldquo;Not applicable&rdquo; or &ldquo;This question warrants a richer discussion and should not be shoe-horned into a simple yes or no question.&rdquo; Let&rsquo;s forget about the problems and instead focus on appropriate usage of the Likert scale.</p>
-
-<p>Think about the last questionnaire like this that you completed. What was your average response? I&rsquo;ll guess your responses were entirely in one column (more precisely, your standard deviation between responses was low). If you were asked about a crappy restaurant experience you might answer all negatively: that the food was bad, the service was bad, the decor was bad, and the price was bad. If you were asked about your feelings about something you didn&rsquo;t care about you would probably hover around the middle choice (<em>Neither agree nor disagree</em> in our example above).</p>
-
-<p>Personally, I think that presenting an odd number of options is folly. In my experience, people choose the middle option most often. The middle is safe and easy. But that&rsquo;s not informative! Questions should not be simplified into <em>Neither agree nor disagree</em>. Everyone feels more strongly one way or another.</p>
-
-<p>The next time you respond to a survey that uses a Likert scale, do this:</p>
-
-<ul>
-<li>remember the term &ldquo;Likert scale&rdquo; and applaud yourself for exercising your knowledge</li>
-<li>avoid the simple middle answer&mdash;think a second and decide if you really feel a bit more to one side</li>
-<li>take note of how positive or negative you are</li>
-</ul>
-
 
       
       
