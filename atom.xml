@@ -4,7 +4,7 @@
   <title><![CDATA[Seth Holloway]]></title>
   <link href="http://www.sethholloway.com/sethholloway/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com/sethholloway/"/>
-  <updated>2016-02-23T10:02:10-06:00</updated>
+  <updated>2016-02-23T10:05:32-06:00</updated>
   <id>http://www.sethholloway.com/sethholloway/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -31,7 +31,7 @@
 <li>You can pass messages to <code>nil</code> without a <code>NullPointerException</code>.</li>
 <li><code>nil</code> is <code>false</code>, which fits how I generally think about problems and saves some typing (<code>if (foo)</code> is not as explicit but explicit null checks are noisy and easily forgotten).</li>
 <li>Method names can be more expressive: <code>stringWithCString:inputString encoding:inputEncoding</code> is more clear to me than <code>String(String inputString, String encoding)</code>, which, in practice, is often more like <code>String(String s, String e)</code>. As the signature expands the problem becomes more pronounced. Objective C essentially forces named arguments.</li>
-<li>Drama surrounding Java&rsquo;s future under Oracle; for example, Android Dalvik is definitely not Java <a href="https://en.wikipedia.org/wiki/Dalvik_">https://en.wikipedia.org/wiki/Dalvik_</a>(software)#Licensing_and_patents</li>
+<li>Drama surrounding Java&rsquo;s future under Oracle; for example, Android Dalvik is definitely not Java <a href="https://en.wikipedia.org/wiki/Dalvik_(software)#Licensing_and_patents"><a href="https://en.wikipedia.org/wiki/Dalvik_">https://en.wikipedia.org/wiki/Dalvik_</a>(software)#Licensing_and_patents</a></li>
 </ul>
 
 
