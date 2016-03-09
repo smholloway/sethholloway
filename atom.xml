@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Seth Holloway]]></title>
-  <link href="http://www.sethholloway.com/sethholloway/atom.xml" rel="self"/>
-  <link href="http://www.sethholloway.com/sethholloway/"/>
-  <updated>2016-03-08T19:29:45-06:00</updated>
-  <id>http://www.sethholloway.com/sethholloway/</id>
+  <link href="http://www.sethholloway.com//atom.xml" rel="self"/>
+  <link href="http://www.sethholloway.com//"/>
+  <updated>2016-03-08T19:37:03-06:00</updated>
+  <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Android vs iOS]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/thoughts-on-android-and-ios/"/>
+    <link href="http://www.sethholloway.com//thoughts-on-android-and-ios/"/>
     <updated>2016-02-23T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/thoughts-on-android-and-ios</id>
+    <id>http://www.sethholloway.com//thoughts-on-android-and-ios</id>
     <content type="html"><![CDATA[<p>As I work on Android and iOS I&rsquo;m refining my opinions. Below are my current thoughts about the two ecosystems and underlying languages.</p>
 
 <h2>Objective C vs Java</h2>
@@ -67,9 +67,9 @@
   
   <entry>
     <title type="html"><![CDATA[Notes from Medical School for Everyone]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/notes-from-grand-rounds/"/>
+    <link href="http://www.sethholloway.com//notes-from-grand-rounds/"/>
     <updated>2016-01-05T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/notes-from-grand-rounds</id>
+    <id>http://www.sethholloway.com//notes-from-grand-rounds</id>
     <content type="html"><![CDATA[<p><a href="http://www.thegreatcourses.com/courses/medical-school-for-everyone-grand-rounds-cases.html">Medical School for Everyone: Grand Rounds Cases (Great Courses) by Roy
 Benaroch, M.D.</a></p>
 
@@ -123,9 +123,9 @@ the child to have sickle-cell.)</p></li>
   
   <entry>
     <title type="html"><![CDATA[Books Read in 2016]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-2016/"/>
+    <link href="http://www.sethholloway.com//books-read-2016/"/>
     <updated>2016-01-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-2016</id>
+    <id>http://www.sethholloway.com//books-read-2016</id>
     <content type="html"><![CDATA[<p>Below are the books I read in 2016 categorized as fiction or non-fiction.</p>
 
 <h3>Fiction</h3>
@@ -142,18 +142,24 @@ the child to have sickle-cell.)</p></li>
 <li>Heir of Novron (The Riyria Revelations, book 3) by Michael J. Sullivan &ndash; &#128077;</li>
 <li>Library at Mount Char by Scott Hawkins &ndash; &#128078;</li>
 <li>The Naked Sun by Isaac Asimov &ndash; &#128077;</li>
+<li>Warbreaker by Brandon Sanderson &ndash; &#128078;</li>
 </ul>
 
 
 <h3>Non-fiction</h3>
+
+<ul>
+<li>If You&rsquo;re Not First You&rsquo;re Last by Grant Cardone &ndash; &#128078;</li>
+</ul>
+
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[My favorite reads in 2015]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/favorite-books-read-2015/"/>
+    <link href="http://www.sethholloway.com//favorite-books-read-2015/"/>
     <updated>2015-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/favorite-books-read-2015</id>
+    <id>http://www.sethholloway.com//favorite-books-read-2015</id>
     <content type="html"><![CDATA[<p>Different books give me different things, so it&rsquo;s hard to rank them. But here are a few books that stand out from this year&rsquo;s reading list.</p>
 
 <ul>
@@ -176,9 +182,9 @@ the child to have sickle-cell.)</p></li>
   
   <entry>
     <title type="html"><![CDATA[Daily Checklist for Success]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/daily-rituals-for-success/"/>
+    <link href="http://www.sethholloway.com//daily-rituals-for-success/"/>
     <updated>2015-12-20T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/daily-rituals-for-success</id>
+    <id>http://www.sethholloway.com//daily-rituals-for-success</id>
     <content type="html"><![CDATA[<p>Personal rituals are fascinating to me. I&rsquo;ve encountered them repeatedly in books, blogs, podcasts, and conversations. They&rsquo;re generally boiled down to 1-60 minute morning rituals, but I chafe at the idea of an immutable hour-long routine because I have at least four different types of days (calm weekday, rushed weekday, calm weekend, and rushed weekend). It&rsquo;s easier for me to think of the idealized morning routine as a daily checklist that I can achieve in whatever order during any waking period.</p>
 
 <p>This year I&rsquo;ve focused a lot on my own health and happiness, paying special attention to what drains me of <a href="https://www.youtube.com/watch?v=7LnBvuzjpr4">my energy</a>. Through reading and experimenting I&rsquo;ve come up with my own checklist. These are the things that I shoot for every day (in no particular order):</p>
@@ -214,9 +220,9 @@ the child to have sickle-cell.)</p></li>
   
   <entry>
     <title type="html"><![CDATA[DEFCON 2015 in Review]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/defcon-2015/"/>
+    <link href="http://www.sethholloway.com//defcon-2015/"/>
     <updated>2015-08-10T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/defcon-2015</id>
+    <id>http://www.sethholloway.com//defcon-2015</id>
     <content type="html"><![CDATA[<p>DEFCON 23 was my favorite DEFCON experience so far. There were a lot of great talks and fun after-hours events. Below is
 a list of talks that I attended, for posterity&rsquo;s sake.</p>
 
@@ -308,9 +314,9 @@ Lawshae</a></p></li>
   
   <entry>
     <title type="html"><![CDATA[Books Read March 2015]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-march-2015/"/>
+    <link href="http://www.sethholloway.com//books-read-march-2015/"/>
     <updated>2015-04-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-march-2015</id>
+    <id>http://www.sethholloway.com//books-read-march-2015</id>
     <content type="html"><![CDATA[<p>A couple long books this month.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B0015DPXKI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0015DPXKI&amp;linkCode=as2&amp;tag=theven01-20">Anathem by Neal
@@ -330,9 +336,9 @@ conflicts.</p>
   
   <entry>
     <title type="html"><![CDATA[SXSW 2015 in Review]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/sxsw-2015/"/>
+    <link href="http://www.sethholloway.com//sxsw-2015/"/>
     <updated>2015-03-18T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/sxsw-2015</id>
+    <id>http://www.sethholloway.com//sxsw-2015</id>
     <content type="html"><![CDATA[<p>I enjoyed myself a lot at SXSW 2015. I made it to a lot of sessions that were interesting and thought-provoking.</p>
 
 <h2>Friday</h2>
@@ -395,9 +401,9 @@ conflicts.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read February 2015]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-february-2015/"/>
+    <link href="http://www.sethholloway.com//books-read-february-2015/"/>
     <updated>2015-03-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-february-2015</id>
+    <id>http://www.sethholloway.com//books-read-february-2015</id>
     <content type="html"><![CDATA[<p>One really long book dominated my reading this this month&mdash;I only
 finished two books, but they were both very good.</p>
 
@@ -418,9 +424,9 @@ concludes the Grimnoir Chronicles, providing a fitting finish.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read January 2015]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-january-2015/"/>
+    <link href="http://www.sethholloway.com//books-read-january-2015/"/>
     <updated>2015-02-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-january-2015</id>
+    <id>http://www.sethholloway.com//books-read-january-2015</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B004H1TQBW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004H1TQBW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3QW5ERP7I3H66ZG6">Mistborn by Brandon Sanderson</a>.
 A solid fantasty novel with an interesting magic system. In Mistborn, a
 select few people are gifted with the ability to burn a metal internally
@@ -450,9 +456,9 @@ Glover</a>. I don&rsquo;t know how to feel about this book. I think it has a lot
   
   <entry>
     <title type="html"><![CDATA[Books Read in 2015]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-2015/"/>
+    <link href="http://www.sethholloway.com//books-read-2015/"/>
     <updated>2015-01-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-2015</id>
+    <id>http://www.sethholloway.com//books-read-2015</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s a recap of the books I read in 2015. They&rsquo;re roughly categorized as fiction followed by non-fiction.</p>
 
 <h3>Fiction</h3>
@@ -567,9 +573,9 @@ Glover</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read December 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-december-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-december-2014/"/>
     <updated>2014-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-december-2014</id>
+    <id>http://www.sethholloway.com//books-read-december-2014</id>
     <content type="html"><![CDATA[<p>It was a busy month for reading. Lots of good stuff!</p>
 
 <p><a href="http://www.amazon.com/gp/product/B00ARSJNW6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ARSJNW6&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=KQP7U6OB4WMDL2XX">Dracula Chronicles: Son of the Dragon by Victor
@@ -625,9 +631,9 @@ well. As with software patterns, it&rsquo;s nice to see the path.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read November 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-november-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-november-2014/"/>
     <updated>2014-12-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-november-2014</id>
+    <id>http://www.sethholloway.com//books-read-november-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/1591845327/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1591845327&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=CRLWDIV34KA7TYF3">Leaders Eat Last by Simon
 Sinek</a>. I loved this book because it
 resonated with my hopes for the future of business. Sinek also brought
@@ -673,9 +679,9 @@ Courses.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read October 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-october-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-october-2014/"/>
     <updated>2014-11-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-october-2014</id>
+    <id>http://www.sethholloway.com//books-read-october-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B000OI0G1Q/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000OI0G1Q&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=GO6FQAOF57SDDYD4">The Road by Cormac
 McCarthy</a>. A short but powerful book&mdash;I see why it was made into a movie. Turns out the apocalypse is no fun.</p>
 
@@ -704,9 +710,9 @@ to business.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read September 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-september-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-september-2014/"/>
     <updated>2014-10-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-september-2014</id>
+    <id>http://www.sethholloway.com//books-read-september-2014</id>
     <content type="html"><![CDATA[<p>I have a lot of series started now, and I&rsquo;m not sure which one I will continue next.</p>
 
 <p><a href="http://www.amazon.com/gp/product/B004KABDMA/ref=as_li_tl?tag=theven01-20">Satanic Verses by Salman Rushdie</a>. This book is really well written and historically important&mdash;the amount of <a href="http://en.wikipedia.org/wiki/The_Satanic_Verses#Controversy">controversy</a> around this novel is unreal! Unfortunately, I did not care for the book. I made it through about 2/3 before I decided I&rsquo;d much rather be reading something else. Fear not! I&rsquo;ve read the summary so I know how it ends ;&ndash;)</p>
@@ -727,9 +733,9 @@ Patterson</a>. This is a very useful book that offers &ldquo;tools for talking w
   
   <entry>
     <title type="html"><![CDATA[Books Read August 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-august-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-august-2014/"/>
     <updated>2014-09-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-august-2014</id>
+    <id>http://www.sethholloway.com//books-read-august-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0060899220/ref=as_li_tl?tag=theven01-20">Kitchen Confidential by Anthony
 Bourdain</a>. I loved the insight into the restaurant industry. Bourdain is a really good writer, which complements his crass, honest style. If you want to know what the people in the kitchen are up to, read this book.</p>
 
@@ -756,9 +762,9 @@ I&rsquo;ll be reading more of these as soon as I clear out my queue.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read July 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-ready-july-2014/"/>
+    <link href="http://www.sethholloway.com//books-ready-july-2014/"/>
     <updated>2014-08-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-ready-july-2014</id>
+    <id>http://www.sethholloway.com//books-ready-july-2014</id>
     <content type="html"><![CDATA[<p>July was my most prolific month in a while because I resolved to finish
 three books that had been half-read for quite a while.</p>
 
@@ -834,9 +840,9 @@ with the priorities is challenging.</p>
   
   <entry>
     <title type="html"><![CDATA[Announcing Swiftgive, free mobile fundraising and tipping]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/swiftgive/"/>
+    <link href="http://www.sethholloway.com//swiftgive/"/>
     <updated>2014-07-17T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/swiftgive</id>
+    <id>http://www.sethholloway.com//swiftgive</id>
     <content type="html"><![CDATA[<p>I’m proud to present <a href="https://swiftgive.com">Swiftgive.com</a>. Swiftgive provides free,
 mobile-friendly money transfer. By scanning a QR code you can easily
 give some money.</p>
@@ -895,9 +901,9 @@ service&mdash;even if you don’t have any cash.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read June 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-june-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-june-2014/"/>
     <updated>2014-07-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-june-2014</id>
+    <id>http://www.sethholloway.com//books-read-june-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B004J4XGN6/?tag=theven01-20">Lean Startup by Eric Ries</a>. I&rsquo;m a little embarrassed that I took this long to read this book. It&rsquo;s an iconic book in the startup world that I had skipped because I watched a few Lean Startup talks and read various blogs about it. A lot of the advice is very common sense; I&rsquo;d boil it down to &ldquo;build something people want.&rdquo;</p>
 
 <p><a href="http://www.amazon.com/gp/product/B007ZBNVVW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B007ZBNVVW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=GVZ6UKTYN4WQQV5V" title="">The Developers Guide to Debugging by Thorsten Grötker, Ulrich Holtmann, Holger Keding, and Markus Wloka</a>. I was discussing what makes a good software developer with a friend and he was adamant than the best developers are the best debuggers. I read this book in hopes of filling in the knowledge that I might have learned from a debugging course in school&mdash;if one existed. The book was readable, but it was a bit too C-centric for me to fully appreciate.</p>
@@ -914,9 +920,9 @@ service&mdash;even if you don’t have any cash.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read May 2014]]></title>
-    <link href="http://www.sethholloway.com/sethholloway/books-read-may-2014/"/>
+    <link href="http://www.sethholloway.com//books-read-may-2014/"/>
     <updated>2014-06-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com/sethholloway/books-read-may-2014</id>
+    <id>http://www.sethholloway.com//books-read-may-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0786948590/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=AZ5FVM3FFEBFYLZO">The Legacy: Legend of Drizzt, Book VII by R.A. Salvatore</a>. It&rsquo;s Drizzt&mdash;what&rsquo;s not to like? I previously read books one and two; I mistakenly bought this one thinking it was three (it is actually 7). On the plus side, I can probably skip ahead in the story now that I know what happens after the books I missed!</p>
 
 <p><a href="http://www.amazon.com/gp/product/B000FC2L1O/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=4ANBLIVMQ7652A5D">Outlander by Diana
