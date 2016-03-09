@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com/sethholloway/blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com/sethholloway/"/>
-  <updated>2016-02-23T10:05:32-06:00</updated>
+  <updated>2016-03-08T19:29:45-06:00</updated>
   <id>http://www.sethholloway.com/sethholloway/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -48,8 +48,8 @@
 <h3>Android wins</h3>
 
 <ul>
-<li>Easy and free to create and publish apps.</li>
-<li>Registering to open URLs. In Android an app can register to open specific links, like <code>https://youtube.com</code>. This improves the user experience by operating on the link in the best app: if you have the YouTube app, open the video in the app, otherwise fall back to the default browser. iOS achieves a similar effect with custom schemes, like <code>youtube://</code>, but custom schemes aren’t as ubiquitous as HTTP(S).</li>
+<li>Easy and inexpensive (a one-time $25 fee) to create and publish apps.</li>
+<li>Registering to open URLs. In Android an app can register to open specific links, like <code>https://youtube.com</code> or <code>seth://foo</code>. This improves the user experience by operating on the link in the best app: if you have the YouTube app, open the video in the app, otherwise fall back to the default browser. iOS achieves a similar effect but cannot register for <code>https://</code> schemes. In practice it works well enough, but custom schemes aren’t as ubiquitous as HTTP(S).</li>
 <li>Strings and localization. Android forces you to use a message catalog, which has several advantages: (1) it’s better for reuse; (2) it makes it easier to refactor; (3) it centralizes text so docs and translators can engage more easily; (4) the toolchain is more stable&mdash;Xcode crashes a lot when working with localization and it doesn’t update text changes made through interface builder</li>
 </ul>
 
