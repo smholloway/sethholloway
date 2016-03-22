@@ -118,6 +118,86 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/highlighting-the-current-page-link-in-a-navigation-bar-template/">Highlighting the current page link in a navigation bar template</a></h1>
+      <p>I have not seen anything about how to properly highlight what page you&rsquo;re currently on when using a templated navigation bar on a dynamic webpage&hellip; I couldn&rsquo;t even google for a solution because I don&rsquo;t know the correct terminology.</p>
+
+<p>There are a number of ways to highlight the link to the page you&rsquo;re currently on. For example, you could pass a parameter and alter the view based on the parameter; or you could include the navigation pane in each content view then apply the highlight with the page. I don&rsquo;t think either of those solutions is very clean, so here&rsquo;s my solution using HTML, CSS, and jQuery (it should work across browsers).</p>
+
+<pre>&lt;!-- index.html --&gt;</pre>
+
+
+<pre>&lt;div id="topnav"&gt;</pre>
+
+
+<pre>   &lt;ul&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="home"&gt;Home&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="about"&gt;About&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="links"&gt;Links&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="services"&gt;Services&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>   &lt;/ul&gt;</pre>
+
+
+<pre>&lt;/div&gt;</pre>
+
+
+<p>The unordered list is styled as a standard navigation menu (A List Apart has a nice article and book about it), and I have it setup to highlight whatever menu item is hovered. To highlight the current page, I set that item to the same background color as the hover effect. A little snippet here:</p>
+
+<pre>/* application.css */</pre>
+
+
+<pre>a:hover, a:focus { background: #454d2f; }</pre>
+
+
+<pre>.highlight { background: #454d2f; }</pre>
+
+
+<p>Now, all that&rsquo;s left is to let jQuery apply the highlight class to the menu item corresponding to the page we&rsquo;re on; an effect I achieve thusly:</p>
+
+<pre>// application.js</pre>
+
+
+<pre>$('#topnav').ready(function() {
+    var page = window.location.href.split("/")[3]; // after the slash at the end of the domain name 
+    if (page == "") { page = "home"; }
+    $(this).find("a[href$="+page+"]").addClass("highlight"); 
+});</pre>
+
+
+<p>You could do this without jQuery, but it is my favorite JavaScript library and I like to use it :)</p>
+
+<p>Does anyone know of a better way?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/a-few-thoughts-on-ruby/">A few thoughts on Ruby</a></h1>
       <p>This is not an exhaustive post, just a few thoughts in reaction to reading about and working with <a title="Ruby Lang Dot Org" href="http://www.ruby-lang.org/en/">Ruby</a>.</p>
 
@@ -510,40 +590,6 @@ information by visiting
 <p>Googling for the benefits of professional certifications I came across a number of interesting studies and opinions. Argument from authority was common as people state how certifications exist for law, medicine, accounting, personal training, social work, education, and more; this makes certifications popular, not right. Determining what certification exams is a really hard problem, and centralizing the power stands to create corruption and slow the industry. Certification also works to unionize professionals and redistribute wealth. From a laziness standpoint, certifications layer on a lot of work and responsibility.</p>
 
 <p>So, given the advantages and disadvantages, are certifications in software good, bad, or just plain ugly?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/java-local-variables/">Java local variables</a></h1>
-      <p>I&rsquo;m learning a ton this summer as I relearn old tricks and learn new tricks. Among other technologies, frameworks, languages, and techniques, I&rsquo;m improving my Java skills. A friend recommended <a href="http://www.amazon.com/dp/0321356683/?tag=theven01-20">Joshua Block&rsquo;s Effective Java Version 2</a>. The introduction succinctly states that the book aims to improve your usage of Java&mdash;something not usually taught in classes or discussed in book. Here are a few things I (re)learned:</p>
-
-<ul>
-<li>Local variables should be instantiated; if you cannot assign a sane default value, you shouldn&rsquo;t be assigning the variable yet.</li>
-<li>Variables should be located near their use. In the C style you would declare all variables at the top of the method; however, this is not the best practice in modern Java. (Does anyone know if the &lsquo;variables at top&rsquo; still reigns in C?)</li>
-<li>while loops should be used only if you need the local index variable outside the loop</li>
-<li>For-each loops should be used whenever possible</li>
-<li><p>The next best loop is a for loop with the end condition assigned in the loop (a technique I believe we could weakly call <a title="Wikipedia: memoization" href="http://en.wikipedia.org/wiki/Memoization">memoization</a> because we only have to calculate something once), for example:</p>
-
-<p> for (int i = 0, len = myDataStructure.calculateSomething(); i &lt; len; i++) {
-     // do something
- }</p></li>
-</ul>
-
 
       
       

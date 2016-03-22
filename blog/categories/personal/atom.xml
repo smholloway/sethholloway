@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com//blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com//"/>
-  <updated>2016-03-08T19:37:03-06:00</updated>
+  <updated>2016-03-21T22:07:56-05:00</updated>
   <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[SXSW 2016 in Review]]></title>
+    <link href="http://www.sethholloway.com//sxsw-2016/"/>
+    <updated>2016-03-21T00:00:00-05:00</updated>
+    <id>http://www.sethholloway.com//sxsw-2016</id>
+    <content type="html"><![CDATA[<p>SXSW 2016 was great! I&rsquo;m enjoying the conference more every year. I think last year&rsquo;s presentations were more thought-provoking, but there were several good talks this year too.</p>
+
+<h2>Friday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP90088">Invisible Influence and Winning at SXSW 2016</a> &ndash; Contagious was <a href="http://sethholloway.com/favorite-books-read-2015/">one of my favorite books of 2015</a> so I was excited for his keynote. It was good. He played a clip from his appearance on <a href="http://www.imdb.com/title/tt2078690/">Brain Games</a> where the show manipulated people into waiting in line for nothing. That idea reminds me a lot of <a href="https://www.ted.com/talks/derek_sivers_how_to_start_a_movement">Derek Sivers talk on how to start a movement</a> (which is awesome).</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP93149">President Barack Obama Keynote Conversation</a> &ndash; Super cool that Obama was at South by. I really like the POTUS connecting with the people (as opposed to the standard, stuffy keep-the-voters-at-arm&rsquo;s length).</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP91541">Google Self-Driving Car Project</a> &ndash; So cool. Last year&rsquo;s Moon Shots presentation by Dr. Astro Teller left me all warm and fuzzy about Google X, and this talk did too. I loved seeing the computer representation next to the camera version. The future is now. (I can&rsquo;t wait for self-driving cars.)</li>
+</ul>
+
+
+<h2>Saturday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP46272">NativeScript: The Future of Mobile App Development</a> &ndash; Wanna write a single JavaScript program that can run on iOS, Android, and Windows phone? Then NativeScript is for you! It&rsquo;s a neat idea, and I think the fact that we keep seeing write-once-run-on-any-native-platform projects shows how valuable such a project would be.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP92018">The Future of Media Companies</a> &ndash; Hard to believe that a BuzzFeed speech would have a click-bait title, right?!</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP92035">Daring Greatly</a> &ndash; To summarize: breathe. I&rsquo;m being flippant. Brene Brown is amazing and her keynote was no exception. One of my favorites.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP91923">Unstoppable Trends that are Changing the World</a> &ndash; Max, the co-founder and CTO of PayPal, is staggeringly smart. The presentation was good. The Q&amp;A was great. In the time it took to read a question, Max could come up with a brilliant, self-assured response that was delivered with precision. He invoked the idea of a shrewd, genius VC.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP48870">The Linguistic Secrets Found in Billions of Emoji</a> &ndash; I thought I could buy some nerd-cred with my wife with this one. I don&rsquo;t use emoji like most people use emoji :&ndash;\</li>
+</ul>
+
+
+<h2>Monday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP51950">Comments Are Terrible: But They Don&rsquo;t Have to Be</a> &ndash; My favorite insight was that the architecture of comment sections can change behavior; for example, a three-column comment section containing <code>for</code>, <code>against</code>, and <code>questions</code> increased civility.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP58524">Bad Robot, Epic Digital, and Google Present Moon Shot. The story of the Google Lunar XPRIZE</a> &ndash; JJ Abrams introduced a series of shows chronicling a few teams going for the Google Lunar X prize. Great videos! I love how space is cool now.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_OE05413">Silent Room by Simon Heijdens</a> &ndash; Anechoic chamber. Whoa. I only got a minute inside but it was a really neat experience.</li>
+</ul>
+
+
+<h2>Tuesday</h2>
+
+<ul>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP52737">The New Battle Over Encryption and How to Survive It</a> &ndash; Moxie Marlinspike is amazing. I don&rsquo;t know how someone so humble and idealistic has gained the spotlight, but I&rsquo;m so glad he has. I&rsquo;d rather listen to him than the standard pundit any day.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP57527">Cracking the Code to Your Unlimited Epic Potential</a> &ndash; To summarize: breathe.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP90100">Why Happiness Is Hard and How to Make It Easier</a> &ndash; To summarize: breathe.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP46758">The Secrets of Machine Learning Revealed</a> &ndash; A great summary of machine learning. I really liked how Dr. Domingos distilled the information stating the five schools of ML and their goals.</li>
+<li><a href="http://schedule.sxsw.com/2016/events/event_PP57474">Closing Remarks: Bruce Sterling</a> &ndash; A SXSW tradition. This year&rsquo;s message seemed to be, &ldquo;by this time next year, Trump will be president, but the U.S. will survive.&rdquo; Bruce is an engaging, entertaining speaker full of energy and ideas.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Android vs iOS]]></title>
@@ -177,44 +226,6 @@ the child to have sickle-cell.)</p></li>
 
 
 <p>I hope 2015 treated you well! I look forward to a similarly stimulating 2016.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Daily Checklist for Success]]></title>
-    <link href="http://www.sethholloway.com//daily-rituals-for-success/"/>
-    <updated>2015-12-20T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//daily-rituals-for-success</id>
-    <content type="html"><![CDATA[<p>Personal rituals are fascinating to me. I&rsquo;ve encountered them repeatedly in books, blogs, podcasts, and conversations. They&rsquo;re generally boiled down to 1-60 minute morning rituals, but I chafe at the idea of an immutable hour-long routine because I have at least four different types of days (calm weekday, rushed weekday, calm weekend, and rushed weekend). It&rsquo;s easier for me to think of the idealized morning routine as a daily checklist that I can achieve in whatever order during any waking period.</p>
-
-<p>This year I&rsquo;ve focused a lot on my own health and happiness, paying special attention to what drains me of <a href="https://www.youtube.com/watch?v=7LnBvuzjpr4">my energy</a>. Through reading and experimenting I&rsquo;ve come up with my own checklist. These are the things that I shoot for every day (in no particular order):</p>
-
-<ul>
-<li>smile for one minute &ndash; Smiling feels good, and there&rsquo;s always something worth smiling about. But I rarely smile. I&rsquo;m generally happy, but I tend to suppress the physical representation of my emotions so I don&rsquo;t smile nearly as much as I&rsquo;d like to. I&rsquo;m working on making my outside match my inside more often.</li>
-<li>journal 3+ things I&rsquo;m grateful for &ndash; I try to smile while thinking of things I&rsquo;m grateful for. It would be easy enough to say, &ldquo;my wife&rdquo;, &ldquo;my health&rdquo;, and &ldquo;my job&rdquo;, but I try to get more specific. Practicing gratitude has been very helpful for me.</li>
-<li>journal anything I&rsquo;m proud of myself for &ndash; I struggle with self-confidence and self-compassion, so this running log of goodness helps me feel better.</li>
-<li>breathe from the diagram, trying to take only 4-6 breaths in one minute &ndash; It&rsquo;s amazing how calm I feel after slowing my breathing&mdash;it&rsquo;s like telling your body, &ldquo;relax&rdquo; and having your body listen.</li>
-<li>sleep 7.5+ hours &ndash; Sleep is generally the first thing to go when I get busy; however, I&rsquo;m finding that sleep really sets the stage for the day, so I&rsquo;m trying to sleep more.</li>
-<li>stand 2+ hours &ndash; On my laziest day I could stand for less than five minutes, which is bad for my mood and my metabolism. I installed a flip-up table so I can work standing up. I&rsquo;m trying to stand once an hour (drinking a lot of water helps motivate me). I&rsquo;ve also been doing a lot of housework recently, so I&rsquo;m standing more.</li>
-<li>walk at least 3,000 steps &ndash; You know that laziest day where I hardly stand? I definitely don&rsquo;t walk much those days. For reference 3,000 steps is roughly 1.5 miles and 30 minutes moving around. Since I made 3,000 steps a goal I&rsquo;ve been able to do it almost every day.</li>
-<li>exercise until sweating &ndash; Typical exercise guidelines recommend around five hours of exercise per week, but most Americans are barely getting two hours, so I try to be realistic. I think &ldquo;until sweating&rdquo; is a better goal than any specific time. Get the blood moving and enjoy.</li>
-<li>have sex &ndash; I never see this in people&rsquo;s daily routines, but I think it&rsquo;s very important so I had to include it. That said, this is probably my most skipped routine.</li>
-<li>get some physical contact with loved ones (including pets) &ndash; Positive physical contact releases oxytocin, which makes us feel connected and warm. Blood pressure drops and we feel a sense of well-being. Pretty powerful stuff. I&rsquo;ve read various studies saying it takes from one second to two minutes, so I shoot for one good purposeful spouse-hug and a minute of cuddling with the pets.</li>
-<li>take a probiotic &ndash; Get your shit straight. For real.</li>
-<li>eat some fiber &ndash; See above.</li>
-<li>fill in vitamins and minerals you have missed or will miss from your food and drink &ndash; I generally eat well for 3/5 feedings (traditional meals plus snacks), but I still miss a lot of nutrients. Vitamin D, which is usually provided by exposure to the sun, is chronically low among programmers. If I can&rsquo;t go for a little walk in the sun then I take my vitamin D.</li>
-<li>drink 64+ oz of water &ndash; Studies refute the biological need for 8 cups of water, but I&rsquo;ve found that it&rsquo;s fairly easy and it makes me feel better.</li>
-<li>brush your teeth twice &ndash; Your mother will be proud.</li>
-<li>make your bed &ndash; For me, this helps set the stage for a productive day. I don&rsquo;t do anything fancy&mdash;just straighten the sheets and comforter and pull them up over my pillows.</li>
-<li>stretch &ndash; My flexibility sucks. I think some of my body aches come from poor flexibility, so I&rsquo;m working to improve my general mobility.</li>
-<li>communicate with someone important to me (preferably someone that I don&rsquo;t work or live with) &ndash; Relationships mean a lot to me, yet I&rsquo;m historically bad at keeping in touch. While far from perfect now, by focusing on it every day I&rsquo;ve been able to keep up with more loved ones.</li>
-<li>meditate &ndash; I try to meditate every day, but &ldquo;meditation&rdquo; is a really open-ended idea. I&rsquo;ve found success in short mindfulness breaks. Focusing on breathing from my diaphragm, clearing my mind with intense exercise, and recognizing the blessings around me all achieve a similar effect for me.</li>
-</ul>
-
-
-<p>If you&rsquo;re on the fence about any item, run the experiment and see how you feel after trying it.</p>
-
-<p>So, what&rsquo;s your daily checklist? What works for you? What percentage of your tasks do you normally complete?</p>
 ]]></content>
   </entry>
   

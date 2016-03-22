@@ -118,6 +118,44 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/how-is-this-a-pop-song/">How is this a pop song?</a></h1>
+      <p>I heard &ldquo;Dream on&rdquo; by Christian Falk featuring Robyn on <a title="Seth Holloway: looking for new music? check out the pitchfork 500" href="http://sethholloway.com/blog/2010/08/25/looking-for-new-music-or-old-favorites-check-the-pitchfork-500/">Pitchfork 500</a>, and I think it&rsquo;s a beautiful sonic experience&mdash;very poppy! makes me want to move&mdash;but listening to the lyrics makes me wonder, &ldquo;how is this a pop song?&rdquo; A sample:</p>
+
+<p>&ldquo;<span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; font-size: 12px; line-height: 18px; white-space: pre;">You won&rsquo;t be sad or broken tonight</span></p>
+
+<p><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; font-size: 12px; line-height: 18px; white-space: pre;">you won&rsquo;t be squealed on, ripped off tonight</span></p>
+
+<p><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; font-size: 12px; line-height: 18px; white-space: pre;">you won&rsquo;t be back-stabbed, double crossed, face down</span></p>
+
+<p><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; font-size: 12px; line-height: 18px; white-space: pre;">teeth knocked out, lying in a gutter somewhere</span></p>
+
+<p><span style="font-family: Consolas, Monaco, 'Courier New', Courier, monospace; font-size: 12px; line-height: 18px; white-space: pre;">So dream on&#8221;</span></p>
+
+<p>Hahaha, I love it! I can&rsquo;t think of another song with such (openly) dark content that is so accessible to the masses (pop). The Eagles might have been singing about a brothel, but you could easily think it was just a nice hotel in the middle of nowhere!</p>
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/x-juuIldyZ0&amp;autoplay=true&amp;loop=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="480" height="385" src="http://www.youtube.com/v/x-juuIldyZ0&amp;autoplay=true&amp;loop=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
+
+<p><a href="http://www.youtube.com/watch?v=x-juuIldyZ0">Christian Falk featuring Robyn &ndash; Dream On</a></p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/missing-every-shot-in-tryouts/">Missing every shot in tryouts</a></h1>
       <p>When I was about 13 years old, I tried out for a local basketball league. Everyone who wanted to play showed up at a school gym and ran the same route while coaches looked on. We were given the ball at the free throw line; we were then supposed to shoot a free throw, grab the rebound and take off down the court. At the other end we were supposed to shoot a lay-up, rebound, then dribble back.</p>
 
@@ -391,62 +429,6 @@ Click &ldquo;Add mapping&rdquo; button</p>
 <p>Are there any other foods that are so obviously ready? What foods are you thankful for?</p>
 
 <p>Update: Mussels! Not only are they sustainable, they open when they&rsquo;re ready. Brilliant!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/svnignore-example-for-java/">.svnignore Example for Java</a></h1>
-      <p>.svnignore is my attempt to create the equivalent of .gitignore. After creating the file I had to set the svn:ignore property before it worked:
-<code>svn propset svn:ignore -F .svnignore .</code></p>
-
-<p>First, a little background: my PhD work uses <a title="Sun SPOT World" href="http://www.sunspotworld.com/">Sun (Oracle) SPOT devices</a> that run the <a title="Squawk VM" href="http://www.research.sun.com/projects/squawk/index.html">Java Squawk VM</a> (kinda like <a title="Wikipedia: Java Micro Edition" href="http://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition">Java ME</a>). For version control, we use <a title="Subversion" href="http://subversion.tigris.org/">Subversion</a>. In keeping with good version control practices, I want to avoid putting binary and compiled files into version control. The easiest way to do this is a solid .svnignore file. I spent a few minutes trying to find a .svnignore example for Java and could not find anything, so I built one myself based on several examples I saw.</p>
-
-<p>.svnignore</p>
-
-<blockquote>
-    *.class
-    build/*
-    j2meclasses/*
-    .classpath
-    .project
-    .settings
-    *.war
-    *~
-    *.lock
-    *.DS_Store
-    *.swp
-    *.out
-    *.bak
-    *.tmp
-    *.log
-    log*.txt
-    .idea
-    .git
-</blockquote>
-
-
-<p>From the top, ignore class files, the build directory, the classes directory, our local classpath/project/settings, the compiled deployment package (WAR/JAR), any tilde backup files, a OS X specific directory,  VI files that are being edited, log files, backup and temporary files, IDE files (thanks <a title="Lane Holloway is awesome" href="http://www.laneholloway.com/">Lane</a>), and finally any git files (this part could be expanded to include other version control systems like Bazaar or Mercurial).</p>
-
-<p>If I missed something, please let me know.</p>
-
-<p><strong>UPDATE</strong></p>
-
-<p>GitHub has published a list of .gitignore files for a number of languages: <a title="GitHub's gitignore files" href="https://github.com/github/gitignore"><a href="https://github.com/github/gitignore">https://github.com/github/gitignore</a></a>. You can pop these into your .svnignore and apply the properties.</p>
 
       
       
