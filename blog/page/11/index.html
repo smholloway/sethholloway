@@ -118,6 +118,48 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/dijkstra-on-computer-science-education/">Dijkstra&#8217;s View of Computer Science Education</a></h1>
+      <p><a title="Wikipedia: Dijkstra" href="http://en.wikipedia.org/wiki/Edsger_Dijkstra">Edsger Dijkstra</a>, one of the most influential figures in Computer Science and the most famous Computer Scientist to never own a computer, had very strong opinions on Computer Science education. He expressed his feelings in an essay titled &ldquo;The Cruelty of Really Teaching Computer Science.&#8221; You can read Dijkstra&rsquo;s original, hand-written note as <a title="Dijkstra's view on CS education" href="http://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1036.PDF">PDF</a>, or the <a title="Dijkstra's view transcribed" href="http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html">transcription</a>, or the Wikipedia <a title="Wikipedia: Dijkstra's view on CS education" href="http://en.wikipedia.org/wiki/The_Cruelty_of_Really_Teaching_Computer_Science">page</a>. The piece was also <a title="Slashdot: Dijkstra's view on CS education" href="http://news.slashdot.org/article.pl?sid=08%2F12%2F02%2F1410254">covered on Slashdot</a> with lots of nice comments. Here&rsquo;s an excerpt:</p>
+
+<blockquote>Needless to say, this vision of what computing science is about is not universally applauded. On the contrary, it has met widespread &#8211;and sometimes even violent&#8211; opposition from all sorts of directions. I mention as examples
+
+(0) the mathematical guild, which would rather continue to believe that the Dream of Leibniz is an unrealistic illusion
+
+(1) the business community, which, having been sold to the idea that computers would make life easier, is mentally unprepared to accept that they only solve the easier problems at the price of creating much harder ones
+
+(2) the subculture of the compulsive programmer, whose ethics prescribe that one silly idea and a month of frantic coding should suffice to make him a life-long millionaire
+
+(3) computer engineering, which would rather continue to act as if it is all only a matter of higher bit rates and more flops per second
+
+(4) the military, who are now totally absorbed in the business of using computers to mutate billion-dollar budgets into the illusion of automatic safety
+
+(5) all soft sciences for which computing now acts as some sort of interdisciplinary haven
+
+(6) the educational business that feels that, if it has to teach formal mathematics to CS students, it may as well close its schools.</blockquote>
+
+
+<p>Between my time in industry and academia I&rsquo;ve participated in tens of discussions about CS education. You wouldn&rsquo;t catch me hand-writing a single-pass essay like Dijkstra, but I can agree with academic&rsquo;s long-term view that theory will allow students to understand and apply concepts throughout their career. I also understand the industry desire for real skills (like Java or C, for example) that would allow new employees to hit the ground running. This debate will continue, but I think the state of education is going to change very soon&mdash;particularly due to the <a title="Forbes - the Rise of Developeronomics" href="http://www.forbes.com/sites/venkateshrao/2011/12/05/the-rise-of-developeronomics/">rise of developeronomics</a>.</p>
+
+<p>What do you think? Is CS education valuable? Who is doing it well? How could we improve? If schools are failing, how can students augment their curriculum?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/javascript-funkines/">JavaScript funkiness</a></h1>
       <p>JavaScript is an awesome language! It is multi-paradigm and absolutely ubiquitous (available on almost every computer through the browser). As I explore JavaScript further, I find more and more oddities. While I&rsquo;m thinking about it, I thought I&rsquo;d write a few out. These gems are a combination of my experience and threads on StackOverflow.</p>
 
@@ -736,72 +778,6 @@ System.out.println(string.length());
 
     </article>
     
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in various units</a></h1>
-      <p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
-
-<pre>L1 cache reference
-          0.5 ns | 0.0005 us  | 0.0000005 ms | 0.0000000005 s
-Branch mispredict
-            5 ns | 0.005 us   | 0.000005 ms  | 0.000000005 s
-L2 cache reference
-            7 ns | 0.007 us   | 0.000007 ms  | 0.000000007 s
-Mutex lock/unlock
-           25 ns | 0.025 us   | 0.000025 ms  | 0.000000025 s
-Main memory reference
-          100 ns | 0.1 us     | 0.0001 ms    | 0.0000001 s
-Compress 1K bytes with Zippy
-        3,000 ns | 3 us       | 0.003 ms     | 0.000003 s
-Send 2K bytes over 1 Gbps network
-       20,000 ns | 30 us      | 0.03 ms      | 0.00003 s
-Read 1 MB sequentially from memory
-      250,000 ns | 250 us     | 0.25 ms      | 0.00025 s
-Round trip within same datacenter
-      500,000 ns | 500 us     | 0.5 ms       | 0.0005 s
-Disk seek
-   10,000,000 ns | 10,000 us  | 10 ms        | 0.01 s
-Read 1 MB sequentially from disk
-   20,000,000 ns | 20,000 us  | 20 ms        | 0.02 s
-Send packet CA-&gt;Netherlands-&gt;CA
-  150,000,000 ns | 150,000 us | 150ms        | 0.15 s</pre>
-
-
-<p>If the above table formatting does not work for you, maybe you&rsquo;ll prefer this one:</p>
-
-<pre>ACTION                                 ns   |   us    |   ms
-L1 cache reference                      0.5 |  0.0005 | 0.0000005
-Branch mispredict                         5 |   0.005 | 0.000005
-L2 cache reference                        7 |   0.007 | 0.000007
-Mutex lock/unlock                        25 |   0.025 | 0.000025
-Main memory reference                   100 |     0.1 | 0.0001
-Compress 1K bytes with Zippy          3,000 |       3 | 0.003
-Send 2K bytes over 1Gbps             20,000 |      30 | 0.03
-Read 1MB  from memory               250,000 |     250 | 0.25
-Roundtrip within same datacenter    500,000 |     500 | 0.5
-Disk seek                        10,000,000 |  10,000 | 10
-Read 1MB sequentially from disk  20,000,000 |  20,000 | 20
-Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
-
-
-
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
   
   <div class="pagination">
     
@@ -820,7 +796,7 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2016 by Seth Holloway
+  Copyright &copy; 2017 by Seth Holloway
 </p>
 
 

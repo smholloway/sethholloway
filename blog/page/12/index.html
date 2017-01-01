@@ -118,6 +118,72 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in various units</a></h1>
+      <p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
+
+<pre>L1 cache reference
+          0.5 ns | 0.0005 us  | 0.0000005 ms | 0.0000000005 s
+Branch mispredict
+            5 ns | 0.005 us   | 0.000005 ms  | 0.000000005 s
+L2 cache reference
+            7 ns | 0.007 us   | 0.000007 ms  | 0.000000007 s
+Mutex lock/unlock
+           25 ns | 0.025 us   | 0.000025 ms  | 0.000000025 s
+Main memory reference
+          100 ns | 0.1 us     | 0.0001 ms    | 0.0000001 s
+Compress 1K bytes with Zippy
+        3,000 ns | 3 us       | 0.003 ms     | 0.000003 s
+Send 2K bytes over 1 Gbps network
+       20,000 ns | 30 us      | 0.03 ms      | 0.00003 s
+Read 1 MB sequentially from memory
+      250,000 ns | 250 us     | 0.25 ms      | 0.00025 s
+Round trip within same datacenter
+      500,000 ns | 500 us     | 0.5 ms       | 0.0005 s
+Disk seek
+   10,000,000 ns | 10,000 us  | 10 ms        | 0.01 s
+Read 1 MB sequentially from disk
+   20,000,000 ns | 20,000 us  | 20 ms        | 0.02 s
+Send packet CA-&gt;Netherlands-&gt;CA
+  150,000,000 ns | 150,000 us | 150ms        | 0.15 s</pre>
+
+
+<p>If the above table formatting does not work for you, maybe you&rsquo;ll prefer this one:</p>
+
+<pre>ACTION                                 ns   |   us    |   ms
+L1 cache reference                      0.5 |  0.0005 | 0.0000005
+Branch mispredict                         5 |   0.005 | 0.000005
+L2 cache reference                        7 |   0.007 | 0.000007
+Mutex lock/unlock                        25 |   0.025 | 0.000025
+Main memory reference                   100 |     0.1 | 0.0001
+Compress 1K bytes with Zippy          3,000 |       3 | 0.003
+Send 2K bytes over 1Gbps             20,000 |      30 | 0.03
+Read 1MB  from memory               250,000 |     250 | 0.25
+Roundtrip within same datacenter    500,000 |     500 | 0.5
+Disk seek                        10,000,000 |  10,000 | 10
+Read 1MB sequentially from disk  20,000,000 |  20,000 | 20
+Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
+
+
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/gmail-extensions/">Gmail extensions</a></h1>
       <p>A friend of mine mentioned that he didn&rsquo;t like Gmail&rsquo;s built-in tasks, which prompted me to share a couple Chrome extensions (they exist for Firefox too) that I have come to enjoy. Here they</p>
 
@@ -569,35 +635,6 @@ PUBLICATIONS
 
     </article>
     
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/food-trucks-are-restaurants-version-of-a-lean-startup/">Food trucks are restaurant&#8217;s version of a lean startup</a></h1>
-      <p>Austin is boomtown for food trucks. They&rsquo;re everywhere! For example, the trailer-food park on South 1st (<a href="http://www.yelp.com/biz/south-austin-trailer-park-and-eatery-austin">http://www.yelp.com/biz/south-austin-trailer-park-and-eatery-austin</a>). There are too many great food trucks around town to name, but a couple of my favorites are Sushi-A-Go-Go and Gourdough&rsquo;s.</p>
-
-<p>Anyway, after a recent outing where I sat at a kitschy picnic table in the summer heat eating trailer food, it struck me that food trucks are restaurant&rsquo;s version of a lean startup. Just as the cost of starting a software business went down with the commoditization of hardware and bandwidth, we&rsquo;re seeing an explosion of restaurants thanks to greatly reduced startup and operation expenses offered by trucks/trailers/carts. I imagine that by using a truck/trailer/cart, the business owner saves a ton of money; I&rsquo;d guess there are significant savings on electricity (heating and cooling, lighting), service (less area to maintain, fewer waiters necessary), and rent. How cool is that?!</p>
-
-<p>The truck/cart/stand is the proving ground. Those who are happy with their situation are free to keep doing what they&rsquo;re doing, or they can move easily (thanks to the mobility of the restaurant). Business owners who choose to expand can move to a more permanent home in a brick-and-mortar store. A few Austin examples include Franklin&rsquo;s BBQ, Man Bites Dog, and Torchy&rsquo;s Tacos.</p>
-
-<p>Overall, I think it&rsquo;s a great trend! As the options increase, food quality goes up and prices go down. And don&rsquo;t tell anyone, but I have a little dream of opening Austin&rsquo;s first decent ramen restaurant&hellip;</p>
-
-<p>What do you think? Do you like the trend? Does my analogy make sense? What food trucks/trailers/carts do you like? What are we missing?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
   
   <div class="pagination">
     
@@ -616,7 +653,7 @@ PUBLICATIONS
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2016 by Seth Holloway
+  Copyright &copy; 2017 by Seth Holloway
 </p>
 
 
