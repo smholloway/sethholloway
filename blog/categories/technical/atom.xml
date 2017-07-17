@@ -4,7 +4,7 @@
   <title><![CDATA[Category: technical | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com//blog/categories/technical/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com//"/>
-  <updated>2017-01-01T16:25:24-06:00</updated>
+  <updated>2017-07-17T16:39:03+02:00</updated>
   <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Low cost genetic testing]]></title>
     <link href="http://www.sethholloway.com//low-cost-genetic-testing/"/>
-    <updated>2013-10-05T00:00:00-05:00</updated>
+    <updated>2013-10-05T00:00:00+02:00</updated>
     <id>http://www.sethholloway.com//low-cost-genetic-testing</id>
     <content type="html"><![CDATA[<p>I recently spit into a cup so that <a title="23 and Me" href="http://refer.23andme.com/a/clk/18h5Np">23andme</a> can perform genetic tests. It&rsquo;s a surreal feeling: for about $100, I gain access to some sci-fi dream that was completely unheard of even a decade ago.</p>
 
@@ -27,7 +27,7 @@
   <entry>
     <title type="html"><![CDATA[Thoughts on Learning Clojure]]></title>
     <link href="http://www.sethholloway.com//thoughts-on-learning-clojure/"/>
-    <updated>2013-04-26T00:00:00-05:00</updated>
+    <updated>2013-04-26T00:00:00+02:00</updated>
     <id>http://www.sethholloway.com//thoughts-on-learning-clojure</id>
     <content type="html"><![CDATA[<p>In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time&mdash;we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.</p>
 
@@ -86,7 +86,7 @@ Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
   <entry>
     <title type="html"><![CDATA[Shipping isn't everything]]></title>
     <link href="http://www.sethholloway.com//shipping-isnt-everything/"/>
-    <updated>2013-04-25T00:00:00-05:00</updated>
+    <updated>2013-04-25T00:00:00+02:00</updated>
     <id>http://www.sethholloway.com//shipping-isnt-everything</id>
     <content type="html"><![CDATA[<p>Stop bragging about how much you shipped!</p>
 
@@ -101,7 +101,7 @@ Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
   <entry>
     <title type="html"><![CDATA[Hermit crab software]]></title>
     <link href="http://www.sethholloway.com//hermit-crab-software/"/>
-    <updated>2013-04-25T00:00:00-05:00</updated>
+    <updated>2013-04-25T00:00:00+02:00</updated>
     <id>http://www.sethholloway.com//hermit-crab-software</id>
     <content type="html"><![CDATA[<p>I have spent incalculable amounts of time trying to set up software environments, and if you&rsquo;ve done any programming, I&rsquo;d guess that you have had similar experiences. As a way to save everyone time and frustration, I think we should push for hermit crab software&mdash;programming environments that carry their &ldquo;home&rdquo; around with them.</p>
 
@@ -128,7 +128,7 @@ Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
   <entry>
     <title type="html"><![CDATA[Search has to solve versioning]]></title>
     <link href="http://www.sethholloway.com//search-has-to-solve-versioning/"/>
-    <updated>2013-03-26T00:00:00-05:00</updated>
+    <updated>2013-03-26T00:00:00+01:00</updated>
     <id>http://www.sethholloway.com//search-has-to-solve-versioning</id>
     <content type="html"><![CDATA[<p>Search has been failing me frequently in the recent past, and the problem is only getting worse. Versions are everywhere and search is not keeping up. Here are a few examples:</p>
 
