@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com//blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com//"/>
-  <updated>2018-01-12T17:04:01-06:00</updated>
+  <updated>2018-01-12T17:06:08-06:00</updated>
   <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -18,19 +18,27 @@
     <link href="http://www.sethholloway.com//notes-bj-fogg-behavior-change/"/>
     <updated>2018-01-12T00:00:00-06:00</updated>
     <id>http://www.sethholloway.com//notes-bj-fogg-behavior-change</id>
-    <content type="html"><![CDATA[<p>Free-form notes from a presentation by <a href="https://en.wikipedia.org/wiki/B._J._Fogg">BJ Fogg</a> on <a href="http://www.behaviormodel.org/">behavior change</a></p>
+    <content type="html"><![CDATA[<p>Free-form notes from a presentation by <a href="https://en.wikipedia.org/wiki/B._J._Fogg">BJ Fogg</a> on <a href="http://www.behaviormodel.org/">behavior change</a>.</p>
 
-<p>Behavior happens when you have <em>motivation</em>, <em>ability</em>, and a <em>prompt</em></p>
+<p>Behavior happens when you have <em>motivation</em>, <em>ability</em>, and a <em>prompt</em>.</p>
 
-<p>To stop a behavior:
-* reduce motivation
-* make it harder
-* remove prompt</p>
+<h3>To stop a behavior:</h3>
 
-<p>To encourage a behavior:
-* make it easy
-* build onto existing routine
-* re-wire your brain (find a way to celebrate)</p>
+<ul>
+<li>reduce motivation</li>
+<li>make it harder</li>
+<li>remove prompt</li>
+</ul>
+
+
+<h3>To encourage a behavior:</h3>
+
+<ul>
+<li>make it easy</li>
+<li>build onto existing routine</li>
+<li>re-wire your brain (find a way to celebrate)</li>
+</ul>
+
 
 <p>This is a simple process but change is not easy. We should approach behavior change with compassion, playfulness, and iteration.</p>
 ]]></content>
