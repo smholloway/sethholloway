@@ -4,7 +4,7 @@
   <title><![CDATA[Category: personal | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com//blog/categories/personal/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com//"/>
-  <updated>2018-01-10T08:58:19-06:00</updated>
+  <updated>2018-01-12T17:04:01-06:00</updated>
   <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BJ Fogg's Model for Behavior Change]]></title>
+    <link href="http://www.sethholloway.com//notes-bj-fogg-behavior-change/"/>
+    <updated>2018-01-12T00:00:00-06:00</updated>
+    <id>http://www.sethholloway.com//notes-bj-fogg-behavior-change</id>
+    <content type="html"><![CDATA[<p>Free-form notes from a presentation by <a href="https://en.wikipedia.org/wiki/B._J._Fogg">BJ Fogg</a> on <a href="http://www.behaviormodel.org/">behavior change</a></p>
+
+<p>Behavior happens when you have <em>motivation</em>, <em>ability</em>, and a <em>prompt</em></p>
+
+<p>To stop a behavior:
+* reduce motivation
+* make it harder
+* remove prompt</p>
+
+<p>To encourage a behavior:
+* make it easy
+* build onto existing routine
+* re-wire your brain (find a way to celebrate)</p>
+
+<p>This is a simple process but change is not easy. We should approach behavior change with compassion, playfulness, and iteration.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My favorite reads in 2017]]></title>
@@ -190,58 +213,6 @@
 <li><a href="http://schedule.sxsw.com/2016/events/event_PP90100">Why Happiness Is Hard and How to Make It Easier</a> &ndash; To summarize: breathe.</li>
 <li><a href="http://schedule.sxsw.com/2016/events/event_PP46758">The Secrets of Machine Learning Revealed</a> &ndash; A great summary of machine learning. I really liked how Dr. Domingos distilled the information stating the five schools of ML and their goals.</li>
 <li><a href="http://schedule.sxsw.com/2016/events/event_PP57474">Closing Remarks: Bruce Sterling</a> &ndash; A SXSW tradition. This year&rsquo;s message seemed to be, &ldquo;by this time next year, Trump will be president, but the U.S. will survive.&rdquo; Bruce is an engaging, entertaining speaker full of energy and ideas.</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android vs iOS]]></title>
-    <link href="http://www.sethholloway.com//thoughts-on-android-and-ios/"/>
-    <updated>2016-02-23T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//thoughts-on-android-and-ios</id>
-    <content type="html"><![CDATA[<p>As I work on Android and iOS I&rsquo;m refining my opinions. Below are my current thoughts about the two ecosystems and underlying languages.</p>
-
-<h2>Objective C vs Java</h2>
-
-<p>Note: I haven&rsquo;t used Swift enough to fairly compare Swift to Objective C. The presence of Swift calls into question the future of Objective C; however, I think Swift eliminates a lot of my gripes with Objective C.</p>
-
-<h3>Objective C wins</h3>
-
-<ul>
-<li>Apple docs are generally more pleasant than JavaDocs.</li>
-<li>You can pass messages to <code>nil</code> without a <code>NullPointerException</code>.</li>
-<li><code>nil</code> is <code>false</code>, which fits how I generally think about problems and saves some typing (<code>if (foo)</code> is not as explicit but explicit null checks are noisy and easily forgotten).</li>
-<li>Method names can be more expressive: <code>stringWithCString:inputString encoding:inputEncoding</code> is more clear to me than <code>String(String inputString, String encoding)</code>, which, in practice, is often more like <code>String(String s, String e)</code>. As the signature expands the problem becomes more pronounced. Objective C essentially forces named arguments.</li>
-<li>Drama surrounding Java&rsquo;s future under Oracle; for example, Android Dalvik is definitely not Java <a href="https://en.wikipedia.org/wiki/Dalvik_(software)#Licensing_and_patents"><a href="https://en.wikipedia.org/wiki/Dalvik_">https://en.wikipedia.org/wiki/Dalvik_</a>(software)#Licensing_and_patents</a></li>
-</ul>
-
-
-<h3>Java wins</h3>
-
-<ul>
-<li>In wide use outside mobile development, so Java is well known and understood</li>
-<li>Simpler memory management, which decreases the amount of syntax and leads to fewer bugs. This combined with the fact that Java is more widely used means that people can more easily ramp up on Android.</li>
-</ul>
-
-
-<h2>iOS vs Android</h2>
-
-<h3>Android wins</h3>
-
-<ul>
-<li>Easy and inexpensive (a one-time $25 fee) to create and publish apps.</li>
-<li>Registering to open URLs. In Android an app can register to open specific links, like <code>https://youtube.com</code> or <code>seth://foo</code>. This improves the user experience by operating on the link in the best app: if you have the YouTube app, open the video in the app, otherwise fall back to the default browser. iOS achieves a similar effect but cannot register for <code>https://</code> schemes. In practice it works well enough, but custom schemes aren’t as ubiquitous as HTTP(S).</li>
-<li>Strings and localization. Android forces you to use a message catalog, which has several advantages: (1) it’s better for reuse; (2) it makes it easier to refactor; (3) it centralizes text so docs and translators can engage more easily; (4) the toolchain is more stable&mdash;Xcode crashes a lot when working with localization and it doesn’t update text changes made through interface builder</li>
-</ul>
-
-
-<h3>iOS wins</h3>
-
-<ul>
-<li>One true way to do most things. iOS is pretty strict, but it&rsquo;s easier to find the proper way to do things and leads to greater consistency.</li>
-<li>More stable platform.</li>
-<li>Higher quality apps and community, on average. While Apple&rsquo;s approval process is a pain and their developer program fees are steep (compared to Android&rsquo;s $0 cost), this probably leads to higher quality.</li>
 </ul>
 
 ]]></content>

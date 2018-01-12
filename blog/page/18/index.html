@@ -118,6 +118,29 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/be-like-a-cat/">Be Like a Cat</a></h1>
+      <p>This morning my cat jumped on the bed, walked up to me, plopped down on my head, and started purring. This morning ritual can be annoying, but I appreciate how open with his feelings the cat is. When he likes something, he purrs; when he doesn&rsquo;t, he runs off. With the holiday season upon us, I think this is a great way to live: show whenever you like something, and if you&rsquo;re unhappy then walk away.</p>
+
+<p>Happy holidays everyone! Be like a cat and enjoy life your way :)</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/why-dont-we-improve-air-travel/">Why don&#8217;t we improve air travel?</a></h1>
       <p>Everyday, millions of people fly. I&rsquo;d guess most everyone hates the process. As with most things in life, happy people make everything better (they&rsquo;re more productive, etc)&mdash;and it&rsquo;s contagious!</p>
 
@@ -450,66 +473,6 @@ mailed-by   hotmail.com</blockquote>
 <p>I believe that every critique should come with a suggestion, so here&rsquo;s my suggestion: buy a legitimate copy of StarCraft II and copy the official email exactly, changing only the link (from official site to your faked site). Then, replicate their website and direct people to the fake. To Blizzard&rsquo;s credit they do not make copying the page easy because they cleverly use dynamically rendered Ajax elements with obfuscated JavaScript and XSLT. They also have a lot of content and they update the pages regularly. Another idea: direct them to your domain, infect their computer with malware, and quickly forward them to battle.net so they&rsquo;re none the wiser.</p>
 
 <p>If you want to step up to the big leagues, you&rsquo;ll have to concentrate on the details!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/rails-3-document-on-error/">Rails 3 document.on error</a></h1>
-      <p>I&rsquo;m working through <a title="Agile Web Development with Rails" href="http://pragprog.com/titles/rails4/agile-web-development-with-rails" target="_blank">Agile Web Development with Rails, 4th Edition</a>. Overall, the book is well written&mdash;readable, nice depth and breadth, great example (ecommerce site)&mdash;and I would recommend it highly; however,  Chapter 11, adding Ajax support to the cart, has given me hell.</p>
-
-<p>I spent hours working through the example a couple times, diffing my source against the <a title="Agile Web Development with Rails source code" href="http://pragprog.com/titles/rails4/source_code" target="_blank">source code provided</a>, starting and restarting the server, trying multiple browsers (Safari, Firefox, Chrome), grepping for errors,  and googling. Finally, I arrived at the solution:</p>
-
-<p>To remedy this problem, I updated my public/javascripts/prototype.js file from the <a href="http://www.prototypejs.org/download" target="_blank">prototype download page</a>. At the time of writing, that was <a href="http://prototypejs.org/assets/2010/5/13/prototype.js" target="_blank"><a href="http://prototypejs.org/assets/2010/5/13/prototype.js">http://prototypejs.org/assets/2010/5/13/prototype.js</a></a></p>
-
-<p><strong>Debugging</strong></p>
-
-<p>Here are the steps I followed to track down the problem.</p>
-
-<p>First, I noticed that the page was refreshing everytime I pressed an &ldquo;Add to Cart&rdquo; button. I made sure the necessary files were in place and the javascript input was defined for the create method I was Ajaxifying. To ensure the button was properly defined, I viewed source and ensured the element had an attribute <em>data-remote=&ldquo;true&rdquo;.</em> Despite proper HTML and Ruby, the development.log showed that I was still retrieving the page as HTML instead of JavaScript</p>
-
-<blockquote>Started POST &#8220;/line_items?product_id=3&#8221; for 127.0.0.1 at Sun Jul 18 21:06:41 -0500 2010
-Processing by LineItemsController#create as HTML
-Parameters: {&#8220;product_id&#8221;=&gt;&#8221;3&#8221;, &#8220;authenticity_token&#8221;=&gt;&#8221;Dsv044fqfo7H46jLYx3e6qnbCgqk3Tcoij6pqbOQZx4=&#8221;}</blockquote>
-
-
-<p>So I checked the browser errors. Firefox showed</p>
-
-<blockquote>Error: document.on is not a function
-Source File: http://localhost:3000/javascripts/rails.js?1277734011
-Line: 136</blockquote>
-
-
-<p>Inspecting the element in Chrome I saw</p>
-
-<blockquote>Uncaught TypeError: Object #&lt;an HTMLDocument&gt; has no method &#8216;on&#8217;</blockquote>
-
-
-<p>Looking at the rails.js file, line 136, we see</p>
-
-<blockquote>
-<pre>  document.on("click", "*[data-confirm]", function(event, element) {
-    var message = element.readAttribute('data-confirm');
-    if (!confirm(message)) event.stop();
-  });</pre>
-</blockquote>
-
-
-<p>Between the errors and the rails.js file, we see that none of the included JavaScript files nor the browser defined the method. A new <a title="Rails 3 Patch" href="https://rails.lighthouseapp.com/projects/8994/tickets/5109-make-prototypejs-compatible-with-railsjs-for-30" target="_blank">Rails 3 patch</a> will upgrade prototype from 1.6.1 to 1.7rc2, so future generations will not experience this fun.</p>
 
       
       
