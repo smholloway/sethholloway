@@ -118,6 +118,67 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
+      <h1 class="link"><a href="/let-google-do-the-heavy-lifting/">Let Google do the heavy lifting!</a></h1>
+      <p>I love Google. They represent so many positive ideas about technology and offer an amazing suite of tools. Gmail is fantastic. I adore Google Calendar. Google Scholar is the only site I need for research. Google Reader is the best RSS feed reader on the market. Google Docs works a like a charm and is infinitely handy. I have entrusted my workflow to Google and had positive results. They&rsquo;ve taken over the heavy lifting and ushered in an era of browser-based productivity that I agree with wholeheartedly. I&rsquo;m excited today to use yet another Google server: I added <a title="Google Analytics" href="http://www.google.com/analytics/" target="_blank">Google Analytics</a> to the site :)</p>
+
+<p>In last week&rsquo;s <a title="Randolph Bias' awesome class" href="http://courses.ischool.utexas.edu/Bias_Randolph/2009/Spring/INF385P/" target="_blank">Introduction to Usability course</a> we discussed good and bad websites, and one student selected Google Analytics as a good website. The Analytics page provides all the necessary statistics on your sites traffic including their IP address and corresponding location, the number of unique visitors, and timing. It was characteristically Google: clean, easy to use, and hugely useful. I had no idea the service was free!</p>
+
+<p>Inspired by the class I checked into Google Analytics further and signed up. I added <a href="http://www.sethholloway.com">http://www.sethholloway.com</a> to the service and they generated the necessary javascript&mdash;they even told me where to place it (though I already <a title="Seth Holloway: Learning HTML/CSS" href="http://sethholloway.com/blog/?p=633" target="_blank">knew enough HTML</a> to insert the scripts)</p>
+
+<p>Here&rsquo;s the generated javascript:</p>
+
+<blockquote>
+<pre id="line20">&lt;<span class="start-tag">script</span><span class="attribute-name"> type</span>=<span class="attribute-value">"text/javascript"</span>&gt;
+  var gaJsHost = (("https:" == document.location.protocol) ?
+                   "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost +
+                          "google-analytics.com/ga.js' 
+                          type='text/javascript'%3E%3C/script%3E"));
+&lt;/<span class="end-tag">script</span>&gt;
+&lt;<span class="start-tag">script</span><span class="attribute-name"> type</span>=<span class="attribute-value">"text/javascript"</span>&gt;
+  try {
+    var pageTracker = _gat._getTracker("UA-7555904-1");
+    pageTracker._trackPageview();
+  } catch(err) {}
+&lt;/script&gt;</pre>
+</blockquote>
+
+
+<p>And the only change necessary to gather statistics from across the blog is contained in header.php. From your WordPress admin panel click Appearance-&gt;Editor-&gt;Header (header.php). Then locate this bit of code and insert the generated code where I placed the comment below:</p>
+
+<blockquote>
+<pre id="line20">&lt;?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?&gt;
+
+&lt;?php wp_head(); ?&gt;
+
+//PASTE GOOGLE ANALYTICS CODE HERE AND REMOVE THIS LINE
+
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="page"&gt;</pre>
+</blockquote>
+
+
+<p>That&rsquo;s it! So simple! So useful! If you haven&rsquo;t already signed up for Google Analytics, do it now. The service is free, incredibly helpful and easy to use; even better, installation will take you less time than heating up that Hot Pocket!</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
       <h1 class="link"><a href="/happy-valentines-day/">Happy Valentine&#8217;s Day!</a></h1>
       <p>I&rsquo;m not a huge fan of commercial holidays, but I hope everyone has a wonderful, relaxing day with people they care about.</p>
 
@@ -367,44 +428,6 @@ Turns out the unwitting decoys had been lured to the crime scene by a Craigslist
 
     </article>
     
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/is-the-ivory-tower-crumbling/">Is the Ivory Tower crumbling?</a></h1>
-      <p>An article, <a title="Rejecting the Academic Fast Track" href="http://www.insidehighered.com/news/2009/01/15/family" target="_blank">Rejecting the Academic Fast Track</a>, was posted January 15 on Inside Higher Ed. The article summarizes a study of over 8,300 graduate students in the University of California (UC) system; the study reveals that fewer graduate students are interested in pursuing tenure track positions at research universities. This is particularly interesting due to the large sample size and the strong academic performance of the UC schools (<a title="Wikipedia: UC" href="http://en.wikipedia.org/wiki/University_of_California" target="_blank">two schools in the top 25 and 8 in the top 100</a>, Berkeley is <a title="UC-Berkeley 2 in CompEngr" href="http://grad-schools.usnews.rankingsandreviews.com/grad/eng/comp" target="_blank">top 5 in several</a> <a title="UC-Berkeley 2 in EE" href="http://grad-schools.usnews.rankingsandreviews.com/grad/eng/elec" target="_blank">engineering disciplines</a>, and <a title="Oldie but goodie" href="http://www.cs.cmu.edu/~landay/school-rankings94.txt" target="_blank">high rankings in law, medicine, and business</a>).</p>
-
-<p>Study participants seem to echo Generation Y&rsquo;s desire to live a well-rounded life full of experiences and relationships (family) which academia does not foster. About 40% of the participants entered the PhD with academia in mind; after being part of the ivory tower the number had dropped ~10%. Roughly a quarter of the female PhDs said they would go into academia. With the number of female professors in the sciences and engineering already disproportionately low, this statistic should concern universities. The majority of those surveyed felt that teaching colleges were more in-line with their goals.</p>
-
-<p>The study points out the issue and provides suggestions on how to alter future-professors&#8217; attitudes:</p>
-
-<ul>
-<li>Allow faculty members to shift to part-time status or temporarily elongate timelines over their academic lives without suffering career penalties.</li>
-<li>Allow faculty members to take time out temporarily from their academic lives for care-giving and support their return.</li>
-<li>Abandon the idea that academic stars are those who move through the ranks very quickly. and embrace the idea that the stars are those who produce the most important or relevant work  faster is not necessarily better.</li>
-<li>Embrace the idea that it is fine to have children at any point in the career path because a full array of resources exists to support academic parents.</li>
-<li>Challenge the stigma in which having children, particularly for women, is often equated with less seriousness and drive.</li>
-</ul>
-
-
-<p>The suggestions looks surprisingly similar to options in industry. It seems that the economy will change dramatically in the next decade: baby boomers will retire or expire leaving a hole in the workforce; 70% of young people want to work for themselves; the economy has taken a slant to services; Gen Y is collaborative, socially-minded, and entitled&mdash;ideas that go against the grain of current work culture.</p>
-
-<p>What do you think? Is the ivory tower crumbling? Will teaching colleges get the top talent? How will that affect hiring at research universities? Will colleges be run more or less like businesses in the future? How will Gen Y affect the future of academia?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
   
   <div class="pagination">
     
@@ -423,7 +446,7 @@ Turns out the unwitting decoys had been lured to the crime scene by a Craigslist
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2018 by Seth Holloway
+  Copyright &copy; 2019 by Seth Holloway
 </p>
 
 
