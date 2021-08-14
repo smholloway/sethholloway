@@ -118,91 +118,8 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/phishers-the-devils-in-the-details/">Phishers, the devil&#8217;s in the details!</a></h1>
-      <p>Phishing is presumably big business (although <a title="Dancho Danchev's analysis of profit in the digital black market" href="http://www.zdnet.com/blog/security/microsoft-study-debunks-profitability-of-the-underground-economy/3522" target="_blank">maybe not</a>). Because email is very cheap to send, phishing has a low barrier for entry. Usually, Gmail&rsquo;s spam filter is so accurate that I don&rsquo;t see the phishing emails, however, recently some Blizzard themed messages have gotten through. I get the impression that the emails are crafted by foreigners who lack the finesse necessary to deceive people&mdash;a good thing, no doubt. As with most pursuits, the devil is in the details. Let me illustrate with the most recent email to pierce Gmail&rsquo;s phishing armor:</p>
-
-<blockquote>Hello, thank you for shopping at the Blizzard Store!
-
-StarCraft II®: Wings of Liberty™: 6129523855006794206159153
-
-To use this key to activate the game, simply follow these instructions:
-1. Log in to your Battle.n Account - Or Create a <a href="http://us.battle.net.wowsuppor-check-blizzard. com" target="nofollow">Battle.net Account</a>
-
-2. Verify your e-mail address. (If you have previously verified your address, skip this step.) From the main Account Management page, click the &#8216;verify this e-mail address&#8217; link. Then, check your e-mail account for a verification e-mail. Click the link in this e-mail to verify your e-mail address.
-
-3. Return to the Battle.net account management page, then click on &#8216;Code Redemption&#8217;.
-4. Enter the above CDKey in the code field.
-
-5. Once you have successfully redeemed this code, you will be able to play the game.
-
-NOTE: If you have previously chosen to gift your digital purchase, attaching this key to their Battle.net account will prevent you from being able to redeem this key with your Battle.net account.
-
-Order Date: 2010-8-10
-Order #: 2573775
-
-(1) StarCraft II®: Wings of Liberty™ - $59.99
-
-Credit Card Number : ****-****-****-9527
-Credit Card Type : Vista
-Item Subtotal: $59.99
-Tax: $0.00
-Shipping &amp; Handling: $0.00
-Shipping Tax: $0.00
-Grand Total: $59.99
-===========================================
-
-If you have any questions or concerns about your order, please contact us at:
-
-Phone: Toll-free at (1-800-592-5499)
-Website: <a href="http://us.blizzard.net/account" target="_blank">http://us.blizzard.net/account</a>
-
-Live phone support is available seven days a week, 8:00AM - 8:00PM Pacific Time.
-
-Thanks for shopping with us!
-Blizzard Customer Service</blockquote>
-
-
-<p>I like the use of ® and ™! Those are definitely nice touches. However, Blizzard begins by greeting you with the name on the account. Moving on, the CD key should have dashes. Whoops. Next, we see &ldquo;Battle.n Account &ndash; Or Create at Battle.net Account.&rdquo; Within a few words, they misspell Battle.net and give you the proper spelling. Then there&rsquo;s the gratuitous use of capitalization throughout. Seen here on &ldquo;Account,&rdquo; &ldquo;Or,&rdquo; and &ldquo;Create.&rdquo; Throughout, there are a few small, unprofessional and inconsistent bits, like the lack of carriage return between items 3 and 4. Then &ldquo;CDKey&rdquo; is lacking a space&hellip; Another awesome failure: the &ldquo;Vis<strong><em>t</em></strong>a&rdquo; credit card type! A couple lines lower, the &ldquo;Shipping Tax&rdquo; itemized seems off.</p>
-
-<p>To be fair, if you were expecting a StarCraft email (sadly, the phishers are two weeks late) and gave only  a quick glance, the email could work. It is apparently sent by Blizzard Entertainment! However, digging deeper in the email header we see more incorrect details:</p>
-
-<blockquote>from    Blizzard Entertainment
-to  seth@sethholloway.com
-date    Wed, Aug 11, 2010 at 8:46 PM
-subject Battle.net Account Management
-mailed-by   hotmail.com</blockquote>
-
-
-<p>Mailed by hotmail? Phishy. Details, details!</p>
-
-<p>Also, it&rsquo;s important to hover over links before following them&hellip; This is probably my favorite part: &ldquo;wowsuppor-check-blizzard.com.&rdquo; I guess wowsuppor<strong><em>t</em></strong>-check-blizzard.com was already registered :) And, of course, official Blizzard emails direct you to us.battle.net instead of blizzard.com. Details!</p>
-
-<p>Another detail that reeks of fraud is the use of &ldquo;WoW&rdquo;/&ldquo;wow&rdquo;, which refers to another Blizzard product, World of Warcraft. Account management, StarCraft II, and World of Warcraft blend into one weak attempt at phishing.</p>
-
-<p>I believe that every critique should come with a suggestion, so here&rsquo;s my suggestion: buy a legitimate copy of StarCraft II and copy the official email exactly, changing only the link (from official site to your faked site). Then, replicate their website and direct people to the fake. To Blizzard&rsquo;s credit they do not make copying the page easy because they cleverly use dynamically rendered Ajax elements with obfuscated JavaScript and XSLT. They also have a lot of content and they update the pages regularly. Another idea: direct them to your domain, infect their computer with malware, and quickly forward them to battle.net so they&rsquo;re none the wiser.</p>
-
-<p>If you want to step up to the big leagues, you&rsquo;ll have to concentrate on the details!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
       <h1 class="link"><a href="/rails-3-document-on-error/">Rails 3 document.on error</a></h1>
-      <p>I&rsquo;m working through <a title="Agile Web Development with Rails" href="http://pragprog.com/titles/rails4/agile-web-development-with-rails" target="_blank">Agile Web Development with Rails, 4th Edition</a>. Overall, the book is well written&mdash;readable, nice depth and breadth, great example (ecommerce site)&mdash;and I would recommend it highly; however,  Chapter 11, adding Ajax support to the cart, has given me hell.</p>
+      <p>I&rsquo;m working through <a title="Agile Web Development with Rails" href="http://pragprog.com/titles/rails4/agile-web-development-with-rails" target="_blank">Agile Web Development with Rails, 4th Edition</a>. Overall, the book is well written&ndash;readable, nice depth and breadth, great example (ecommerce site)&ndash;and I would recommend it highly; however,  Chapter 11, adding Ajax support to the cart, has given me hell.</p>
 
 <p>I spent hours working through the example a couple times, diffing my source against the <a title="Agile Web Development with Rails source code" href="http://pragprog.com/titles/rails4/source_code" target="_blank">source code provided</a>, starting and restarting the server, trying multiple browsers (Safari, Firefox, Chrome), grepping for errors,  and googling. Finally, I arrived at the solution:</p>
 
@@ -262,9 +179,9 @@ Line: 136</blockquote>
   <div class="row-fluid">
     <div class="span12 post-container">
       <h1 class="link"><a href="/the-world-cup-shows-the-ubiquity-of-english/">The World Cup shows the ubiquity of English</a></h1>
-      <p>I&rsquo;ve been enjoying the World Cup for the past three weeks&mdash;while still getting all of my work done, of course. One thing that has been really neat is seeing the diverse cultures communicating. I imagine the players and referees could play without words (we&rsquo;ll let them keep whistles and hand-signs), but very frequently players verbally plead for calls and the ref explicitly announces situations to players. The on-field interactions seem to be in <a href="http://en.wikipedia.org/wiki/English_language">English</a>.</p>
+      <p>I&rsquo;ve been enjoying the World Cup for the past three weeks&ndash;while still getting all of my work done, of course. One thing that has been really neat is seeing the diverse cultures communicating. I imagine the players and referees could play without words (we&rsquo;ll let them keep whistles and hand-signs), but very frequently players verbally plead for calls and the ref explicitly announces situations to players. The on-field interactions seem to be in <a href="http://en.wikipedia.org/wiki/English_language">English</a>.</p>
 
-<p>When Paraguay, coached by an Argentinian, <a href="http://www.fifa.com/worldcup/matches/round=249718/match=300061506/index.html">played</a> Spain, coached by a Spaniard, they were officiated by a Guatemalan, Costa Rican, Honduran, and Mexican; I&rsquo;d guess everyone spoke Spanish. But the situation gets more complicated if we look at when Paraguay (native Spanish speakers) <a href="http://www.fifa.com/worldcup/matches/round=249717/match=300061497/index.html">played</a> Japan (native Japanese speakers) with refs from <a href="http://en.wikipedia.org/wiki/Belgium">Belgium</a> (official languages are Dutch, French, and German). My lip-reading skills are admittedly amateur, but I perceived English. This has been the case throughout the tournament. Now, I&rsquo;m glad that I focused on furthering my English skills instead of futilely learning a foreign language because everyone speaks English. The World Cup taught me so :&ndash;)</p>
+<p>When Paraguay, coached by an Argentinian, <a href="http://www.fifa.com/worldcup/matches/round=249718/match=300061506/index.html">played</a> Spain, coached by a Spaniard, they were officiated by a Guatemalan, Costa Rican, Honduran, and Mexican; I&rsquo;d guess everyone spoke Spanish. But the situation gets more complicated if we look at when Paraguay (native Spanish speakers) <a href="http://www.fifa.com/worldcup/matches/round=249717/match=300061497/index.html">played</a> Japan (native Japanese speakers) with refs from <a href="http://en.wikipedia.org/wiki/Belgium">Belgium</a> (official languages are Dutch, French, and German). My lip-reading skills are admittedly amateur, but I perceived English. This has been the case throughout the tournament. Now, I&rsquo;m glad that I focused on furthering my English skills instead of futilely learning a foreign language because everyone speaks English. The World Cup taught me so :-)</p>
 
 <p>So, when and how are players from all of the world learning English well enough to communicate with other similarly diverse English-speakers? When did this start? Because <a href="http://en.wikipedia.org/wiki/Diego_Maradona">Maradona</a>, an old school footballer, interviews in Spanish using a translator.</p>
 
@@ -392,9 +309,9 @@ Line: 136</blockquote>
       <h1 class="link"><a href="/go-visit-petite-pensieri-at-first-thursday-tonight/">Go visit Petite Pensieri at First Thursday tonight!</a></h1>
       <p>After birthing a super cute baby boy, a good friend, Tahra, started a business selling handcrafted baby items (with another friend in a similar situation, Katie). The business, <a title="Petite Pensieri" href="http://www.etsy.com/shop/PetitePensieri" target="_blank">Petite Pensieri</a>, is very inspiring; I have been impressed by so many elements! Tahra and Katie have shown tremendous initiative and their products are high-quality and useful.</p>
 
-<p>From a technological standpoint, <a title="Etsy" href="http://www.etsy.com/" target="_blank">Etsy</a> offers an amazing platform for handmade items. The service allows you to quickly and easily list items for sale. <a title="Etsy Fees" href="http://www.etsy.com/fees.php" target="_blank">Etsy&rsquo;s fees</a> are quite reasonble: &ldquo;It costs 20 cents to list an item for four months. When your item sells,  you’ll pay a 3.5% transaction fee.&rdquo; <a title="Shopify" href="http://www.shopify.com/" target="_blank">Shopify</a> is a similar idea: you create an online storefront and they manage everything else for a fee. The monthly <a title="Shopify: Fees" href="https://app.shopify.com/services/signup" target="_blank">cost of Shopify</a> ranges from $24 (for 100 products and a 2% transaction fee) to $699 per month (for 50,000 products and no transaction fee), so the two sites addresses slightly different needs. With some quick math I&rsquo;d say Etsy is cheaper up to $1,600 worth of sales a month (24+0.02<em>x = 0.035</em>x &ndash;&gt; 24 = 0.015*x &ndash;&gt; 1600 = x). To be fair, Shopify wins if, for example, you want custom domain names and landing pages or selling goods that don&rsquo;t qualify for Etsy.</p>
+<p>From a technological standpoint, <a title="Etsy" href="http://www.etsy.com/" target="_blank">Etsy</a> offers an amazing platform for handmade items. The service allows you to quickly and easily list items for sale. <a title="Etsy Fees" href="http://www.etsy.com/fees.php" target="_blank">Etsy&rsquo;s fees</a> are quite reasonble: &ldquo;It costs 20 cents to list an item for four months. When your item sells,  you’ll pay a 3.5% transaction fee.&rdquo; <a title="Shopify" href="http://www.shopify.com/" target="_blank">Shopify</a> is a similar idea: you create an online storefront and they manage everything else for a fee. The monthly <a title="Shopify: Fees" href="https://app.shopify.com/services/signup" target="_blank">cost of Shopify</a> ranges from $24 (for 100 products and a 2% transaction fee) to $699 per month (for 50,000 products and no transaction fee), so the two sites addresses slightly different needs. With some quick math I&rsquo;d say Etsy is cheaper up to $1,600 worth of sales a month (24+0.02<em>x = 0.035</em>x -&gt; 24 = 0.015*x -&gt; 1600 = x). To be fair, Shopify wins if, for example, you want custom domain names and landing pages or selling goods that don&rsquo;t qualify for Etsy.</p>
 
-<p>Tonight, Tahra and Katie will be offering their awesome wares at <a title="About.com: First Thursday in Austin" href="http://austin.about.com/od/eventsandactivities/a/first_thursday_austin.htm" target="_blank">First Thursday</a>. If you&rsquo;re around, go enjoy the experience and keep Austin weird (or at least local ;&ndash;))! If you&rsquo;re going to a baby shower, buy something nice from <a title="Petite Pensieri" href="http://www.etsy.com/shop/PetitePensieri" target="_blank">Petite Pensieri</a> and the baby will thank you later!</p>
+<p>Tonight, Tahra and Katie will be offering their awesome wares at <a title="About.com: First Thursday in Austin" href="http://austin.about.com/od/eventsandactivities/a/first_thursday_austin.htm" target="_blank">First Thursday</a>. If you&rsquo;re around, go enjoy the experience and keep Austin weird (or at least local ;-))! If you&rsquo;re going to a baby shower, buy something nice from <a title="Petite Pensieri" href="http://www.etsy.com/shop/PetitePensieri" target="_blank">Petite Pensieri</a> and the baby will thank you later!</p>
 
       
       
@@ -415,7 +332,7 @@ Line: 136</blockquote>
   <div class="row-fluid">
     <div class="span12 post-container">
       <h1 class="link"><a href="/the-timeline-resume/">The Timeline Resume</a></h1>
-      <p>Over the weekend I published <a title="Seth Holloway Timeline Resume" href="http://www.sethholloway.com/timelineResume.html" target="_blank">my resume as a timeline</a>. With the standard text-based resume I found it hard to show my simultaneous jobs (for example, in Spring 2010 I was pursuing my PhD, working part-time at IBM, researching under Christine, teaching/grading Project Management, keeping up the lab&rsquo;s computing infrastructure, supervising Michael Hanna, assisting a couple companies with their computing needs, and actively participating in two organizations). The timeline allows me to show these jobs at once rather than tacitly asking the reader to juggle all the &ldquo;X &ndash; Present&rdquo; entries under multiple headings.</p>
+      <p>Over the weekend I published <a title="Seth Holloway Timeline Resume" href="http://www.sethholloway.com/timelineResume.html" target="_blank">my resume as a timeline</a>. With the standard text-based resume I found it hard to show my simultaneous jobs (for example, in Spring 2010 I was pursuing my PhD, working part-time at IBM, researching under Christine, teaching/grading Project Management, keeping up the lab&rsquo;s computing infrastructure, supervising Michael Hanna, assisting a couple companies with their computing needs, and actively participating in two organizations). The timeline allows me to show these jobs at once rather than tacitly asking the reader to juggle all the &ldquo;X - Present&rdquo; entries under multiple headings.</p>
 
 <p><img class="size-medium wp-image-1011" title="TimelineResume" src="/images/TimelineResume-300x120.png" alt="Seth Holloway's timeline resume" width="300" height="120" /></p>
 
@@ -473,7 +390,42 @@ Line: 136</blockquote>
   <div class="row-fluid">
     <div class="span12 post-container">
       <h1 class="link"><a href="/spinning-plates/">Spinning plates</a></h1>
-      <p>One day I was enjoying a balmy afternoon at <a title="Mozart's Coffee Roasters" href="http://www.mozartscoffee.com/" target="_blank">Mozart&rsquo;s</a> with my wife. While it was not my goal to eavesdrop, I overheard two women talking about finding jobs&mdash;a common topic these days. The profound bit that I picked up on was an analogy: finding jobs is like spinning plates. If you apply too much or too little force to a plate, the plate will fall. I think this simple idea applies to all facets of life; once again, moderation is a virtue.</p>
+      <p>One day I was enjoying a balmy afternoon at <a title="Mozart's Coffee Roasters" href="http://www.mozartscoffee.com/" target="_blank">Mozart&rsquo;s</a> with my wife. While it was not my goal to eavesdrop, I overheard two women talking about finding jobs&ndash;a common topic these days. The profound bit that I picked up on was an analogy: finding jobs is like spinning plates. If you apply too much or too little force to a plate, the plate will fall. I think this simple idea applies to all facets of life; once again, moderation is a virtue.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/flash-you-sneaky-bastard/">Flash, you sneaky bastard!</a></h1>
+      <p><a title="Wikipedia: Flash" href="http://en.wikipedia.org/wiki/Adobe_Flash" target="_blank">Flash</a>, the popular multimedia platform that helps make websites more interactive, has cookies separate from your web browser&rsquo;s cookies. They&rsquo;re called <a title="Wikipedia: Local Shared Object" href="http://en.wikipedia.org/wiki/Local_Shared_Object" target="_blank">local shared objects (LSO)</a> and they may be a security hole&ndash;like all things Flash ;-)</p>
+
+<p>There are a number of directories where the flash cookies may be stored. For example, on Mac OS X, LSOs are stored in two locations:</p>
+
+<ul>
+<li>~/Library/Preferences/Macromedia/Flash\ Player/#SharedObjects/</li>
+<li>~/Library/Preferences/Macromedia/Flash\ Player/macromedia.com/support/flashplayer/sys/</li>
+</ul>
+
+
+<p>And there are more possible! For a detailed list, check the <a title="Wikipedia: LSO#File Locations" href="http://en.wikipedia.org/wiki/Local_Shared_Object#File_locations" target="_blank">list of locations on Wikipedia&rsquo;s LSO entry</a>.</p>
+
+<p>You can manually navigate to these locations and delete nasty ad-tracking/malware-hosting objects; however, while deleting unwanted cookies is worthwhile, it&rsquo;s not a good long-term solution. I recommend you <a title="Flash Controls" href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager02.html" target="_blank">update your Flash settings</a> (this interface also allows you to delete your LSOs) now! There are several tabs to look through, but don&rsquo;t worry&ndash;it&rsquo;s quick. Make sure you deny access to your camera and microphone! For finer grained control, the Firefox extension <a title="Objection Firefox Addon" href="http://objection.mozdev.org/" target="_blank">Objection</a> helps track and <a title="GHacks: Delete Flash Cookies" href="http://www.ghacks.net/2008/07/30/delete-flash-cookies/" target="_blank">eliminate Flash cookies</a>.</p>
+
+<p>Whatever your strategy, I wish you luck!</p>
 
       
       
@@ -502,7 +454,7 @@ Line: 136</blockquote>
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2019 by Seth Holloway
+  Copyright &copy; 2021 by Seth Holloway
 </p>
 
 

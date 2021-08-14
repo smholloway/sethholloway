@@ -4,7 +4,7 @@
   <title><![CDATA[Category: technical | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com//blog/categories/technical/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com//"/>
-  <updated>2019-02-04T16:40:38-06:00</updated>
+  <updated>2021-08-14T13:38:41-05:00</updated>
   <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -14,22 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Low cost genetic testing]]></title>
-    <link href="http://www.sethholloway.com//low-cost-genetic-testing/"/>
-    <updated>2013-10-05T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//low-cost-genetic-testing</id>
-    <content type="html"><![CDATA[<p>I recently spit into a cup so that <a title="23 and Me" href="http://refer.23andme.com/a/clk/18h5Np">23andme</a> can perform genetic tests. It&rsquo;s a surreal feeling: for about $100, I gain access to some sci-fi dream that was completely unheard of even a decade ago.</p>
-
-<p>The future is going to be an awesome place!</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Thoughts on Learning Clojure]]></title>
     <link href="http://www.sethholloway.com//thoughts-on-learning-clojure/"/>
     <updated>2013-04-26T00:00:00-05:00</updated>
     <id>http://www.sethholloway.com//thoughts-on-learning-clojure</id>
-    <content type="html"><![CDATA[<p>In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time&mdash;we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.</p>
+    <content type="html"><![CDATA[<p>In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time&ndash;we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.</p>
 
 <ul>
 <li>I like that Clojure builds on Lisp. I feel like I&rsquo;m working on something cutting edge, yet proven. It feels like joining a dynasty, perhaps.</li>
@@ -37,13 +26,9 @@
 </ul>
 
 
-<p>```javascript</p>
-
-<pre><code>JavaScript: [1, 2, 3].map(function(i){return i*i;}).reduce(function(a,b){return a+b;});
-Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
+<pre><code class="javascript">    JavaScript: [1, 2, 3].map(function(i){return i*i;}).reduce(function(a,b){return a+b;});
+    Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
 </code></pre>
-
-<p>```</p>
 
 <ul>
 <li><p>Map, Reduce, and Filter are really flexible. For example, reduce can be used to implement join really easily. Learning to think this way has not been immediate for me.</p>
@@ -103,7 +88,7 @@ Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
     <link href="http://www.sethholloway.com//hermit-crab-software/"/>
     <updated>2013-04-25T00:00:00-05:00</updated>
     <id>http://www.sethholloway.com//hermit-crab-software</id>
-    <content type="html"><![CDATA[<p>I have spent incalculable amounts of time trying to set up software environments, and if you&rsquo;ve done any programming, I&rsquo;d guess that you have had similar experiences. As a way to save everyone time and frustration, I think we should push for hermit crab software&mdash;programming environments that carry their &ldquo;home&rdquo; around with them.</p>
+    <content type="html"><![CDATA[<p>I have spent incalculable amounts of time trying to set up software environments, and if you&rsquo;ve done any programming, I&rsquo;d guess that you have had similar experiences. As a way to save everyone time and frustration, I think we should push for hermit crab software&ndash;programming environments that carry their &ldquo;home&rdquo; around with them.</p>
 
 <p><a href="http://andyjthompson.wordpress.com/tag/hermit-crab/"><img class="alignnone" title="Hermit Crab" alt="" src="http://andyjthompson.files.wordpress.com/2010/03/hermit-crab.jpg" width="262" height="264" /></a></p>
 
@@ -115,7 +100,7 @@ Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
 <li>Rails issues like setting up Ruby, Rails, gems, rake, RVM, and fun things like  <a title="Ruby HTTPS error" href="http://stackoverflow.com/questions/9338035/no-such-file-to-load-net-https-heroku-ruby-ubuntu-10-04">Ruby issues with HTTPS that require you to install SSL then reinstall Ruby</a></li>
 <li>Persistent Java issues around <a title="StackOverflow: What is Classpath hell?" href="http://stackoverflow.com/questions/373193/what-is-classpath-hell-and-is-was-it-really-a-problem-for-java">jar and classpath hell</a></li>
 <li>Exciting new languages like <a title="Scala" href="http://www.scala-lang.org/">Scala</a> and <a title="Clojure" href="http://clojure.org/">Clojure</a> have moved quickly and tutorials have not kept up, so there is confusion.</li>
-<li><a title="Sonar Source" href="http://www.sonarsource.com/">Sonar</a> was so easy to install&mdash;simply download and unpack&mdash;I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)</li>
+<li><a title="Sonar Source" href="http://www.sonarsource.com/">Sonar</a> was so easy to install&ndash;simply download and unpack&ndash;I thought I did it wrong! (There are pitfalls with this type of dead-simple installation, too.)</li>
 </ul>
 
 
@@ -146,7 +131,30 @@ Clojure: (reduce + 0 (map #(* % %) '(1 2 3)))
 
 <p>Until search engines gain additional processing, I think we should get familiar with scoping search results and ask that answers contain version information for increased searchability.</p>
 
-<p>I think search has to solve versioning&mdash;what do you think?</p>
+<p>I think search has to solve versioning&ndash;what do you think?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lisp and order of operations (PEMDAS)]]></title>
+    <link href="http://www.sethholloway.com//lisp-and-order-of-operations-pemdas/"/>
+    <updated>2013-02-02T00:00:00-06:00</updated>
+    <id>http://www.sethholloway.com//lisp-and-order-of-operations-pemdas</id>
+    <content type="html"><![CDATA[<p>Somewhere around third grade I had the order of operations drilled into my head: parentheses, exponent, multiplication, division, addition, subtraction&ndash;abbreviated as PEMDAS and pronounced &ldquo;pem doss.&rdquo; PEMDAS allows you to succinctly communicate mathematical expressions.</p>
+
+<p>5 + 3<sup>2</sup> * 7</p>
+
+<p>Moving through PEMDAS we see there are no parentheses, but there is an exponent: 3<sup>2</sup> == 3*3 == 9. Continuing through PEMDAS we hit the M for multiplication; our example has the middle term multiplied by 7. Finally, we add 5.</p>
+
+<p>Written in a Lisp style the same expression would look something like this:</p>
+
+<p>(+ 5 (* 7 (pow 3 2)))</p>
+
+<p>Rules implicitly encoded in math must be explicitly written in Lisp (or any pre- or post-fix notation for that matter). In various other languages (<a title="REPL.it is a collection of online REPLs" href="http://repl.it" target="_blank">try a few</a>) the order of operations is encoded already.</p>
+
+<p>In a way, it is frustrating that the programming language ignores basic math rules; however, there may be benefits. I wonder, how many bugs would have been avoided by forcing people to use parentheses to group expressions? how much slower was it to type the extra keystrokes? how many future Lispers were snuffed out by explicit mathematics?</p>
+
+<p>How do you feel about the encoding? Does pre-fix notation bother you more in another way?</p>
 ]]></content>
   </entry>
   

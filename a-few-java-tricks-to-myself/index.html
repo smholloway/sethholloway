@@ -119,7 +119,7 @@
 </header>
   <div class="row-fluid">
     <div class="span12">
-      <p>========================================</p>
+      <hr />
 
 <pre><code>if ( foo.equals("bar") ) { // ... }
 </code></pre>
@@ -131,14 +131,14 @@
 
 <p>This pattern generalizes to using the equals method of the concrete object (put the non-null object on the left side).</p>
 
-<p>========================================</p>
+<hr />
 
 <p>You can use instanceof to ensure an object is the proper type (this can replace a null check), as in</p>
 
 <pre><code>if ( arg1 instanceof String ) { // ... }
 </code></pre>
 
-<p>========================================</p>
+<hr />
 
 <p>As of Java 1.5 you can declare methods with variable arity, making the syntax a little cleaner and invocation a bit simpler. The old style:</p>
 
@@ -155,11 +155,11 @@
 <pre><code>main("seth", "for", "president")
 </code></pre>
 
-<p>========================================</p>
+<hr />
 
 <p>Errors and Exceptions derive from Throwable, so you can catch all program hiccups by catching Throwable instead of Exception (or Error).</p>
 
-<p>========================================</p>
+<hr />
 
 <p>Local variables are not initialized with a value; field variables are initialized like so:</p>
 
@@ -169,26 +169,26 @@
 
 <p>Booleans default to false.</p>
 
-<p>========================================</p>
+<hr />
 
 <p>Java has labels, but most people will not appreciate their inclusion and use. For example, the following code is valid Java</p>
 
 <pre><code>http://www.sethholloway.com
 </code></pre>
 
-<p>========================================</p>
+<hr />
 
 <p>In mixed-type computation, Java upconverts to the larger data type due to widening primitive conversion. Avoid mixed-type computation and comparisons.</p>
 
-<p>========================================</p>
+<hr />
 
-<p>&ldquo;Although common, the idiom <code>object.getClass().getMethod("methodName")</code> is broken and should not be used.&rdquo; &mdash; <a title="Java Puzzlers sampler" href="http://javapuzzlers.com/java-puzzlers-sampler.pdf">Java Puzzlers sample</a></p>
+<p>&ldquo;Although common, the idiom <code>object.getClass().getMethod("methodName")</code> is broken and should not be used.&rdquo; &ndash; <a title="Java Puzzlers sampler" href="http://javapuzzlers.com/java-puzzlers-sampler.pdf">Java Puzzlers sample</a></p>
 
-<p>========================================</p>
+<hr />
 
 <p>The finally block of a try-catch-finally will always execute (unless there&rsquo;s a hard crash, System.exit(), System.halt(), or infinite loop before). As such, be careful with returns and mutating objects in the try and finally.</p>
 
-<p>========================================</p>
+<hr />
 
     </div>
   </div>
@@ -260,7 +260,7 @@
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2019 by Seth Holloway
+  Copyright &copy; 2021 by Seth Holloway
 </p>
 
 

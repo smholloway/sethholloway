@@ -118,96 +118,6 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/a-few-java-tricks-to-myself/">A few Java tricks to myself</a></h1>
-      <p>========================================</p>
-
-<pre><code>if ( foo.equals("bar") ) { // ... }
-</code></pre>
-
-<p>Here, foo may be null, so instead use</p>
-
-<pre><code>if ( "bar".equals(foo) ) { // ... }
-</code></pre>
-
-<p>This pattern generalizes to using the equals method of the concrete object (put the non-null object on the left side).</p>
-
-<p>========================================</p>
-
-<p>You can use instanceof to ensure an object is the proper type (this can replace a null check), as in</p>
-
-<pre><code>if ( arg1 instanceof String ) { // ... }
-</code></pre>
-
-<p>========================================</p>
-
-<p>As of Java 1.5 you can declare methods with variable arity, making the syntax a little cleaner and invocation a bit simpler. The old style:</p>
-
-<pre><code>public static void main(String[] args)
-</code></pre>
-
-<p>becomes</p>
-
-<pre><code>public static void main(String... args)
-</code></pre>
-
-<p>which can then be called like this:</p>
-
-<pre><code>main("seth", "for", "president")
-</code></pre>
-
-<p>========================================</p>
-
-<p>Errors and Exceptions derive from Throwable, so you can catch all program hiccups by catching Throwable instead of Exception (or Error).</p>
-
-<p>========================================</p>
-
-<p>Local variables are not initialized with a value; field variables are initialized like so:</p>
-
-<p>Number primitives default to 0.</p>
-
-<p>Objects (Collections) default to null.</p>
-
-<p>Booleans default to false.</p>
-
-<p>========================================</p>
-
-<p>Java has labels, but most people will not appreciate their inclusion and use. For example, the following code is valid Java</p>
-
-<pre><code>http://www.sethholloway.com
-</code></pre>
-
-<p>========================================</p>
-
-<p>In mixed-type computation, Java upconverts to the larger data type due to widening primitive conversion. Avoid mixed-type computation and comparisons.</p>
-
-<p>========================================</p>
-
-<p>&ldquo;Although common, the idiom <code>object.getClass().getMethod("methodName")</code> is broken and should not be used.&rdquo; &mdash; <a title="Java Puzzlers sampler" href="http://javapuzzlers.com/java-puzzlers-sampler.pdf">Java Puzzlers sample</a></p>
-
-<p>========================================</p>
-
-<p>The finally block of a try-catch-finally will always execute (unless there&rsquo;s a hard crash, System.exit(), System.halt(), or infinite loop before). As such, be careful with returns and mutating objects in the try and finally.</p>
-
-<p>========================================</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
       <h1 class="link"><a href="/choosing-the-right-library-for-your-java-project/">Choosing the right library for your Java project</a></h1>
       <p>Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily into your project and prevent you from re-inventing the wheel. On the negative side, third-party libraries could add to your costs or prevent your company from being sold, they could be confusing and poorly documented, or they could work unexpectedly. I&rsquo;ve used a number of libraries in the past (Ruby and Ruby on Rails push libraries heavily; in Java I like jsoup and log4j), but I was curious how pros chose so I asked around and searched a bit.</p>
 
@@ -283,10 +193,10 @@ as little as possible.</blockquote>
   <div class="row-fluid">
     <div class="span12 post-container">
       <h1 class="link"><a href="/what-id-do-if-i-managed-angry-birds/">What I&#8217;d do if I managed Angry Birds</a></h1>
-      <p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&mdash;even forces&mdash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
+      <p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&ndash;even forces&ndash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
 
 <ul>
-<li>Take advantage of the robust platform: allow people to create levels&mdash;get people really involved in the game. Personally, I burn through the official levels in hours and then have to wait an unacceptable amount of time for new content. I play the new levels because there&rsquo;s nothing better out, but the moment I have other games then Angry Birds is out of sight and mind. User generated content is awesome! A number of other games flourished and increased their staying power when they allowed users to create new content (for example, StarCraft and Half-Life/Counter-Strike).</li>
+<li>Take advantage of the robust platform: allow people to create levels&ndash;get people really involved in the game. Personally, I burn through the official levels in hours and then have to wait an unacceptable amount of time for new content. I play the new levels because there&rsquo;s nothing better out, but the moment I have other games then Angry Birds is out of sight and mind. User generated content is awesome! A number of other games flourished and increased their staying power when they allowed users to create new content (for example, StarCraft and Half-Life/Counter-Strike).</li>
 <li>Allow people to create new game elements like birds, pigs, and environmental features. You could add more dynamic pieces like swinging ropes or sand dripping out of a vial.</li>
 <li>Publish global leaderboards with incentives like badges and special skins, additional content.</li>
 <li>Create a YouTube channel for Angry Birds. Did you know there are televised Starcraft games? It&rsquo;s a big deal. Show live footage of pros encountering new levels. Does the top player meticulously size up the level or just run and gun? These videos can help frustrated players get over the hump and defeat some levels.</li>
@@ -374,15 +284,15 @@ Type mismatch: cannot convert from String to boolean</pre>
 
 <p>No matter how the language handles it, it&rsquo;s bad coding style because of erratic behavior. Save the next programmer some grief and specify the full expression whose truthiness you are seeking.</p>
 
-<p>====================</p>
+<hr />
 
 <p>JavaScript is not multi-threaded; the spec does not specify any threading or synchronization. JavaScript in modern browsers is single-threaded. Handling multiple actions at once is done by firing off functions and waiting for callbacks.</p>
 
-<p>====================</p>
+<hr />
 
 <p>In Java, the default equals method will compare the memory location of two objects; the default hashcode implementation will return the memory address.</p>
 
-<p>====================</p>
+<hr />
 
 <p>In Java, all data structures in Collections offer a method, size(), to access the data structure&rsquo;s size. Primitive arrays have a property, length (note the difference in name and method vs property). Strings use a method, length(), to make things more confusing!</p>
 
@@ -401,11 +311,11 @@ System.out.println(string.length());
 0</pre>
 
 
-<p>====================</p>
+<hr />
 
 <p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
 
-<p>====================</p>
+<hr />
 
       
       
@@ -495,9 +405,9 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
       <p>A friend of mine mentioned that he didn&rsquo;t like Gmail&rsquo;s built-in tasks, which prompted me to share a couple Chrome extensions (they exist for Firefox too) that I have come to enjoy. Here they</p>
 
 <ul>
-<li><a title="TaskForce to-do list in Gmail" href="https://www.taskforceapp.com/">TaskForce</a> &ndash; a task list that&rsquo;s a little better than Google&rsquo;s default</li>
-<li><a title="Rapportive - replace ads with useful information" href="http://rapportive.com/">Rapportive</a> &ndash; replaces the right sidebar ads with information about the person you&rsquo;re emailing&mdash;awesome!</li>
-<li><a title="Klout for Rapportive" href="http://kloutlet.com/">Klout raplet</a> &ndash; adds the recipient&rsquo;s Klout score at the bottom of the Rapportive sidebar. (Klout is a way of measuring a person&rsquo;s influence on Twitter.)</li>
+<li><a title="TaskForce to-do list in Gmail" href="https://www.taskforceapp.com/">TaskForce</a> - a task list that&rsquo;s a little better than Google&rsquo;s default</li>
+<li><a title="Rapportive - replace ads with useful information" href="http://rapportive.com/">Rapportive</a> - replaces the right sidebar ads with information about the person you&rsquo;re emailing&ndash;awesome!</li>
+<li><a title="Klout for Rapportive" href="http://kloutlet.com/">Klout raplet</a> - adds the recipient&rsquo;s Klout score at the bottom of the Rapportive sidebar. (Klout is a way of measuring a person&rsquo;s influence on Twitter.)</li>
 </ul>
 
 
@@ -525,11 +435,11 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
       <h1 class="link"><a href="/rhyme-your-way-to-better-programs-cache-hash-and-thrash/">Rhyme your way to better programs: cache, hash, and thrash</a></h1>
       <p>There are myriad ways to optimize a program, but you can go a long way with three rhyming concepts:</p>
 
-<p><a title="Wikipedia: Cache" href="http://en.wikipedia.org/wiki/Cache">cache</a> &ndash;  Perform operations once then store them; you trade memory for speed and reduced access to database (for example).</p>
+<p><a title="Wikipedia: Cache" href="http://en.wikipedia.org/wiki/Cache">cache</a> -  Perform operations once then store them; you trade memory for speed and reduced access to database (for example).</p>
 
-<p><a title="Wikipedia: Hash table" href="http://en.wikipedia.org/wiki/Hash_table">hash</a> &ndash;  Hash maps are fast and efficient for a lot of algorithms; for example, a trie (suffix tree) is faster when implemented as a hash map than as a tree (because insertions and lookup are constant time on average with a hash map but log(n) for trees).</p>
+<p><a title="Wikipedia: Hash table" href="http://en.wikipedia.org/wiki/Hash_table">hash</a> -  Hash maps are fast and efficient for a lot of algorithms; for example, a trie (suffix tree) is faster when implemented as a hash map than as a tree (because insertions and lookup are constant time on average with a hash map but log(n) for trees).</p>
 
-<p><a title="Wikipedia: Thrashing" href="http://en.wikipedia.org/wiki/Thrashing_(computer_science)">thrash</a> &ndash;  Avoid competing for resources, as in database or hard drive lookups.</p>
+<p><a title="Wikipedia: Thrashing" href="http://en.wikipedia.org/wiki/Thrashing_(computer_science)">thrash</a> -  Avoid competing for resources, as in database or hard drive lookups.</p>
 
 <p>I thought cache, hash, and thrash was a neat mnemonic. Do you have another go-to for optimizations? Know any other neat mnemonics?</p>
 
@@ -555,12 +465,12 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
       <p>I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="http://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, &ldquo;the universe is conspiring to help us.&rdquo; Below I outline what I did and why.</p>
 
 <ul>
-<li>Name: no PhD&mdash;just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.</li>
+<li>Name: no PhD&ndash;just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.</li>
 <li>Retooled the summary to combine summary and objective. At first I removed the sections altogether because I thought it was wasted space that can hurt more than it can help. A friend convinced me that this one section grabs the reader&rsquo;s attention and draws them in. Now that you have their attention, do something good with it, like tell them your relevant skills!</li>
 <li>I put the skills section below the new summary and broke skills into &ldquo;technologies&rdquo; and &ldquo;general&rdquo; subsections. A skills section allow busy people to determine my experience without having to read everything below. If the reader is interested in my skills after reading the summary, I&rsquo;m doing well.</li>
 <li>I&rsquo;m a recent grad so education stays up top and comes next. &ldquo;So Seth&rsquo;s summary matches our desired candidate as do his skills; he&rsquo;s educated&hellip; where has he worked?&rdquo; And that leads to work experience.</li>
 <li>I cleaned up bullet points and job experience as the resume constantly evolves!</li>
-<li>One big change in the experience section is the inclusion of &ldquo;intern&rdquo; in titles held during school. College kids are expected to have internship experience, so admitting a job was an internship does not hurt. These positions show that I balanced work and school. I had a hard time deciding on my most recent IBM job because I ended up owning a decent sized project that was important to several teams worldwide&mdash;hardly your standard internship! I felt like a part-timer, but intern is more self-explanatory.</li>
+<li>One big change in the experience section is the inclusion of &ldquo;intern&rdquo; in titles held during school. College kids are expected to have internship experience, so admitting a job was an internship does not hurt. These positions show that I balanced work and school. I had a hard time deciding on my most recent IBM job because I ended up owning a decent sized project that was important to several teams worldwide&ndash;hardly your standard internship! I felt like a part-timer, but intern is more self-explanatory.</li>
 <li>Everyone said to shorten, so I removed a couple jobs and moved the interesting bits into the skills and clubs sections. The awards and honors section is out.</li>
 <li>I&rsquo;ve left publications because they don&rsquo;t make a difference in length right now (over 2 pages with or without). Those publications show that I&rsquo;m well on my way to my 10,000 hours of writing (Gladwell&rsquo;s assertion that expertise takes 10,000 hours), and I&rsquo;m proud of the quality. I need to work on a blog post or alternate resume that shows the number of hours I&rsquo;ve put into various fields&hellip;</li>
 <li>That&rsquo;s about it. The resume spills onto three pages, and I&rsquo;m okay with that for now. I have something between a CV and a resume! I figure that later sections are just a cookie for anyone dedicated enough to read that far :) One day I&rsquo;ll get down to 1 or 2 pages&hellip;</li>
@@ -594,7 +504,7 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 <p>I&rsquo;ve pasted my resume below in hopes of getting constructive criticism. The formatting is ugly here, so please focus on content and ordering (or any other secret mojo that I may have missed). My resume is also available as a standalone document on <a title="Seth Michael Holloway's awesome resume" href="http://sethholloway.com/resume.html">sethholloway.com</a>. Thanks in advance for any feedback! Fire away&hellip;</p>
 
 <p>SETH MICHAEL HOLLOWAY
-Austin, TX 78757 &ndash; U.S.A.</p>
+Austin, TX 78757 - U.S.A.</p>
 
 <h2><a href="http://www.sethholloway.com/">http://www.sethholloway.com/</a></h2>
 
@@ -769,6 +679,56 @@ PUBLICATIONS
 
     </article>
     
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/advertising-on-linkedin-sucks/">Advertising on LinkedIn (Sucks)</a></h1>
+      <p>As part of creating a business page for <a title="Oilfield Intel: oil and gas service and equipment reviews" href="http://oilfieldintelligence.com">Oilfield Intelligence</a> (a niche review site for oil and gas services and equipment), LinkedIn kindly provided $50 worth of credit for their ads. That was enough to entice me, so I set up the ads. Four pages: create your ads, choose your target audience, select pay for impressions or clicks, and input payment information.</p>
+
+<p>At first I chose to pay per click (CPC), but they were charging close to $5.00 per. Ouch! We do not have metrics for how much a single visitor is worth, but I suspect it is much less than $5.00 each and that&rsquo;s if we had 100% conversion rate. Normal consumer web apps run around 1% conversion rate, so you&rsquo;d need 100 people on your page before one signed up. At $5.00 per person, that&rsquo;s $500 per new account. Yikes! Unfortunately, by the time I had done the math and researched a bit more, my LinkedIn session had expired (really? log me out in a few minutes?).</p>
+
+<p>So, I return to the page and recreate the ads, choose who I want to target, choose PPC, and hit next. It&rsquo;s a payment form, and I owe them $5 for setting up my account! At this point I&rsquo;m feeling like I got the bait-and-switch: $50 &ldquo;free advertising&rdquo; for a $5 sign-up is a good deal, but it felt shady. I&rsquo;m looking to see where I can set the limit on ad spending so I don&rsquo;t have to pay anything out-of-pocket (it&rsquo;s only an experiment, so I don&rsquo;t want to shell out a lot of money before I can at least make a weak approximation at its value); there&rsquo;s nothing you can do to limit your spending, except set the limit per day and the number of days to run. Again, this feels rather shady since the minimum per day is $10 so they&rsquo;ll have me for $10 everyday that I forget to turn the advertising off. Ugh. &ldquo;Fine,&rdquo; I think, &ldquo;I&rsquo;ll go back and cap it at $10 per day for 5 days.&rdquo; The payment form has virtually no navigation. You can go forward (submit your information) or return to LinkedIn, but not back to the previous three pages. I press my back button and see the familiar &lsquo;resubmit form&rsquo; dialog. I click to resubmit and I&rsquo;m routed to the homepage&hellip;</p>
+
+<p>A third time, I begin the ads process because nothing has been saved. I re-create the ads, re-target the ads, then adjust the costs and move on to payment information. Apparently something had been saved! After several minutes of duplicated effort, I find that I have already set-up my account and they just need my payment information. I&rsquo;m not sure why they could not tell me that on the first three pages.</p>
+
+<p>This morning, I log in and check the report:</p>
+
+<div>
+
+<img class="size-medium wp-image-1479" title="OI-LinkedIn-Ad-Metrics" src="/images/OI-LinkedIn-Ads-300x30.png" alt="OI LinkedIn Ad Metrics" width="300" height="30" />
+
+</div>
+
+
+<p>They had served the ad almost 6,000 times! And of those 6,000 impressions, we received two clicks. LinkedIn estimates those clicks to be worth $6.16! Good thing I am only paying for impressions&hellip; I am paying for impressions, right? That screenshot says I&rsquo;ve spent $12.32. Checking the billing, I see this:</p>
+
+<p><img class="size-medium wp-image-1480" title="OI-LinkedIn-Ad-Costs" src="/images/OI-LinkedIn-Ad-Costs-300x28.png" alt="OI LinkedIn Ad Costs" width="300" height="28" /></p>
+
+<p>The image shows that I had spent $2.57, a number that I am baffled by. The other page says I&rsquo;ve spent $12.32 based on two clicks worth $6.16 each. $2.57 is closer to the cost per 1,000 impressions, but I never chose that budget. In one pass through the ad setup I agreed to pay around $3.50 per click (not $6.16); on another I agreed to pay $2.00 per 1,000 impressions (the lowest you can go); and on another pass it was $2.50 per 1,000 impressions. Never $2.57. Weird.</p>
+
+<p>My initial impressions? Advertising on LinkedIn sucks. The site feels like an alpha release (as in not even ready for beta, much less a full product). The UI and information sharing is awful (how much have I actually spent and where did that number come from?). The setup is confusing. The navigation is weak. Perhaps worst of all, the ad placement is &ldquo;unobtrusive&rdquo; to put it nicely; more bluntly, the UI is cluttered and I cannot find the ads I&rsquo;m paying above market rates for. I plan to use up the $50 credit then abandon the platform until substantial upgrades are made.</p>
+
+<p>Compared to Google: Google offered $100 worth of AdWords credit&ndash;twice what LinkedIn is willing to part with. My Google ads are costing $0.39 per click&ndash;over ten times less expensive than LinkedIn! Google&rsquo;s setup and reporting are markedly better.</p>
+
+<p>Compared to Facebook: the <a title="Oilfield Intelligence on Facebook" href="http://www.facebook.com/pages/Oilfield-Intelligence/256146977729169">OI Facebook page</a> seems to be ranked way higher than the <a title="Oilfield Intelligence official page on LinkedIn" href="http://www.linkedin.com/company/oilfield-intelligence">OI LinkedIn page</a>. I interpret that to mean that the Facebook page is a better use of our time than LinkedIn in general. Reading about ads, both LinkedIn and Facebook offer an abysmal 0.1% click-through-rate, so the cost per 1,000 impressions is usually equal to the cost per click.</p>
+
+<p>I&rsquo;ll admit I&rsquo;m new to setting up CPC campaigns, but LinkedIn just seems bad. Am I missing something?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
   
   <div class="pagination">
     
@@ -787,7 +747,7 @@ PUBLICATIONS
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2019 by Seth Holloway
+  Copyright &copy; 2021 by Seth Holloway
 </p>
 
 

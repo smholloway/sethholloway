@@ -4,7 +4,7 @@
   <title><![CDATA[Category: armchair economist | Seth Holloway]]></title>
   <link href="http://www.sethholloway.com//blog/categories/armchair-economist/atom.xml" rel="self"/>
   <link href="http://www.sethholloway.com//"/>
-  <updated>2019-02-04T16:40:38-06:00</updated>
+  <updated>2021-08-14T13:38:41-05:00</updated>
   <id>http://www.sethholloway.com//</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -36,17 +36,17 @@
 </blockquote>
 
 
-<p>His ideas are very extreme&mdash;likely galvanized by having to defend his position for 20+ years. I did not appreciate his call to &ldquo;argue the moral high ground&rdquo; which generally means &ldquo;use emotion instead of logic.&rdquo; To be sure, people make decisions based on emotion rather than logic, but his call-to-arms felt flimsy without proper reasoning to back the argument.</p>
+<p>His ideas are very extreme&ndash;likely galvanized by having to defend his position for 20+ years. I did not appreciate his call to &ldquo;argue the moral high ground&rdquo; which generally means &ldquo;use emotion instead of logic.&rdquo; To be sure, people make decisions based on emotion rather than logic, but his call-to-arms felt flimsy without proper reasoning to back the argument.</p>
 
 <p>Along the emotional lines, he lividly proclaimed that &lsquo;people who attack sharing are attacking society because sharing forms the bonds of society!&rsquo; &ldquo;Sharing is good&rdquo; he said in a moment that made me conjure kindergarten memories. He also evokes the positive nostalgia of browsing your friend&rsquo;s library and borrowing a book. He mocked the idea of borrowing an e-book and, with the e-book, the entire e-reader that it is bound to. These ideas form the basis of his argument that sharing should continue with digital works.</p>
 
-<p>After ruminating on the subject and discussing it with a few peers, I believe that Stallman had the right information but came to the wrong conclusion. The fundamental issue is sharing. Traditionally, sharing involves physical objects that cannot conform to his four freedoms; with physical objects there is only one copy of an item that cannot be easily replicated. He claims that a physical object is its own source code and the user is free to alter it and share the object. This is the first mistake: digital objects have recipes, blueprints, and materials that are the source code. Software today is a standalone product that you pay for&mdash;as with physical objects, the source will cost you.</p>
+<p>After ruminating on the subject and discussing it with a few peers, I believe that Stallman had the right information but came to the wrong conclusion. The fundamental issue is sharing. Traditionally, sharing involves physical objects that cannot conform to his four freedoms; with physical objects there is only one copy of an item that cannot be easily replicated. He claims that a physical object is its own source code and the user is free to alter it and share the object. This is the first mistake: digital objects have recipes, blueprints, and materials that are the source code. Software today is a standalone product that you pay for&ndash;as with physical objects, the source will cost you.</p>
 
 <p>Stallman&rsquo;s second mistake comes when he equates the digital analog of sharing physical objects into modifying and distributing new copies. Physical objects can be modified and distributed, but the owner gives up the object (for some period of time) whenever they share. As time passes the item changes hands and wears (nicks, folds, scratches, pen marks, etc). If a user wants access to the physical object again, they have to get it back from the borrower or buy a new version. Stallman is not the only person to make this mistake. Currently, there are only two possibilities with digital work:</p>
 
 <ul>
-<li>DRM style: one user per purchase &mdash; no possibility of sharing</li>
-<li>Napster style: many users per purchase &mdash; sharing is common</li>
+<li>DRM style: one user per purchase &ndash; no possibility of sharing</li>
+<li>Napster style: many users per purchase &ndash; sharing is common</li>
 </ul>
 
 
@@ -84,7 +84,7 @@
     <link href="http://www.sethholloway.com//lets-get-tough-on-wall-street/"/>
     <updated>2009-02-02T00:00:00-06:00</updated>
     <id>http://www.sethholloway.com//lets-get-tough-on-wall-street</id>
-    <content type="html"><![CDATA[<p>Maureen Dowd says it nicely in <a title="Disgorge, Wall St Fat Cats" href="http://www.nytimes.com/2009/02/01/opinion/01dowd.html?_r=1&amp;ex=1391230800" target="_blank">her editorial</a> in the New York Times. If you didn&rsquo;t read the post already, you should. America needs to get upset, take action, and save the proletariat&mdash;not the fat cat. If the big banks fail, the free market will provide and there&rsquo;s no shortage of smart people looking to make banking salaries. These guys <a title="Efficient Market Hypothesis" href="http://en.wikipedia.org/wiki/Efficient_market_hypothesis" target="_blank">don&rsquo;t know anything special</a>, well not in terms of stock trends at least&mdash;I doubt you know about million dollar bonuses, private jets, and $100+ bottles of wine :)</p>
+    <content type="html"><![CDATA[<p>Maureen Dowd says it nicely in <a title="Disgorge, Wall St Fat Cats" href="http://www.nytimes.com/2009/02/01/opinion/01dowd.html?_r=1&amp;ex=1391230800" target="_blank">her editorial</a> in the New York Times. If you didn&rsquo;t read the post already, you should. America needs to get upset, take action, and save the proletariat&ndash;not the fat cat. If the big banks fail, the free market will provide and there&rsquo;s no shortage of smart people looking to make banking salaries. These guys <a title="Efficient Market Hypothesis" href="http://en.wikipedia.org/wiki/Efficient_market_hypothesis" target="_blank">don&rsquo;t know anything special</a>, well not in terms of stock trends at least&ndash;I doubt you know about million dollar bonuses, private jets, and $100+ bottles of wine :)</p>
 ]]></content>
   </entry>
   

@@ -118,93 +118,6 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/working-with-latex-see-all-your-citations/">Working with LaTeX: See all your citations</a></h1>
-      <p><span style="text-decoration: underline;">UPDATE</span></p>
-
-<p>J.P. Knight left a much easier solution in the comments. If you want to see all of your citations the easy way, simply put the \nocite{*} command into your latex file as seen below.</p>
-
-<blockquote>\documentclass[11pt]{report}
-\usepackage{natbib}
-\bibpunct{(}{)}{;}{a}{,}{,}
-\begin{document}
-\bibliographystyle{apalike}
-\nocite{*}
-\bibliography{proposal}    %% your bib file name here
-\end{document}</blockquote>
-
-
-<div>Thanks J.P!</div>
-
-
-<div></div>
-
-
-<div><span style="text-decoration: underline;">ORIGINAL</span></div>
-
-
-<p>I&rsquo;m currently writing my dissertation (technically my proposal) in <a title="LaTeX Official Page" href="http://www.latex-project.org/">LaTeX</a> (think Microsoft Word without the WYSIWYG interface). As I&rsquo;m searching for citations, I am overwhelmed at the number of sources in my bibtex file. Rather than staring at the bland, perhaps bloated, syntax with curly braces, spaces, and commas, I created a little script that would let me see how the citations will look in the paper&mdash;in a nice PDF bibliography. Here, I present seeAllCitations.sh which takes in your bibtex file as an argument and creates a file with all of your potential citations. After the script completes, just &ldquo;compile&rdquo; the file as you normally would and open the resulting pdf/dvi.</p>
-
-<blockquote>#!/bin/sh
-
-# Check input for one argument
-if [ $# -ne 1 ]; then
-echo &#8220;Please input your .bib file as an argument&#8221;
-echo &#8220;Example: ./seeAllCitations.sh proposal.bib&#8221;
-exit 1
-fi
-
-#  Create the file
-echo &#8220;Creating seeAllCitations.tex that will allow you to see all citations.&#8221;
-
-# Create a simple tex file that will include citations
-echo &#8220;\documentclass[11pt]{report}
-\usepackage{cite}
-\usepackage{url}
-&#92;\begin{document}
-\n
-All citations from $1 shown below
-\n
-%% Begin citations&#8221; &gt; seeCitations.tex
-
-cat $1 |grep @ |sed s/^@.*{/&#92;&#92;&#92;cite{/ |sed s/,.*$/}&#92;&#92;&#92;&#92;/ &gt;&gt; seeCitations.tex
-
-echo &#8220;%% End citations
-\n
-&#92;\bibliographystyle{abbrv}
-&#92;\bibliography{$1}
-\n
-&#92;\end{document}&#8221; &gt;&gt; seeCitations.tex
-
-# Process completed
-echo &#8220;Process completed. Enjoy!&#8221;
-echo &#8220;Confused about what to do next? Create the document. For example:
-pdflatex seeCitations.tex
-bibtex seeCitations.tex
-pdflatex seeCitations.tex
-open seeCitations.pdf&#8221;
-exit 0</blockquote>
-
-
-<p>See any mistakes? Was that at all helpful? Do you have a different (read: better) method for checking your citations?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
       <h1 class="link"><a href="/happy-4th-of-july/">Happy 4th of July!</a></h1>
       <p>I hope everyone has an enjoyable Independence Day :)</p>
 
@@ -252,7 +165,7 @@ exit 0</blockquote>
   <div class="row-fluid">
     <div class="span12 post-container">
       <h1 class="link"><a href="/it-is-okay-to-be-broad/">It is okay to be broad</a></h1>
-      <p>I&rsquo;m a generalist. I love life. I love people. I love technology. I love sports. I love games. I love philosophy (religion, politics, physics, etc.). I love food. I love music. I love love. I love lists ;&ndash;)</p>
+      <p>I&rsquo;m a generalist. I love life. I love people. I love technology. I love sports. I love games. I love philosophy (religion, politics, physics, etc.). I love food. I love music. I love love. I love lists ;-)</p>
 
 <p>Growing up I heard a lot of conventional wisdom that being well-rounded is good. However, as I&rsquo;ve gotten older I&rsquo;ve felt a shocking lack of suggestions to be broad. Perhaps my senses are more keen at only finding differences, but I have found numerous proponents of specialization. However, I&rsquo;m a damn good generalist so I&rsquo;ll have to content myself with hopes of being a polymath.</p>
 
@@ -431,9 +344,9 @@ exit 0</blockquote>
 <p>Last Sunday I returned from Vancouver where I was attending the International Conference on Software Engineering (ICSE). I met a lot of great and interesting people. A few that stand out are</p>
 
 <ul>
-<li>Sherlock Licorish &ndash; the soft-spoken researcher from Guyana who told me I was an academic</li>
-<li><a title="Justin Erenkrantz -- UCI student and ASF pres" href="http://www.erenkrantz.com/" target="_blank">Justin Erenkrantz</a> &ndash; the President of the Apache Software Foundation who was really down to Earth and cool</li>
-<li><a title="Andy Ko -- CMU student to UW prof" href="http://faculty.washington.edu/ajko/" target="_blank">Andy Ko</a> &ndash; a professor finishing up his first year at University of Washington. Andy was an all-around great person: articulate, helpful, funny</li>
+<li>Sherlock Licorish - the soft-spoken researcher from Guyana who told me I was an academic</li>
+<li><a title="Justin Erenkrantz -- UCI student and ASF pres" href="http://www.erenkrantz.com/" target="_blank">Justin Erenkrantz</a> - the President of the Apache Software Foundation who was really down to Earth and cool</li>
+<li><a title="Andy Ko -- CMU student to UW prof" href="http://faculty.washington.edu/ajko/" target="_blank">Andy Ko</a> - a professor finishing up his first year at University of Washington. Andy was an all-around great person: articulate, helpful, funny</li>
 </ul>
 
 
@@ -444,6 +357,35 @@ exit 0</blockquote>
 <p>Vancouver was an amazing city! I feel extremely glad to be able to see the Pacific Northwest in the late Spring/early Summer. We experienced temperatures  in the 40s to 70 with ample sunshine and a light breeze. By most definitions, near perfect weather. In the eight days we were there it only rained once! Of course, that was the day we were on an open-top zodiac chasing whales, but the experience was too cool to let a little rain get in the way (my retrospective opinion, not the opinion I held while freezing on the chilly waters of the Pacific Ocean). We had awesome Japanese food, terrific Chinese food, a tasty bubble tea, and other ethnic fare that was totally worthwhile.</p>
 
 <p>Before ICSE, we were in Madison, WI to see my sister graduate with her PhD. Her research was about DBMSs on flash disks. Congratulations to her on this momentous ocassion. We&rsquo;re all very proud!</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/designing-based-on-data/">Designing Based on Data</a></h1>
+      <p>After my last Usability course this semester a designer/peer, <a title="Andrea Richeson" href="http://andrearicheson.org/wordpress/" target="_blank">Andrea Richeson</a>, were chatting. She asked me if the course had changed the way I think about designers. I did not have a good answer at the time because I fancy myself a bit of a designer: I&rsquo;ve created several websites (<a title="Mobile and Pervasive Computing @ UT" href="http://mpc.ece.utexas.edu/" target="_blank">MPC</a>, <a title="Software Engineering @ UT" href="http://www.edge.utexas.edu/se/" target="_blank">SE</a>, <a title="Students in Software Engineering @ UT" href="http://www.edge.utexas.edu/se/" target="_blank">SSE</a>, <a title="Seth Holloway Dot Com" href="http://www.sethholloway.com/" target="_blank">SethHolloway.com</a>) and I constantly build/tinker in both virtual and physical spaces. Beyond considering myself a programmer and designer, I found usability testing to be an amazingly practical part of creating something for people. The methods are similar to my favorite software development methodology: agile development&ndash;get the requirements, do a small piece, fix what is broken and ensure people like the effort so far, repeat. After some reflection I can say the course did not really change my view on design, it gave me a framework for evaluating and altering design based on user data.</p>
+
+<p>Fresh out of the class with a solid understanding of the art of usability testing, I was taken aback while reading a New York Times <a title="Ping - Design Based on Data" href="http://www.nytimes.com/2009/05/10/business/10ping.html" target="_blank">article about a designer who left Google and went to Twitter</a>. He left Google because of their rigid adherence to trusting data. I am confused how a designer could disagree with trusting data. If you do not like this approach, you don&rsquo;t believe in (1) the way they collect data or (2) trusting the users. The article does not explain how Google collects their data nor does it explain the designer&rsquo;s disdain, but from what I read I think Google&rsquo;s approach is perfect.</p>
+
+<p>Google receives millions of unique visitors per day and they are known for changing elements on the page (think of the whimsical, dynamic elements like logo changes and the &ldquo;Feeling Lucky&rdquo; button), so it is not hard to believe that Google would put up different designs of the same page. Now, a fraction of the millions of users sees one design and another fraction sees the other design. From the web server&rsquo;s standpoint, data collection is fairly easy&ndash;especially with AJAX-enabled dynamic pages: just stream events to the server for logging. Later, a human can analyze the data and make decisions. With sample sizes in the thousands, statistical validity is almost guaranteed!</p>
+
+<p>The approach is wonderful: people&rsquo;s behavior determines the best design for the job and the data is collected without the user&rsquo;s knowledge. What&rsquo;s better than getting people&rsquo;s feedback without their knowledge? Hidden camera shows have always exposed wonderful insights, but we can only get at the truth when people let their guard down.</p>
+
+<p>That is how I imagine the data is collected and the approach seems infalible, thus I must conclude that the designer does not believe in trusting users despite the flawless data collection methods. Even outlandish designs can yield positive results. I&rsquo;m sure I&rsquo;m missing nuances, but I side with Google. I believe in designing based on data because it keeps us moving towards usable, pleasing designs.</p>
 
       
       
@@ -472,7 +414,7 @@ exit 0</blockquote>
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2019 by Seth Holloway
+  Copyright &copy; 2021 by Seth Holloway
 </p>
 
 

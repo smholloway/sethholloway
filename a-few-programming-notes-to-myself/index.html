@@ -175,15 +175,15 @@ Type mismatch: cannot convert from String to boolean</pre>
 
 <p>No matter how the language handles it, it&rsquo;s bad coding style because of erratic behavior. Save the next programmer some grief and specify the full expression whose truthiness you are seeking.</p>
 
-<p>====================</p>
+<hr />
 
 <p>JavaScript is not multi-threaded; the spec does not specify any threading or synchronization. JavaScript in modern browsers is single-threaded. Handling multiple actions at once is done by firing off functions and waiting for callbacks.</p>
 
-<p>====================</p>
+<hr />
 
 <p>In Java, the default equals method will compare the memory location of two objects; the default hashcode implementation will return the memory address.</p>
 
-<p>====================</p>
+<hr />
 
 <p>In Java, all data structures in Collections offer a method, size(), to access the data structure&rsquo;s size. Primitive arrays have a property, length (note the difference in name and method vs property). Strings use a method, length(), to make things more confusing!</p>
 
@@ -202,11 +202,11 @@ System.out.println(string.length());
 0</pre>
 
 
-<p>====================</p>
+<hr />
 
 <p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
 
-<p>====================</p>
+<hr />
 
     </div>
   </div>
@@ -278,7 +278,7 @@ System.out.println(string.length());
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2019 by Seth Holloway
+  Copyright &copy; 2021 by Seth Holloway
 </p>
 
 
