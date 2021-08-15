@@ -11,7 +11,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-Andrea did not know about Find/Replace in document editors. Instead of replacing all occurrences of a word she was rereading an assignment. I showed her Find/Replace which not only found every occurrence, including some she had missed, the feature also saved her several minutes. As <a title="see the video on YouTube" href="http://www.youtube.com/watch?v=nQUfzRF_drc" target="_blank">Kip says</a>, "I still love technology! Always and forever."
+A friend did not know about Find/Replace in document editors. Instead of replacing all occurrences of a word she was rereading an assignment. I showed her Find/Replace which not only found every occurrence, including some she had missed, the feature also saved her several minutes. As <a title="see the video on YouTube" href="http://www.youtube.com/watch?v=nQUfzRF_drc" target="_blank">Kip says</a>, "I still love technology! Always and forever."
 
 This random tidbit merely illustrates the benefits of being technical / surrounding yourself with technical people. Work smarter, not harder!
 
