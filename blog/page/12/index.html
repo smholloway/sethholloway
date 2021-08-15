@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.sethholloway.com//blog/page/12">
+  <link rel="canonical" href="http://sethholloway.com/blog/page/12">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -118,61 +118,65 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/choosing-the-right-library-for-your-java-project/">Choosing the right library for your Java project</a></h1>
-      <p>Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily into your project and prevent you from re-inventing the wheel. On the negative side, third-party libraries could add to your costs or prevent your company from being sold, they could be confusing and poorly documented, or they could work unexpectedly. I&rsquo;ve used a number of libraries in the past (Ruby and Ruby on Rails push libraries heavily; in Java I like jsoup and log4j), but I was curious how pros chose so I asked around and searched a bit.</p>
+      <h1 class="link"><a href="/twitter-bots/">Twitter bots</a></h1>
+      <p>I recently increased my activity on Twitter (meaning I started following a lot of people). After my flurry of activity I noticed something strange: for roughly every 10 people I followed, I had about 1 person follow me. Notice I did not say &ldquo;follow me back.&rdquo; In my case, these were some kind of bots that randomly follow people. I checked and they did not have people in common so it&rsquo;s not like they just follow everyone that Guy Kawasaki follows, but there&rsquo;s a definite spike in following based on twitter activity.</p>
 
-<p>You can read the <a title="Reddit: Handy Java Libraries" href="http://www.reddit.com/r/java/comments/kis7l/handy_java_libraries_you_use">Reddit take on handy Java libraries</a>.</p>
+<p>Here&rsquo;s a crudely formatted profile from one of the spammers:</p>
 
-<p>And here&rsquo;s advice from Lane:</p>
-
-<blockquote>I&#8217;d focus on these:
-
-Normal coding
-Apache Commons: <a href="http://commons.apache.org/" target="_blank">http://commons.apache.org/</a>
-Guava: <a href="http://code.google.com/p/guava-libraries/" target="_blank">http://code.google.com/p/<wbr>guava-libraries/</wbr></a>
-Jackson JSON parser: <a href="http://jackson.codehaus.org/" target="_blank">http://jackson.codehaus.org/</a>
-Spring: <a href="http://www.springsource.org/" target="_blank">http://www.springsource.org/</a>
-ActiveMQ
-
-Unit Testing:
-jUnit4
-Hamcrest matchers
-Mockito (I absolutely dislike mocking tho)
-
-When it comes to libraries try to find ones that have a lot of current activity.
-
-The best code is the code you don&#8217;t have to write.  So I try to write
-as little as possible.</blockquote>
-
-
-<p>And Drew:</p>
-
-<blockquote>
-<div>Here are a couple considerations off the top of my head, but by no means are these exhaustive nor complete&#8230;</div>
-<div>Quick summary - Choosing to use a library should be economics driven.  Look at ROI.  Yes, for an engineer, the excitement of using the newest cool tool is a positive return, but only one of many 10&#8217;s of terms in the equation&#8230; and probably not one of the larger terms.</div>
-<div>0) Documentation - Any library (or application) worth your time should have decent documentation.  It&#8217;s hard to recognize good documentation for new engineers, so beware things recommends by &#8220;kids&#8221;.  There are basically two camps on the documentation side&#8230; the big book (e.g. maven) and the mailing list (e.g. guava).  The big book is pretty obvious.  Guava&#8217;s documentation is a collection of power-point presentations and a very active tag on stack-overflow.  Personally, I prefer Guava&#8217;s documentation over the big-book style.</div>
-<div>1) Maturity of library - Steer clear of anything that is a prototype, a &#8220;place to test advanced features&#8221;, etc.  It&#8217;s not worth your time to rewrite your code when the api changes.</div>
-<div>2) Maturity of release - Steer clear of anything X.0.0.  It&#8217;s broken and you&#8217;ll have to upgrade soon&#8230; another time suck.  Given the choice between 3.5.2 and 4.0.0, always go with 3.x.</div>
-<div>3) Client list - You&#8217;re looking for things that are used by other big projects.  slf4j does a good job of this&#8230; it&#8217;s a mid-aged library but they have a impressive list of projects that use the library right on the home page.  This is a good sign.</div>
-<div>4) Consider proprietary libraries - Sometimes it makes a lot of sense to just buy it.  The price for these libraries is always stunning, but you need to consider ROI, not cost.  Your ROI calculation needs to include design, implementation, maintenance, time-to-market, and how pissed your customer will be if you got something wrong.  Odds are very good that a proprietary library has already gotten that thing wrong and is amortizing the cost.</div>
-<div>Plus, it&#8217;s nice to have someone to call that has to answer your question.  No one has to answer your guava question (and there are a number of unanswered questions on SO).  I may sound strange, but it&#8217;s fantastic to get a reply from a vendor in a hour that says &#8220;I understand your question, but we don&#8217;t do that right now.&#8221;  You can then move on and never second guess that decision.</div>
-<div>5) Legal - Never use anything that is GPL or LGPL only.  Apache, CDDL, BSD, and others are ok.  Most decent libraries are dual licensed.  Figure out which licenses are &#8216;ok&#8217; for yourself, don&#8217;t take my word for it.  Here&#8217;s the reason&#8230; at some point you might want to sell your idea/company to someone else.  If you have GPL libraries in your code base, it&#8217;s gonna cost you real money when you sell, and real time when you have to extract it after the sale.  I know you can use a GPL library and be safe&#8230; but it&#8217;s just too scary for people who might want to buy you later.  Now that&#8217;s not to say you can&#8217;t use GPL libraries to build your product.  We all have one or two GPL tools that we use&#8230; but they don&#8217;t get rolled into the final product (e.g. findbugs).</div>
-<div>6) Generics - A sub-item for maturity probably, but a specific item to watch for.  If a library doesn&#8217;t use generics at all, it&#8217;s a red flag.  There are cases where it doesn&#8217;t make sense to accept types from the application, so the library doesn&#8217;t need generics&#8230; but this is pretty rare.  I would expect that a library would return at least one collection&#8230; and if that collection is untyped, it&#8217;s a flag that something is up.  (It could be backwards compatibility, unmaintained code, or authors that don&#8217;t &#8220;get it&#8221;, or something else)</div>
-<div>7) Standards - Not so much.  I used to look for libraries that conformed to standards.  I don&#8217;t find that to be a big deal anymore.  If a library is worth its salt, it&#8217;s documented either via some standard or by itself.  (Tomcat and Jetty conform to standards wich is great.  Guava is non-standard, but I don&#8217;t care).</div>
-<div>8) Beware libraries that have lots of dependencies.  Sometimes it&#8217;s unavoidable, but try to avoid them if possible.  They make the final product bigger (not a huge deal), they need more updates (again, you can avoid this most of the time), but the big one is library clashing. You don&#8217;t want to include a nice stable library X.jar that depends on a library Y.jar in 2010, then find out that you really would like to use the newest version of Y.jar directly, but it&#8217;s got a new API.  You may be able to upgrade X.jar to use the new Y.jar, but you&#8217;ll also be upgrading all the other libraries it depends on too.  Basically, library dependencies are not a tree, they&#8217;re a directed graph (acyclic if you&#8217;re lucky).  The bigger and more connected that graph is, the more problems that it can cause in the build system.</div>
-<div>Summary) Basically, you should always be looking at ROI.  There&#8217;s just no way to compute the actual ROI, so you have to use your experience to make an approximation.  If two or three choices are about the same, then try to make a case for one of them in an email to yourself (or your boss).  See how easy it is to write up an argument to convince someone else.</div></blockquote>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="50%">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top"><a href="http://twitter.com/LorenDisorda710?iid=am-82952056813117314027489470&amp;nid=23+profile_user&amp;uid=16457953&amp;utm_content=profile" target="_blank"><img alt="" width="48" height="48" /></a></td>
+<td valign="top">
+<div><a href="http://twitter.com/LorenDisorda710?iid=am-82952056813117314027489470&amp;nid=23+profile_user&amp;uid=16457953&amp;utm_content=profile" target="_blank">LorenDisorda710 Loren Disorda</a></div>
+<div>College student majoring in marketing. High sex drive and just not satisfied by guys my age. Love foreplay and all night fuck and suck sessions.</div>
+<div>Abilene</div></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="50%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" nowrap="nowrap"><a href="http://twitter.com/LorenDisorda710?iid=am-82952056813117314027489470&amp;nid=23+user_statuses&amp;uid=16457953&amp;utm_content=profile" target="_blank">0
+Tweets</a></td>
+<td valign="top" nowrap="nowrap"><a href="http://twitter.com/LorenDisorda710/following?iid=am-82952056813117314027489470&amp;nid=23+user_following&amp;uid=16457953&amp;utm_content=following" target="_blank">516
+Following</a></td>
+<td valign="top" nowrap="nowrap"><a href="http://twitter.com/LorenDisorda710/followers?iid=am-82952056813117314027489470&amp;nid=23+user_follower&amp;uid=16457953&amp;utm_content=followers" target="_blank">75
+Followers</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
 
 
-<p>Who replied later with more information:</p>
+<p>Whenever you navigate to Loren&rsquo;s profile page, you see a link to an adult site. I&rsquo;m baffled by the whole situation. Some questions keeping me up at night:</p>
 
-<blockquote>
-<div>I thought about it a little more today, and if I was going to write up a real article for the web, I might propose a ROI formula with a half-dozen terms&#8230; then describe how to evaluate a library for each term.  If I was lucky, I could pick terms that were really independent of each other.</div>
-<div>Something like &#8220;cost to design + cost to build + cost to maintain &gt;? dollar cost for license + cost to integrate + (prob. of update)*(cost to apply update) + &#8230;&#8221;</div></blockquote>
+<p><em>What is the ROI on an outfit like this?</em> Sure, you can automate virtually everything and you can mechanical turk out captcha solving and account creation for pennies, but do you gain anything from a twitter bot that randomly follows people (and nothing else)?</p>
 
+<p><em>What is the purpose of following people?</em> It seems they simply want to drive traffic, but in the example above only 516 people would have seen the site. As I understand it, you won&rsquo;t gain any search engine cred beyond the twitter backlink (some think that retweets&ndash;abbreviated RT&ndash;might convey some power), and the bot&rsquo;s <a title="Klout for the twitter bot" href="http://klout.com/#/lorendisorda710">Klout score is insignificant</a> at 0-1 so they have virtually no influence.</p>
 
-<p>Excellent advice! Thanks to Drew and Lane!</p>
+<p><em>Who would a real person follow these spammers back?</em> With 0 tweets the bots are simply not adding any value, so why would you want to connect with them? If you google for twitter users who follow back, you&rsquo;ll find a lot of people willing to trade follows. The most ridiculous I saw was a guy claiming that he would win a car if he could get enough followers. If you simply want to game the system and appear larger than life, this is one way to do it I guess&hellip; I&rsquo;d guess a lot of the people following the bots are bots themselves.</p>
 
-<p>I&rsquo;m interested in other opinions. How do you choose a library? Which do you use most frequently? Have any horror stories derived from code reuse?</p>
+<p><em>Why not automate tweeting too?</em> The programmers clearly have the Twitter API down, so why not pause for a random number of seconds then tweet something like, &ldquo;&lt;site name&gt; is &lt;adjective to draw people in&gt;&rdquo; and repeat. Even 1000 nearly identical tweets would look more reputable than 0.</p>
+
+<p><em>How many accounts have been banned for the bot masters to fine-tune this process?</em> I suspect that following too many people at once would trigger a bot alarm and get your account banned; perhaps automated tweeting can be detected and squashed too. Given the amount of utter garbage being generated in bite-sized chunks, I don&rsquo;t think they have a filter in place :)</p>
+
+<p><em>Capitalization and punctuation, really?</em> I must admit that I have a better impression of this twitter bot than I did of some previous ones that with descriptions that were hardly English. Again, I imagine this is a data driven decision so I would love to know how many accounts they tried with broken English/poor grammar and punctuation. Did foreigners and young people relate more to the informal style?</p>
+
+<p><em>Who is behind twitter bots?</em> Is this all the work of HBGary and their persona management system under development when they were hacked by Anonymous? Probably not! I suspect the people in charge are not that sophisticated, although their motives are unclear to me.</p>
+
+<p><em>How are the names chosen?</em> I figured the names were random, but then I dug a bit deeper. Interestingly enough, <a title="Klout for lorendisorda70" href="http://klout.com/#/lorendisorda70">@lorendisorda70 is a fairly popular person</a> so the @lorendisorda710 handle may be a ploy to attract typo prone or easily confused users.</p>
+
+<p>Anyone have any thoughts?</p>
 
       
       
@@ -192,22 +196,49 @@ as little as possible.</blockquote>
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/what-id-do-if-i-managed-angry-birds/">What I&#8217;d do if I managed Angry Birds</a></h1>
-      <p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&ndash;even forces&ndash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
+      <h1 class="link"><a href="/best-way-to-determine-a-statistical-model/">Best way to determine a statistical model?</a></h1>
+      <p>I&rsquo;m looking for the best way to determine a statistical model. I have a lot of data that comprises some (not all) variables and the associated outputs. Now, I would like to solve for the weights for the variables.</p>
+
+<p>In the past I used Excel as well as a now defunct super spreadsheet application.  <a title="Weka from the University of Waikato" href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> was recommended, but I&rsquo;m curious what other options exist. Is there a software package that will run different regressions, ultimately provided the best fit model?</p>
+
+<p>Any help will be appreciated!</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/some-fun-stuff-ive-done-recently/">Some fun stuff I&#8217;ve done recently</a></h1>
+      <p>Since graduating I&rsquo;ve had an awesome time building things. I have learned a ton, and I&rsquo;m excited to continue learning! You can find a sample of my recent work at <a href="http://pairstream.com/">PairSTREAM</a>. Note: These are mostly proofs of concept or app in indefinite beta. The site highlights a number of apps:</p>
 
 <ul>
-<li>Take advantage of the robust platform: allow people to create levels&ndash;get people really involved in the game. Personally, I burn through the official levels in hours and then have to wait an unacceptable amount of time for new content. I play the new levels because there&rsquo;s nothing better out, but the moment I have other games then Angry Birds is out of sight and mind. User generated content is awesome! A number of other games flourished and increased their staying power when they allowed users to create new content (for example, StarCraft and Half-Life/Counter-Strike).</li>
-<li>Allow people to create new game elements like birds, pigs, and environmental features. You could add more dynamic pieces like swinging ropes or sand dripping out of a vial.</li>
-<li>Publish global leaderboards with incentives like badges and special skins, additional content.</li>
-<li>Create a YouTube channel for Angry Birds. Did you know there are televised Starcraft games? It&rsquo;s a big deal. Show live footage of pros encountering new levels. Does the top player meticulously size up the level or just run and gun? These videos can help frustrated players get over the hump and defeat some levels.</li>
-<li>Spin up forums and discussions for each level. Beyond text, I would allow (encourage) videos showing different strategies.</li>
-<li>Look at scoring based on speed and precision: extreme Angry Birds.</li>
-<li>Expand into multiplayer capabilities.</li>
-<li>Keep rocking! I&rsquo;ve seen Angry Birds in commercials for pistachios and a phone, plus there are plush toys. Great marketing!</li>
+<li><a title="PairSTREAM - Marry Murder Mate" href="http://pairstream.com/random-game.php">Marry Murder Mate</a> - the party game (also known as Fuck Marry Kill, Screw Marry Kill, &hellip;) applied to your Facebook friends</li>
+<li><a title="PairSTREAM - Facebook Random Messages" href="http://fb-rand-messages.appspot.com/">Facebook Random Messages</a> - digital message in a bottle carried on the ocean of Facebook</li>
+<li><a title="PairSTREAM - Whichado" href="http://whichado.com/YourCity">Whichado</a> - an event recommendation engine to help people enjoy their time more</li>
+<li><a title="PairSTREAM - Social Goals" href="http://social-goals.heroku.com/">Social Goals</a> - a simple to-do list with social ties to help motivate and inspire</li>
+<li><a title="PairSTREAM - Project Speak Easy" href="http://projectspeakeasy.com/">Project Speak Easy</a> - an eLearning site for accent reduction and accent modification</li>
+<li><a title="PairSTREAM - Hide and Tweet" href="http://hide-and-tweet.appspot.com/">Hide and Tweet</a> - anonymous tweeting service for when you need to say something without the high cost of failure the Internet currently brings</li>
 </ul>
 
 
-<p>Would you enjoy any of these features? What would you do if you managed Angry Birds?</p>
+<p>These apps use a variety of technologies including Java, Ruby, Ruby on Rails, Python, Google (App Engine), Facebook (apps and ads), Twitter (apps), Heroku, jQuery, MongoDB, PostgreSQL, MySQL, git, SVN&hellip;</p>
+
+<p>Beyond the above apps, I have played with browser extensions (Chrome and Firefox), blogging (Wordpress, Tumblr, Posterous, Blogger), Amazon (Web Services and Affiliate program), Google (search, AdWords, AdSense, Web Elements), Microsoft (BizSpark), iOS, Fog Creek (for Student and Startups - Kiln, FogBugz), node.js (including Joyent&rsquo;s SmartMachine). I&rsquo;ve read about many more, but haven&rsquo;t had a chance to implement anything yet. I&rsquo;m working to improve my business accumen, marketing abilities, and design skills. So much to do, so little time! But life is good :)</p>
+
+<p>I&rsquo;m working on some other fun stuff now, but I&rsquo;ll save that for another post.</p>
 
       
       
@@ -227,95 +258,24 @@ as little as possible.</blockquote>
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/a-few-programming-notes-to-myself/">A few programming notes to myself</a></h1>
-      <p>In JavaScript, if on a non-boolean input will check existence. In Ruby, the same test will also check for existence with &ldquo;&rdquo; considered true; you receive a warning (warning: string literal in condition). Python performs like JavaScript. In Java, you receive a type error (Type mismatch: cannot convert from String to boolean). I show the output from JavaScript console, irb, python, and Java.</p>
+      <h1 class="link"><a href="/user-scripts-in-chrome/">User scripts in Chrome</a></h1>
+      <p>Back in the day I used <a title="Firefox addon: Greasemonkey" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> and <a title="Firefox addon: Stylish" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a> for Firefox&ndash;even contributing something to <a title="Userscripts dot org" href="http://www.userscripts.org">userscripts.org</a> (a huge repository of GreaseMonkey and Stylish scripts). Chrome is currently my browser of choice, and I thought of how nice it would be to tweak sites using a little homegrown JavaScript. Turns out, Chrome has Greasemonkey&rsquo;s user script capability built-in.</p>
 
-<p>JavaScript</p>
+<p>Any file named &lt;whatever&gt;.user.js will be interpreted as a user script. Simply open the file in Chrome and install it. Now you have a dead simple Chrome extension! As you can see below, there are a couple steps in the install process:</p>
 
-<pre>&gt; if ("false") { console.log("true"); } else { console.log("false"); }
-true</pre>
+<p><img class="size-medium wp-image-1373" title="user script install step 1" src="/images/userscript-install-1.png" alt="user script install step 1" /></p>
 
+<p><img class="size-medium wp-image-1374" title="user script install step 2" src="/images/userscript-install-2.png" alt="user script install step 2" /></p>
 
-<pre>&gt; if ("") { console.log("true"); } else { console.log("false"); }
-false</pre>
+<p><img class="size-medium wp-image-1375" title="user script install step 3" src="/images/userscript-install-3.png" alt="user script install step 3" /></p>
 
+<p><img class="size-medium wp-image-1376" title="user script install step 4" src="/images/userscript-install-4.png" alt="user script install step 4" /></p>
 
-<p>Ruby</p>
+<p>I created an example user script for Chrome that hides the black bar now appearing that the top of Google sites. I chose Google Reader specifically to demonstrate the @include and @exclude options. You can find it here:  <a href="https://github.com/smholloway/miscellaneous/blob/master/javascript/simple.user.js" title="Seth Holloway's GitHub: simple user script"><a href="https://github.com/smholloway/miscellaneous/blob/master/javascript/simple.user.js">https://github.com/smholloway/miscellaneous/blob/master/javascript/simple.user.js</a></a></p>
 
-<pre>puts "false" ? "true" : "false"
-(irb):4: warning: string literal in condition
-true</pre>
+<p>If you prefer a more high tech/user friendly version, check out the <a title="Chrome Extension: Personalized Web" href="https://chrome.google.com/webstore/detail/plcnnpdmhobdfbponjpedobekiogmbco#">Personalized Web extension</a> in Chrome.</p>
 
-
-<pre>&gt; puts "" ? "true" : "false"
-(irb):1: warning: string literal in condition
-true</pre>
-
-
-<p>Python</p>
-
-<pre>&gt;&gt;&gt; if ("false"):
-...     print "true"
-... else:
-...     print "false"
-...
-true</pre>
-
-
-<pre>&gt;&gt;&gt; if (""):
-...     print "true"
-... else:
-...     print "false"
-...
-false</pre>
-
-
-<p>Java</p>
-
-<pre>if ("false") {
-    System.out.println("true");
-} else {
-    System.out.println("false");
-}
-
-Exception in thread "main" java.lang.Error: Unresolved compilation problem:
-Type mismatch: cannot convert from String to boolean</pre>
-
-
-<p>No matter how the language handles it, it&rsquo;s bad coding style because of erratic behavior. Save the next programmer some grief and specify the full expression whose truthiness you are seeking.</p>
-
-<hr />
-
-<p>JavaScript is not multi-threaded; the spec does not specify any threading or synchronization. JavaScript in modern browsers is single-threaded. Handling multiple actions at once is done by firing off functions and waiting for callbacks.</p>
-
-<hr />
-
-<p>In Java, the default equals method will compare the memory location of two objects; the default hashcode implementation will return the memory address.</p>
-
-<hr />
-
-<p>In Java, all data structures in Collections offer a method, size(), to access the data structure&rsquo;s size. Primitive arrays have a property, length (note the difference in name and method vs property). Strings use a method, length(), to make things more confusing!</p>
-
-<pre>List&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
-System.out.println(list.size());
-0</pre>
-
-
-<pre>int array[] = new int[10];
-System.out.println(array.length);
-10</pre>
-
-
-<pre>String string = new String();
-System.out.println(string.length());
-0</pre>
-
-
-<hr />
-
-<p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
-
-<hr />
+<p>HT to <a title="Lucas Wiman" href="http://twitter.com/#!/lucaswiman">Lucas</a> for the Personalized Web link and idea for what to demonstrate.</p>
 
       
       
@@ -335,53 +295,18 @@ System.out.println(string.length());
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in various units</a></h1>
-      <p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
+      <h1 class="link"><a href="/we-need-an-integrated-front-back-web-programming-language/">We need an integrated front-back web programming language</a></h1>
+      <p>Modern web programming requires a lot of knowledge&ndash;too much, I&rsquo;d say. To write a complete web application you need to work with HTML, CSS, JavaScript, a programming language (PHP, Python, Ruby, Java, etc), and a database. Even if you&rsquo;re a head-down back-end programmer, you should know about the structure and style of the front-end; as a front-end designer, you would do well to understand the framework and database.</p>
 
-<pre>L1 cache reference
-          0.5 ns | 0.0005 us  | 0.0000005 ms | 0.0000000005 s
-Branch mispredict
-            5 ns | 0.005 us   | 0.000005 ms  | 0.000000005 s
-L2 cache reference
-            7 ns | 0.007 us   | 0.000007 ms  | 0.000000007 s
-Mutex lock/unlock
-           25 ns | 0.025 us   | 0.000025 ms  | 0.000000025 s
-Main memory reference
-          100 ns | 0.1 us     | 0.0001 ms    | 0.0000001 s
-Compress 1K bytes with Zippy
-        3,000 ns | 3 us       | 0.003 ms     | 0.000003 s
-Send 2K bytes over 1 Gbps network
-       20,000 ns | 30 us      | 0.03 ms      | 0.00003 s
-Read 1 MB sequentially from memory
-      250,000 ns | 250 us     | 0.25 ms      | 0.00025 s
-Round trip within same datacenter
-      500,000 ns | 500 us     | 0.5 ms       | 0.0005 s
-Disk seek
-   10,000,000 ns | 10,000 us  | 10 ms        | 0.01 s
-Read 1 MB sequentially from disk
-   20,000,000 ns | 20,000 us  | 20 ms        | 0.02 s
-Send packet CA-&gt;Netherlands-&gt;CA
-  150,000,000 ns | 150,000 us | 150ms        | 0.15 s</pre>
+<p>There has been a huge explosion of web frameworks radically lowering the barrier to entry for any and all programmers. So, you know C++ and there&rsquo;s a C++ web framework, but you&rsquo;ll still need to know HTML, CSS, and JavaScript on the front-end and a database on the back-end. Node.js is potentially interesting for many reasons, but perhaps the most exciting thing is that you can program the front- and back-end using JavaScript. Better than having to learn JavaScript and a back-end language, but you will still need to know a database, HTML, and CSS.</p>
 
+<p>As I see it, the shortest path would be a high-level programming language with an ORM (object relational mapper) that integrates template builders (something like mokk.me or Dreamweaver). The ORM abstracts out database specifics and allows the programmer to work with a more familiar construct, objects, while providing necessary methods like save, edit and delete. A template builder would visually handle HTML/CSS so that it feels more like design than development. Allowing components to be optimized later (replace or tweak the ORM with better SQL calls) would make the language/framework even better.</p>
 
-<p>If the above table formatting does not work for you, maybe you&rsquo;ll prefer this one:</p>
+<p>An alternative approach is an open source Flash-type language, that benefits from a standard plugin container. Sadly, in over 20 years of the web, the most integrated solution we have is Adobe Flash&ndash;a much maligned (insecure, bloated, slow, proprietary, &hellip;) language. For all its faults, Flash allowed people to create dynamic web pages that rendered uniformly&ndash;as designed&ndash;across browsers. Opening the spec may help as open specs are generally more secure and more optimized than closed versions. If the spec was open, people could write converters from various languages allowing everyone to produce the same output.</p>
 
-<pre>ACTION                                 ns   |   us    |   ms
-L1 cache reference                      0.5 |  0.0005 | 0.0000005
-Branch mispredict                         5 |   0.005 | 0.000005
-L2 cache reference                        7 |   0.007 | 0.000007
-Mutex lock/unlock                        25 |   0.025 | 0.000025
-Main memory reference                   100 |     0.1 | 0.0001
-Compress 1K bytes with Zippy          3,000 |       3 | 0.003
-Send 2K bytes over 1Gbps             20,000 |      30 | 0.03
-Read 1MB  from memory               250,000 |     250 | 0.25
-Roundtrip within same datacenter    500,000 |     500 | 0.5
-Disk seek                        10,000,000 |  10,000 | 10
-Read 1MB sequentially from disk  20,000,000 |  20,000 | 20
-Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
+<p>While we research an integrated web language there&rsquo;s also room for people to research a new application container. The web browser replacement could use the same stack (TCP/IP, HTTP and HTML) or define new protocols.</p>
 
-
-
+<p>Did I miss an option? What do you think will win?</p>
 
       
       
@@ -401,47 +326,111 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/gmail-extensions/">Gmail extensions</a></h1>
-      <p>A friend of mine mentioned that he didn&rsquo;t like Gmail&rsquo;s built-in tasks, which prompted me to share a couple Chrome extensions (they exist for Firefox too) that I have come to enjoy. Here they</p>
+      <h1 class="link"><a href="/highlighting-the-current-page-link-in-a-navigation-bar-template/">Highlighting the current page link in a navigation bar template</a></h1>
+      <p>I have not seen anything about how to properly highlight what page you&rsquo;re currently on when using a templated navigation bar on a dynamic webpage&hellip; I couldn&rsquo;t even google for a solution because I don&rsquo;t know the correct terminology.</p>
+
+<p>There are a number of ways to highlight the link to the page you&rsquo;re currently on. For example, you could pass a parameter and alter the view based on the parameter; or you could include the navigation pane in each content view then apply the highlight with the page. I don&rsquo;t think either of those solutions is very clean, so here&rsquo;s my solution using HTML, CSS, and jQuery (it should work across browsers).</p>
+
+<pre>&lt;!-- index.html --&gt;</pre>
+
+
+<pre>&lt;div id="topnav"&gt;</pre>
+
+
+<pre>   &lt;ul&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="home"&gt;Home&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="about"&gt;About&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="links"&gt;Links&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="services"&gt;Services&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>       &lt;li&gt;&lt;a href="contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</pre>
+
+
+<pre>   &lt;/ul&gt;</pre>
+
+
+<pre>&lt;/div&gt;</pre>
+
+
+<p>The unordered list is styled as a standard navigation menu (A List Apart has a nice article and book about it), and I have it setup to highlight whatever menu item is hovered. To highlight the current page, I set that item to the same background color as the hover effect. A little snippet here:</p>
+
+<pre>/* application.css */</pre>
+
+
+<pre>a:hover, a:focus { background: #454d2f; }</pre>
+
+
+<pre>.highlight { background: #454d2f; }</pre>
+
+
+<p>Now, all that&rsquo;s left is to let jQuery apply the highlight class to the menu item corresponding to the page we&rsquo;re on; an effect I achieve thusly:</p>
+
+<pre>// application.js</pre>
+
+
+<pre>$('#topnav').ready(function() {
+    var page = window.location.href.split("/")[3]; // after the slash at the end of the domain name 
+    if (page == "") { page = "home"; }
+    $(this).find("a[href$="+page+"]").addClass("highlight"); 
+});</pre>
+
+
+<p>You could do this without jQuery, but it is my favorite JavaScript library and I like to use it :)</p>
+
+<p>Does anyone know of a better way?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-few-thoughts-on-ruby/">A few thoughts on Ruby</a></h1>
+      <p>This is not an exhaustive post, just a few thoughts in reaction to reading about and working with <a title="Ruby Lang Dot Org" href="http://www.ruby-lang.org/en/">Ruby</a>.</p>
+
+<p><a title="Wikipedia: Ruby" href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a>, a dynamic OO language, was developed by Yukihiro &ldquo;Matz&rdquo; Matsumoto in the mid &lsquo;90s. He wanted a powerful, unsurprising language. He borrowed from Perl, Smalltalk, and Lisp (even though <a title="Stege Yegge: Lisp is not an acceptable Lisp" href="http://steve-yegge.blogspot.com/2006/04/lisp-is-not-acceptable-lisp.html">Lisp is not an acceptable Lisp</a>) while trying to focus on usability and following the <a title="Wikipedia: POLA" href="http://en.wikipedia.org/wiki/Principle_of_least_astonishment">principle of least astonishment (POLA)</a>.</p>
+
+<p>Ruby saw it&rsquo;s popularity rise with Ruby on Rails (a popular web framework). Ruby is a really neat language: you can be high-level, you can use functional programming techniques, &hellip; all that good stuff. But enough of the history, here are my likes and dislikes in no particular order:</p>
 
 <ul>
-<li><a title="TaskForce to-do list in Gmail" href="https://www.taskforceapp.com/">TaskForce</a> - a task list that&rsquo;s a little better than Google&rsquo;s default</li>
-<li><a title="Rapportive - replace ads with useful information" href="http://rapportive.com/">Rapportive</a> - replaces the right sidebar ads with information about the person you&rsquo;re emailing&ndash;awesome!</li>
-<li><a title="Klout for Rapportive" href="http://kloutlet.com/">Klout raplet</a> - adds the recipient&rsquo;s Klout score at the bottom of the Rapportive sidebar. (Klout is a way of measuring a person&rsquo;s influence on Twitter.)</li>
+<li>It is really easy to change a variable&rsquo;s type. This is a general gripe with dynamic languages. I generally like the duck-typing, but you need to be disciplined with development practices&ndash;just because you can switch from a Fixnum to a String doesn&rsquo;t mean you should!</li>
+<li>The lack of tail call optimization (TCO)! Just kidding. I borrowed this complaint from people smarter than myself.</li>
+<li>I hate seeing &ldquo;TypeError: can&rsquo;t convert Fixnum into String!&#8221; I wish Ruby would cast to string automatically; objects have to_s, but you have to explicitly append to_s when outputting non-strings. Ruby knows you&rsquo;re trying to output something as a string and Ruby has a method to cast to a string, so why not do it for me? The better way to output variables is [&#8220;variable_name = #{variable_name}&rdquo;] but I find [&ldquo;variable_name = &rdquo; + variable_name] more clear.</li>
+<li>I don&rsquo;t like returning the last statement in a function without a return keyword. You can write def sum(a,b) a+b; end and have a function that returns a+b. You can also write def sum(a,b) return a+b; end. I find the latter more clear. The problem gets worse when you have complex equations or ternary/inline if statements. Pros will probably understand this, but I have to think twice about what the method does: def foo(a,b) a&gt;0 ? a+b : a-b; end</li>
+<li>Probably my biggest complaint is lack of explicit information, like parentheses. From the example above, you have parentheses in function definitions, but parentheses are not required for function calls; using our example above, foo a b is equivalent to foo(a, b). When you mix in symbols, default parameters, aliases, and several ways to do the same thing, programs can be very hard to follow. Digging through the Ruby on Rails source has left me scratching my head more than once.</li>
+<li>I appreciate that introspection/reflection is made simple: just call Object.methods and you know the object&rsquo;s capabilities; call Object.class to find out its class.</li>
+<li>I get tripped up by the handling of Nil, True, and False. Every object can be evaluated as a boolean, but things like empty strings, empty arrays and hashes, so you end up with lots of conditionals that check for nil or empty. The Rails helper method blank? is nice, but it does not work as expected with booleans. Also all integer values evaluate to true&ndash;even 0. As an Electrical/Computer Engineer I think computers have 1s and 0s&ndash;not trues and falses&ndash;and a 0 should map to false. A nil object is false, but not all false evaluations are caused by a nil; this can necessitate extra processing to determine why the program branched the way it did.</li>
+<li>I love the range and capability of built-in functions! For example, you can turn any object into a string (Object.to_s). Need to generate permutations, just use <a title="Ruby: Array - Permutation" href="http://www.ruby-doc.org/core/classes/Array.html#M000287">Array.permutations</a>. Dealing with peoples&#8217; names? You can use <a title="Ruby: String - Capitalize" href="http://www.ruby-doc.org/core/classes/String.html#M001157">String.capitalize</a> to capitalize the first letter of each word in the string.</li>
+<li>Sometimes I have to wonder &ldquo;who named the great built-in functions?&rdquo; Can the non-standard names be explained by the language creator being Japanese or are the names just strange for me? For example in <a title="Ruby: Array" href="http://www.ruby-doc.org/core/classes/Array.html">Array</a> there are several similar methods like flatten vs flatten! vs to_a vs to_ary, as well as to_s vs inspect. In <a title="Ruby: String" href="http://www.ruby-doc.org/core/classes/String.html">String</a> there&rsquo;s chomp, chop, strip, squeeze&hellip; which one trims? Sure, I&rsquo;ve learned now but it is not obvious in my opinion.</li>
+<li>The Ruby convention is that &ldquo;dangerous&rdquo; methods are supposed to have an exclamation point, which can get confusing when exclamation points are also the NOT operator. The dangerous methods can act in place or return nil. The return bit breaks consistency because you have to selectively assign variables instead of using a standard pattern. @var = @string.strip! will make @var nil if your @string does not have whitespace (leaving @string unchanged) or it will make @var the stripped string, but @string is also changed. @var is properly assigned if you omit the exclamation point and just use @var = @string.strip.</li>
+<li>Along the lines of the &ldquo;dangerous&rdquo; methods, methods that return a boolean should have a question mark like Object.nil?. Is the following line clear to you? @var.nil? ? @var.strip : @var.strip! A little trivia: the method! and method? is a convention borrowed from Scheme.</li>
+<li>Operator precedence is tricky; for example, &amp;&amp; is equivalent to and, yet they have different precedence. Similar with or vs ||, not vs !</li>
+<li>The community is great, but the divide between Ruby and Rails is sometimes too narrow. I recently tried to find a Ruby solution and the top hits were Rails-specific. This isn&rsquo;t bad if you&rsquo;re doing Rails development, and it may be beneficial if patches make it into the language and the framework. I&rsquo;ll be curious to see how this unfolds.</li>
 </ul>
 
 
-<div>A friend swears by <a title="Remember the Milk tasks and todos" href="http://www.rememberthemilk.com/">Remember the Milk</a>, but I&#8217;m fine with my current to-do style. Are you using any user scripts or extensions to improve your Gmail? I&#8217;d love to hear about it.</div>
-
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/rhyme-your-way-to-better-programs-cache-hash-and-thrash/">Rhyme your way to better programs: cache, hash, and thrash</a></h1>
-      <p>There are myriad ways to optimize a program, but you can go a long way with three rhyming concepts:</p>
-
-<p><a title="Wikipedia: Cache" href="http://en.wikipedia.org/wiki/Cache">cache</a> -  Perform operations once then store them; you trade memory for speed and reduced access to database (for example).</p>
-
-<p><a title="Wikipedia: Hash table" href="http://en.wikipedia.org/wiki/Hash_table">hash</a> -  Hash maps are fast and efficient for a lot of algorithms; for example, a trie (suffix tree) is faster when implemented as a hash map than as a tree (because insertions and lookup are constant time on average with a hash map but log(n) for trees).</p>
-
-<p><a title="Wikipedia: Thrashing" href="http://en.wikipedia.org/wiki/Thrashing_(computer_science)">thrash</a> -  Avoid competing for resources, as in database or hard drive lookups.</p>
-
-<p>I thought cache, hash, and thrash was a neat mnemonic. Do you have another go-to for optimizations? Know any other neat mnemonics?</p>
+<p>That&rsquo;s all I&rsquo;ve got for now! Did I miss something?</p>
 
       
       
@@ -461,264 +450,145 @@ Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/summer-2011-resume-updates/">Summer 2011 Resume Updates</a></h1>
-      <p>I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="http://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, &ldquo;the universe is conspiring to help us.&rdquo; Below I outline what I did and why.</p>
+      <h1 class="link"><a href="/my-latex-resume-template/">My LaTeX resume template</a></h1>
+      <p>Several years ago I started writing my <a href="https://github.com/smholloway/resume/tree/master/latex">resume in LaTeX</a>. It was a great way to learn LaTeX and have fine-grained control over my resume. Overall, I&rsquo;m pleased with it, but I must admit that updating and recompiling the file can be a chore.</p>
+
+<p>I&rsquo;ve had several people ask for my LaTeX resume template, so I figured I would share the wealth. You can find my custom resume file, mostly reduced to a template, in the <a href="https://github.com/smholloway/resume/tree/master/latex">latex folder of my resume repo on GitHub</a>.</p>
+
+<p>To generate your resume, download and edit the .tex file, then compile (I use pdflatex on Mac, Windows, and Linux). Et voila! You have a nice looking PDF resume.</p>
+
+<p><strong>Update</strong> Here&rsquo;s my reply to the question from Yash.</p>
+
+<div>I&#8217;m not sure I understand exactly what you want, but I would start by inserting a new contact section</div>
+
+
+<div></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\contact{Yash}{}{}{}</span></div>
+
+
+<div></div>
+
+
+<div></div>
+
+
+<div>You could also create a new contact command, say a contact header. Compared to the standard contact command you remove the centering and trim it down to whatever number of arguments you want. Here&#8217;s an example for a left-aligned name.</div>
+
+
+<div></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\newcommand{\contactHeader}[1]{</span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;"> \begin{changemargin}{-0.5in}{-0.5in}</span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">    {\Large \scshape {#1}}&#92; \smallskip</span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;"> \end{changemargin}</span></div>
+
+
+<div>}</div>
+
+
+<div></div>
+
+
+<div></div>
+
+
+<div>To control the spacing, consider forcing a newpage, then inserting the header like so</div>
+
+
+<div></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\newpage </span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;"> </span></div>
+
+
+<div><span style="font-family: 'courier new', monospace;">\contactHeader{Yash}).</span></div>
+
+
+<div></div>
+
+
+<p>Beyond that, you&rsquo;re on your own! Tinker a bit and see what you come up with.</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/horray-for-heroku-git-and-rails/">Horray for Heroku, Git, and Rails!</a></h1>
+      <p>Last year I started playing with Heroku, and I&rsquo;ve been very impressed so far. Heroku is a free (for basic service) Ruby on Rails hosting environment running in the cloud (Amazon EC2 in this case). Heroku is super simple to set up and use because you deploy with Git! The Git backing encourages version control and allows you to push bug fixes to your central repository as well as the productive server.</p>
+
+<p>I&rsquo;ve played with other free hosting sites and services, blogs and social media, and cloud platforms like EC2 and Google App Engine&hellip; the Heroku workflow beats all of them. I can&rsquo;t think of an easier way to develop, test, and deploy! It seems that no one else can either: there are a lot of projects and posts about how to emulate this style in your own environment; there are also alternatives for node.js (like <a title="Joyent's node.js hosting environment" href="https://no.de/">Joyent&rsquo;s no.de service</a>), PHP (like <a title="PHP Fog" href="https://phpfog.com/">PHP Fog</a>), and word is that Heroku is working to allow all platforms. I look forward to a future where software development, setup, test, and deployment are easy and integrated in the process!</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-couple-quick-google-search-tricks/">A couple quick Google search tricks</a></h1>
+      <p>I recently stumbled upon these tricks and thought others might find them interesting too; for example, I now know that I&rsquo;m the top hit for people searching for Seth Holloway in France.</p>
+
+<p>To see results from a different location you can either</p>
 
 <ul>
-<li>Name: no PhD&ndash;just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.</li>
-<li>Retooled the summary to combine summary and objective. At first I removed the sections altogether because I thought it was wasted space that can hurt more than it can help. A friend convinced me that this one section grabs the reader&rsquo;s attention and draws them in. Now that you have their attention, do something good with it, like tell them your relevant skills!</li>
-<li>I put the skills section below the new summary and broke skills into &ldquo;technologies&rdquo; and &ldquo;general&rdquo; subsections. A skills section allow busy people to determine my experience without having to read everything below. If the reader is interested in my skills after reading the summary, I&rsquo;m doing well.</li>
-<li>I&rsquo;m a recent grad so education stays up top and comes next. &ldquo;So Seth&rsquo;s summary matches our desired candidate as do his skills; he&rsquo;s educated&hellip; where has he worked?&rdquo; And that leads to work experience.</li>
-<li>I cleaned up bullet points and job experience as the resume constantly evolves!</li>
-<li>One big change in the experience section is the inclusion of &ldquo;intern&rdquo; in titles held during school. College kids are expected to have internship experience, so admitting a job was an internship does not hurt. These positions show that I balanced work and school. I had a hard time deciding on my most recent IBM job because I ended up owning a decent sized project that was important to several teams worldwide&ndash;hardly your standard internship! I felt like a part-timer, but intern is more self-explanatory.</li>
-<li>Everyone said to shorten, so I removed a couple jobs and moved the interesting bits into the skills and clubs sections. The awards and honors section is out.</li>
-<li>I&rsquo;ve left publications because they don&rsquo;t make a difference in length right now (over 2 pages with or without). Those publications show that I&rsquo;m well on my way to my 10,000 hours of writing (Gladwell&rsquo;s assertion that expertise takes 10,000 hours), and I&rsquo;m proud of the quality. I need to work on a blog post or alternate resume that shows the number of hours I&rsquo;ve put into various fields&hellip;</li>
-<li>That&rsquo;s about it. The resume spills onto three pages, and I&rsquo;m okay with that for now. I have something between a CV and a resume! I figure that later sections are just a cookie for anyone dedicated enough to read that far :) One day I&rsquo;ll get down to 1 or 2 pages&hellip;</li>
+<li>go to the Google site you&rsquo;re interested in and append &ldquo;ncr&rdquo; to the URL (e.g., <a href="http://www.google.co.kr/ncr">http://www.google.co.kr/ncr</a> to see Korean search results) or</li>
+<li>use the gl=&lt;two letter location&gt; parameter (e.g., <a href="http://www.google.com/search?q=blah&amp;amp;gl=KR">http://www.google.com/search?q=blah&amp;amp;gl=KR</a>).</li>
 </ul>
 
 
-<div>I hope my thought process makes sense and that people like the <a title="Seth Holloway's awesome resume" href="http://sethholloway.com/resume.html">resume</a>. I really appreciate the help and know that I&#8217;ll find a great job as a result. If you have any other suggestions or see a flaw in my logic, please let me know.</div>
+<p>To avoid personalization - add the <code>pws=0</code> flag</p>
 
+<p>I found a nice example from an <a title="SEOmoz - how can I view google..." href="http://www.seomoz.org/q/how-can-i-view-google-com-serps-from-outside-the-us">SEOmoz article on how to retrieve results for a specific location without actually being in that location</a>:</p>
 
-      
-      
-    </div>
-  </div>
+<blockquote>Use this as a model: http://www.google.com/search?q=your+search+query&amp;pws=0&amp;gl=US (obviously put your search query in where it says your+search+query (separated by plus signs)).
 
+Broken down:
 
+www.google.com - the search engine you want
 
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
+pws=0 - remove any personalization
 
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/summer-2011-resume/">Summer 2011 Resume</a></h1>
-      <p>After a fantastic summer I&rsquo;m starting the job hunt, excited for the stability, sociability, and focus. I&rsquo;d like to stay in Austin and do something cool with software; if you know of any exciting opportunities, <em>please</em> let me know.</p>
+gl=US - return results as if you were in the US
 
-<p>I&rsquo;ve pasted my resume below in hopes of getting constructive criticism. The formatting is ugly here, so please focus on content and ordering (or any other secret mojo that I may have missed). My resume is also available as a standalone document on <a title="Seth Michael Holloway's awesome resume" href="http://sethholloway.com/resume.html">sethholloway.com</a>. Thanks in advance for any feedback! Fire away&hellip;</p>
+</blockquote>
 
-<p>SETH MICHAEL HOLLOWAY
-Austin, TX 78757 - U.S.A.</p>
-
-<h2><a href="http://www.sethholloway.com/">http://www.sethholloway.com/</a></h2>
-
-<p>SUMMARY</p>
-
-<h2>Seven years of professional software development experience plus a PhD in Software Engineering</h2>
-
-<p>OBJECTIVE</p>
-
-<div>
-
-I am an ambitious engineer with a broad skill set and diverse interests. I would like to do cool stuff and pay the bills.
--
-EDUCATION
-
-The University of Texas at Austin, 2007 - 2011
-
-PhD in Electrical and Computer Engineering - Dissertation: &#8220;Simplifying the Development of Intelligent Environments&#8221;
-
-The University of Texas at Austin, 2005 - 2007
-
-MS in Electrical and Computer Engineering - Thesis: &#8220;Developing Collaborative Applications Using Sliverware&#8221;
-
-The University of Texas at Austin, 2001 - 2005
-
-BS in Electrical and Computer Engineering, 3.8 Grade Point Average
-
--
-WORK EXPERIENCE
-Summer 2011 - Fall 2011
-Austin, TX
-Software Developer and Entrepreneur, Self-employed
-* Created web and mobile applications using a range of technologies, frameworks, and platforms including Facebook, iOS, Twitter, Java, HTML/HTML5, CSS/CSS3, JavaScript, jQuery, Ruby on Rails 3, PHP, Python, MySQL, SQLite, PostgreSQL, MongoDB, Node.js, Google App Engine, Heroku, Amazon EC2/AWS, and other Cloud platforms.
-* Improved search engine ranking (SEO) of web properties to increase traffic.
-* Worked with several advertising networks in search of competitive payouts and acceptable ads.
-* Performed customer interviews, market research, product management and project management duties.
-* See PairStream.com and OilfieldIntelligence.com
--
-Fall 2006 - Spring 2011
-Austin, TX
-Software Engineer, IBM (Lotus)
-* Automated the build veri?cation test (BVT) using STAF/STAX, Python, shell, and Rational Functional Tester (RFT) saving over 80 person-hours per week
-* Developed an automated status page using PHP, MySQL, and jQuery allowing the team to quickly understand the software process and quality
-* Refactored PHP graphing tool to increase code maintainability and improve the interface&#8217;s usability
-* Optimized and componentized the Eclipse-style PDE build signi?cantly increasing build&#8217;s speed, consumability, and maintainability
--
-Fall 2005 - Spring 2011
-Austin, TX
-Graduate Research Assistant, Mobile and Pervasive Computing Group
-* Applied cutting-edge web development techniques to create a RESTful Web of Things architectural style that allows novice developers to quickly and easily create mobile and pervasive computing applications.
-* Researched and developed a highly usable smart home using Java ME on embedded hardware and Ruby on Rails for the server.
-* Performed multiple user studies with techniques including surveys, paper prototypes, focus groups, and direct observation
--
-Fall 2005 - Spring 2011
-Austin, TX
-Webmaster and Systems Administrator, Mobile and Pervasive Computing Group
-* Created and maintained the group web page: http://mpc.ece.utexas.edu/
-* Developed a system utilizing Java, XML, and HTML to quickly update the Publications page
-* Setup and maintained laboratory computing infrastructure supporting SVN, htaccess, and MediaWiki on Windows, Linux, and Mac OS X
--
-Fall 2009 - Fall 2010
-
-Teaching Assistant - Project Management, The University of Texas at Austin
-* Instructed and graded assignments for about 100 students over three semesters, ultimately receiving approval ratings of ~3.8/4.0
-* Courses: Management of Projects and Processes, Project Management and Evaluation
--
-Summer 2006 - Summer 2006
-Austin, TX
-Software Engineer, IBM (Extreme Blue)
-* Participated in a four-person business/technical team to create a consultant scheduling system using J2EE and Web 2.0 technologies (AJAX, Struts, Spring, Hibernate, GWT) for the Systems and Technology Group&#8217;s Virtual Loaner Program
-* Performed market research to determine strengths and weaknesses of related products and identify remaining technical problems and approaches
-* Created system architecture, high-level and low-level design, and pro ject timeline for proof of concept
-* Developed GUI and back-end Java components, collaborated on MySQL DB design, and set-up development environments in a timely manner ensuring all pro ject ob jectives were met
-* Presented pro ject to over 250 people including senior IBM executives
-* Provided roadmap including architecture, rationale, and extension points to enable a development team to seamlessly transform proof of concept to a stable tool
--
-Fall 2005 - Spring 2006
-Austin, TX
-Software Engineer, IBM (Tivoli)
-* Developed an open source silent installation application for rapid deployment of STAF on multiple operating systems saving an average of 30 minutes per installation
-* Con?gured IPv6 on Windows, Linux, AIX, HP-UX, and Solaris-SPARC enabling the group to meet DoD requirements and gain new business
-* Installed and managed laboratory hardware and software allowing developers to focus on programming
-* Performed compliance audits ensuring lab assets were properly managed
--
-Spring 2005 - Spring 2005
-Austin, TX
-Campus Liaison, Texas Instruments
-* Coordinated, scheduled, and led presentations and recruiting events to increase Texas Instruments&#8217; visibility and applicant pool on the UT campus
-* Evangelized for Texas Instruments through recruiting presentations and exemplary behavior
-* Assisted Texas Instruments&#8217; employees on campus ensuring their stay went smoothly
-* Provided insight into student-job-seekers&#8217; mentality and reported new ways to reach top talent
--
-Summer 2004 - Fall 2004
-Richardson, TX
-Product Engineer, Texas Instruments
-* Collaborated on extensive web-based program using LAMP stack which automated data analysis methods and common engineering tasks saving valuable time and increasing yield
-* Developed new statistical algorithms to determine quality, positively affecting data analysis
-* Led meetings and organized large social events as President of the Co-op Social Committee
--
-Summer 2003 - Fall 2003
-Stafford, TX
-Process Engineer, Texas Instruments
-* Provided free training in sameness data analysis method improving co-workers&#8217; competencies
-* Qualified furnace processes providing 10% additional diffusion manufacturing capacity
--
-SKILLS
-
-problem solving, morale, programming, usability, research, mobile and pervasive computing, web development, cloud computing, Java, HTML/CSS, JavaScript, jQuery, Ruby, Ruby on Rails, PHP, Eclipse, Windows, Linux, Unix, Mac OS X, SVN, Git, CVS
--
-AWARDS AND HONORS
-
-* Thrust Fellow, The University of Texas at Austin
-* U.S. Patent Filed, &#8220;Method and system to determine user skill using natural language input&#8221;
-* MCD Fellow, The University of Texas at Austin
-* College Scholar, The University of Texas at Austin
-* Runner-up, Moore Elementary Recycling Slogan Contest
--
-CLUBS AND ORGANIZATIONS
-
-* Austin Software Mentorship, Founding Member - Fall 2009
-* Students in Software Engineering, Founding Member, President - Fall 2008
--
-PUBLICATIONS
-
-* Seth Holloway. &#8220;Simplifying the Development of Intelligent Environments,&#8221; PhD dissertation, 2011.
-* Seth Holloway and Christine Julien. &#8220;The Case for End-User Programming of Ubiquitous Computing Environments,&#8221; Proceedings of the FSE/SDP workshop on Future of software engineering research. 2010.
-* Seth Holloway, Drew Stovall and Christine Julien. &#8220;What Users Want From Smart Homes,&#8221; Tech Report, 2010.
-* Seth Holloway, Drew Stovall, Jorge Lara-Garduno, and Christine Julien. &#8220;Opening Pervasive Computing to the Masses Using the SEAP Middleware,&#8221; PerWare. 2009.
-* Drew Stovall, Seth Holloway, Jorge Lara-Garduno, and Christine Julien. &#8220;A Demonstration of Pervasive Device Integration with SEAP-based Middleware,&#8221; Middleware. 2008.
-* Seth Holloway, Drew Stovall, Angela Dalton, and Christine Julien. &#8220;So Many Sensors, So Little Data,&#8221; ICSE SAM. 2008.
-* Seth Holloway and Christine Julien. &#8220;ROCC: A Communication Overlay Abstraction for Wireless Users,&#8221; ICDCS CDS. 2008.
-* Seth Holloway, Alexander Griffith, Angela Dalton, Drew Stovall, and Christine Julien. &#8220;SASSI: the Sliverware Architecture for Sensor Systems,&#8221; SenSys. 2007.
-* Seth Holloway and Christine Julien. &#8220;Developing Collaborative Applications Using Sliverware,&#8221; COOPIS. 2006.
--
-
-</div>
-
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/whats-the-dealio/">What&#8217;s the dealio?</a></h1>
-      <p>There are so many Groupon clones, but they seem to be missing something: choice. Stop feeding me random daily deals and let me pick what I want!</p>
-
-<p>The state of the art seems to be deal aggregator sites that pull from Groupon, LivingSocial, Google Offers, Clickedin, and all the other daily deal sites. That&rsquo;s a start, but what&rsquo;s next? Maybe a deal search engine&hellip;</p>
-
-<p>Where&rsquo;s the marketplace for a consumer to specify what they want and have companies compete? Say I want laser hair removal, a service that has been offered on all the deal sites, but I don&rsquo;t want to wait for the offer to come up. As far as I know, there&rsquo;s no way to get the deal on demand (I&rsquo;m not even sure you can sign up to be notified when such a deal comes into existence).</p>
-
-<p>Companies want customers. Consumers want to buy certain items. Why use these cheap tricks and middlemen?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/advertising-on-linkedin-sucks/">Advertising on LinkedIn (Sucks)</a></h1>
-      <p>As part of creating a business page for <a title="Oilfield Intel: oil and gas service and equipment reviews" href="http://oilfieldintelligence.com">Oilfield Intelligence</a> (a niche review site for oil and gas services and equipment), LinkedIn kindly provided $50 worth of credit for their ads. That was enough to entice me, so I set up the ads. Four pages: create your ads, choose your target audience, select pay for impressions or clicks, and input payment information.</p>
-
-<p>At first I chose to pay per click (CPC), but they were charging close to $5.00 per. Ouch! We do not have metrics for how much a single visitor is worth, but I suspect it is much less than $5.00 each and that&rsquo;s if we had 100% conversion rate. Normal consumer web apps run around 1% conversion rate, so you&rsquo;d need 100 people on your page before one signed up. At $5.00 per person, that&rsquo;s $500 per new account. Yikes! Unfortunately, by the time I had done the math and researched a bit more, my LinkedIn session had expired (really? log me out in a few minutes?).</p>
-
-<p>So, I return to the page and recreate the ads, choose who I want to target, choose PPC, and hit next. It&rsquo;s a payment form, and I owe them $5 for setting up my account! At this point I&rsquo;m feeling like I got the bait-and-switch: $50 &ldquo;free advertising&rdquo; for a $5 sign-up is a good deal, but it felt shady. I&rsquo;m looking to see where I can set the limit on ad spending so I don&rsquo;t have to pay anything out-of-pocket (it&rsquo;s only an experiment, so I don&rsquo;t want to shell out a lot of money before I can at least make a weak approximation at its value); there&rsquo;s nothing you can do to limit your spending, except set the limit per day and the number of days to run. Again, this feels rather shady since the minimum per day is $10 so they&rsquo;ll have me for $10 everyday that I forget to turn the advertising off. Ugh. &ldquo;Fine,&rdquo; I think, &ldquo;I&rsquo;ll go back and cap it at $10 per day for 5 days.&rdquo; The payment form has virtually no navigation. You can go forward (submit your information) or return to LinkedIn, but not back to the previous three pages. I press my back button and see the familiar &lsquo;resubmit form&rsquo; dialog. I click to resubmit and I&rsquo;m routed to the homepage&hellip;</p>
-
-<p>A third time, I begin the ads process because nothing has been saved. I re-create the ads, re-target the ads, then adjust the costs and move on to payment information. Apparently something had been saved! After several minutes of duplicated effort, I find that I have already set-up my account and they just need my payment information. I&rsquo;m not sure why they could not tell me that on the first three pages.</p>
-
-<p>This morning, I log in and check the report:</p>
-
-<div>
-
-<img class="size-medium wp-image-1479" title="OI-LinkedIn-Ad-Metrics" src="/images/OI-LinkedIn-Ads-300x30.png" alt="OI LinkedIn Ad Metrics" width="300" height="30" />
-
-</div>
-
-
-<p>They had served the ad almost 6,000 times! And of those 6,000 impressions, we received two clicks. LinkedIn estimates those clicks to be worth $6.16! Good thing I am only paying for impressions&hellip; I am paying for impressions, right? That screenshot says I&rsquo;ve spent $12.32. Checking the billing, I see this:</p>
-
-<p><img class="size-medium wp-image-1480" title="OI-LinkedIn-Ad-Costs" src="/images/OI-LinkedIn-Ad-Costs-300x28.png" alt="OI LinkedIn Ad Costs" width="300" height="28" /></p>
-
-<p>The image shows that I had spent $2.57, a number that I am baffled by. The other page says I&rsquo;ve spent $12.32 based on two clicks worth $6.16 each. $2.57 is closer to the cost per 1,000 impressions, but I never chose that budget. In one pass through the ad setup I agreed to pay around $3.50 per click (not $6.16); on another I agreed to pay $2.00 per 1,000 impressions (the lowest you can go); and on another pass it was $2.50 per 1,000 impressions. Never $2.57. Weird.</p>
-
-<p>My initial impressions? Advertising on LinkedIn sucks. The site feels like an alpha release (as in not even ready for beta, much less a full product). The UI and information sharing is awful (how much have I actually spent and where did that number come from?). The setup is confusing. The navigation is weak. Perhaps worst of all, the ad placement is &ldquo;unobtrusive&rdquo; to put it nicely; more bluntly, the UI is cluttered and I cannot find the ads I&rsquo;m paying above market rates for. I plan to use up the $50 credit then abandon the platform until substantial upgrades are made.</p>
-
-<p>Compared to Google: Google offered $100 worth of AdWords credit&ndash;twice what LinkedIn is willing to part with. My Google ads are costing $0.39 per click&ndash;over ten times less expensive than LinkedIn! Google&rsquo;s setup and reporting are markedly better.</p>
-
-<p>Compared to Facebook: the <a title="Oilfield Intelligence on Facebook" href="http://www.facebook.com/pages/Oilfield-Intelligence/256146977729169">OI Facebook page</a> seems to be ranked way higher than the <a title="Oilfield Intelligence official page on LinkedIn" href="http://www.linkedin.com/company/oilfield-intelligence">OI LinkedIn page</a>. I interpret that to mean that the Facebook page is a better use of our time than LinkedIn in general. Reading about ads, both LinkedIn and Facebook offer an abysmal 0.1% click-through-rate, so the cost per 1,000 impressions is usually equal to the cost per click.</p>
-
-<p>I&rsquo;ll admit I&rsquo;m new to setting up CPC campaigns, but LinkedIn just seems bad. Am I missing something?</p>
 
       
       
@@ -747,7 +617,7 @@ PUBLICATIONS
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2021 by Seth Holloway
+  Copyright &copy; 1982 - 2021 by Seth Holloway
 </p>
 
 

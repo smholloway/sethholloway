@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Seth Holloway]]></title>
-  <link href="http://www.sethholloway.com//atom.xml" rel="self"/>
-  <link href="http://www.sethholloway.com//"/>
-  <updated>2021-08-14T13:38:41-05:00</updated>
-  <id>http://www.sethholloway.com//</id>
+  <link href="http://sethholloway.com/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2021-08-15T13:59:43-05:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -14,693 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[My favorite reads in 2018]]></title>
-    <link href="http://www.sethholloway.com//favorite-books-read-2018/"/>
-    <updated>2018-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//favorite-books-read-2018</id>
-    <content type="html"><![CDATA[<p>Below are my favorite <a href="https://www.goodreads.com/user_challenges/10936110">reads from 2018</a>. In 2018 my reading focused a lot on improving myself in order to make me a better husband, father, manager, and all-around person.</p>
-
-<p>Over the years I&rsquo;ve read a lot about management, however, a lot of it is very high level. I read and enjoyed <a href="https://www.radicalcandor.com/">Radical Candor</a> by Kim Scott because it provided an opinionated overview of how to manage like when and how to have career conversations. I found a lot of the suggestions helpful as I officially began my management career.</p>
-
-<p>I finished the available <a href="https://en.wikipedia.org/wiki/The_Years_of_Lyndon_Johnson">LBJ biographies by Robert A. Caro</a>, which I highly recommend. Between those and <a href="https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook">The Dictator&rsquo;s Handbook: Why Bad Behavior is Almost Always Good Politics</a> by Bruce Bueno de Mesquita I had a new framework for interpreting today&rsquo;s political landscape.</p>
-
-<p>On the non-fiction front, I read and enjoyed the <a href="http://nnedi.com/books/binti.html">Binti</a> series and the <a href="https://www.goodreads.com/series/192752-bobiverse">Bobiverse</a> series. Both were quick, thought-provoking sci-fi series.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[BJ Fogg's Model for Behavior Change]]></title>
-    <link href="http://www.sethholloway.com//notes-bj-fogg-behavior-change/"/>
-    <updated>2018-01-12T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//notes-bj-fogg-behavior-change</id>
-    <content type="html"><![CDATA[<p>Free-form notes from a presentation by <a href="https://en.wikipedia.org/wiki/B._J._Fogg">BJ Fogg</a> on <a href="http://www.behaviormodel.org/">behavior change</a>.</p>
-
-<p>Behavior happens when you have <em>motivation</em>, <em>ability</em>, and a <em>prompt</em>.</p>
-
-<h3>To stop a behavior:</h3>
-
-<ul>
-<li>reduce motivation</li>
-<li>make it harder</li>
-<li>remove prompt</li>
-</ul>
-
-
-<h3>To encourage a behavior:</h3>
-
-<ul>
-<li>make it easy</li>
-<li>build onto existing routine</li>
-<li>re-wire your brain (find a way to celebrate)</li>
-</ul>
-
-
-<p>This is a simple process but change is not easy. We should approach behavior change with compassion, playfulness, and iteration.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My favorite reads in 2017]]></title>
-    <link href="http://www.sethholloway.com//favorite-books-read-2017/"/>
-    <updated>2017-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//favorite-books-read-2017</id>
-    <content type="html"><![CDATA[<p>Below are my favorite reads from 2017.</p>
-
-<h3>Fiction</h3>
-
-<ul>
-<li><a href="">Reamde</a> by Neal Stephenson - I have enjoyed every Neal Stephenson book I&rsquo;ve read, and this is no exception. I&rsquo;ve played a lot of online games over the years, so this book hooked me by starting off with a computer virus spread in an online game. It develops nicely from there.</li>
-<li><a href="">The Moon is a Harsh Mistress</a> by Robert Heinlein - Truly ahead of its time. This book felt modern with its space travel and artificial intelligence, but it was written in the 1950s!</li>
-<li><a href="">Ancillary Justice</a> by Leckie - This book has won a ton of awards so it is not too surprising that it is good. It has some really interesting ideas with AI and consciousness.</li>
-</ul>
-
-
-<h3>Series</h3>
-
-<ul>
-<li><a href="">Super Powereds</a> by Drew Hayes - College kids with super powers. That&rsquo;s a hell of a mashup. I found the three published books very entertaining. The characters were interesting, the scenarios were realistic, and the magic system was well thought out and balanced (which is not easy to do with super powers).</li>
-</ul>
-
-
-<h3>Non-fiction</h3>
-
-<ul>
-<li><a href="">The Path To Power</a> and <a href="">Means of Ascent</a> by Robert Caro - These are the first two books in a long biography series about LBJ, one of America&rsquo;s most interesting presidents. Ryan Holiday recommended these and I see why. Amazing character and great writing make these books easy to read. It helped me feel better about today&rsquo;s political climate.</li>
-<li><a href="">Ideal Team Player</a> by Lencioni - Lencioni has carved out a niche with his leadership fables&ndash;basically, business books wrapped in a narrative. I&rsquo;ve read most of his books now and they fit together really nicely. I want to be an ideal team player and this book gave me food for thought.</li>
-<li><a href="">Anatomy of Peace</a> by The Arbinger Institute - Another business book wrapped in a narrative. Peace is a great goal, so I was glad to learn more about how we can all overcome conflict and find peace.</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read in 2017]]></title>
-    <link href="http://www.sethholloway.com//books-read-2017/"/>
-    <updated>2017-01-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-2017</id>
-    <content type="html"><![CDATA[<p>Below are the books I read in 2017 categorized as fiction or non-fiction. (The list is also available on <a href="https://www.goodreads.com/user/year_in_books/2017/48474315">Goodreads</a>.)</p>
-
-<p>The thumbs up/down rating is fast and loose&ndash;don&rsquo;t take it too seriously.</p>
-
-<h3>Fiction</h3>
-
-<ul>
-<li><a href="">Reamde</a> by Stephenson - &#128077;</li>
-<li><a href="">The Blood Mirror</a> by Weeks - &#128077;</li>
-<li><a href="">The Moon is a Harsh Mistress</a> by Heinlein - &#128077;</li>
-<li><a href="">Ancillary Justice</a> by Leckie - &#128077;</li>
-<li><a href="">Slaughterhouse-Five</a> by Vonnegut - &#128077;</li>
-<li><a href="">Norse Mythology</a> by Gaiman - &#128077;</li>
-<li><a href="">Age of Myth</a> by Sullivan - &#128077;</li>
-<li><a href="">Arcanum Unbounded</a> by Sanderson - &#128077;</li>
-<li><a href="">Shadows for Silence in the Forests of Hell</a> by Sanderson - &#128077;</li>
-<li><a href="">The Hope of Atlantis</a> by Sanderson - &#128077;</li>
-<li><a href="">The Eleventh Metal</a> by Sanderson - &#128077;</li>
-<li><a href="">Snapshot</a> by Sanderson - &#128077;</li>
-<li><a href="">Oathbringer</a> by Sanderson - &#128077;</li>
-<li><a href="">Alcatraz Versus the Evil Librarians</a> by Sanderson - &#128077;</li>
-<li><a href="">Invisible Man</a> by Ellison - &#128077;</li>
-<li><a href="">Leviathan Wakes</a> by Corey - &#128077;</li>
-<li><a href="">Super Powereds: Year 1</a> by Hayes - &#128077;</li>
-<li><a href="">Super Powereds: Year 2</a> by Hayes - &#128077;</li>
-<li><a href="">Super Powereds: Year 3</a> by Hayes - &#128077;</li>
-<li><a href="">Alice&rsquo;s Adventuers in Wonderland</a> by Carroll - &#128077;</li>
-<li><a href="">The Highwayman</a> by Johnson - &#128078;</li>
-<li><a href="">Good Omens</a> by Pratchett and Gaiman - &#128078;</li>
-<li><a href="">Never Deal with a Dragon</a> by Charrette - &#128078;</li>
-</ul>
-
-
-<h3>Non-fiction</h3>
-
-<ul>
-<li><a href="">The Path To Power</a> by Caro - &#128077;</li>
-<li><a href="">Means of Ascent</a> by Caro - &#128077;</li>
-<li><a href="">On Power</a> by Caro - &#128077;</li>
-<li><a href="">The Story of Human Language</a> by McWhorter - &#128077;</li>
-<li><a href="">Ideal Team Player</a> by Lencioni - &#128077;</li>
-<li><a href="">The Four Obsessions of an Extraordinary Executive</a> by Lencioni - &#128077;</li>
-<li><a href="">Anatomy of Peace</a> by The Arbinger Institute - &#128077;</li>
-<li><a href="">The Swoly Bible</a> by Mazzetti - &#128077;</li>
-<li><a href="">And Then I Thought I Was a Fish</a> by Welch - &#128077;</li>
-<li><a href="">Tao Te Ching</a> by Tzu - &#128077;</li>
-<li><a href="">The Inevitable</a> by Kelly - &#128077;</li>
-<li><a href="">Bad Science</a> by Goldacre - &#128078;</li>
-<li><a href="">Bringing Home the Darma</a> by Kornfield - &#128078;</li>
-<li><a href="">The Book of Mastery</a> by Selig - &#128078;</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My favorite reads in 2016]]></title>
-    <link href="http://www.sethholloway.com//favorite-books-read-2016/"/>
-    <updated>2016-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//favorite-books-read-2016</id>
-    <content type="html"><![CDATA[<p>Below are my favorite reads from 2016.</p>
-
-<h3>Fiction</h3>
-
-<ul>
-<li><a href="http://amzn.to/1RX9aIm">Lord of All Things</a> by Andreas Eschbach - This book had a lot of new-to-me ideas and the sci-fi was integrated nicely into a story I enjoyed. One of the things that stands out is that tradeoffs exist with every choice.</li>
-<li><a href="http://amzn.to/2ixJgRY">Seveneves</a> by Neal Stephenson - Amazing concepts that my mind keeps turning over. I love Neal Stephenson and this is yet another mind-expanding novel from him. This book really hit him as Elon Musk started speaking more publicly about getting off Earth.</li>
-<li><a href="http://amzn.to/2in6xFW">Stories of Your Life and Others</a> by Ted Chiang - I don&rsquo;t tend to read many short stories, but I&rsquo;m glad I read this collection. About half the stories were really good and still have me thinking.</li>
-</ul>
-
-
-<h4>Series</h4>
-
-<ul>
-<li><a href="http://amzn.to/1YefYmk">Red Rising by Pierce Brown</a></li>
-<li><a href="http://amzn.to/1UHiSBW">Riyria Chronicles by Michael J. Sullivan</a></li>
-<li><a href="http://amzn.to/2iWcyur">Lightbringer series by Brent Weeks</a></li>
-</ul>
-
-
-<h3>Non-fiction</h3>
-
-<ul>
-<li><a href="http://amzn.to/294eAPo">Them: Adventures with Extremists</a> by Jon Ronson - A great story in the midst of a very extreme 2016.</li>
-<li><a href="http://amzn.to/2hHFvrV">Surely You&rsquo;re Joking, Mr. Feynman!: Adventures of a Curious Character</a> by Richard Feynman - This is my new standard for an autobiography. Entertaining and interesting throughout, with great insights into this curious character. I particularly liked that he didn&rsquo;t want more money because it would allow him to afford mistress, which he knew would ruin his life.</li>
-<li><a href="http://amzn.to/2iUcmre">Home Game: An Accidental Guide to Fatherhood</a> by Michael Lewis - I would recommend this to any new father. It&rsquo;s short and funny with Michael Lewis plainly saying so many things I had thought. I&rsquo;ve used his question &ldquo;what percentage of the parenting does each parent do?&rdquo; several times now. He says that fathers do much less than mothers but there&rsquo;s a lot of social stigma to admitting that, which made me feel better.</li>
-<li><a href="http://amzn.to/2in8Et5">When Things Fall Apart: Heart Advice for Difficult Times</a> by Pema Chodron - This book dovetailed nicely with my efforts to control my emotions. I read no more than one chapter at a time because it&rsquo;s heavy, introspective stuff. I was thrilled that I read this beeok when I saw Derek Sivers mention Pema Chodron in his <a href="http://nownownow.com/about">about now pages post</a>.</li>
-</ul>
-
-
-<p>That&rsquo;s my not-so-short list of favorites from 2016. I hope 2017 will be filled with as many great stories.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SXSW 2016 in Review]]></title>
-    <link href="http://www.sethholloway.com//sxsw-2016/"/>
-    <updated>2016-03-21T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//sxsw-2016</id>
-    <content type="html"><![CDATA[<p>SXSW 2016 was great! I&rsquo;m enjoying the conference more every year. I think last year&rsquo;s presentations were more thought-provoking, but there were several good talks this year too.</p>
-
-<h2>Friday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP90088">Invisible Influence and Winning at SXSW 2016</a> - Contagious was <a href="http://sethholloway.com/favorite-books-read-2015/">one of my favorite books of 2015</a> so I was excited for his keynote. It was good. He played a clip from his appearance on <a href="http://www.imdb.com/title/tt2078690/">Brain Games</a> where the show manipulated people into waiting in line for nothing. That idea reminds me a lot of <a href="https://www.ted.com/talks/derek_sivers_how_to_start_a_movement">Derek Sivers talk on how to start a movement</a> (which is awesome).</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP93149">President Barack Obama Keynote Conversation</a> - Super cool that Obama was at South by. I really like the POTUS connecting with the people (as opposed to the standard, stuffy keep-the-voters-at-arm&rsquo;s length).</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP91541">Google Self-Driving Car Project</a> - So cool. Last year&rsquo;s Moon Shots presentation by Dr. Astro Teller left me all warm and fuzzy about Google X, and this talk did too. I loved seeing the computer representation next to the camera version. The future is now. (I can&rsquo;t wait for self-driving cars.)</li>
-</ul>
-
-
-<h2>Saturday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP46272">NativeScript: The Future of Mobile App Development</a> - Wanna write a single JavaScript program that can run on iOS, Android, and Windows phone? Then NativeScript is for you! It&rsquo;s a neat idea, and I think the fact that we keep seeing write-once-run-on-any-native-platform projects shows how valuable such a project would be.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP92018">The Future of Media Companies</a> - Hard to believe that a BuzzFeed speech would have a click-bait title, right?!</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP92035">Daring Greatly</a> - To summarize: breathe. I&rsquo;m being flippant. Brene Brown is amazing and her keynote was no exception. One of my favorites.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP91923">Unstoppable Trends that are Changing the World</a> - Max, the co-founder and CTO of PayPal, is staggeringly smart. The presentation was good. The Q&amp;A was great. In the time it took to read a question, Max could come up with a brilliant, self-assured response that was delivered with precision. He invoked the idea of a shrewd, genius VC.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP48870">The Linguistic Secrets Found in Billions of Emoji</a> - I thought I could buy some nerd-cred with my wife with this one. I don&rsquo;t use emoji like most people use emoji :-\</li>
-</ul>
-
-
-<h2>Monday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP51950">Comments Are Terrible: But They Don&rsquo;t Have to Be</a> - My favorite insight was that the architecture of comment sections can change behavior; for example, a three-column comment section containing <code>for</code>, <code>against</code>, and <code>questions</code> increased civility.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP58524">Bad Robot, Epic Digital, and Google Present Moon Shot. The story of the Google Lunar XPRIZE</a> - JJ Abrams introduced a series of shows chronicling a few teams going for the Google Lunar X prize. Great videos! I love how space is cool now.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_OE05413">Silent Room by Simon Heijdens</a> - Anechoic chamber. Whoa. I only got a minute inside but it was a really neat experience.</li>
-</ul>
-
-
-<h2>Tuesday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP52737">The New Battle Over Encryption and How to Survive It</a> - Moxie Marlinspike is amazing. I don&rsquo;t know how someone so humble and idealistic has gained the spotlight, but I&rsquo;m so glad he has. I&rsquo;d rather listen to him than the standard pundit any day.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP57527">Cracking the Code to Your Unlimited Epic Potential</a> - To summarize: breathe.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP90100">Why Happiness Is Hard and How to Make It Easier</a> - To summarize: breathe.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP46758">The Secrets of Machine Learning Revealed</a> - A great summary of machine learning. I really liked how Dr. Domingos distilled the information stating the five schools of ML and their goals.</li>
-<li><a href="http://schedule.sxsw.com/2016/events/event_PP57474">Closing Remarks: Bruce Sterling</a> - A SXSW tradition. This year&rsquo;s message seemed to be, &ldquo;by this time next year, Trump will be president, but the U.S. will survive.&rdquo; Bruce is an engaging, entertaining speaker full of energy and ideas.</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android vs iOS]]></title>
-    <link href="http://www.sethholloway.com//thoughts-on-android-and-ios/"/>
-    <updated>2016-02-23T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//thoughts-on-android-and-ios</id>
-    <content type="html"><![CDATA[<p>As I work on Android and iOS I&rsquo;m refining my opinions. Below are my current thoughts about the two ecosystems and underlying languages.</p>
-
-<h2>Objective C vs Java</h2>
-
-<p>Note: I haven&rsquo;t used Swift enough to fairly compare Swift to Objective C. The presence of Swift calls into question the future of Objective C; however, I think Swift eliminates a lot of my gripes with Objective C.</p>
-
-<h3>Objective C wins</h3>
-
-<ul>
-<li>Apple docs are generally more pleasant than JavaDocs.</li>
-<li>You can pass messages to <code>nil</code> without a <code>NullPointerException</code>.</li>
-<li><code>nil</code> is <code>false</code>, which fits how I generally think about problems and saves some typing (<code>if (foo)</code> is not as explicit but explicit null checks are noisy and easily forgotten).</li>
-<li>Method names can be more expressive: <code>stringWithCString:inputString encoding:inputEncoding</code> is more clear to me than <code>String(String inputString, String encoding)</code>, which, in practice, is often more like <code>String(String s, String e)</code>. As the signature expands the problem becomes more pronounced. Objective C essentially forces named arguments.</li>
-<li>Drama surrounding Java&rsquo;s future under Oracle; for example, Android Dalvik is definitely not Java <a href="https://en.wikipedia.org/wiki/Dalvik_(software)#Licensing_and_patents"><a href="https://en.wikipedia.org/wiki/Dalvik_">https://en.wikipedia.org/wiki/Dalvik_</a>(software)#Licensing_and_patents</a></li>
-</ul>
-
-
-<h3>Java wins</h3>
-
-<ul>
-<li>In wide use outside mobile development, so Java is well known and understood</li>
-<li>Simpler memory management, which decreases the amount of syntax and leads to fewer bugs. This combined with the fact that Java is more widely used means that people can more easily ramp up on Android.</li>
-</ul>
-
-
-<h2>iOS vs Android</h2>
-
-<h3>Android wins</h3>
-
-<ul>
-<li>Easy and inexpensive (a one-time $25 fee) to create and publish apps.</li>
-<li>Registering to open URLs. In Android an app can register to open specific links, like <code>https://youtube.com</code> or <code>seth://foo</code>. This improves the user experience by operating on the link in the best app: if you have the YouTube app, open the video in the app, otherwise fall back to the default browser. iOS achieves a similar effect but cannot register for <code>https://</code> schemes. In practice it works well enough, but custom schemes aren’t as ubiquitous as HTTP(S).</li>
-<li>Strings and localization. Android forces you to use a message catalog, which has several advantages: (1) it’s better for reuse; (2) it makes it easier to refactor; (3) it centralizes text so docs and translators can engage more easily; (4) the toolchain is more stable&ndash;Xcode crashes a lot when working with localization and it doesn’t update text changes made through interface builder</li>
-</ul>
-
-
-<h3>iOS wins</h3>
-
-<ul>
-<li>One true way to do most things. iOS is pretty strict, but it&rsquo;s easier to find the proper way to do things and leads to greater consistency.</li>
-<li>More stable platform.</li>
-<li>Higher quality apps and community, on average. While Apple&rsquo;s approval process is a pain and their developer program fees are steep (compared to Android&rsquo;s $0 cost), this probably leads to higher quality.</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Notes from Medical School for Everyone]]></title>
-    <link href="http://www.sethholloway.com//notes-from-grand-rounds/"/>
-    <updated>2016-01-05T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//notes-from-grand-rounds</id>
-    <content type="html"><![CDATA[<p><a href="http://www.thegreatcourses.com/courses/medical-school-for-everyone-grand-rounds-cases.html">Medical School for Everyone: Grand Rounds Cases (Great Courses) by Roy
-Benaroch, M.D.</a></p>
-
-<ul>
-<li><p>Diseases like Down&rsquo;s syndrome and Ménière&rsquo;s disease are shifting to
-drop the possessive noun, so you might hear Down syndrome, Ménière disease,
-Alzheimer disease, etc.</p></li>
-<li><p>Doctors listen to symptoms then make a &ldquo;differential diagnosis&rdquo;, which
-is essentially a working theory. They then test the theory to confirm
-the diagnosis. (A &ldquo;differential diagnosis&rdquo; differentiates one particular
-disease from other diseases that present similar symptoms; e.g., &ldquo;it
-could be brain cancer or a stroke&ndash;differential diagnosis is stroke.&rdquo;)</p></li>
-<li><p>Doctors should start with the most specific symptoms. For example,
-&ldquo;stomach ache&rdquo; could be caused by hundreds of conditions while &ldquo;a large
-lump in my abdomen&rdquo; has fewer causes.</p></li>
-<li><p>Modern CPR recommendations are to lay the patient flat and begin
-aggressive chest compressions&ndash;no rescue breaths&ndash;while getting others
-to call 911 and seek an automated external defibrillator (AED). AEDs are
-becoming more common. They instruct laypeople how to proceed and
-administer shocks as needed.</p></li>
-<li><p>Unexplained weight loss means your body is not absorbing nutrients
-properly or is burning calories in an unexplained way. Diabetes and
-cancer are common causes.</p></li>
-<li><p>Don&rsquo;t assume that your doctors are communicating. Make sure that records
-are shared between them and that they know about one another.</p></li>
-<li><p>In emergency situations doctors use their A, B, Cs: Airway, Breathing,
-Circulation, Disability, Exposure. These are handled in sequence. The
-technique is meant to make a complex problem more tractable. If a
-patient has a blocked airway, they first intubate (or whatever is
-appropriate); if airway is clear they ensure the patient is breathing,
-then that the patient&rsquo;s heart is working and the patient is not losing
-blood. Disability assesses the patient&rsquo;s general competency, usually
-using the AVPU method, where the patient is graded as alert (A), voice
-responsive (V), pain responsive (P), or unresponsive (U). This is an
-alternative to the <a href="https://en.wikipedia.org/wiki/Glasgow_Coma_Scale">Glasgow Coma
-Scale</a>, which uses six
-levels of eye, verbal, and motor (EVM) responses. Exposure is about a
-more general physical exam, looking for signs of trauma.</p></li>
-<li><p>They think King Tut died of sickle-cell disease (a.k.a. sickle-cell
-anemia). Sickle-cell carriers are resistant to malaria, so it&rsquo;s a great
-trait to have in places where malaria is a leading cause of death;
-however, sickle-cell is more likely to kill so the benefits are lost if
-a child inherits. (Sickle-cell is inherited in an autosomal recessive
-pattern where two carrier parents have a &frac14; chance for the child to be
-unaffected, 2/4 chance for the child to be a carrier, and &frac14; chance for
-the child to have sickle-cell.)</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read in 2016]]></title>
-    <link href="http://www.sethholloway.com//books-read-2016/"/>
-    <updated>2016-01-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-2016</id>
-    <content type="html"><![CDATA[<p>Below are the books I read in 2016 categorized as fiction or non-fiction. (The list is also available on <a href="https://www.goodreads.com/user/year_in_books/2016/48474315">Goodreads</a>.)</p>
-
-<p>I&rsquo;ve gone with a thumbs up/down rating to force myself to have an opinion because I&rsquo;m generally positive about any book I read and that&rsquo;s boring.</p>
-
-<h3>Fiction</h3>
-
-<ul>
-<li><a href="http://amzn.to/1SzeEGx">Candide</a> by Voltaire - &#128078;</li>
-<li><a href="http://amzn.to/1Sa95Od">Infinity Blade: Awakening</a> by Brandon Sanderson - &#128077;</li>
-<li><a href="http://amzn.to/1UHiZNU">Firefight (The Reckoners, book 2)</a> by Brandon Sanderson - &#128077;</li>
-<li><a href="http://amzn.to/1TzQb8P">Calamity (The Reckoners, book 3)</a> by Brandon Sanderson - &#128077;</li>
-<li><a href="http://amzn.to/1TrsifW">Shadows for Silence in the Forests of Hell</a> by Brandon Sanderson - &#128077;</li>
-<li><a href="http://amzn.to/1ORq1y6">Sixth of the Dusk</a> by Brandon Sanderson - &#128078;</li>
-<li><a href="http://amzn.to/1TzQeRQ">Perfect State</a> by Brandon Sanderson -</li>
-<li><a href="http://amzn.to/1Yeg51d">Warbreaker</a> by Brandon Sanderson - &#128078;</li>
-<li><a href="http://amzn.to/2iTmrVs">Legion</a> by Brandon Sanderson - &#128077;</li>
-<li><a href="http://amzn.to/1UHiSBW">The Crown Tower (The Riyria Chronicles, book 1)</a> by Michael J. Sullivan - &#128077;</li>
-<li><a href="http://amzn.to/1Yegi4w">The Rose and the Thorn (The Riyria Chronicles, book 2)</a> by Michael J. Sullivan - &#128077;</li>
-<li><a href="http://amzn.to/1SzeoaJ">The Death of Dulgath (The Riyria Chronicles, book 3)</a> by Michael J. Sullivan - &#128077;</li>
-<li><a href="http://amzn.to/1MchPHv">Theft of Swords (The Riyria Revelations, book 1)</a> by Michael J. Sullivan - &#128077;</li>
-<li><a href="http://amzn.to/1Sa8MDd">Rise of Empire (The Riyria Revelations, book 2)</a> by Michael J. Sullivan - &#128077;</li>
-<li><a href="http://amzn.to/1Szej6G">Heir of Novron (The Riyria Revelations, book 3)</a> by Michael J. Sullivan - &#128077;</li>
-<li><a href="http://amzn.to/22b3BIP">Library at Mount Char</a> by Scott Hawkins - &#128078;</li>
-<li><a href="http://amzn.to/1Sze2ka">The Naked Sun</a> by Isaac Asimov - &#128077;</li>
-<li><a href="http://amzn.to/1RX9aIm">Lord of All Things</a> by Andreas Eschbach - &#128077;</li>
-<li><a href="http://amzn.to/1YefYmk">Red Rising</a> by Pierce Brown - &#128077;</li>
-<li><a href="http://amzn.to/1MchjJL">Golden Son</a> by Pierce Brown - &#128077;</li>
-<li><a href="http://amzn.to/1MchjJL">Morning Star</a> by Pierce Brown - &#128077;</li>
-<li><a href="http://amzn.to/1TcbVD1">The Graveyard Book</a> by Neil Gaiman - &#128078;</li>
-<li><a href="http://amzn.to/1rq5TbV">The Wizard of Earthsea</a> by Ursula K. Le Guin - &#128077;</li>
-<li><a href="http://amzn.to/1qBNHuS">The Fifth Season</a> by N. K. Jemisin - &#128078;</li>
-<li><a href="http://amzn.to/2979vHq">Three Body Problem</a> by Cixin Liu - &#128077;</li>
-<li><a href="http://amzn.to/29a9JhV">The Very First Damned Thing</a> by Jodi Taylor - &#128078;</li>
-<li><a href="http://amzn.to/29cor9x">Imajica</a> by Clive Barker - &#128078;</li>
-<li><a href="http://amzn.to/23R4Rlh">Son of the Black Sword</a> by Larry Correia - &#128077;</li>
-<li><a href="http://amzn.to/29veZML">The Adventures of Tom Stranger, Interdimensional Insurance Agent</a> by Larry Correia - &#128077;</li>
-<li><a href="http://amzn.to/2iwQ02B">Night Circus</a> by Erin Morgenstern - &#128078;</li>
-<li><a href="http://amzn.to/2hHHSuS">The Children of Hurin</a> by J. R. R. Tolkien - &#128078;</li>
-<li><a href="http://amzn.to/2in1Z2b">The Alchemist</a> by Paolo Coelho - &#128078;</li>
-<li><a href="http://amzn.to/2hHQDqu">The Dark Tower I: The Gunslinger</a> by Stephen King - &#128077;</li>
-<li><a href="http://amzn.to/2in6xFW">Stories of Your Life and Others</a> by Ted Chiang - &#128077;</li>
-<li><a href="http://amzn.to/2hHGl8a">The Cinder Spires: The Aeronaut&rsquo;s Windlass</a> by Jim Butcher - &#128077;</li>
-<li><a href="http://amzn.to/2iWcyur">The Black Prism (Lightbringer Book 1)</a> by Brent Weeks - &#128077;</li>
-<li><a href="http://amzn.to/2hHGMRr">The Blinding Knife (Lightbringer Book 2)</a> by Brent Weeks - &#128077;</li>
-<li><a href="http://amzn.to/2isVlFw">The Broken Eye (Lightbringer Book 3)</a> by Brent Weeks - &#128077;</li>
-<li><a href="http://amzn.to/2inhV4G">Six of Crows</a> by Leigh Bardugo - &#128077;</li>
-<li><a href="http://amzn.to/2in8X7e">Oberon&rsquo;s Meaty Mysteries: The Purloined Poodle</a> by Kevin Hearne - &#128077;</li>
-<li><a href="http://amzn.to/2ixJgRY">Seveneves</a> by Neal Stephenson - &#128077;</li>
-</ul>
-
-
-<h3>Non-fiction</h3>
-
-<ul>
-<li><a href="http://amzn.to/22b3rBi">If You&rsquo;re Not First You&rsquo;re Last</a> by Grant Cardone - &#128078;</li>
-<li><a href="http://amzn.to/1TCpyOV">The 21 Irrefutable Laws of Leadership</a> by John C. Maxwell - &#128077;</li>
-<li><a href="http://amzn.to/29jLAWP">Mindset: The New Psychology of Success</a> by Carol Dweck - &#128077;</li>
-<li><a href="http://amzn.to/294eAPo">Them: Adventures with Extremists</a> by Jon Ronson - &#128077;</li>
-<li><a href="http://amzn.to/2hH1HTa">Love Yourself Like Your Life Depends on It</a> by Kamal Ravikant - &#128078;</li>
-<li><a href="http://amzn.to/2iEich0">The 48 Laws of Power</a> by Robert Green - &#128078;</li>
-<li><a href="http://amzn.to/2iTn55d">The Preemie Primer</a> by Jennifer Gunter - &#128077;</li>
-<li><a href="http://amzn.to/2iW7Ooi">You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life</a> by Jen Sincero - &#128077;</li>
-<li><a href="http://amzn.to/2hHUm7B">Joy on Demand: The Art of Discovering the Happiness Within</a> by Chade-Meng Tan - &#128078;</li>
-<li><a href="http://amzn.to/2hHFvrV">Surely You&rsquo;re Joking, Mr. Feynman!: Adventures of a Curious Character</a> by Richard Feynman - &#128077;</li>
-<li><a href="http://amzn.to/2hHIhgX">MONEY Master the Game</a> by Anthony Robbins - &#128077;</li>
-<li><a href="http://amzn.to/2in7des">Bull&rsquo;s Eye: The Power of Focus</a> by Brian Tracy - &#128078;</li>
-<li><a href="http://amzn.to/2iUcmre">Home Game: An Accidental Guide to Fatherhood</a> by Michael Lewis - &#128077;</li>
-<li><a href="http://amzn.to/2in8Et5">When Things Fall Apart: Heart Advice for Difficult Times</a> by Pema Chodron - &#128077;</li>
-</ul>
-
-
-<p>Want to squeeze in a few more books per year? I read a fair amount of physical and ebooks, but I rely on audiobooks to double my monthly reading. I use and love <a href="http://www.amazon.com/Audible-Free-Trial-Digital-Membership/dp/B00NB86OYE/?ref_=assoc_tag_ph_1422899139880&amp;_encoding=UTF8&amp;camp=1789&amp;creative=9325&amp;linkCode=pf4&amp;tag=theven01-20&amp;linkId=DYWVSK5ZUM3CXNRC">Audible</a>. Email me if you want me to send you a book from my list.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My favorite reads in 2015]]></title>
-    <link href="http://www.sethholloway.com//favorite-books-read-2015/"/>
-    <updated>2015-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//favorite-books-read-2015</id>
-    <content type="html"><![CDATA[<p>Different books give me different things, so it&rsquo;s hard to rank them. But here are a few books that stand out from this year&rsquo;s reading list.</p>
-
-<ul>
-<li><p>The Stormlight Archive books 1 and 2 by Brandon Sanderson: <a href="http://www.amazon.com/Way-Kings-Stormlight-Archive-Book-ebook/dp/B003P2WO5E/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450818313&amp;sr=1-1&amp;tag=theven01-20">The Way of Kings</a> and <a href="http://www.amazon.com/Words-Radiance-Stormlight-Archive-Book-ebook/dp/B00DA6YEKS/ref=sr_1_2?s=digital-text&amp;ie=UTF8&amp;qid=1450818313&amp;sr=1-2&amp;tag=theven01-20">Words of Radiance</a>. I read seven Brandon Sanderson books in 2015, so it&rsquo;s fair to say I enjoy his writing. This is set to be a 10-book epic fantasy series in the vein of <em>The Wheel of Time</em>, which Sanderson finished with aplomb. I hate having to wait so long to reach the conclusion, but I&rsquo;m prepared to do so because the first two were so good.</p></li>
-<li><p><a href="http://www.amazon.com/Trust-Me-Lying-Confessions-Manipulator-ebook/dp/B0074VTHH0/?tag=theven01-20">Trust Me, I&rsquo;m Lying by Ryan Holiday</a>. The media is bullshit&ndash;read this book if you don&rsquo;t believe me. Ryan Holiday talks candidly about the tricks he and so many others use to generate traffic.</p></li>
-<li><p><a href="http://www.amazon.com/So-Youve-Been-Publicly-Shamed-ebook/dp/B00L9B7IRC/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450818288&amp;sr=1-1&amp;tag=theven01-20">So You&rsquo;ve Been Publicly Shamed by Jon Ronson</a>. Between this and <em>Trust Me, I&rsquo;m Lying</em> I was really sad about the state of media and the rise of outrage porn. Real lives are ruined and only the media wins.</p></li>
-<li><p><a href="http://www.amazon.com/Art-Asking-Learned-Worrying-People-ebook/dp/B00IRISKD6/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450818262&amp;sr=1-1&amp;tag=theven01-20">The Art of Asking by Amanda Palmer</a>. Another book with ties to shame and acceptance. Amanda Palmer has a confessional style that is really disarming. People have been really mean to her, so her message of love and empathy is that much more amazing.</p></li>
-<li><p><a href="http://www.amazon.com/Radical-Acceptance-Tara-Brach-ebook/dp/B000FC2NHG/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450818241&amp;sr=1-1&amp;tag=theven01-20">Radical Acceptance by Tara Brach</a>. A breath of fresh air among the negativity in some of my other notable reads from the year. Reading this book made me feel better about myself.</p></li>
-<li><p><a href="http://www.amazon.com/Contagious-Things-Catch-Jonah-Berger-ebook/dp/B008J4GQKW/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450817798&amp;tag=theven01-20">Contagious by Jonah Berger</a>. Contagious sheds light on why some things are shared and others aren&rsquo;t, which was particularly interesting in the context of shame and media manipulation.</p></li>
-<li><p><a href="http://www.amazon.com/Things-Shout-Out-Loud-Parties-ebook/dp/B00L2FG1SM/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450817769&amp;sr=1-1&amp;tag=theven01-20">Things to shout out loud at parties. by Markus Almond</a>. I love the style of this book. It&rsquo;s a collection of no-more-than-one-page stories and thoughts so it&rsquo;s very approachable. I think everyone should aim to write a similar book.</p></li>
-<li><p><a href="http://www.amazon.com/Jesus-Son-Stories-Denis-Johnson-ebook/dp/B006JR7XLC/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450817738&amp;tag=theven01-20">Jesus&#8217; Son by Denis Johnson</a>. Another book with a unique style. This one is a collection of stories about a junkie stumbling through life where the writing is as stark and jumpy as you&rsquo;d expect from a junkie.</p></li>
-<li><p><a href="http://www.amazon.com/Becoming-Technical-Leader-Gerald-Weinberg-ebook/dp/B004J4VV3I/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1450817692&amp;sr=1-1&amp;tag=theven01-20">Becoming a Technical Leader by Gerald Weinberg</a>. This book is unlike any other &lsquo;how to be a leader&rsquo; book that I&rsquo;ve read. It&rsquo;s full of great ideas like, &lsquo;maybe poor personal hygiene is about poor self-confidence so be mindful when offering advice&rsquo; and Satir&rsquo;s interaction model. I highly recommend it for anyone who is becoming a technical leader.</p></li>
-<li><p><a href="http://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=1450816934&amp;sr=1-1&amp;tag=theven01-20">The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford</a>. A modern version of <em>The Goal</em>, which helped reinforce past learnings about project management and software deployments.</p></li>
-</ul>
-
-
-<p>I hope 2015 treated you well! I look forward to a similarly stimulating 2016.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Daily Checklist for Success]]></title>
-    <link href="http://www.sethholloway.com//daily-rituals-for-success/"/>
-    <updated>2015-12-20T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//daily-rituals-for-success</id>
-    <content type="html"><![CDATA[<p>Personal rituals are fascinating to me. I&rsquo;ve encountered them repeatedly in books, blogs, podcasts, and conversations. They&rsquo;re generally boiled down to 1-60 minute morning rituals, but I chafe at the idea of an immutable hour-long routine because I have at least four different types of days (calm weekday, rushed weekday, calm weekend, and rushed weekend). It&rsquo;s easier for me to think of the idealized morning routine as a daily checklist that I can achieve in whatever order during any waking period.</p>
-
-<p>This year I&rsquo;ve focused a lot on my own health and happiness, paying special attention to what drains me of <a href="https://www.youtube.com/watch?v=7LnBvuzjpr4">my energy</a>. Through reading and experimenting I&rsquo;ve come up with my own checklist. These are the things that I shoot for every day (in no particular order):</p>
-
-<ul>
-<li>smile for one minute - Smiling feels good, and there&rsquo;s always something worth smiling about. But I rarely smile. I&rsquo;m generally happy, but I tend to suppress the physical representation of my emotions so I don&rsquo;t smile nearly as much as I&rsquo;d like to. I&rsquo;m working on making my outside match my inside more often.</li>
-<li>journal 3+ things I&rsquo;m grateful for - I try to smile while thinking of things I&rsquo;m grateful for. It would be easy enough to say, &ldquo;my wife&rdquo;, &ldquo;my health&rdquo;, and &ldquo;my job&rdquo;, but I try to get more specific. Practicing gratitude has been very helpful for me.</li>
-<li>journal anything I&rsquo;m proud of myself for - I struggle with self-confidence and self-compassion, so this running log of goodness helps me feel better.</li>
-<li>breathe from the diagram, trying to take only 4-6 breaths in one minute - It&rsquo;s amazing how calm I feel after slowing my breathing&ndash;it&rsquo;s like telling your body, &ldquo;relax&rdquo; and having your body listen.</li>
-<li>sleep 7.5+ hours - Sleep is generally the first thing to go when I get busy; however, I&rsquo;m finding that sleep really sets the stage for the day, so I&rsquo;m trying to sleep more.</li>
-<li>stand 2+ hours - On my laziest day I could stand for less than five minutes, which is bad for my mood and my metabolism. I installed a flip-up table so I can work standing up. I&rsquo;m trying to stand once an hour (drinking a lot of water helps motivate me). I&rsquo;ve also been doing a lot of housework recently, so I&rsquo;m standing more.</li>
-<li>walk at least 3,000 steps - You know that laziest day where I hardly stand? I definitely don&rsquo;t walk much those days. For reference 3,000 steps is roughly 1.5 miles and 30 minutes moving around. Since I made 3,000 steps a goal I&rsquo;ve been able to do it almost every day.</li>
-<li>exercise until sweating - Typical exercise guidelines recommend around five hours of exercise per week, but most Americans are barely getting two hours, so I try to be realistic. I think &ldquo;until sweating&rdquo; is a better goal than any specific time. Get the blood moving and enjoy.</li>
-<li>have sex - I never see this in people&rsquo;s daily routines, but I think it&rsquo;s very important so I had to include it. That said, this is probably my most skipped routine.</li>
-<li>get some physical contact with loved ones (including pets) - Positive physical contact releases oxytocin, which makes us feel connected and warm. Blood pressure drops and we feel a sense of well-being. Pretty powerful stuff. I&rsquo;ve read various studies saying it takes from one second to two minutes, so I shoot for one good purposeful spouse-hug and a minute of cuddling with the pets.</li>
-<li>take a probiotic - Get your shit straight. For real.</li>
-<li>eat some fiber - See above.</li>
-<li>fill in vitamins and minerals you have missed or will miss from your food and drink - I generally eat well for 3/5 feedings (traditional meals plus snacks), but I still miss a lot of nutrients. Vitamin D, which is usually provided by exposure to the sun, is chronically low among programmers. If I can&rsquo;t go for a little walk in the sun then I take my vitamin D.</li>
-<li>drink 64+ oz of water - Studies refute the biological need for 8 cups of water, but I&rsquo;ve found that it&rsquo;s fairly easy and it makes me feel better.</li>
-<li>brush your teeth twice - Your mother will be proud.</li>
-<li>make your bed - For me, this helps set the stage for a productive day. I don&rsquo;t do anything fancy&ndash;just straighten the sheets and comforter and pull them up over my pillows.</li>
-<li>stretch - My flexibility sucks. I think some of my body aches come from poor flexibility, so I&rsquo;m working to improve my general mobility.</li>
-<li>communicate with someone important to me (preferably someone that I don&rsquo;t work or live with) - Relationships mean a lot to me, yet I&rsquo;m historically bad at keeping in touch. While far from perfect now, by focusing on it every day I&rsquo;ve been able to keep up with more loved ones.</li>
-<li>meditate - I try to meditate every day, but &ldquo;meditation&rdquo; is a really open-ended idea. I&rsquo;ve found success in short mindfulness breaks. Focusing on breathing from my diaphragm, clearing my mind with intense exercise, and recognizing the blessings around me all achieve a similar effect for me.</li>
-</ul>
-
-
-<p>If you&rsquo;re on the fence about any item, run the experiment and see how you feel after trying it.</p>
-
-<p>So, what&rsquo;s your daily checklist? What works for you? What percentage of your tasks do you normally complete?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[DEFCON 2015 in Review]]></title>
-    <link href="http://www.sethholloway.com//defcon-2015/"/>
-    <updated>2015-08-10T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//defcon-2015</id>
-    <content type="html"><![CDATA[<p>DEFCON 23 was my favorite DEFCON experience so far. There were a lot of great talks and fun after-hours events. Below is
-a list of talks that I attended, for posterity&rsquo;s sake.</p>
-
-<h2>Thursday</h2>
-
-<ul>
-<li><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Reed">Hardware and Trust Security: Explain it like I’m 5 - Teddy Reed and Nick
-Anderson</a></li>
-</ul>
-
-
-<h2>Friday</h2>
-
-<ul>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Szakaly">Shall We Play a Game? - Tamas Szakaly</a></p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Drake">Stagefright: Scary Code in the Heart of Android - Joshua J.
-Drake</a>. This talk explained the Android exploits that
-arise because Android pre-processes incoming messages. For example, texting a malicious image leads Android to retrieve
-and load the payload before the user even sees a notification. This should make the user interface feel faster, but it
-comes at a price.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Schneier">Bruce Schneier Q&amp;A - Bruce Schneier</a>. I &lt;3 Bruce.
-He&rsquo;s just so clear and intelligent. I hope we make him head of cyber security for the U.S.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Kamkar">Drive It Like You Hacked It: New Attacks and Tools to Wirelessly Steal Cars - Samy
-Kamkar</a>. Samy is one of my favorite security
-researchers&ndash;I highly recommend his talks. This talk was funny and informative.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Rogers">How to Hack a Tesla Model S - Marc Rogers and Kevin
-Mahaffey</a>. Tesla did an amazing job of securing their
-vehicle&ndash;especially considering how connected it is.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#AmmonRa">How to hack your way out of home detention -
-AmmonRa</a>. Neat idea. Fake the messages from your
-ankle bracelet while you cloak your existing one with a Faraday cage. You could get someone else in trouble by making
-them appear outside their confinement zone too.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#L%C3%B8ge">Tell me who you are and I will tell you your lock pattern - Marte
-Løge</a>. Turns out, people are predictable. And lock codes
-maybe aren&rsquo;t all that secure.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Rock">I Will Kill You - Chris Rock</a>. <em>My favorite talk at
-DEFCON 23.</em> Our birth and death record-keeping needs some modernization.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Sandvik">When IoT attacks: hacking a Linux-powered rifle - Runa A. Sandvik &amp; Michael
-Auger</a>. Sad to see an Austin-based company taken
-down, but come on&ndash;an internet-enabled rifle? you knew this was coming.</p></li>
-</ul>
-
-
-<h2>Saturday</h2>
-
-<ul>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#McGrew">I Hunt Penetration Testers: More Weaknesses in Tools and Procedures - Wesley
-McGrew</a></p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Shoshitaishvili">Angry Hacking - the next generation of binary analysis - Yan Shoshitaishvili &amp; Fish
-Wang</a></p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Miller">Remote exploitation of an unaltered passenger vehicle - Charlie Miller and Chris
-Valasek</a>. Dr. Miller and Chris Valasek are always
-entertaining. Their presentation style is unlike any others&ndash;they either rehearse a ton or they have great chemistry and
-complementary personalities. This continued their work hacking Jeeps. At the time of the talk, their exploits had been
-fixed so all is well&hellip; for now.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Ryan">Hacking Electric Skateboards: Vehicle Research For Mortals - Mike Ryan &amp; Richo
-Healey</a>. The timing on this was awesome! This came right
-after the &ldquo;hack a Jeep&rdquo; talk and the humility of the presenters (&ldquo;vehicle research for mortals&rdquo;) was great. Basically,
-if you build an internet- or bluetooth-enabled device, you will get hacked.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Kaminsky">I  want these * bugs off my * Internet - Dan
-Kaminsky</a></p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Talabis">The Bieber Project: Ad Tech 101, Fake Fans and Adventures in Buying Internet Traffic - Mark Ryan
-Talabis</a>. Online ads baffle me. I think it is really
-hard to connect ads to revenue, with an underlying belief that ads are not a wise use of capital. The presenter showed a
-Chinese ad fraud system called jingling that spawns a ton of threads and programmatically clicks links; while running
-jingling you accumulate tokens that you spend to get others to click on your links. Some people claim to make an extra
-$50/day (or far more) just by participating. Brilliant!</p></li>
-</ul>
-
-
-<h2>Sunday</h2>
-
-<ul>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Domas">REpsych: Psychological Warfare in Reverse Engineering - Chris
-Domas</a>. I missed the first half, but what I gathered is
-that Chris Domas was able to figure out how to create binaries that form images when viewed in a disassembler like IDA.
-He showed a silly malware that dynamically found images on your computer and made binaries that match the images&ndash;he
-joked that he would stop probing any malware that could present his portrait.</p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Wardle2">Stick That In Your (root)Pipe &amp; Smoke It - Patrick
-Wardle</a></p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Coskun">Why nation-state malwares target Telco Networks: Dissecting technical capabilities of Regin and its counterparts - Omer
-Coskun</a></p></li>
-<li><p><a href="https://www.defcon.org/html/defcon-23/dc-23-speakers.html#Lawshae">Let&rsquo;s Talk About SOAP, Baby. Let&rsquo;s Talk About UPNP - Ricky &ldquo;HeadlessZeke&rdquo;
-Lawshae</a></p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read March 2015]]></title>
-    <link href="http://www.sethholloway.com//books-read-march-2015/"/>
-    <updated>2015-04-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//books-read-march-2015</id>
-    <content type="html"><![CDATA[<p>A couple long books this month.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B0015DPXKI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0015DPXKI&amp;linkCode=as2&amp;tag=theven01-20">Anathem by Neal
-Stephenson</a>.
-Hmm. I love Neal Stephenson&ndash;Diamond Age is one of my favorite books
-ever&ndash;but this book didn&rsquo;t do it for me. I didn&rsquo;t get it. It was
-intelligent and well researched&ndash;it just wasn&rsquo;t for me.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B004H1TQBW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004H1TQBW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3QW5ERP7I3H66ZG6">The Well of Ascension by Brandon Sanderson</a>.
-Book Two of the Mistborn trilogy. It started slowly, but ended well. Let
-me expand on that a bit: the first book&ndash;to me&ndash;was about a rebellion in
-a novel low-magic world. The second book has to pick up the pieces of
-that rebellion, so it&rsquo;s more about government and interpersonal
-conflicts.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[SXSW 2015 in Review]]></title>
-    <link href="http://www.sethholloway.com//sxsw-2015/"/>
-    <updated>2015-03-18T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//sxsw-2015</id>
-    <content type="html"><![CDATA[<p>I enjoyed myself a lot at SXSW 2015. I made it to a lot of sessions that were interesting and thought-provoking.</p>
-
-<h2>Friday</h2>
-
-<ul>
-<li>Welcome to SXSW Interactive by Hugh Forest</li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP997613">The Climate Crisis: Challenge and Opportunity by Al Gore</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996684">How to Rock SXSW in 4 Hours by Tim Ferriss</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP42182">Fear, Shame, Empathy, &amp; More Ways to Change Behavior by Dan Pink</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP40327">Building Gender-Balanced Startups (Panel) by Sarah Buhr, Julie Ann Horvath, Stewart Alsop, Vanessa Camones</a></li>
-</ul>
-
-
-<h2>Saturday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP39145">OAuth2: The Swiss-Army Framework by Brent Shaffer</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP41723">Patagonia: Why Business Is Good for the Planet by Rose Marcario</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP42485">UFC: Women Breaking Ground Inside the Octagon (Panel) by Dana White, Ronda Rousey, Jessica Eye</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996358">Princess Reema&rsquo;s Mission to Empower Saudi Women by Princess Reema</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43837">What it Really Takes to Win in Business by Jack Welch and Gary Vaynerchuk</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP37185">Beyond Privacy: Surveillance&rsquo;s Threat To Liberty by Schneier and Wizner</a></li>
-</ul>
-
-
-<h2>Sunday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP39695">Transgender in Tech: Past, Present, Future (Panel) by Allyson Dylan Robinson, Brielle Harrison, Kortney Ziegler, and Meghan Stabler</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43232">Be Epic: The Art of Bold Decision Making by Phil Libin</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996157">AI, Immortality and the Future of Selves by Martine Rothblatt</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP36963">Data (in)Security: MIT Scientists Tackle Privacy (Panel) by Danny Weitzner, Ronald Rivest, Sam Madden</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43378">How to Fix American Politics by David Burstein</a></li>
-</ul>
-
-
-<h2>Monday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43236">The Frontiers of Computational Thinking by Stephen Wolfram</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP43059">Everything Eric Ries Has Learned Since 2011 by Eric Ries</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996700">Fixing Transportation with Humanity and Technology by Logan Green</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996698">Lessons from BuzzFeed by Jonah Peretti</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996699">Bitcoin: What It Needs to Succeed (Panel) by the Cameron and Tyler Winklevoss</a></li>
-</ul>
-
-
-<h2>Tuesday</h2>
-
-<ul>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP40699">Accelerators by the Numbers: 2014 Rankings by Susan Cohen and Yael Hochberg</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996685">Better and Faster: Predict Opportunity &amp; Win in 2015 by Jeremy Grutsche</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP997484">Holacracy: A Radical New Approach to Management by Brian Robertson</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP996703">Moonshots and Reality by Astro Teller</a></li>
-<li><a href="http://schedule.sxsw.com/2015/events/event_IAP36218">How to Rob a Bank: Vulnerabilities of New Money by Josh Alexander, Bo Hartman, Bob Blakely</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Books Read February 2015]]></title>
-    <link href="http://www.sethholloway.com//books-read-february-2015/"/>
-    <updated>2015-03-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-february-2015</id>
-    <content type="html"><![CDATA[<p>One really long book dominated my reading this this month&ndash;I only
-finished two books, but they were both very good.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B009JNXC36/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B009JNXC36&amp;linkCode=as2&amp;tag=theven01-20">The Count of Monte Cristo by Alexandre
-Dumas</a>.
-This book is a classic for a reason. I prefer modern books, but I
-decided to give Count of Monte Cristo a try, and I&rsquo;m glad I did.
-The story was really good.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00DYXC3W8/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00DYXC3W8&amp;linkCode=as2&amp;tag=theven01-20">Warbound by Larry
-Correia</a>.
-I&rsquo;m really enjoying Larry Correia. He has the adventure fantasy story down. His
-novels are fun and well-paced with memorable characters, and they feel
-like the right amount of story per book. Warbound
-concludes the Grimnoir Chronicles, providing a fitting finish.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Books Read January 2015]]></title>
-    <link href="http://www.sethholloway.com//books-read-january-2015/"/>
+    <link href="http://sethholloway.com/books-read-january-2015/"/>
     <updated>2015-02-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-january-2015</id>
+    <id>http://sethholloway.com/books-read-january-2015</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B004H1TQBW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004H1TQBW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3QW5ERP7I3H66ZG6">Mistborn by Brandon Sanderson</a>.
 A solid fantasty novel with an interesting magic system. In Mistborn, a
 select few people are gifted with the ability to burn a metal internally
@@ -729,127 +46,10 @@ Glover</a>. I don&rsquo;t know how to feel about this book. I think it has a lot
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Books Read in 2015]]></title>
-    <link href="http://www.sethholloway.com//books-read-2015/"/>
-    <updated>2015-01-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-2015</id>
-    <content type="html"><![CDATA[<p>Here&rsquo;s a recap of the books I read in 2015. They&rsquo;re roughly categorized as fiction followed by non-fiction.</p>
-
-<h3>Fiction</h3>
-
-<p><a href="http://www.amazon.com/gp/product/B004H1TQBW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004H1TQBW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3QW5ERP7I3H66ZG6">Mistborn by Brandon Sanderson</a>.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B004H1TQBW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004H1TQBW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=3QW5ERP7I3H66ZG6">The Well of Ascension by Brandon Sanderson</a>.</p>
-
-<p><a href="">The Hero of Ages by Brandon Sanderson</a>.</p>
-
-<p><a href="">Mitosis by Brandon Sanderson</a>.</p>
-
-<p><a href="">The Way of Kings by Brandon Sanderson</a>.</p>
-
-<p><a href="">Words of Radiance by Brandon Sanderson</a>.</p>
-
-<p><a href="http://www.amazon.com/Off-Wizard-Magic-2-0-Book-ebook/dp/B00EF8Z32I/?tag=theven01-20">Off to Be the Wizard by Scott Meyer</a>.</p>
-
-<p><a href="http://www.amazon.com/Spell-High-Water-Magic-Book-ebook/dp/B00HVF7OJM/?tag=theven01-20">Spell or High Water by Scott Meyer</a>.</p>
-
-<p><a href="http://www.amazon.com/Unwelcome-Quest-Magic-2-0-Book-ebook/dp/B00MRADM1K/?tag=theven01-20">An Unwelcome Quest by Scott Meyer</a>.</p>
-
-<p><a href="">Assassin&rsquo;s Apprentice by Robin Hobb</a>.</p>
-
-<p><a href="">The Blade Itself by Joe Abercrombie</a>.</p>
-
-<p><a href="">Hexed by Kevin Hearne</a>.</p>
-
-<p><a href="">Under Heaven by Guy Gavriel Kay</a>.</p>
-
-<p><a href="">14 by Peter Clines</a>.</p>
-
-<p><a href="">Hunters Unlucky by Abigail Hilton</a>.</p>
-
-<p><a href="http://www.amazon.com/11-22-63-Stephen-King-ebook/dp/B005K0HDGE/?tag=theven01-20">11-22-63 by Stephen King</a>.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B009JNXC36/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B009JNXC36&amp;linkCode=as2&amp;tag=theven01-20">The Count of Monte Cristo by Alexandre
-Dumas</a>.</p>
-
-<p><a href="">The Chimes by Charles Dickens</a>.</p>
-
-<p><a href="">The Snow Queen by Hans Christian Andersen</a>.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00DYXC3W8/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00DYXC3W8&amp;linkCode=as2&amp;tag=theven01-20">Warbound by Larry
-Correia</a>.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B0015DPXKI/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0015DPXKI&amp;linkCode=as2&amp;tag=theven01-20">Anathem by Neal
-Stephenson</a>.</p>
-
-<p><a href="">Things to shout out loud at parties. by Markus Almond</a>.</p>
-
-<p><a href="">Jesus&#8217; Son by Denis Johnson</a>.</p>
-
-<p><a href="">Elantris by Brandon Sanderson</a>.</p>
-
-<h3>Non-fiction</h3>
-
-<p><a href="http://www.thegreatcourses.com/courses/art-of-conflict-management-achieving-solutions-for-life-work-and-beyond.html">The Art of Conflict Management by Michael
-Dues</a>.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B00AFPVOTG/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00AFPVOTG&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=JWTMJY6TXCVPZDCO">Finding Your Element by Sir Ken
-Robinson</a>.</p>
-
-<p><a href="http://www.amazon.com/gp/product/B004C438CW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004C438CW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=7XHAOVDX33VKT7OV">No More Mr. Nice Guy by Robert
-Glover</a>.</p>
-
-<p><a href="http://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4/?tag=theven01-20">How to Fail At Almost Everything and Still Win Big by Scott Adams</a>.</p>
-
-<p><a href="http://www.amazon.com/Great-Ways-Manage-Double-Productivity/dp/B0017182XI/?tag=theven01-20">21 Great Ways to Manage Your Time and Double Your Productivity by Brian Tracy</a>.</p>
-
-<p><a href="http://www.amazon.com/Choose-Yourself-James-Altucher-ebook/dp/B00CO8D3G4/?tag=theven01-20">Choose Yourself by James Altucher</a>.</p>
-
-<p><a href="">The Choose Yourself Guide to Wealth by James Altucher</a>.</p>
-
-<p><a href="http://www.amazon.com/Practicing-Power-Now-Eckhart-Tolle-ebook/dp/B002361MNS/?tag=theven01-20">Practicing the Power of Now by Eckhart Tolle</a>.</p>
-
-<p><a href="http://www.amazon.com/Obstacle-Way-Timeless-Turning-Triumph-ebook/dp/B00G3L1B8K/?tag=theven01-20">The Obstacle is the Way by Ryan Holiday</a>.</p>
-
-<p><a href="http://www.amazon.com/Will-Teach-You-Be-Rich-ebook/dp/B004WL4BW6/?tag=theven01-20">I Will Teach You to Be Rich by Ramit Sethi</a>.</p>
-
-<p><a href="http://www.amazon.com/100-Startup-Reinvent-Living-Create/dp/0307951529/?tag=theven01-20">The $100 Startup by Chris Guillebeau</a>.</p>
-
-<p><a href="http://www.amazon.com/Trust-Me-Lying-Confessions-Manipulator-ebook/dp/B0074VTHH0/?tag=theven01-20">Trust Me, I&rsquo;m Lying by Ryan Holiday</a>.</p>
-
-<p><a href="">Becoming a Technical Leader by Gerald Weinberg</a>.</p>
-
-<p><a href="">The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford</a>.</p>
-
-<p><a href="">Radical Acceptance by Tara Brach</a>.</p>
-
-<p><a href="">The Charisma Myth by Olivia Fox Cabane</a>.</p>
-
-<p><a href="">So You&rsquo;ve Been Publicly Shamed by Jon Ronson</a>.</p>
-
-<p><a href="">Contagious by Jonah Berger</a>.</p>
-
-<p><a href="">Waking Up by Sam Harris</a>.</p>
-
-<p><a href="">Growth Hacker Marketing by Ryan Holiday</a>.</p>
-
-<p><a href="">The Art of Asking by Amanda Palmer</a>.</p>
-
-<p><a href="">The Willpower Instinct by Kelly McGonigal</a>.</p>
-
-<p><a href="">From Transgender to Transhuman by Martine Goldblatt</a>.</p>
-
-<h3>To blog or to Goodreads</h3>
-
-<p>I haven&rsquo;t decided how I prefer to track what I&rsquo;ve read. You can see <a href="https://www.goodreads.com/review/list/48474315-seth?shelf=read">my attempt at using Goodreads here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Books Read December 2014]]></title>
-    <link href="http://www.sethholloway.com//books-read-december-2014/"/>
-    <updated>2014-12-31T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-december-2014</id>
+    <link href="http://sethholloway.com/books-read-december-2014/"/>
+    <updated>2015-01-01T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/books-read-december-2014</id>
     <content type="html"><![CDATA[<p>It was a busy month for reading. Lots of good stuff!</p>
 
 <p><a href="http://www.amazon.com/gp/product/B00ARSJNW6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ARSJNW6&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=KQP7U6OB4WMDL2XX">Dracula Chronicles: Son of the Dragon by Victor
@@ -905,9 +105,9 @@ well. As with software patterns, it&rsquo;s nice to see the path.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read November 2014]]></title>
-    <link href="http://www.sethholloway.com//books-read-november-2014/"/>
+    <link href="http://sethholloway.com/books-read-november-2014/"/>
     <updated>2014-12-01T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//books-read-november-2014</id>
+    <id>http://sethholloway.com/books-read-november-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/1591845327/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1591845327&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=CRLWDIV34KA7TYF3">Leaders Eat Last by Simon
 Sinek</a>. I loved this book because it
 resonated with my hopes for the future of business. Sinek also brought
@@ -953,9 +153,9 @@ Courses.</p>
   
   <entry>
     <title type="html"><![CDATA[Books Read October 2014]]></title>
-    <link href="http://www.sethholloway.com//books-read-october-2014/"/>
+    <link href="http://sethholloway.com/books-read-october-2014/"/>
     <updated>2014-11-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//books-read-october-2014</id>
+    <id>http://sethholloway.com/books-read-october-2014</id>
     <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B000OI0G1Q/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000OI0G1Q&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=GO6FQAOF57SDDYD4">The Road by Cormac
 McCarthy</a>. A short but powerful book&ndash;I see why it was made into a movie. Turns out the apocalypse is no fun.</p>
 
@@ -979,6 +179,504 @@ previous level before moving up&ndash;I thought that was kind of like
 <a href="http://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs">Maslow&rsquo;s Hierarchy of
 Needs</a> applied
 to business.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read September 2014]]></title>
+    <link href="http://sethholloway.com/books-read-september-2014/"/>
+    <updated>2014-10-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-september-2014</id>
+    <content type="html"><![CDATA[<p>I have a lot of series started now, and I&rsquo;m not sure which one I will continue next.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B004KABDMA/ref=as_li_tl?tag=theven01-20">Satanic Verses by Salman Rushdie</a>. This book is really well written and historically important&ndash;the amount of <a href="http://en.wikipedia.org/wiki/The_Satanic_Verses#Controversy">controversy</a> around this novel is unreal! Unfortunately, I did not care for the book. I made it through about 2/3 before I decided I&rsquo;d much rather be reading something else. Fear not! I&rsquo;ve read the summary so I know how it ends ;-)</p>
+
+<p><a href="http://www.amazon.com/gp/product/B005GLS7SU/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005GLS7SU&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=DWGB7CV6GVSL3XT7">The Legend of Drizzt: The Collected Stories by R.A.
+Salvatore</a>. I always like Drizzt stories. This is a sequence of vignettes that is less interesting than a complete story. It fills some gaps, but also spoils entire books; I&rsquo;d say you should read it after you&rsquo;ve read all the other books.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B004J4WN0I/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004J4WN0I&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=ALNRNFQYLDFTUFJ3">Hounded: The Iron Druid Chronicles, Book One by Kevin
+Hearne</a>. I found this very entertaining; I found it to be an interesting, fresh take on Druidic magic.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000WH7PLS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000WH7PLS&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=FUZ7WVMF7CLGK3WU">Storm Front (The Dresden Files, Book 1) by Jim
+Butcher</a>. A couple years ago I tore through the Dresden Files series on Netflix, so this reading was a long time coming. Unsurprisingly, the book is better than the show, but I&rsquo;d recommend both.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B005K0AYH4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B005K0AYH4&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=4AQUFSLWMQYJDDLC">Crucial Conversations by Kerry
+Patterson</a>. This is a very useful book that offers &ldquo;tools for talking when the stakes are high.&rdquo; Some of the biggest takeaways for me: focus on what <em>you</em> can do better and &lsquo;start with heart,&rsquo; that is, be honest and heartfelt without blaming. I plan to re-read again sometime.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read August 2014]]></title>
+    <link href="http://sethholloway.com/books-read-august-2014/"/>
+    <updated>2014-09-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-august-2014</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0060899220/ref=as_li_tl?tag=theven01-20">Kitchen Confidential by Anthony
+Bourdain</a>. I loved the insight into the restaurant industry. Bourdain is a really good writer, which complements his crass, honest style. If you want to know what the people in the kitchen are up to, read this book.</p>
+
+<p><a href="http://www.amazon.com/gp/B0010U3Z3S/ref=as_li_tl?tag=theven01-20">The Forbidden Tower by Marion Zimmer
+Bradley</a>. Apparently this is the worst of the Darkover series, so it&rsquo;s unfortunate that it is where I started. I&rsquo;m not sure I&rsquo;ll continue the series.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0345335082/ref=as_li_tl?tag=theven01-20">Dragonquest (Dragonriders of Pern #2) by Anne
+McCaffrey</a>. Meh. I liked this book when I read it, but I don&rsquo;t have overwhelmingly positive memories now.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0140286802/ref=as_li_tl?tag=theven01-20">Collected Fictions by Jorge Luis
+Borges</a>. Sol Stein raved about <a href="http://en.wikipedia.org/wiki/Jorge_Luis_Borges">Borges</a>, and Borges sounded like an author worth reading. Short stories are really different for me because I normally read technical books or novels. That said, I found Borges&#8217; stories to be interesting.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1591843200/ref=as_li_tl?tag=theven01-20">Street Smarts: An All-Purpose Tool Kit for Entrepreneurs by Norm
+Brodsky and Bo
+Burlingham</a>. Following Lean Startup I was feeling entrepreneurial and this book looked good. It was good. Lots of good lessons. I&rsquo;ve noticed that a lot of business books rely on personal anecdotes from a single success; it&rsquo;s not bad, and I understand that making millions of dollars over many years would certainly teach you a lot, but it is odd when every lesson takes you back to a story from a single company.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1439133913/ref=as_li_tl?tag=theven01-20">Monster Hunter Vendetta by Larry
+Correia</a>. I&rsquo;ve now started two
+Correia series (Grimnoir and Monster Hunters), and I really like both.
+He writes really fun, fast-paced books that remind me of action movies.
+I&rsquo;ll be reading more of these as soon as I clear out my queue.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read July 2014]]></title>
+    <link href="http://sethholloway.com/books-ready-july-2014/"/>
+    <updated>2014-08-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-ready-july-2014</id>
+    <content type="html"><![CDATA[<p>July was my most prolific month in a while because I resolved to finish
+three books that had been half-read for quite a while.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0321721330/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321721330&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=ZK7VTYCXU5KS6GXZ">Practical Object Oriented Design in Ruby by Sandi
+Metz</a>. This book is
+insanely highly rated online and came highly recommended by a friend. I agree with those
+positive reviews. While the examples
+are in Ruby, I think there&rsquo;s enough generic information that everyone
+could learn something from this book. I really like how thorough and
+fair the book is in consistently describing advantages and disadvantages.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00HFUJP5Y/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00HFUJP5Y&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=7HSTVSTRT3QJEQLG">Stein on Writing by Sol
+Stein</a>. I&rsquo;ve now read a few books about how
+to write well, and this one is my favorite. Classic writing advice is to
+&ldquo;show, don&rsquo;t tell&rdquo; but this is the only book with examples at how to
+follow through with that advice. I was inspired by numerous before and
+after examples.</p>
+
+<p><a href="http://www.amazon.com/dp/B000FC0SIM/?tag=theven01-20">On Writing by Stephen King</a>.
+Stephen King is such a good writer! There are a lot of good lessons in
+the book, although I&rsquo;ve read most of them elsewhere. That said, it was good to get King&rsquo;s perspective on
+each, including show don&rsquo;t tell, keep dialogue realistic, and edit
+relentlessly. Plus, this book led me to Stein on Writing, which had more
+examples.</p>
+
+<p><a href="http://www.amazon.com/dp/1556346298/?tag=theven01-20">Robin&rsquo;s Laws of Good Game Mastering by Robin Law</a>.
+There was a lot of good information here, but I preferred the Sly Flourish guide that I read a few months ago. There&rsquo;s room for both, but Sly Flourish feels like an updated version of Robin&rsquo;s Laws.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00GOZV3TM/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00GOZV3TM&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=JHUHJIRGD2M57LIE">The 7 Habits of Highly Effective People by Stephen
+Covey</a>. A nice
+refresher on some things that I needed to relearn. The seven habits are
+(1) Be Proactive, (2) Begin with the End in Mind, (3) Put First Things
+First, (4) Think Win-Win, (5) Seek First to Understand, Then to be
+Understood, (6) Synergize, and (7) Sharpen the Saw. I think 3 and 7
+resonated most with the current me. Covey conveys a refreshing message of hope
+through his &ldquo;abundance mentality&rdquo; and suggests that you live a life of
+integrity. Here&rsquo;s to being more effective!</p>
+
+<p><a href="http://www.amazon.com/gp/product/B004XZR63M/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004XZR63M&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=WCZZDEEETVQXZMTT">Rich Dad Poor
+Dad</a>.
+Interesting ideas and well written. I respect that a rich person is
+willing to reveal his secrets, like incorporating to avoid paying taxes.
+At times it was off-putting as he sounded like a heartless asshole (for example,
+saying that more money won&rsquo;t help people so it&rsquo;s okay to pay them low
+wages) but it is fascinating to read how a rich person views the
+situation.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B001NLL6QW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001NLL6QW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=P4WMAT5XSTA46F4F">The Warded Man by Peter
+Brett</a>. In a world where
+demons attack at night, the world needs a hero&ndash;and they get him. This
+was an entertaining fantasy tale. The first book did not feel as deep as Wheel of Time or
+A Song of Fire and Ice or Kingkiller Chronicles, although I expect the
+characters would grow into their own as the story unfolds.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B004J4WNL2/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004J4WNL2&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=K4L4KVEC62MJVDZX">Quiet by Susan
+Cain</a>. Introverts are taking over the world! Quiet is
+a good book that tells you it is okay to not go out every night.</p>
+
+<p><a href="ttp://www.amazon.com/gp/product/B001FA0GJO/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001FA0GJO&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=LPS4PGZI44X5CDNQ">The Three Big Questions for a Frantic Family by Patrick
+Lencioni</a>.
+Lencioni is a management consultant and business writer who teaches with
+entertaining fables. I gave this book a shot because I previously read and enjoyed <a href="http://www.amazon.com/gp/product/0743564685/ref=as_li_tl?ie=UTF8&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=MOAKF2QKN2BT3G4N">The Five Temptations of a
+CEO</a>,
+where management lessons unfold on a late-night train ride. It was a quick read that was overall
+worthwhile (though I would not spend $15 on it). The premise is simple: apply tried-and-true business tactics
+to your family and reap the rewards.  Not to spoil it for you, but the
+three questions are (1) What makes us unique? (2) What&rsquo;s our top priority
+right now? (3) How will we achieve our goals? Pretty easy in theory,
+though I suspect that answering these questions and keeping up to date
+with the priorities is challenging.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Announcing Swiftgive, free mobile fundraising and tipping]]></title>
+    <link href="http://sethholloway.com/swiftgive/"/>
+    <updated>2014-07-17T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/swiftgive</id>
+    <content type="html"><![CDATA[<p>I’m proud to present <a href="https://swiftgive.com">Swiftgive.com</a>. Swiftgive provides free,
+mobile-friendly money transfer. By scanning a QR code you can easily
+give some money.</p>
+
+<p>If you’re trying to raise money, just create a fund on the site.  After
+creating a fund, you can direct people to your fund’s webpage (which
+would look something like <a href="http://swiftgive.com/funds/swiftgive">this</a>) or buy
+specially coded marketing products directly from the site. All marketing
+products have your fund’s give code on them (basically fancy QR codes).
+Give codes are readable by most barcode reading apps.</p>
+
+<p>Here’s an example&ndash;feel free to scan it and give us a few bucks ;-)</p>
+
+<p><img src="http://i.imgur.com/evnxxKy.png" alt="donate to swiftgive" /></p>
+
+<p>My friend and <a href="http://www.oilfieldintelligence.com">Oilfield
+Intelligence</a> co-founder, Ken, came
+up with the idea when he was rushing to the airport late one evening.
+He took a bus from the parking lot to the terminal and the bus driver
+provided excellent service, helping him with bags and even cracking
+jokes the entire drive.  When Ken went to tip the driver, he realized he
+didn’t have any small bills (nobody carries cash anymore!).  He had a
+cell phone and a debit card, but no cash. So, he did what any
+industrious programmer would do: he created a prototype of what tipping
+should look like. I joined him to help flesh out the concept and we’re
+now ready to pull back the curtain.</p>
+
+<p>We’ve talked to musicians, valets, and friends in various fields, and
+the response has been positive. Anyone looking to accept money&ndash;be it
+tips or fundraising&ndash;can sign up and use the site for free. You can even
+help promote someone else’s fund.</p>
+
+<p>In an alpha launch we helped transfer over $1,000, so we think the idea
+is helpful. We definitely hope that it is.</p>
+
+<p>There are other services out there that offer mobile payments, but
+Swiftgive approaches the problem a little differently. Swiftgive
+believes that mobile tipping and fundraising should be easy and
+inexpensive.</p>
+
+<p>Swiftgive makes it easy to get professional quality marketing products
+to show off your fund.  Receivers don’t need a smartphone to accept
+money&ndash;just an email address and debit card. Also, Swiftgive uses debit
+cards only.  Other services generally rely on credit cards&ndash;they use
+payment processors and pass the fees onto you. Credit card fees (usually
+around 2.9% + $0.30 per transaction) can eat away a substantial amount
+of your earnings, especially for small payments. This is the same reason
+any self-respecting business owner will grimace when you try to buy a
+pack of gum with your Visa.  We’re more interested in getting money to
+people than to credit card processing companies.</p>
+
+<p>Go forth and raise some money or tip that bus driver for great
+service&ndash;even if you don’t have any cash.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read June 2014]]></title>
+    <link href="http://sethholloway.com/books-read-june-2014/"/>
+    <updated>2014-07-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-june-2014</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B004J4XGN6/?tag=theven01-20">Lean Startup by Eric Ries</a>. I&rsquo;m a little embarrassed that I took this long to read this book. It&rsquo;s an iconic book in the startup world that I had skipped because I watched a few Lean Startup talks and read various blogs about it. A lot of the advice is very common sense; I&rsquo;d boil it down to &ldquo;build something people want.&rdquo;</p>
+
+<p><a href="http://www.amazon.com/gp/product/B007ZBNVVW/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B007ZBNVVW&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=GVZ6UKTYN4WQQV5V" title="">The Developers Guide to Debugging by Thorsten Grötker, Ulrich Holtmann, Holger Keding, and Markus Wloka</a>. I was discussing what makes a good software developer with a friend and he was adamant than the best developers are the best debuggers. I read this book in hopes of filling in the knowledge that I might have learned from a debugging course in school&ndash;if one existed. The book was readable, but it was a bit too C-centric for me to fully appreciate.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00B5HR4A6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00B5HR4A6&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=EJTEY3HD2Y2TCALC">Tipping Sacred Cows: Kicking the Bad Work Habits that Masquerade as Virtues by Jake Breeden</a>. The book was what you&rsquo;d expect from a business book with a provocative title. There were some interesting insights; essentially, question your assumptions with respect to balance, collaboration, creativity, excellence, fairness, passion, and preparation.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B004G60EHS/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B004G60EHS&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=7RHQZ7Y2T5QSB4U5">Hyperion by Dan Simmons</a>. This was a <a href="http://sethholloway.com/hugo-award-winners-and-nominees-fantasy/">Hugo Award winner in 1990</a>, but I wasn&rsquo;t a huge fan. The writing is solid and the story is unique. But, you only meet the cast of characters in this book. I kept waiting for something to happen and it never did&ndash;the cliffhanger just wasn&rsquo;t enough for me.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000JMKNJ2/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=L54Q2AKLBLDEJUPF">The Lies of Locke Lamora by Scott Lynch</a>. I read this based on a recommendation, and thoroughly enjoyed it. Locke Lamora is an orphan thief that we meet as a child and follow through young adulthood. I could see the book being made into a great heist movie.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00APAHLMA/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00APAHLMA&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=DBSWFF52Y6BTDVDE">Hard Magic by Larry Correa</a>. I really liked this book. It&rsquo;s set in a parallel universe circa 1940 where magic is real and several well known figures owe their success to their own inate magic. The characters were interesting and the story moved along nicely.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read May 2014]]></title>
+    <link href="http://sethholloway.com/books-read-may-2014/"/>
+    <updated>2014-06-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-may-2014</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/0786948590/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=AZ5FVM3FFEBFYLZO">The Legacy: Legend of Drizzt, Book VII by R.A. Salvatore</a>. It&rsquo;s Drizzt&ndash;what&rsquo;s not to like? I previously read books one and two; I mistakenly bought this one thinking it was three (it is actually 7). On the plus side, I can probably skip ahead in the story now that I know what happens after the books I missed!</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000FC2L1O/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=4ANBLIVMQ7652A5D">Outlander by Diana
+Gabaldon</a>. Andrea loved this series and wanted to know if I would like it too. I did not, but I cannot say why. There was a lot of sex, but plenty of books I like have sex; there was romance that did not resonate with me; there was a lot of history, which I must admit I don&rsquo;t care about. I guess I would rather read about a badass Drow ranger defeating a golem than read about a woman lost in time.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00EN4Q8OQ/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=YF3QF5TEVNFXRHAM">The Dracula Chronicles: The Lamb of
+God by Shane KP Oneill</a>. This was a very quick read that introduces Dracula. The first book published in this series takes place well after this prequel, but I thought it would be good to start at the beginning. It was good, so I plan to continue this series after I finish some other books.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000OCXG4Q/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=MTDSUNBSKW7ZSQGP">Across the Nightingale
+Floor by Lian Hearn</a>. An orphan assassin, sword-fighting, revenge and rebellion&ndash;I like it!</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00JVST6CA/ref=as_li_tl?ie=UTF8&amp;tag=theven01-20&amp;linkId=EWWY3DMHY2TQBT7R">The Wealth of Nations by Adam
+Smith</a>. I&rsquo;ve heard a ton about this book, and I&rsquo;d like to have a better grasp on economics. It started off well; Smith lays the foundation of economics and currency, and it is brilliant, logical stuff. That being said, I ultimately abandoned the book about 1/6th of the way in when the author stated how much tobacco you should expect a negro between sixteen and sixty years to pick. I know that in 1776 statements like that were not in poor taste&ndash;Smith was likely very progressive&ndash;but one too many outdated terms made me question how applicable the book truly is. I include the book in this list because I don&rsquo;t plan to finish it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read April 2014]]></title>
+    <link href="http://sethholloway.com/books-read-april-2014/"/>
+    <updated>2014-05-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-april-2014</id>
+    <content type="html"><![CDATA[<p>I barely hit my goal of four books a month! I continued on the Kingkiller
+Chronicles and finished a couple books from Lois McMaster Bujold, who I learned
+about when looking at <a href="http://sethholloway.com/hugo-award-winners-and-nominees-fantasy/">Hugo Fantasy winners</a>.
+I also fit in one non-fiction book that had been on my &ldquo;to-read&rdquo; list for a while.</p>
+
+<p><a href="http://www.amazon.com/dp/B00475AYJQ/?tag=theven01-20">The Wise Man&rsquo;s Fear by Patrick Rothfuss</a>.
+I loved this book, and now I&rsquo;m ready for book three. Speaking of waiting
+for the conclusion of a story, <a href="http://www.patrickrothfuss.com/content/reviews.asp">George R. R. Martin said</a>,
+&ldquo;He&rsquo;s bloody good, this Rothfuss guy.&rdquo; May both Patrick Rothfuss and GRRM finish their series soon!</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000FC11AQ/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000FC11AQ&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=OEM63HL3THDLOU4V">The Curse of Chalion by Lois McMaster Bujold</a>.
+I liked this book, but it fell short of what I expected from a Hugo Award winner.
+The story could have been told with many fewer words, although I don&rsquo;t claim to
+know which words needed to be cut. There were some neat concepts; e.g., in this
+universe there are five gods who visit mortals. The gods grant blessings and
+bestow curses. There are also demons that can jump into human hosts and corrupt
+the person from the inside out, while granting some supernatural abilities.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000FC138Q/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B000FC138Q&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=SQKW2GDXK57IBB5F">Paladin of Souls by Lois McMaster Bujold</a>.
+I had already completed the first book (The Curse of Chalion), so I continued
+on to this book. I preferred this one, perhaps because the story was richer for
+building on the realm of Chalion, which I had read a whole book about.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B0097CWIDY/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0097CWIDY&amp;linkCode=as2&amp;tag=theven01-20&amp;linkId=LVHIEKBKBJFQ2V4L">Boys Adrift by Leonard Sax</a>.
+I thought this book made some good points, but I was ultimately unconvinced. In
+the introduction, Sax says that on college campuses females outnumber males 2:1;
+however, he also says that college is now 58% female and 42% male. 58:42 is not
+2:1&ndash;it&rsquo;s 1.38:1. From this point on, I was much more skeptical of the
+information. Sax&#8217; <a href="http://www.boysadrift.com/factors.php">five factors</a> are
+video games, teaching methods, prescription drugs, endocrine disruptors, and
+devaluation of masculinity; of those, each have some merit, but it felt a bit
+like listening to an old person railing on young people. You know, &ldquo;back in my
+day, men were men!&rdquo; The evidence felt like a collection of anecdotes and a lot
+of just-so stories. Some of the ideas came across as shamefully outdated
+opinions, which is unfortunate. Why is it so highly rated? I suspect because
+there&rsquo;s a huge selection bias&ndash;people who do not believe boys are adrift simply
+will not read the book.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books Read March 2014]]></title>
+    <link href="http://sethholloway.com/books-read-march-2014/"/>
+    <updated>2014-04-01T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/books-read-march-2014</id>
+    <content type="html"><![CDATA[<p>The books this month were fairly random; I finished a couple that I&rsquo;ve
+had for too long in a sort of literary spring cleaning.</p>
+
+<p>I also DM&rsquo;d my first Pathfinder session this month. To prepare for the session, I read quite a bit about tabletop RPGs and how to tell a story. And I took some inspiration from a few good fantasy books.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B0010SKUYM/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0010SKUYM&amp;linkCode=as2&amp;tag=theven01-20">The Name of the Wind by Patrick Rothfuss</a>. This book is really highly rated, and I see why. It started off slow, but I stuck with it and was rewarded. This ended up being an awesome, interesting story with a lot of neat, novel fantasy ideas. I&rsquo;ll finish off the second book soon, then wish the third was already out.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B00ARHAAZ6/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ARHAAZ6&amp;linkCode=as2&amp;tag=theven01-20">Steelheart by Brandon Sanderson</a>. I&rsquo;d describe this story as what happens when Superman is a villain.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B006L74DMC/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006L74DMC&amp;linkCode=as2&amp;tag=theven01-20">Endurance: Shackleton&rsquo;s Incredible Voyage by Alfred Lansing</a>. Remind me not to take a boat to Antarctica. Especially not in the early 20th century. I see why this has been <a href="http://www.imdb.com/title/tt0264578/">made into a movie</a> or <a href="http://www.imdb.com/title/tt0272839/">two</a>&ndash;it is the classic &ldquo;unbelievable but true&rdquo; story.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B001PKV4J0/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B001PKV4J0&amp;linkCode=as2&amp;tag=theven01-20">The Dog Whisperer: A Compassionate, Nonviolent Approach to Dog Training by Paul Owens and Norma Eckroate</a>. Not that Dog Whisperer (<a href="http://en.wikipedia.org/wiki/Cesar_Millan">Cesar Milan</a>). Concrete training advice came after a bit of introductory advice that was a little too hippie for me (for example, the authors suggest you feed your dog 100% organic meat and veggies, which I can agree with only in theory). A few of my favorite lessons:</p>
+
+<ul>
+<li>there are three Ds of dog training: distance, duration, and distraction. Once your dog can reliably perform, add distance, duration, or distraction. The grad school version of sit requires that your dog sit and stay for minutes while you&rsquo;re far away and all the dog&rsquo;s favorite things run by.</li>
+<li>speak the command once and give your dog 45 seconds to react; right when your dog does the right thing, praise generously.</li>
+<li>when your dog naturally does something you want to train, immediately name the action and praise your dog. This is called the &ldquo;Magnet Game&rdquo; and it&rsquo;s working well with my dog (we are trying to get her to show us her belly on command). Other examples are for barking (once it has been named you can encourage them to do it only on command) or incidental heeling (if your dog walks beside you, praise the dog and eventually she will learn that staying by you is best).</li>
+</ul>
+
+
+<p><a href="http://www.amazon.com/gp/product/B00ADV2H8O/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00ADV2H8O&amp;linkCode=as2&amp;tag=theven01-20">Sly Flourish&rsquo;s Lazy Dungeon Master by Michael Shea</a>. This book is short and sweet with a lot of neat tips, like creating character backstories using <a href="http://en.wikipedia.org/wiki/Fiasco_(role-playing_game">Fiasco</a>). I&rsquo;m glad I read this book before the gaming session because it saved me a lot of time and helped me DM more gracefully, I think.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B006HKVI4E/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006HKVI4E&amp;linkCode=as2&amp;tag=theven01-20">How to Tell a Story by Mark Twain</a>. What a poor title. This book had no direct advice about how to tell a story, and the two stories it contained were less than stellar. At least it was short.</p>
+
+<p><a href="http://samizdat.mines.edu/howto/HowToBeAProgrammer.pdf">How to be a Programmer: A Short, Comprehensive, and Personal Summary by Robert L. Read</a>. This is a nice essay on how to be a programmer&ndash;there&rsquo;s a lot more to the job than simply writing code. Read describes skills needed as a beginner, intermediate, and advanced programmer. I think this book could form the base of a class on software or be elaborated to create a nice book on the programming profession.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[SXSW Interactive 2014 Review]]></title>
+    <link href="http://sethholloway.com/sxsw-interactive-2014-review/"/>
+    <updated>2014-03-15T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/sxsw-interactive-2014-review</id>
+    <content type="html"><![CDATA[<p>Toopher bought the devs SXSW Interactive badges this year, and we took advantage of the conference being so close. Overall, I&rsquo;m glad I went. I&rsquo;m grateful for a company that sponsors my conference-going&ndash;it was great to experience South By with my co-workers too.  SXSW really is magical, and I&rsquo;m glad to have it in my city.</p>
+
+<h1>The Good</h1>
+
+<p>SXSW is overwhelming in the best kind of way. There&rsquo;s a lot to like:</p>
+
+<ul>
+<li>Amazing energy.</li>
+<li>Great talks in a variety of formats including book readings, panel discussions, interviews, workshops, and standard lecture-style talks. Some of the highlights include <a href="http://en.wikipedia.org/wiki/Neil_deGrasse_Tyson">Neil deGrasse Tyson</a>, <a href="http://en.wikipedia.org/wiki/Stephen_Wolfram">Stephen Wolfram</a>, <a href="http://en.wikipedia.org/wiki/Edward_snowden">Edward Snowden</a>, <a href="http://about.me/jeremiahlee">Jeremiah Lee</a>, and my favorite talk was given by husband and wife couple Jennifer and <a href="http://en.wikipedia.org/wiki/Jim_Moss">Jim Moss</a> who are building <a href="http://www.plasticitysoft.com/">software to improve happiness at work</a>.</li>
+<li>So much to do! At virtually anytime, there were at least three talks I would have liked to see. On top of talks, there was a trade show, various parties and giveaways, meetups, personal meetings and a man&rsquo;s gotta eat sometime. One odd exception to the too-much-to-do-at-once plight was the <a href="http://en.wikipedia.org/wiki/Adam_Savage">Adam Savage (Mythbusters)</a> keynote, which was the only event at 2pm on Monday.</li>
+</ul>
+
+
+<h1>The Bad</h1>
+
+<p>The conference is a victim of its success and has clearly outgrown its space. I think all the negatives are related to how big the conference is, although if SXSW was smaller it would lose the grandeur. Some negatives:</p>
+
+<ul>
+<li>Sessions tended to lack depth, which makes sense because there were thousands of people from diverse backgrounds. You trade depth for breadth at SXSW.</li>
+<li>Traffic of all kinds. There were just too many people getting around downtown, so the streets and sidewalks were crammed with cars, bikes, skateboard, and people on foot. The sheer number of people made for long lines for everything from bathrooms to food, to talks.</li>
+<li>Poor planning. This wasn&rsquo;t the norm, but it happened a few times; for example, <a href="http://en.wikipedia.org/wiki/Timothy_Ferriss">Tim Ferriss</a>, who could probably have packed a keynote, was tucked away in a small room so hundreds of people were turned away.</li>
+<li>Somewhat related to poor planning and traffic: it was hard to get from one session to another. I attended sessions in the Austin Convention Center, the Sheraton, the Hilton, the Driskill, the Four Seasons, the Omni, and the Palmer Event Center. With zero to 30 minutes between sessions, I was routinely late. A few times I missed getting into the next session because I stayed until the end of the current session. I felt that encouraged bad behavior, like bailing early and skipping sessions in order to wait in line for the next talk.</li>
+</ul>
+
+
+<p>There are no easy solutions here, and the organizers really did a great job. Each negative I&rsquo;ve listed could be viewed as a positive: the conference is a great place to hear about new ideas; the number of people makes the conference epic; sessions filling up means they are interesting talks, and, truthfully, across five days I was able to see almost everything I wanted to see.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books read February 2014]]></title>
+    <link href="http://sethholloway.com/books-read-february-2014/"/>
+    <updated>2014-03-01T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/books-read-february-2014</id>
+    <content type="html"><![CDATA[<p>February&rsquo;s focus was on finishing The Wheel of Time series, but I snuck
+in a couple other books.</p>
+
+<p><a href="http://www.amazon.com/dp/B0080K3G4O/?tag=theven01-20">The Antidote: Happiness for People Who Can&rsquo;t Stand Positive Thinking</a> by Oliver Burkeman. Burkeman played a nice angle in this contrarian&rsquo;s guide to happiness. He synthesized a fair amount of information and presented his path to happiness.</p>
+
+<p><a href="http://www.amazon.com/dp/B003E749TE/?tag=theven01-20">The Happiness Hypothesis</a> by Jonathan Haidt. This book was almost like a scientific version of The Antidote: where The Antidote is a story, The Happiness Hypothesis is a pop science textbook. Haidt did a fantastic job combining psychology and philosophy along with history and his own story. His metaphor for your mind, the elephant and the rider, is amazing. Basically, your rational mind, the rider, isn&rsquo;t really in control of your body, the elephant. For too long, people have thought of their mind and body like a car: you go left when you want to go left, right when you want to go right, and over a cliff if that&rsquo;s what you desire. But Haidt points out that you reflexively jump when you see a snake and automatically recoil from a hot surface&ndash;your body acts before your mind can process the event. Haidt suggests this is because your body has evolved to survive for much longer than your brain has. You can drive a car off a cliff, but you can&rsquo;t easily ride a horse off a cliff. Haidt extends the idea and suggests that we are emotional creatures who often wrap our feelings with rational alibis. The book covers a lot of neat studies and compares modern thought to historical perspectives.</p>
+
+<p><a href="http://www.amazon.com/dp/B003P8Q5QC/?tag=theven01-20">Towers of Midnight (The Wheel of Time Book 13)</a> by Robert Jordan and Brandon Sanderson. Book 12 fed nicely into 13 and I went into the finale with a full head of steam.</p>
+
+<p><a href="http://www.amazon.com/dp/B00BMKDTNC/?tag=theven01-20">A Memory of Light (The Wheel of Time Book 14)</a> by Robert Jordan and Brandon Sanderson. How do you end an epic tale? Well, this is one way. I might have liked more information, but I didn&rsquo;t want to read yet another book. I&rsquo;m happy with Sanderson&rsquo;s tradeoff between quality and time. I&rsquo;m glad to have closure on the Rand al&#8217;Thor saga.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Not Do it For All of Us?]]></title>
+    <link href="http://sethholloway.com/why-not-do-it-for-all-of-us/"/>
+    <updated>2014-02-10T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/why-not-do-it-for-all-of-us</id>
+    <content type="html"><![CDATA[<p>I created a <a href="https://github.com/smholloway/do-it-for-all-of-us/tree/master">repo in hopes of it becoming the most
+starred</a> repo on
+GitHub. That&rsquo;s a pretty audacious goal, I know.
+<a href="https://github.com/twbs/bootstrap">Bootstrap</a> currently
+has over 64,000 stars, making it the <a href="https://github.com/search?q=stars%3a%3E1&amp;s=stars&amp;type=Repositories">most popular repository on
+GitHub</a>.</p>
+
+<p>Just check out <a href="https://github.com/mdo">@mdo&rsquo;s profile page</a>:</p>
+
+<p><img src="http://sethholloway.com/images/mdo-github-so-pro.png" alt="@mdo's GitHub profile is hot" /></p>
+
+<p>So many stars! What a badass. Who doesn&rsquo;t want cred like that? Now we
+can all have it, or at least part of it. We&rsquo;re not going to make an
+important product, but we can get a lot of stars ☻</p>
+
+<p>Please join me in my quest to the top. Do it for me. Do it for yourself.
+<a href="http://doitforallof.us/">Do it for all of us</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books read January 2014]]></title>
+    <link href="http://sethholloway.com/books-read-january-2014/"/>
+    <updated>2014-02-01T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/books-read-january-2014</id>
+    <content type="html"><![CDATA[<p>With the winter break I was able to read quite a bit! The books were pleasurable though less brainy than previous months.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B0049B1VOU/ref=as_li_ss_tl?tag=theven01-20">The Language Instinct: How The Mind Creates Language (P.S.)</a> - Reading linguistics books is dangerous when you&rsquo;re married to a linguist. Pinker tells an interesting tale, but I wasn&rsquo;t completely convinced. I found the overview of cognitive science studies absolutely brilliant.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B002DOSBMK/ref=as_li_ss_tl?tag=theven01-20">Homeland: The Legend of Drizzt, Book I: Bk. 1</a> - The Drizzt series is very well reviewed, and I understand why. The lowest ratings hint at the fact that the books are pretty simple and thrive in D&amp;D lore. The book is definitely no Diamond Age or Dance with Dragons, but I found it thoroughly enjoyable.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B002CCNA1K/ref=as_li_ss_tl?tag=theven01-20">Exile: The Legend of Drizzt, Book II</a> - More of the same: a straightforward, pleasurable hero story based in D&amp;D universe. The Drizzt series is a nice break from the more involved Wheel of Time.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1477583122/ref=as_li_ss_tl?tag=theven01-20">The Shunned House</a> - I asked friends for fantasy series recommendations and received too many good suggestions. H.P. Lovecraft was one of them, so I found this book and plowed through it. I see why people love Lovecraft! I cannot describe how, but the writing style is so evocative and creepy.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1906838356/ref=as_li_ss_tl?tag=theven01-20"> Case of Charles Dexter Ward</a> - Perhaps because I haven&rsquo;t read many graphic novels, or perhaps because I am impatient, I found myself skipping the drawing and going straight for the story. This made for a quick read. Unfortunately, I felt Lovecraft&rsquo;s ability to generate tension and suspense was was hindered by the shortened story.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1444406574/ref=as_li_ss_tl?tag=theven01-20">The Wendigo</a> - Amazon recommended this along when I got the Lovecraft book. I would have liked more description of the Wendigo (and if the story wasn&rsquo;t written a century ago I would have wanted to hear how wendigos are undiscovered), but I liked the book overall.</p>
+
+<p><a href="http://www.amazon.com/gp/product/1587150794/ref=as_li_ss_tl?tag=theven01-20">Fifty-One Tales</a> - This is another recommendation from a friend. Apparently, <a title="http://en.wikipedia.org/wiki/Edward_Plunkett,_18th_Baron_of_Dunsany" href="http://en.wikipedia.org/wiki/Edward_Plunkett,_18th_Baron_of_Dunsany">Edward Plunkett a.k.a. Lord Dunsany</a>, is one of the first fantasy authors. While The King of Elfland&rsquo;s Daughter was recommended, I was drawn to this book as an introduction to his style. Of the 51 tales, my favorites were <i>The Workman</i>&ndash;about a workman vainly struggling for immortality&ndash;and <i>A Moral Little Tale</i>, which says that Puritanical beliefs are actually devilish because God appreciates mirth.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B0084B5TK8/ref=as_li_ss_tl?tag=theven01-20">Dracula</a> - A classic fantasy story that I knew but had not read. I hate redoing things, so reading a story I already knew was challenging; however, the book was good. It unfolds as a series of diary entries, which I thought was unique and clever. I am stunned at the lack of resolution&ndash;I feel like the climax is on the penultimate page.</p>
+
+<p><a href="http://www.amazon.com/Elements-Style-William-White-Strunk/dp/B000KW42KM/?tag=theven01-20">The Elements of Style (a.k.a. Strunk and White)</a> - This is a short book, but it was not a quick read for me. Between The Language Instinct and conversations with my linguist wife, I have come to realize that I have an elementary understanding of English grammar. Strunk and White often pressed the limits of my knowledge with highfalutin terms like <a href="http://en.wikipedia.org/wiki/Gerundive">gerundive</a> and <a href="http://en.wikipedia.org/wiki/Dependent_clause">dependent clause</a>; however, they offer great examples that helped me understand the concepts without mastering the vocabulary.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B003K15O3E/ref=as_li_ss_tl?tag=theven01-20">The Gathering Storm (The Wheel of Time Book 12)</a> - After a break, I was ready for more Wheel of Time. I read summaries for books 7-11 and jumped straight to the finale, which is written by Brandon Sanderson with the late Robert Jordan&rsquo;s notes. I don&rsquo;t know if it is Sanderson&rsquo;s writing or the fact that the books are rushing towards the end, but I loved this story. I should finish the series in another month.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hugo Award Winners and Nominees - Fantasy]]></title>
+    <link href="http://sethholloway.com/hugo-award-winners-and-nominees-fantasy/"/>
+    <updated>2014-01-12T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/hugo-award-winners-and-nominees-fantasy</id>
+    <content type="html"><![CDATA[<p>I have been searching for good fantasy books and there&rsquo;s no shortage of suggestions. One suggestion was to pick something from the <a title="Hugo Award for Best Novel" href="http://en.wikipedia.org/wiki/Hugo_Award_for_Best_Novel#Winners_and_nominees">Hugo Awards</a>. The Hugo Awards recognize the best sci-fi and fantasy novels, which is a huge body of work. I was frustrated that I could not find a more granular categorization&ndash;where do you start with a list of 280+ critically acclaimed books? Knowing at least the genre would help a lot. Since I couldn&rsquo;t find a categorized list of Hugo Award winners, so I decided to create it.</p>
+
+<p>I noticed that most of the books had Wikipedia entries that included a &ldquo;Genre&rdquo; entry in the sidebar, so I grabbed the additional information. Below is a list of the Fantasy novels that were nominated for or won the Hugo award. Enjoy and happy reading!</p>
+
+<ul>
+<li><a title="Sirens of Titans" href="http://www.amazon.com/gp/product/B003XREM5G/?tag=theven01-20">The Sirens of Titan</a> by Kurt Vonnegut (1960)</li>
+<li><a title="Glory Road" href="http://www.amazon.com/dp/B004MYFUK0/?tag=theven01-20">Glory Road</a> by Robert A. Heinlein (1964)</li>
+<li><a title="Too Many Magicians" href="http://www.amazon.com/dp/B00GWUNJL4/?tag=theven01-20">Too Many Magicians</a> by Randall Garrett (1967)</li>
+<li><a title="The Forbidden Tower" href="http://www.amazon.com/dp/B002VXTB6I/?tag=theven01-20">The Forbidden Tower</a> by Marion Zimmer Bradley (1978)</li>
+<li><a title="Harpist in the Wind" href="http://www.amazon.com/dp/0345324404/?tag=theven01-20">Harpist in the Wind</a> by Patricia A. McKillip (1980)</li>
+<li><a title="Little, Big" href="http://www.amazon.com/dp/B005DB7O0U/?tag=theven01-20">Little, Big</a> by John Crowley (1982)</li>
+<li><a title="Tea with the Black Dragon" href="http://www.amazon.com/dp/1585861979/?tag=theven01-20">Tea with the Black Dragon</a> by R. A. MacAvoy (1984)</li>
+<li><a title="Seventh Son" href="http://www.amazon.com/dp/B00413QAP6/?tag=theven01-20">Seventh Son</a> by Orson Scott Card (1988)</li>
+<li><a title="Red Prophet" href="http://www.amazon.com/dp/B003GYEGM0/?tag=theven01-20">Red Prophet</a> by Orson Scott Card (1989)</li>
+<li><a title="Hyperion" href="http://www.amazon.com/dp/B004G60EHS/?tag=theven01-20">Hyperion</a> by Dan Simmons (1990)</li>
+<li><a title="Prentice Alvin" href="http://www.amazon.com/dp/B003H4I5IK/?tag=theven01-20">Prentice Alvin</a> by Orson Scott Card (1990)</li>
+<li><a title="Bone Dance" href="http://www.amazon.com/dp/B002LATV02/?tag=theven01-20">Bone Dance</a> by Emma Bull (1992)</li>
+<li><a title="Prisoner of Azkaban" href="http://www.amazon.com/dp/B00728DYP6/?tag=theven01-20">Harry Potter and the Prisoner of Azkaban</a> by J. K. Rowling (2000)</li>
+<li><a title="Goblet of Fire" href="http://www.amazon.com/dp/B00728DYCO/?tag=theven01-20">Harry Potter and the Goblet of Fire</a> by J. K. Rowling (2001)</li>
+<li><a title="A Storm of Swords" href="http://www.amazon.com/dp/B000FBFN1U/?tag=theven01-20">A Storm of Swords</a> by George R. R. Martin (2001)</li>
+<li><a title="The Curse of Chalion" href="http://www.amazon.com/dp/B000FC11AQ/?tag=theven01-20">The Curse of Chalion</a> by Lois McMaster Bujold (2002)</li>
+<li><a title="The Scar" href="http://www.amazon.com/dp/B000FBFM70/?tag=theven01-20">The Scar</a> by China Miéville (2003)</li>
+<li><a title="Paladin of Souls" href="http://www.amazon.com/dp/B000FC138Q/?tag=theven01-20">Paladin of Souls</a> by Lois McMaster Bujold (2004)</li>
+<li><a title="Feast for Crows" href="http://www.amazon.com/dp/B000FCKGPC/?tag=theven01-20">A Feast for Crows</a> by George R. R. Martin (2006)</li>
+<li><a title="The Hundred Thousand Kingdoms" href="http://www.amazon.com/dp/B002ZDJZO2/?tag=theven01-20">The Hundred Thousand Kingdoms</a> by N. K. Jemisin (2011)</li>
+<li><a title="Among Others" href="http://www.amazon.com/dp/B0044781T2/?tag=theven01-20">Among Others</a> by Jo Walton (2012)</li>
+<li><a title="A Dance with Dragons" href="http://www.amazon.com/dp/B003YL4LYI/?tag=theven01-20">A Dance with Dragons</a> by George R. R. Martin (2012)</li>
+<li><a title="Throne of the Crescent Moon" href="http://www.amazon.com/dp/B0064VQDHI/?tag=theven01-20">Throne of the Crescent Moon</a> by Saladin Ahmed (2013)</li>
+</ul>
+
+
+<p>This task was made bearable by scripting the look-ups with Beautiful Soup in Python. If you&rsquo;re interested, the source is available as <a title="Categorizing Hugo Award winners" href="https://github.com/smholloway/categorizing-hugo-award-winners">categorizing-hugo-award-winners on GitHub</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books read December 2013]]></title>
+    <link href="http://sethholloway.com/books-read-december-2013/"/>
+    <updated>2014-01-08T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/books-read-december-2013</id>
+    <content type="html"><![CDATA[<p><a href="http://www.amazon.com/gp/product/B003BQZ80M/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003BQZ80M&linkCode=as2&tag=theven01-20">Lord of Chaos: Book Six of &lsquo;The Wheel of Time&rsquo;</a> - I finished up book six of the Wheel of Time series and am ready for a break. This book felt like a slog, but ended really well. Some friends advised I skip the middle, so I think I&rsquo;ll read summaries before jumping to book 12 to start the finale.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0321193857/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321193857&linkCode=as2&tag=theven01-20">The Non-Designer&rsquo;s Design Book</a> - I thought this book had great bang for the buck. Robin Williams shows how to transform boring, bad designs using CRAP&ndash;that&rsquo;s contrast, repetition, alignment, and proximity. The second edition is a bit dated; perhaps the third edition is closer to today&rsquo;s flat UI trend.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0671212095/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=theven01-20">How to Read a Book: The Classic Guide to Intelligent Reading (A Touchstone book)</a> - This text asserts that there are four levels of reading: elementary (the basics), inspectional (quickly understanding the big idea), analytical (deep reading), and syntopical (thinking critically and comparing the words against all your related knowledge). I wish I would have read this earlier, but I probably wouldn&rsquo;t have gotten much out of it because I didn&rsquo;t think I needed it. I found that the deep dives into new subjects that I frequently did during my PhD is called syntopical reading.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B000FC11JW/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FC11JW&linkCode=as2&tag=theven01-20">The Effective Executive (Harper business Essentials)</a> - Management guru, Peter Drucker, provides a  great guide to working on the right things. As with many business books, you could summarize it in one blog post, but then you lose the nuance. I&rsquo;m curious how Drucker would argue that a busy executive should read his entire book instead of a concise summary.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0932633161/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0932633161&linkCode=as2&tag=theven01-20">Are Your Lights On?: How to Figure Out What the Problem Really Is</a> - Another book from my productivity queue. This was a quick read with some interesting points. I was intrigued by thinking about whose problem something is and how decision makers&#8217; interests rarely align with he people experiencing the problem.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books read November 2013]]></title>
+    <link href="http://sethholloway.com/books-read-november-2013/"/>
+    <updated>2013-12-01T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/books-read-november-2013</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve continued with the Wheel of Time series, which sucks up my reading time beyond blogs and work stuff. I&rsquo;m tiring a bit with the lack of diversity. A couple people commented that the middle of the series is skippable, so I plan to jump ahead to the good parts.</p>
+
+<p><a href="http://www.amazon.com/gp/product/0812513738/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0812513738&amp;linkCode=as2&amp;tag=theven01-20">The Shadow Rising (The Wheel of Time, Book 4)</a></p>
+
+<p><a href="http://www.amazon.com/gp/product/0812550307/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0812550307&amp;linkCode=as2&amp;tag=theven01-20">The Fires of Heaven (The Wheel of Time, Book 5)</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Books read October 2013]]></title>
+    <link href="http://sethholloway.com/books-read-october-2013/"/>
+    <updated>2013-11-07T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/books-read-october-2013</id>
+    <content type="html"><![CDATA[<p>In October I continued on <a title="Wikipedia: The Wheel of Time" href="http://en.wikipedia.org/wiki/The_Wheel_of_Time">The Wheel of Time series by Robert Jordan</a>, completing books two and three (a grand total of about 1500 pages). So far I&rsquo;m really liking the series, which is a fantasy hero story. As of now I still prefer <a title="Wikipedia: A Song of Fire and Ice" href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire">A Song of Fire and Ice by G.R.R.M.</a>. A Song of Fire and Ice takes more risks&ndash;perhaps because the series is less about good and evil (or it is not so obvious who is truly good or evil). In any case, I will complete the Robert Jordan (then Brandon Sanderson) series.</p>
+
+<p><a href="http://www.amazon.com/gp/product/B002VBV1R2/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B002VBV1R2&amp;linkCode=as2&amp;tag=theven01-20">The Great Hunt: Book Two of &lsquo;The Wheel of Time&rsquo;</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=B002VBV1R2" width="1" height="1" border="0" /></p>
+
+<p><a href="http://www.amazon.com/gp/product/B0030AF5DO/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0030AF5DO&amp;linkCode=as2&amp;tag=theven01-20">The Dragon Reborn: Book Three of &lsquo;The Wheel of Time&rsquo;</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=B0030AF5DO" width="1" height="1" border="0" /></p>
 ]]></content>
   </entry>
   

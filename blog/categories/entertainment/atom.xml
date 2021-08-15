@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: entertainment | Seth Holloway]]></title>
-  <link href="http://www.sethholloway.com//blog/categories/entertainment/atom.xml" rel="self"/>
-  <link href="http://www.sethholloway.com//"/>
-  <updated>2021-08-14T13:38:41-05:00</updated>
-  <id>http://www.sethholloway.com//</id>
+  <link href="http://sethholloway.com/blog/categories/entertainment/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2021-08-15T13:59:43-05:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[TV should be more interactive]]></title>
-    <link href="http://www.sethholloway.com//tv-should-be-more-interactive/"/>
+    <link href="http://sethholloway.com/tv-should-be-more-interactive/"/>
     <updated>2012-12-11T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//tv-should-be-more-interactive</id>
+    <id>http://sethholloway.com/tv-should-be-more-interactive</id>
     <content type="html"><![CDATA[<p>TV is such a dinosaur! If I see something I want in a commercial, I have to use a second&ndash;maybe even third&ndash;device to find out more and buy it. Let&rsquo;s say I see a movie trailer and I decide I want to see the movie; currently, the onus is on me to remember. Because we have poor memories, we are inundated with the same trailer as an artificial memory aid.</p>
 
 <p>If a movie is coming out on video, I would like to be able to add it to my Netflix queue or have a reminder to check it out on Redbox. If I see a product that I&rsquo;d like to buy, it would be nice to have a simpler method than visiting a website, calling a specified number, or both. Voting, like on American Idol, is another clear example of where TV could be more interactive.</p>
@@ -27,25 +27,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Who needs a wimpy support group?]]></title>
-    <link href="http://www.sethholloway.com//who-needs-a-wimpy-support-group/"/>
-    <updated>2009-06-22T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//who-needs-a-wimpy-support-group</id>
-    <content type="html"><![CDATA[<p>I actually laughed out loud at this picture (and hopefully you will too).</p>
-
-<p><a href="http://www.flickr.com/photos/passiveaggressive/3642661392/sizes/o/"><img title="Vegans vs Carnivores" src="http://farm4.static.flickr.com/3171/3642661392_893103fda0_o.jpg" alt="Keep being awesome meat-eaters!" width="400" height="300" /></a></p>
-
-<p>Around campus we have a glut of bulletin boards and posting; just once I want to see something this clever!</p>
-
-<p>Source: <a title="Flickr: Vegans vs Carnivores" href="http://www.flickr.com/photos/passiveaggressive/3642661392/sizes/o/" target="_blank"><a href="http://www.flickr.com/photos/passiveaggressive/3642661392/sizes/o/">http://www.flickr.com/photos/passiveaggressive/3642661392/sizes/o/</a></a></p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Get notifications when concerts come?]]></title>
-    <link href="http://www.sethholloway.com//get-notifications-when-concerts-come/"/>
+    <link href="http://sethholloway.com/get-notifications-when-concerts-come/"/>
     <updated>2009-06-17T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//get-notifications-when-concerts-come</id>
+    <id>http://sethholloway.com/get-notifications-when-concerts-come</id>
     <content type="html"><![CDATA[<p>Does anyone know of a website or method to be notified when your favorite artist is coming to town?</p>
 
 <p>For example, I&rsquo;d love to see <a title="Mike Doughty" href="http://www.mikedoughty.com/" target="_blank">Mike Doughty</a>, <a title="Ben Folds" href="http://www.benfolds.com/" target="_blank">Ben Folds</a>, and <a title="They Might Be Giants... or..." href="http://www.tmbg.com/" target="_blank">They Might Be Giants</a> in concert, but I always miss the ticket sales. I&rsquo;ve tried to check their websites periodically, but I forget for a few months then miss the show. I&rsquo;ve listened for announcements on the radio, but I do not listen to the radio consistently enough. Most recently, I&rsquo;ve subscribed to RSS feeds from my favorite artists and this method is working, although I feel it is suboptimal.</p>
@@ -60,21 +45,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What do Obama and pigs have in common?]]></title>
-    <link href="http://www.sethholloway.com//what-do-obama-and-pigs-have-in-common/"/>
-    <updated>2009-05-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//what-do-obama-and-pigs-have-in-common</id>
-    <content type="html"><![CDATA[<p>Years ago, people said there&rsquo;d be a black president when pigs flew. Well, 100 days into a black presidency, swine flu.</p>
-
-<p>Complements of my very clever wife, Andrea Mire Holloway.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Richard Stallman's Mistaken Thinking on Copyright]]></title>
-    <link href="http://www.sethholloway.com//richard-stallmans-mistaken-thinking-on-copyright/"/>
+    <link href="http://sethholloway.com/richard-stallmans-mistaken-thinking-on-copyright/"/>
     <updated>2009-04-30T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//richard-stallmans-mistaken-thinking-on-copyright</id>
+    <id>http://sethholloway.com/richard-stallmans-mistaken-thinking-on-copyright</id>
     <content type="html"><![CDATA[<p>Last Friday I had the honor of seeing <a title="Richard Stallman's Home Page" href="http://www.stallman.org/" target="_blank">Richard Stallman</a>, or <a title="Wikipedia: Richard Stallman" href="http://en.wikipedia.org/wiki/Richard_Stallman" target="_blank">rms</a> as he&rsquo;s known in the computer underground, delivering a lecture about copyright in the digital age at UT.</p>
 
 <p>First, a note on his appearance: I was near the back of a 300-person auditorium, but he looked fairly presentable. He has long hair and a ratty beard, but he was dressed in a clean, bright red shirt and slacks. He wore black Velcro shoes which he quickly slid out of. Another interesting visual was his perfectly spherical basketball-sized belly that stretched his shirt tight against his torso. It was truly amazing given his thin arms and legs!</p>
@@ -112,6 +86,34 @@
 <p>Years ago, the music and motion pictures industries (digital media publishers) that are &ldquo;losing sales&rdquo; to piracy should have created a system that allows users to purchase one copy to do with as they please. A simple solution is to create a central web server that contains all available material. Access is then controlled based on holding the license to the material. If a person wants to share or sell media, the user should give up their license and pass it on. We could make the access control very user-friendly, virtually transparent, while providing ubiquitous access and promoting sales.</p>
 
 <p>Sharing is good. We should foster the bonds of sharing. We should not proliferate copying.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gamers are not so nerdy after all]]></title>
+    <link href="http://sethholloway.com/gamers-are-not-so-nerdy-after-all/"/>
+    <updated>2008-12-03T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/gamers-are-not-so-nerdy-after-all</id>
+    <content type="html"><![CDATA[<p>We&rsquo;re <a title="New Scientist" href="http://www.newscientist.com/channel/health/mg19926746.400-online-gamers-are-fit--physically-if-not-mentally.html?feedId=health_rss20" target="_blank">mentally and physically fit</a>, as well as social&ndash;and <a title="Techdirt" href="http://www.techdirt.com/articles/20080916/1934422288.shtml" target="_blank">not evil</a>! Let&rsquo;s reexamine what it means to be a nerd, shall we? Even more important, who cares how people spend their free time as long as it does not hurt others? It&rsquo;s all useless in the end&hellip;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The time is right for novel input devices]]></title>
+    <link href="http://sethholloway.com/the-time-is-right-for-novel-input-devices/"/>
+    <updated>2008-10-08T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/the-time-is-right-for-novel-input-devices</id>
+    <content type="html"><![CDATA[<p>As I mentioned earlier, <a title="Rock Band 2 is out -- SethHolloway.com" href="http://sethholloway.com/blog/?p=114" target="_blank">Rock Band 2 is out</a>. <a title="Guitar Hero Official Site" href="http://www.guitarhero.com/" target="_blank">Guitar Hero</a>: <a title="Guitar Hero World Tour" href="http://en.wikipedia.org/wiki/Guitar_Hero_IV" target="_blank">World Tour</a> (a.k.a. Guitar Hero IV) is not far behind. These games are doing extremely well, and I&rsquo;m not surprised. I have fond memories of playing the original <a title="Nintendo Power Pad" href="http://en.wikipedia.org/wiki/Power_Pad" target="_blank">Power Pad</a> for Nintendo. I&rsquo;m glad to see a new generation of novel input devices for games because games have really stuck with standard controls for the last 15 years. Sure, there was a <a title="Duck Hunt Gun" href="http://en.wikipedia.org/wiki/Duck_hunt_gun" target="_blank">Zapper</a>, <a title="Power GLOVES!" href="http://en.wikipedia.org/wiki/Power_glove" target="_blank">Power Glove</a>, <a title="Donkey Kong Bongos!" href="http://en.wikipedia.org/wiki/Donkey_Kong_Jungle_Beat" target="_blank">Donkey Kong Bongos</a>, and <a title="DDR" href="http://www.ddrfreak.com/aboutddr.php" target="_blank">DDR</a>, but games have not explored the space until recently. Think of the slew of games for the <a title="App Store" href="http://www.apple.com/iphone/appstore/" target="_blank">iPhone</a>, the Wii, and instrument-driven games&ndash;we&rsquo;ve only seen the tip of the iceberg! Beyond that, research into augmented reality (it&rsquo;s like virtual reality) has come a long way. This is an exciting time for gamers, indeed.</p>
+
+<p>Beyond being a great time for gamers, it&rsquo;s a great time for developers! iPhone developers are doing well, the same could be possible for anyone related to music! There is a huge opportunity for instrument-driven games, but game makers and the RIAA <a title="Activision CEO wants more!" href="http://www.techdirt.com/articles/20081001/0245102424.shtml" target="_blank">can&rsquo;t determine how to divide the massive profits</a> (Rock band has <a title="21M downloaded songs" href="http://www.streetinsider.com/Press+Releases/MTV+Games,+Harmonix+and+Electronic+Arts+Ship+Rock+Band+2(TM)+for+XBOX+360(R)/3980528.html" target="_blank">over 21M song downloads</a>; Guitar Hero has <a title="10M songs downloaded" href="http://www.joystiq.com/2008/05/02/rock-band-ships-3-million-bundled-units-10-million-songs-down/" target="_blank">over 10M song downloads</a>).</p>
+
+<p>Rock Band/Guitar Hero should take a page from Apple and publish a development kit. This development kit would allow people to put music into a format usable by instrument-driven games. Make it easy for people to create content and let them do the development for you! Hosting is cheap: set up a repository for musicians to submit their transcribed songs into and allow users to access the library; sell advertising, let musicians or the free market determine pricing; split profits.</p>
+
+<p>These platforms are a great way to get your music known! There are opportunities for challenging songs, easy songs, fun party songs and more! Obscure and popular bands alike can profit. And fans would profit too. If the average person could grasp song structure and technical difficulty, it would educate the masses on music, allow more people into the creative process, raise the bar on musicians, and generally be awesome.</p>
+
+<p>I&rsquo;d also like to see new games being developed using the existing novel input devices. Now that we have gyros and guitars, innovate on the ways to use the tools. It can be done; <a title="Devil May Cry using Guitar Hero 3 controller" href="http://www.youtube.com/watch?v=CREs25IcHAU" target="_blank">check out</a> this kid playing Devil May Cry with the Guitar Hero axe.</p>
+
+<p>There&rsquo;s so much possibility! The time is right for novel input devices. Let&rsquo;s hope that content developers, hosting providers, and platform creators can agree on models that are good for the consumer.</p>
 ]]></content>
   </entry>
   

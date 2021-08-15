@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: armchair economist | Seth Holloway]]></title>
-  <link href="http://www.sethholloway.com//blog/categories/armchair-economist/atom.xml" rel="self"/>
-  <link href="http://www.sethholloway.com//"/>
-  <updated>2021-08-14T13:38:41-05:00</updated>
-  <id>http://www.sethholloway.com//</id>
+  <link href="http://sethholloway.com/blog/categories/armchair-economist/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2021-08-15T13:59:43-05:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Richard Stallman's Mistaken Thinking on Copyright]]></title>
-    <link href="http://www.sethholloway.com//richard-stallmans-mistaken-thinking-on-copyright/"/>
+    <link href="http://sethholloway.com/richard-stallmans-mistaken-thinking-on-copyright/"/>
     <updated>2009-04-30T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//richard-stallmans-mistaken-thinking-on-copyright</id>
+    <id>http://sethholloway.com/richard-stallmans-mistaken-thinking-on-copyright</id>
     <content type="html"><![CDATA[<p>Last Friday I had the honor of seeing <a title="Richard Stallman's Home Page" href="http://www.stallman.org/" target="_blank">Richard Stallman</a>, or <a title="Wikipedia: Richard Stallman" href="http://en.wikipedia.org/wiki/Richard_Stallman" target="_blank">rms</a> as he&rsquo;s known in the computer underground, delivering a lecture about copyright in the digital age at UT.</p>
 
 <p>First, a note on his appearance: I was near the back of a 300-person auditorium, but he looked fairly presentable. He has long hair and a ratty beard, but he was dressed in a clean, bright red shirt and slacks. He wore black Velcro shoes which he quickly slid out of. Another interesting visual was his perfectly spherical basketball-sized belly that stretched his shirt tight against his torso. It was truly amazing given his thin arms and legs!</p>
@@ -59,66 +59,26 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Thinking of buying a car? Neither is anyone else!]]></title>
-    <link href="http://www.sethholloway.com//thinking-of-buying-a-car-neither-is-anyone-else/"/>
-    <updated>2009-03-25T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//thinking-of-buying-a-car-neither-is-anyone-else</id>
-    <content type="html"><![CDATA[<p>There are <a title="Pictures of cars being stored in random places" href="http://www.businessinsider.com/unsold-cars-around-the-world-2009-2" target="_blank">A LOT of unsold cars worldwide</a>. From the pictures you can understand how every car company, except Subaru, is <a title="Autoblog: 2009 is rough for car companies" href="http://www.autoblog.com/2009/03/03/by-the-numbers-february-2009-wish-it-were-a-leap-year-edition/" target="_blank">hurting financially</a>!</p>
+    <title type="html"><![CDATA[Half Price Books]]></title>
+    <link href="http://sethholloway.com/half-price-books/"/>
+    <updated>2008-08-20T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/half-price-books</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s no doubt that I love <a title="official website" href="http://www.halfpricebooks.com/" target="_blank">Half Price Books</a> as much as the next guy: they have a great selection, (relatively) clean store, friendly employees, and convenient locations. However, this wonderful store does not have an inventory system. When you ask the friendly employee in the clean, convenient location if they have the new <span style="text-decoration: line-through;">Dora the Explorer</span> <span style="text-decoration: line-through;">Harry Potter</span> Arnold <span>Schwarzenegger</span> book, they can only tell you where they think it would be located. There&rsquo;s no definitive, &ldquo;Oh, yes! We have that!&rdquo;</p>
 
-<p><a href="http://www.businessinsider.com/unsold-cars-around-the-world-2009-2"><img title="Unsold cars, sitting" src="http://static.10gen.com/businessinsider/~~/f?id=49a8645b4b5437fc00b39ad4" alt="Unsold cars, sitting" width="440" height="467" /></a></p>
+<p>The whole situation is odd since books are easier to track than many other physical goods&ndash;they have barcodes and unique identification numbers. As I understand it, all businesses have to take physical inventory periodically. If anyone in the Half Price Books organization knows what they have on hand, why not open the database for use? My guess is that they probably capture a lot of business from people browsing. A couple weeks ago we went in to get one specific book and walked out with five others that we found along the way. It&rsquo;s unclear whether or not we would have bought the other books without the necessary browsing.</p>
 
-<p>We are in for a radical shift in the way people buy cars, and the existing excess supply will be worthless. Car companies should drop the unions, sell the backlog off at any price, and embrace the future.</p>
-
-<p>There are a couple great TED talks on the subject:</p>
-
-<ul>
-<li><a title="Wikipedia: Larry Burns" href="http://en.wikipedia.org/wiki/Larry_Burns" target="_blank">Larry Burns</a>, VP of R&amp;D at GM, <a title="TED: Larry Burns" href="http://www.ted.com/index.php/talks/reinventing_the_car.html" target="_blank">talks about the future of cars</a>: sleek, customizable, and powered by hydrogen. Great ideas; let&rsquo;s see if GM can follow through.</li>
-<li><a title="Wikipedia: Amory Lovins" href="http://en.wikipedia.org/wiki/Amory_Lovins" target="_blank">Amory Lovins</a>, chairman of the <a title="Wikipedia: Rocky Mountain Institute" href="http://en.wikipedia.org/wiki/Rocky_Mountain_Institute" target="_blank">Rocky Mountain Institute</a>, <a title="Amory Lovins on TED" href="http://www.ted.com/index.php/talks/amory_lovins_on_winning_the_oil_endgame.html" target="_blank">proposes a great plan to reduce our dependency on oil</a>, and in doing so, says that vehicles should be smaller, lighter, and stronger.</li>
-</ul>
-
+<p>Integrating a search feature into the website would also be handy. I understand that companies should stick to what they&rsquo;re good at, and Half Price Books has done well so far; however, opening the inventory system to search would be a straightforward task that would easily put Half Price Books ahead the elite booksellers.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Let's get tough on Wall Street]]></title>
-    <link href="http://www.sethholloway.com//lets-get-tough-on-wall-street/"/>
-    <updated>2009-02-02T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//lets-get-tough-on-wall-street</id>
-    <content type="html"><![CDATA[<p>Maureen Dowd says it nicely in <a title="Disgorge, Wall St Fat Cats" href="http://www.nytimes.com/2009/02/01/opinion/01dowd.html?_r=1&amp;ex=1391230800" target="_blank">her editorial</a> in the New York Times. If you didn&rsquo;t read the post already, you should. America needs to get upset, take action, and save the proletariat&ndash;not the fat cat. If the big banks fail, the free market will provide and there&rsquo;s no shortage of smart people looking to make banking salaries. These guys <a title="Efficient Market Hypothesis" href="http://en.wikipedia.org/wiki/Efficient_market_hypothesis" target="_blank">don&rsquo;t know anything special</a>, well not in terms of stock trends at least&ndash;I doubt you know about million dollar bonuses, private jets, and $100+ bottles of wine :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Update: Common Sense Fix for the Economy]]></title>
-    <link href="http://www.sethholloway.com//update-common-sense-fix-for-the-economy/"/>
-    <updated>2008-10-21T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//update-common-sense-fix-for-the-economy</id>
-    <content type="html"><![CDATA[<p>Well, one <a title="SethHolloway.com: Common Sense Fix" href="http://sethholloway.com/blog/?p=210" target="_blank">common sense fix</a> for the economy was to drop capital gains taxes. Another one I found and really like is <a title="Wired.com Note to President" href="http://blog.wired.com/cars/2008/10/wall-street-bai.html" target="_blank">building infrastructure</a>.</p>
+    <title type="html"><![CDATA[Fixing American Health Care]]></title>
+    <link href="http://sethholloway.com/fixing-american-health-care/"/>
+    <updated>2008-06-10T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/fixing-american-health-care</id>
+    <content type="html"><![CDATA[<p>After watching Sicko I have been more interested in the American health care situation. I don&rsquo;t trust the government to provide high-quality health care coverage. Moore speaks highly of the English system, but a common perk for jobs in the UK (<a title="effects on Brits who choose private health care" href="http://www.thisismoney.co.uk/tax-advice/income-tax/article.html?in_article_id=408244&amp;in_page_id=77" target="_blank">private health care coverage</a>) suggests that the system is less than perfect. Benefits of America&rsquo;s quasi-privatized system are a wash: a person can receive care, but insurance rarely covers the entire cost of operations and medicine. There are a number of other issues at work (governmental regulations, the patent system, market competition, a lack of care for mentally-ill, &hellip;); however, my intent for this post is not to cover any of these complex issues, nor is it to enrage people or debate over the advantages and disadvantages of private health care. Instead, I simply want to share a solution that I find very clever and achievable: <a title="LetWalMartFixUSHealthCare" href="http://articles.moneycentral.msn.com/Investing/JubaksJournal/LetWalMartFixUSHealthCare.aspx" target="_blank">Let Wal-Mart Fix American Health Care</a>.</p>
 
-<p><em>&ldquo;A report card issued three years ago by the American Society of Civil Engineers <a href="http://www.asce.org/reportcard/2005/index2005.cfm">gives it all a D</a>. The society says we&rsquo;ve got to spend about $1.6 trillion just to bring things up to a B-.&rdquo;</em></p>
-
-<p>Comments after the article reveal a lot of fiscal conservatism which I normally agree with. However, in my opinion a government should provide defense and infrastructure. The US is behind on health care, education, and technology (broadband Internet and cell phone services to name a couple). In order to maintain our position of power/esteem (I know people worldwide hate USA so I&rsquo;m not sure what word to use, but you know what I mean), we must invest in infrastructure. America is too spread out to develop fully, but we can focus heavily on urban areas.</p>
-
-<p>As a grad student I think we also need to increase research expenditures :)</p>
-
-<p>This proposal is mired in long-standing debates and historical blunders, but I believe investing in infrastructure is a step in the right direction. I strongly believe that with the right systems in place, economic opportunities are infinite. Our odd blend of public and private systems is failing and needs serious reform.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Common Sense Fix for the Economy]]></title>
-    <link href="http://www.sethholloway.com//common-sense-fix-for-the-economy/"/>
-    <updated>2008-10-19T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//common-sense-fix-for-the-economy</id>
-    <content type="html"><![CDATA[<p>I came across a &ldquo;<a title="Common Sense Fix" href="http://www.daveramsey.com/media/pdf/the_common_sense_fix.pdf" target="_blank">common sense fix</a>&rdquo; for the economy that I found interesting. In particular, I like the idea of removing capital gains taxes:</p>
-
-<p><em>&ldquo;Remove the capital gains tax completely. Investors will flood the real estate and stock
-market in search of tax-free profits, creating tremendous—and immediate—liquidity in
-the markets. Again, this costs the taxpayer nothing.&rdquo;</em></p>
-
-<p>I&rsquo;m not sure that anyone is staying out of the market for fear of paying 15% tax, but it would be simple to waive gains taxes for 2008.</p>
-
-<p>Ramsey also thinks we should stop paying incentives for CEO failures. I agree. Sure enough, Wall Street has already taken the government&rsquo;s money and <a title="Executives are getting $$$" href="http://www.guardian.co.uk/business/2008/oct/17/executivesalaries-banking" target="_blank">paid itself hefty bonuses</a> :&lsquo;(</p>
+<p>If they can roll back prices on so many everyday products, they should be able to hardball health care providers and pass the savings on to the consumers. I&rsquo;ll worship the Church of Wal-Mart if it saves me any of the $3,600 a year I pay for health care for my family.</p>
 ]]></content>
   </entry>
   

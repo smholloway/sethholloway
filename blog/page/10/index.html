@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.sethholloway.com//blog/page/10">
+  <link rel="canonical" href="http://sethholloway.com/blog/page/10">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -118,352 +118,36 @@
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/features-i-wish-netflix-would-add/">Features I wish Netflix would add</a></h1>
-      <p>Preface: I like Netflix, and I&rsquo;ve been happily using the service for years.</p>
+      <h1 class="link"><a href="/a-restful-smart-home/">A RESTful smart home</a></h1>
+      <p>(I found this in my drafts and thought, &ldquo;have I really not posted about my PhD research before?&rdquo; Well, here it is now. Feel free to ask if something is unclear.)</p>
 
-<p>When Netflix changed their service last year, a lot of people quit using the service. To this day, I feel that Netflix has lost customers and is succeeding due in part to their monopoly. Too many other companies can compete in the streaming video business (or they think they can, at least); however, <a title="Wikipedia - Netflix Prize" href="http://en.wikipedia.org/wiki/Netflix_Prize">Netflix has an amazing algorithm to predict how much you will like a movie</a>. If I were a product manager for Netflix I would showcase the ranking system and add a few new features to improve the user experience, rebuild the brand, and differentiate from the competition.</p>
+<p>My PhD research was on smart homes (aware homes or intelligent environments). I think of smart homes as <a title="Wikipedia: Even-based Programming" href="http://en.wikipedia.org/wiki/Event-based_programming" target="_blank">event-based</a> systems where <a title="Wikipedia: sensor" href="http://en.wikipedia.org/wiki/Sensor">sensors</a> provide inputs that trigger actions performed by <a title="Wikipedia: actuator" href="http://en.wikipedia.org/wiki/Actuator" target="_blank">actuators</a>. I believe that centralizing the logic creates a direct path forward, which functionally means that individual buildings would have a central server. To this end, I created a smart home server that would accept sensor inputs and create outputs for actuators using a RESTful Web-of-Things style API that should be easy for future devices to conform to (we termed this piece <a title="Sensor Enablement for Average Programmers" href="http://mpc.ece.utexas.edu/SEAP/">SEAP</a>). Users can create their own rules using an interface that we prototyped and tested&ndash;it was usable according to our user studies (we termed the complete system <a title="Sensor Enablement for End-Users" href="http://mpc.ece.utexas.edu/SEEU/">SEEU</a>). All of this is available on <a title="GitHub: Seth Holloway - SEEU" href="https://github.com/smholloway/seeu">GitHub</a>.</p>
 
-<p>Before I discuss the features I would like to see added, let me explain a bit about how I use Netflix. I watch Netflix almost exclusively on my TV connected to my PS3. My tastes are pretty diverse and I watch all kinds of content (educational TV shows to samurai movies). My queue has contained over 50 items for almost as long as I&rsquo;ve had Netflix.</p>
+<p>To implement the server, I used <a title="Ruby on Rails" href="http://rubyonrails.org/" target="_blank">Ruby on Rails 3</a> and <a title="Ruby" href="http://www.ruby-lang.org/en/" target="_blank">Ruby 1.9.2</a> with <a title="jQuery" href="http://jquery.com/" target="_blank">jQuery</a> to speed and simplify JavaScript work. These technologies are fantastic! Devices (sensors and actuators) are modeled using <a title="Wikipedia: Sun SPOT" href="http://en.wikipedia.org/wiki/Sun_SPOT" target="_blank">Sun SPOT</a>s running the <a title="Wikipedia: Squawk VM" href="http://en.wikipedia.org/wiki/Squawk_virtual_machine" target="_blank">Squawk virtual machine</a> (<a title="Wikipedia: Java ME" href="http://en.wikipedia.org/wiki/Java_ME" target="_blank">Java ME</a>, equivalent to ~JRE 1.3). Using our <a title="Sensor Enablement for the Average Programmer" href="http://mpc.ece.utexas.edu/SEAP/" target="_blank">SEAP middleware</a>, sensors <a title="Wikipedia: REST" href="http://en.wikipedia.org/wiki/Representational_State_Transfer" target="_blank">REST</a>fully <a title="Wikipedia: HTTP POST" href="http://en.wikipedia.org/wiki/POST_(HTTP)" target="_blank">POST</a> their values and actuators <a title="Wikipedia: HTTP GET" href="http://en.wikipedia.org/wiki/GET_(HTTP)" target="_blank">GET</a> their state.</p>
 
-<p>With that in mind, here are a few features that would improve my Netflix experience:</p>
+<p>And now to the fun part, the rules processing engine. I could not find a rule processing engine in open source projects nor gems/plugins; even the academic research was scarce. So, I developed my own. Rules encode actions triggered by conditions. As I see it, there are two ways to run rules: reactively or periodically. If the rules are run periodically, they are easier to control (e.g., this will run once every minute) but they lose the on-demand factor that people would expect from a lot of operations in a house. Imagine walking into your house with a guarantee that lights will turn on within one minute. No thanks! This would work for something like turning on outside lights in the evening: the front porch lights coming on within one minute of sunset is acceptable. I prefer the more direct approach: reactive rules. The tradeoff here is that rules may run once a second or they may never run. My research prototype ran rules whenever sensor inputs were received, however, I think a periodic component would be useful to guarantee rules were executed.</p>
 
-<p><strong>Sorting</strong>. When looking at a list of movies, it would be nice to be able to sort, particularly by stars. Netflix has so much content! I don&rsquo;t think I&rsquo;ll stoop to the 1 or 2 star level anytime soon, so show those items last, or not at all. Showcase the ranking algorithm that can predict what I&rsquo;ll like!</p>
+<p>How often the rules run directly affects your application&rsquo;s performance. I believe rules will be run very frequently, so I chose to store the rules directly (as opposed to storing fragments). This is fast and clear, but it is dangerous because the rules could be malformed and you open yourself to risks of crashing the system or deleting the database (if someone injected malicious code into a rule). There are standard protections against these problems like escaping inputs, employing model checkers, and wrapping execution in try/catch/rescue (or whatever method your language offers). The system had acceptable performance and I fixed any bugs I found with light penetration testing, so I am pleased overall.</p>
 
-<p><strong>Filtering</strong>. Filtering is an extension to sorting, I think. With all the content, it is hard to wade through everything. As I said with sorting, I don&rsquo;t plan to watch movies below 3 stars, so let me filter those out. I&rsquo;m also not a fan of old movies, in general, so it would be nice to nix anything before some date. Often, I fire up Netflix with a vague notion of what I want to watch, but nothing particular in mind; it would be nice to find movies based on tags or multiple genres (like comedy and action). For example, one of our common searches boils down to a comedy made in the last 10 years; unfortunately, we have to keep those criteria in mind as we look through various queues (instant, comedy, new releases, recently added). I think there&rsquo;s ample precedent of filtering interfaces (particularly in shopping sites like Amazon, Old Navy, Newegg, etc), so users would have little resistance to this change.</p>
+<p>Here&rsquo;s a simple grammar for rules given a single sensor and a single actuator:</p>
 
-<p><strong>Guided decision making</strong>. Why not help people find something good to watch? The interface does a pretty good job of presenting a subset of content, but the sheer number of options can be overwhelming. This leads to choice-paralysis where it&rsquo;s easier to watch nothing than to decide on the hundreds of options. To streamline the process, I would create a guided path that leads to a movie or a small subset of movies. For example, formalize the decision making process that is something like this: &ldquo;I want a [classic|modern|new] [choose genre] [choose sub-genre] movie that is [short|medium|long].&rdquo; This would also allow the user to find deeper content as well (the content that doesn&rsquo;t fit in the 75 item lists shown in the current interface).</p>
+<pre><code>R = CA
+C = &amp;lt;sensor&amp;gt; &amp;lt;operator&amp;gt; &amp;lt;value&amp;gt; ... (or conditions logically joined/ANDed together)
+A = &amp;lt;actuator&amp;gt; &amp;lt;value&amp;gt; ... (or actions logically joined/ANDed together)
+</code></pre>
 
-<p><strong>Intermediate &ldquo;staging&rdquo; area</strong>. Almost every time I have turned on Netflix I&rsquo;ve scrolled through my queue trying to find something to watch. I&rsquo;ll find maybe five items then decide what to watch off the short list. When watching with other people, we generally reach a group decision based on everyone&rsquo;s input (Person A is game for &ldquo;The Big Lebowski,&rdquo; Person B wants to watch &ldquo;Snatch,&rdquo; and I&rsquo;m feeling &ldquo;Låt den rätte komma in&rdquo;). This is another instance where a computer could assist effortlessly, but I have to hold all the information in my head.</p>
+<p>We derived this grammar by analyzing over 60 rules written by <a title="Seth Holloway: smart home survey" href="http://sethholloway.com/blog/2009/07/30/smart-home-user-study/" target="_blank">survey</a> participants who almost entirely constructed rules in the form of <code>&amp;lt;if&amp;gt;&amp;lt;condition(s)&amp;gt;&amp;lt;then&amp;gt;&amp;lt;action(s)&amp;gt;</code>. This was translated to a user interface after a paper prototype test; the best interface determined by user testing was then implemented as the front-end for creating rules in the smart home.</p>
 
-<p>There are other things Netflix could do (like increasing the amount and quality of content), but I think the above features could be easily achieved and provide a lot of bang for the buck.</p>
+<p>Future work could include more in the grammar, including ranges of values or times. To prevent system failure, a model checker could be employed to ensure that no rules collide. You could potentially optimize the process by synthesizing all simple rules into more complex, correct rules.</p>
 
-<p>What features do you think are missing? Do you use Netflix like I do? What would you like to see added or improved?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/i-dont-want-to-install-your-app/">I don&#8217;t want to install your app</a></h1>
-      <p>I am getting tired of sites pushing their iPhone app while I am browsing on my iPhone! I&rsquo;m a minimalist, and I&rsquo;d prefer to have a small subset of useful apps. Here&rsquo;s a made up example that is very similar to what I&rsquo;ve encountered multiple times recently: I&rsquo;ll search for something simple like &ldquo;native plants in central texas,&rdquo; which will lead me to a site like Uncle Jim&rsquo;s Country Nursery and Feed Store (just an example&ndash;this site did not exist at the time of writing); the page load is interrupted by a modal dialog asking me to install their iPhone app. No! I don&rsquo;t want to install your app! I just want to see if this page has the information I&rsquo;m seeking (often, it does not).</p>
-
-<p>While tablets and mobile devices will be the primary computer in the near future, I believe the web is the right way forward. There are at least two major mobile platforms (iOS and Android, not to mention Windows, BlackBerry, and any future platforms) requiring dramatically different applications. On the other hand, pursuing a web strategy requires only one app&ndash;an app that you need regardless of whether or not you create an app. My advice as a technologist (and my preference as a user) is to pour your efforts into making a solid website.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/i-want-my-old-google-reader-back/">I want my old Google Reader back</a></h1>
-      <p>Google Plus has been out for a while now, and, after giving it a try, I feel it&rsquo;s fair to say I preferred the Google Reader approach to social. Google Reader was central to my news consumption because I could keep track of hundreds of feeds and take advantage of social filtering (why subscribe to Lifehacker when a few people I follow share the stories I would have cared about?). In addition to excellent features as a news reader, I could kill endless amounts of time by commenting on others&#8217; shared posts.</p>
-
-<p>With the introduction of Google Plus, Google removed the social aspects of Google Reader that were so engaging for me: (1) the ability to follow people and see their shared posts and (2) the ability to have conversations about those shared posts.</p>
-
-<p>I&rsquo;m largely underwhelmed by Plus and feel the void left by stripping down Google Reader. Sadly, I&rsquo;m not sure that any news reader can capture the same spirit, even if they can copy the features. And no company is likely to start on such a project given the lack of monetization. Oh well! It was good while it lasted&hellip;</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/two-factor-authentication-made-easy/">Two factor authentication made easy</a></h1>
-      <p>Passwords are simply not secure as evidenced by numerous password breaches and numerous hacks. Identity theft is increasingly common and increasingly harmful, so we need to evolve our security sooner rather than later. <a title="Wikipedia: two factor authentication" href="http://en.wikipedia.org/wiki/Two-factor_authentication" target="_blank">Multi factor authentication</a> is a great way to improve security. In essence, we would augment our current password system with an additional factor (something the user possesses&ndash;like an RSA token or ATM card&ndash;or something unique to the user&rsquo;s person&ndash;like a fingerprint or retina scan).</p>
-
-<p>Already, many companies distribute <a title="Two factor authentication - token generators" href="http://en.wikipedia.org/wiki/Two-factor_authentication#Tokens_with_a_display_.28disconnected_tokens.29" target="_blank">RSA fobs</a> that cycle through a unique series of numbers; whenever an employee logs in with the correct password, a secondary check is issued and requires that the user input the number from the RSA device. A few banks offer this system, and <a title="Google offers two factor authentication" href="http://googleblog.blogspot.com/2011/02/advanced-sign-in-security-for-your.html" target="_blank">Google brought the same idea to their authentication system</a>.</p>
-
-<p>Recently, I started using the Google system and I&rsquo;m pleased overall; however, I know that we can do better. Why require the user to type in an ever-changing key when we can get at that information another way? That is, use the user&rsquo;s phone to verify their location and only allow logins from known locations.</p>
-
-<p>That simple idea is the basis of a company started by my friend and grad school peer, Evan. <a title="Two factor authentication done right " href="https://www.toopher.com/" target="_blank">Toopher</a> is two factor authentication made easy. For my convenience and security, I hope that sites use Toopher!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/what-is-pwat-n-austin-moto-austin-tx-on-my-credit-card/">What is PWAT N AUSTIN MOTO AUSTIN TX on my credit card?!</a></h1>
-      <p>TL;DR: If you see &ldquo;PWAT N AUSTIN MOTO AUSTIN TX&rdquo; on your statement, it&rsquo;s probably Painting with a Twist (PWAT).</p>
-
-<p>Looking over my credit card statement I saw &ldquo;PWAT N AUSTIN MOTO AUSTIN TX&rdquo; and had no idea what it was. The random words made no sense to me. To make it even more confusing, my bank was categorizing the company as &ldquo;Organizations - MISC SCHOOLS / EDUCATIONAL SERVICES&rdquo;</p>
-
-<p>Searching for the entire string led to results that were really keyed in on &ldquo;MOTO AUSTIN&rdquo; for some reason, which led to a lot of dead ends (we did not pay for motorcycle lessons or rent a motorcycle!).</p>
-
-<p>After more searching I realized this charge is for <a title="Painting with a Twist" href="http://www.paintingwithatwist.com/">Painting With A Twist</a>! With that said, Painting With A Twist is a lot of fun. Andrea and I were able to quickly create some decent looking paintings in a relaxed environment.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/10-ways-of-thinking/">10 ways of thinking</a></h1>
-      <p>There are 10 types of people in this world: those who understand binary and those who don&rsquo;t. 10 in base 2 (binary) is 2 in base 10 (decimal&ndash;our standard number system) because 10 = 1<em>2<sup>1</sup> + 0</em>2<sup>0</sup> = 2, so the statement means there are 2 (base 10) types of people.</p>
-
-<p>Can you describe the weather? If you take this question literally, the answer is &ldquo;yes.&rdquo; If you read into it, your answer will describe the weather.</p>
-
-<p>What&rsquo;s half of 13? 6.5 is one answer, and 1 or 3 is another.</p>
-
-<p><a title="How geniuses think" href="http://www.psychologytoday.com/blog/creative-thinkering/201109/how-geniuses-think">Geniuses are more likely to think differently</a>. How do you think? How do the people you admire think?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/my-experience-with-programming-languages/">My experience with programming languages</a></h1>
-      <p>I was recently browsing a <a title="Rosetta Code: Programming Languages" href="http://rosettacode.org/wiki/Category:Programming_Languages">list of programming languages on Rosetta Code</a> (there&rsquo;s a <a title="Wikipedia: List of Programming Languages" href="http://en.wikipedia.org/wiki/List_of_programming_languages">larger list on Wikipedia</a>) and realized I have played with a lot of languages over the years. I decided to make a list here:</p>
+<p>Other technical details:</p>
 
 <ul>
-<li>Apex (Salesforce.com)</li>
-<li>AppleScript</li>
-<li>Assembly (I forget the exact flavors, but there have been a few embedded chips like the Motorola 6812, the LC-2 teaching language, and some in-line C on various AMD and Intel chips)</li>
-<li>AutoHotKey</li>
-<li>AWK</li>
-<li>BASIC</li>
-<li>Batch</li>
-<li>C</li>
-<li>C++</li>
-<li>C#</li>
-<li>Clojure</li>
-<li>CoffeeScript</li>
-<li>F#</li>
-<li>Gnuplot</li>
-<li>Go</li>
-<li>Groovy</li>
-<li>Haskell</li>
-<li>Java</li>
-<li>JavaScript</li>
-<li>LabVIEW</li>
-<li>LaTeX</li>
-<li>Lisp</li>
-<li>LotusScript</li>
-<li>Lua</li>
-<li>Make</li>
-<li>Mathematica</li>
-<li>MATLAB</li>
-<li>MySQL</li>
-<li>Objective-C</li>
-<li>Octave</li>
-<li>Pascal</li>
-<li>Perl</li>
-<li>PHP</li>
-<li>Python</li>
-<li>R</li>
-<li>Ruby</li>
-<li>Scala</li>
-<li>Scratch</li>
-<li>Sed</li>
-<li>SQL</li>
-<li>TI-89 BASIC</li>
-<li>UNIX Shell (sh, Bash) and UNIX Pipes (grep, cat, etc)</li>
-<li>VBScript</li>
-<li>VHDL</li>
-</ul>
-
-
-<p>I haven&rsquo;t written extensively in all of the languages and I doubt I could do much more than &lsquo;Hello, World!&rsquo; (if that) in most, but those are the ones that I remember.</p>
-
-<p>There are a few more that I didn&rsquo;t see while quickly browsing the languages list. For example, I have automated video game playing in the past using languages like UOAssist, Razor, AC Tools, and MMOGlider. One summer at Texas Instruments I wrote statistical algorithms and data mining routines for a specialized spreadsheet language called Informix Wingz/HyperScript Tools/DataPOWER (which now seems to be owned by IBM).</p>
-
-<p>Looking back, I&rsquo;ve written in a fair amount of languages, but there&rsquo;s so much to learn and do! I continue to learn and grow as I add links to my <a title="Craftsman chain of improvement" href="http://japhr.blogspot.com/2009/03/my-chain.html">craftsman&rsquo;s chain</a>. My next step is to complete the Programming Languages 101 online course from <a title="Dr. Nathan Whitehead teaches programming languages" href="http://nathansuniversity.com/">Nathan&rsquo;s University</a>. Very cool stuff!</p>
-
-<p>Update: added Assembly and UNIX shell specifics. Added Clojure and Lisp. Added Scala and F#.</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/installing-the-google-predictions-api-in-r/">Installing the Google Predictions API in R</a></h1>
-      <p>Note: This post got buried and I never posted it. I haven&rsquo;t played with R in several months, so I&rsquo;m not sure if this works anymore.</p>
-
-<p>This assumes you have R downloaded and installed.</p>
-
-<p>Download, install, and configure GSUtil (<a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>)</p>
-
-<p>Load R. You should see an ugly console :) In the window type</p>
-
-<pre>install.packages(c("RCurl", "rjson"))</pre>
-
-
-<p>You will be prompted to select a mirror; find something close to you and continue.</p>
-
-<p>You might be frustrated that there&rsquo;s no success message:</p>
-
-<pre>trying URL 'http://www.revolution-computing.com/cran/bin/macosx/leopard/contrib/2.13/rjson_0.2.5.tgz'
-Content type 'application/x-gzip' length 133138 bytes (130 Kb)
-opened URL
-==================================================
-downloaded 130 Kb
-
-The downloaded packages are in
-    /var/folders/I3/I3YZ8e5tGOK9CY9LQ98ix++++TI/-Tmp-//RtmpFrtdp3/downloaded_packages</pre>
-
-
-<p>However, if you fail there will be an error message:</p>
-
-<pre>&gt; install.packages("seth", dependencies = TRUE)
-Warning message:
-In getDependencies(pkgs, dependencies, available, lib) :
-  package ‘seth’ is not available (for R version 2.13.0)</pre>
-
-
-<pre>&gt; install.packages("googlepredictionapi_0.1.tar.gz", repos=NULL, type="source")
-Warning: invalid package ‘googlepredictionapi_0.1.tar.gz’
-Error: ERROR: no packages specified
-Warning message:
-In install.packages("googlepredictionapi_0.1.tar.gz", repos = NULL,  :
-  installation of package 'googlepredictionapi_0.1.tar.gz' had non-zero exit status</pre>
-
-
-<p>Download the Google Predictions API for R</p>
-
-<p><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></p>
-
-<p>Install it</p>
-
-<pre>$ mkdir -p ~/R/library</pre>
-
-
-<pre>$ mv googlepredictionapi_0.1.tar.gz ~/R/library/</pre>
-
-
-<pre>$ R_LIBS_USER="~/R/library"</pre>
-
-
-<pre>$ echo 'R_LIBS_USER="~/R/library"' &gt;  $HOME/.Renviron</pre>
-
-
-
-
-<pre>R CMD INSTALL ~/R/library/googlepredictionapi_0.1.tar.gz</pre>
-
-
-<pre></pre>
-
-
-<p>Source your libraries</p>
-
-<pre>library(rjson)
-library(RCurl)
-library(googlepredictionapi)</pre>
-
-
-<p>Some useful links
-<a href="http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html">http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html</a>
-<a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
-<a href="http://code.google.com/p/r-google-prediction-api-v12/">http://code.google.com/p/r-google-prediction-api-v12/</a></p>
-
-<p><a href="http://csg.sph.umich.edu/docs/R/localpackages.html">http://csg.sph.umich.edu/docs/R/localpackages.html</a></p>
-
-<ul>
-<li>Load R <em>Note:</em> You will see an ugly console.</li>
-<li><p>Install the pre-reqs</p>
-
-<blockquote><p>install.packages(c(&ldquo;RCurl&rdquo;, &ldquo;rjson&rdquo;))</p></blockquote></li>
-<li><p>Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.</p></li>
-<li><p>Note: A successful install will not yield a success message&ndash;it will simply not show an error message.</p></li>
-<li><p>Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html"><a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a></a></p></li>
-<li>Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/"><a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a></a></li>
-<li><p>Install the plugin <em>Note:</em> I had to do it from the command line because the install failed inside R</p>
-
-<p> $ R CMD INSTALL your/path/to/googlepredictionapi_0.1.tar.gz</p></li>
-<li><p>Now, you should be able to restart R and see the API listed in the Package Manager</p></li>
-<li><p>From here we source our libraries</p>
-
-<blockquote><p>library(rjson)
-library(RCurl)
-library(googlepredictionapi)</p></blockquote></li>
-<li><p>If the data is already in your Google Storage account, you can begin training the model. I do not have data in GS yet, so I&rsquo;ve stopped here.</p></li>
+<li>I&rsquo;ve worked in Microsoft Windows XP, Ubuntu, and Mac OS X, with a heavy slant towards Mac OS X.</li>
+<li><a title="Heroku" href="http://heroku.com/" target="_blank">Heroku</a> makes deployment easy and <a title="Git" href="http://git-scm.com/" target="_blank">git</a> plus <a title="Dropbox" href="https://www.dropbox.com/home" target="_blank">Dropbox</a> work beautifully for version control and backups.</li>
+<li>I developed using text several editors and IDEs including Eclipse, NetBeans, TextEdit, Notepad, TextMate, and Vim.</li>
+<li>Client-side testing was done using Chrome, Safari, Firefox, and Internet Explorer (sorry Opera!).</li>
+<li>Code is available <a title="Github: SEEU" href="https://github.com/smholloway/SEEU" target="_blank">here</a>.</li>
 </ul>
 
 
@@ -485,21 +169,77 @@ library(googlepredictionapi)</p></blockquote></li>
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/observations-from-three-months-of-vegetarianism/">Observations from three months of vegetarianism</a></h1>
-      <p>Near the end of 2011 I decided to try a vegetarian diet for a few reasons, including the fact that I don&rsquo;t really care for meat, red and processed meats may cause cancer, I generally wanted to eat healthier, and it&rsquo;d be nice to lower my carbon footprint. Okay, technically it was not vegetarianism, rather my diet was <a title="Wikipedia: Pescetarianism" href="http://en.wikipedia.org/wiki/Pescetarianism">pescatarianism</a>, and more accurately, <a title="Wikipedia: Flexitarianism" href="http://en.wikipedia.org/wiki/Semi-vegetarianism">flexitarianism</a> (I&rsquo;ve been largely vegetarian, but chosen to eat meat a few times&ndash;mainly when I was really hungry).  After three months, here are some observations (in no particular order):</p>
+      <h1 class="link"><a href="/a-few-java-tricks-to-myself/">A few Java tricks to myself</a></h1>
+      <hr />
 
-<ul>
-<li>Everyone has thoughts on food and diet. Many people want to understand and define your diet, and they are quick to point out when you&rsquo;re inconsistent (&ldquo;Sushi?! Aren&rsquo;t you a vegetarian?!&rdquo;). Several overweight people told me that my choice was wrong or bad.</li>
-<li>A lot of people mocked vegetarianism, which is somewhat understandable because <a title="Wikipedia: Vegetarianism by country" href="http://en.wikipedia.org/wiki/Vegetarianism_by_country">only about 1/30 people in the US are vegetarian</a>.</li>
-<li>I actually prefer veggie burgers to traditional meat patties. Veggie burgers can have better flavor and texture than meat patties. As with the old stand-by (beef), there are good and bad versions, but veggie patties have more complexity (probably because of the mixture of ingredients).</li>
-<li>Most of the time it&rsquo;s pretty easy to be a vegetarian; it is far harder to be a healthy vegetarian. Several times I found myself eating queso or french fries instead of a lower calorie, arguably healthier entree with lean meat. There are a lot of vegetarian options around Austin and most restaurants will provide some meatless alternative, but eating roasted veggies or a bland salad while others chow down on a scrumptious entree just sucks!</li>
-<li>Sometimes it&rsquo;s nearly impossible to be a vegetarian. A few places just have no vegetarian options! BBQ places may leave you eating nothing but bread&ndash;and some only have bread made with lard, so you&rsquo;re left with pickles and onions. In general, ethnic food seems friendlier to the meat-averse. If you&rsquo;re really disciplined you can pack your own food, skip a meal, or demand that you go somewhere else.</li>
-<li>Animal derived products exist in unexpected places! For example, one of my favorite local Tex-Mex restaurants, Chuy&rsquo;s, uses chicken broth in their queso. As I alluded to above, some places use lard in their bread. A lot of soups and sauces use chicken or beef stock. There&rsquo;s meat or meat flavoring in beans&ndash;even traditional caesar salad dressing (anchovies). I rarely inquired as to how vegetarian food items were, choosing instead to go off my previous knowledge as well as the food&rsquo;s appearance and description.</li>
-<li>Meat eaters also like vegetarian meals. If you eat a family-style meal a lot of people will eat your food even though you choose not to eat theirs! For example, everyone orders a pizza (most have meat) then cheese is the first flavor finished.</li>
-</ul>
+<pre><code>if ( foo.equals("bar") ) { // ... }
+</code></pre>
 
+<p>Here, foo may be null, so instead use</p>
 
-<p>That&rsquo;s it for now. Did I miss something? Has anyone else experienced something different?</p>
+<pre><code>if ( "bar".equals(foo) ) { // ... }
+</code></pre>
+
+<p>This pattern generalizes to using the equals method of the concrete object (put the non-null object on the left side).</p>
+
+<hr />
+
+<p>You can use instanceof to ensure an object is the proper type (this can replace a null check), as in</p>
+
+<pre><code>if ( arg1 instanceof String ) { // ... }
+</code></pre>
+
+<hr />
+
+<p>As of Java 1.5 you can declare methods with variable arity, making the syntax a little cleaner and invocation a bit simpler. The old style:</p>
+
+<pre><code>public static void main(String[] args)
+</code></pre>
+
+<p>becomes</p>
+
+<pre><code>public static void main(String... args)
+</code></pre>
+
+<p>which can then be called like this:</p>
+
+<pre><code>main("seth", "for", "president")
+</code></pre>
+
+<hr />
+
+<p>Errors and Exceptions derive from Throwable, so you can catch all program hiccups by catching Throwable instead of Exception (or Error).</p>
+
+<hr />
+
+<p>Local variables are not initialized with a value; field variables are initialized like so:</p>
+
+<p>Number primitives default to 0.</p>
+
+<p>Objects (Collections) default to null.</p>
+
+<p>Booleans default to false.</p>
+
+<hr />
+
+<p>Java has labels, but most people will not appreciate their inclusion and use. For example, the following code is valid Java</p>
+
+<pre><code>http://www.sethholloway.com
+</code></pre>
+
+<hr />
+
+<p>In mixed-type computation, Java upconverts to the larger data type due to widening primitive conversion. Avoid mixed-type computation and comparisons.</p>
+
+<hr />
+
+<p>&ldquo;Although common, the idiom <code>object.getClass().getMethod("methodName")</code> is broken and should not be used.&rdquo; &ndash; <a title="Java Puzzlers sampler" href="http://javapuzzlers.com/java-puzzlers-sampler.pdf">Java Puzzlers sample</a></p>
+
+<hr />
+
+<p>The finally block of a try-catch-finally will always execute (unless there&rsquo;s a hard crash, System.exit(), System.halt(), or infinite loop before). As such, be careful with returns and mutating objects in the try and finally.</p>
+
+<hr />
 
       
       
@@ -519,10 +259,530 @@ library(googlepredictionapi)</p></blockquote></li>
 
   <div class="row-fluid">
     <div class="span12 post-container">
-      <h1 class="link"><a href="/all-unicode-characters-in-html/">All Unicode characters printed to HTML via JavaScript</a></h1>
-      <p><a title="The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)" href="http://www.joelonsoftware.com/articles/Unicode.html">Joel Spoelsky&rsquo;s article on what developers should know</a> motivated me to learn a bit about <a title="Wikipedia: Unicode" href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> characters. To explore this awesome encoding I wrote a little <a title="Seth Holloway's HTML experiment with unicode" href="https://github.com/smholloway/miscellaneous/blob/master/javascript/funWithUnicode.html">JavaScript to print out all the Unicode characters</a>. It is interesting to note where you have significant gaps of blank white blocks with black borders (this shows what character sets you lack&ndash;sorry, I have not noted which set is displayed in the page). Be patient: the page takes a few seconds to run.</p>
+      <h1 class="link"><a href="/choosing-the-right-library-for-your-java-project/">Choosing the right library for your Java project</a></h1>
+      <p>Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily into your project and prevent you from re-inventing the wheel. On the negative side, third-party libraries could add to your costs or prevent your company from being sold, they could be confusing and poorly documented, or they could work unexpectedly. I&rsquo;ve used a number of libraries in the past (Ruby and Ruby on Rails push libraries heavily; in Java I like jsoup and log4j), but I was curious how pros chose so I asked around and searched a bit.</p>
 
-<p><img class="size-medium wp-image-1651" title="Unicode Snippet" src="/images/UnicodeSnippet-201x300.png" alt="A taste of unicode" width="201" height="300" /></p>
+<p>You can read the <a title="Reddit: Handy Java Libraries" href="http://www.reddit.com/r/java/comments/kis7l/handy_java_libraries_you_use">Reddit take on handy Java libraries</a>.</p>
+
+<p>And here&rsquo;s advice from Lane:</p>
+
+<blockquote>I&#8217;d focus on these:
+
+Normal coding
+Apache Commons: <a href="http://commons.apache.org/" target="_blank">http://commons.apache.org/</a>
+Guava: <a href="http://code.google.com/p/guava-libraries/" target="_blank">http://code.google.com/p/<wbr>guava-libraries/</wbr></a>
+Jackson JSON parser: <a href="http://jackson.codehaus.org/" target="_blank">http://jackson.codehaus.org/</a>
+Spring: <a href="http://www.springsource.org/" target="_blank">http://www.springsource.org/</a>
+ActiveMQ
+
+Unit Testing:
+jUnit4
+Hamcrest matchers
+Mockito (I absolutely dislike mocking tho)
+
+When it comes to libraries try to find ones that have a lot of current activity.
+
+The best code is the code you don&#8217;t have to write.  So I try to write
+as little as possible.</blockquote>
+
+
+<p>And Drew:</p>
+
+<blockquote>
+<div>Here are a couple considerations off the top of my head, but by no means are these exhaustive nor complete&#8230;</div>
+<div>Quick summary - Choosing to use a library should be economics driven.  Look at ROI.  Yes, for an engineer, the excitement of using the newest cool tool is a positive return, but only one of many 10&#8217;s of terms in the equation&#8230; and probably not one of the larger terms.</div>
+<div>0) Documentation - Any library (or application) worth your time should have decent documentation.  It&#8217;s hard to recognize good documentation for new engineers, so beware things recommends by &#8220;kids&#8221;.  There are basically two camps on the documentation side&#8230; the big book (e.g. maven) and the mailing list (e.g. guava).  The big book is pretty obvious.  Guava&#8217;s documentation is a collection of power-point presentations and a very active tag on stack-overflow.  Personally, I prefer Guava&#8217;s documentation over the big-book style.</div>
+<div>1) Maturity of library - Steer clear of anything that is a prototype, a &#8220;place to test advanced features&#8221;, etc.  It&#8217;s not worth your time to rewrite your code when the api changes.</div>
+<div>2) Maturity of release - Steer clear of anything X.0.0.  It&#8217;s broken and you&#8217;ll have to upgrade soon&#8230; another time suck.  Given the choice between 3.5.2 and 4.0.0, always go with 3.x.</div>
+<div>3) Client list - You&#8217;re looking for things that are used by other big projects.  slf4j does a good job of this&#8230; it&#8217;s a mid-aged library but they have a impressive list of projects that use the library right on the home page.  This is a good sign.</div>
+<div>4) Consider proprietary libraries - Sometimes it makes a lot of sense to just buy it.  The price for these libraries is always stunning, but you need to consider ROI, not cost.  Your ROI calculation needs to include design, implementation, maintenance, time-to-market, and how pissed your customer will be if you got something wrong.  Odds are very good that a proprietary library has already gotten that thing wrong and is amortizing the cost.</div>
+<div>Plus, it&#8217;s nice to have someone to call that has to answer your question.  No one has to answer your guava question (and there are a number of unanswered questions on SO).  I may sound strange, but it&#8217;s fantastic to get a reply from a vendor in a hour that says &#8220;I understand your question, but we don&#8217;t do that right now.&#8221;  You can then move on and never second guess that decision.</div>
+<div>5) Legal - Never use anything that is GPL or LGPL only.  Apache, CDDL, BSD, and others are ok.  Most decent libraries are dual licensed.  Figure out which licenses are &#8216;ok&#8217; for yourself, don&#8217;t take my word for it.  Here&#8217;s the reason&#8230; at some point you might want to sell your idea/company to someone else.  If you have GPL libraries in your code base, it&#8217;s gonna cost you real money when you sell, and real time when you have to extract it after the sale.  I know you can use a GPL library and be safe&#8230; but it&#8217;s just too scary for people who might want to buy you later.  Now that&#8217;s not to say you can&#8217;t use GPL libraries to build your product.  We all have one or two GPL tools that we use&#8230; but they don&#8217;t get rolled into the final product (e.g. findbugs).</div>
+<div>6) Generics - A sub-item for maturity probably, but a specific item to watch for.  If a library doesn&#8217;t use generics at all, it&#8217;s a red flag.  There are cases where it doesn&#8217;t make sense to accept types from the application, so the library doesn&#8217;t need generics&#8230; but this is pretty rare.  I would expect that a library would return at least one collection&#8230; and if that collection is untyped, it&#8217;s a flag that something is up.  (It could be backwards compatibility, unmaintained code, or authors that don&#8217;t &#8220;get it&#8221;, or something else)</div>
+<div>7) Standards - Not so much.  I used to look for libraries that conformed to standards.  I don&#8217;t find that to be a big deal anymore.  If a library is worth its salt, it&#8217;s documented either via some standard or by itself.  (Tomcat and Jetty conform to standards wich is great.  Guava is non-standard, but I don&#8217;t care).</div>
+<div>8) Beware libraries that have lots of dependencies.  Sometimes it&#8217;s unavoidable, but try to avoid them if possible.  They make the final product bigger (not a huge deal), they need more updates (again, you can avoid this most of the time), but the big one is library clashing. You don&#8217;t want to include a nice stable library X.jar that depends on a library Y.jar in 2010, then find out that you really would like to use the newest version of Y.jar directly, but it&#8217;s got a new API.  You may be able to upgrade X.jar to use the new Y.jar, but you&#8217;ll also be upgrading all the other libraries it depends on too.  Basically, library dependencies are not a tree, they&#8217;re a directed graph (acyclic if you&#8217;re lucky).  The bigger and more connected that graph is, the more problems that it can cause in the build system.</div>
+<div>Summary) Basically, you should always be looking at ROI.  There&#8217;s just no way to compute the actual ROI, so you have to use your experience to make an approximation.  If two or three choices are about the same, then try to make a case for one of them in an email to yourself (or your boss).  See how easy it is to write up an argument to convince someone else.</div></blockquote>
+
+
+<p>Who replied later with more information:</p>
+
+<blockquote>
+<div>I thought about it a little more today, and if I was going to write up a real article for the web, I might propose a ROI formula with a half-dozen terms&#8230; then describe how to evaluate a library for each term.  If I was lucky, I could pick terms that were really independent of each other.</div>
+<div>Something like &#8220;cost to design + cost to build + cost to maintain &gt;? dollar cost for license + cost to integrate + (prob. of update)*(cost to apply update) + &#8230;&#8221;</div></blockquote>
+
+
+<p>Excellent advice! Thanks to Drew and Lane!</p>
+
+<p>I&rsquo;m interested in other opinions. How do you choose a library? Which do you use most frequently? Have any horror stories derived from code reuse?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/what-id-do-if-i-managed-angry-birds/">What I&#8217;d do if I managed Angry Birds</a></h1>
+      <p>Angry Birds is a great game, and it is hugely popular. I would venture to say it is a platform (and I don&rsquo;t toss that term around lightly now that every startup is a &ldquo;viral platform&rdquo; :)). Platform elevates the status and allows&ndash;even forces&ndash;Rovio to change the way they approach Angry Birds. Here are a few things I&rsquo;d look to do if I managed Angry Birds.</p>
+
+<ul>
+<li>Take advantage of the robust platform: allow people to create levels&ndash;get people really involved in the game. Personally, I burn through the official levels in hours and then have to wait an unacceptable amount of time for new content. I play the new levels because there&rsquo;s nothing better out, but the moment I have other games then Angry Birds is out of sight and mind. User generated content is awesome! A number of other games flourished and increased their staying power when they allowed users to create new content (for example, StarCraft and Half-Life/Counter-Strike).</li>
+<li>Allow people to create new game elements like birds, pigs, and environmental features. You could add more dynamic pieces like swinging ropes or sand dripping out of a vial.</li>
+<li>Publish global leaderboards with incentives like badges and special skins, additional content.</li>
+<li>Create a YouTube channel for Angry Birds. Did you know there are televised Starcraft games? It&rsquo;s a big deal. Show live footage of pros encountering new levels. Does the top player meticulously size up the level or just run and gun? These videos can help frustrated players get over the hump and defeat some levels.</li>
+<li>Spin up forums and discussions for each level. Beyond text, I would allow (encourage) videos showing different strategies.</li>
+<li>Look at scoring based on speed and precision: extreme Angry Birds.</li>
+<li>Expand into multiplayer capabilities.</li>
+<li>Keep rocking! I&rsquo;ve seen Angry Birds in commercials for pistachios and a phone, plus there are plush toys. Great marketing!</li>
+</ul>
+
+
+<p>Would you enjoy any of these features? What would you do if you managed Angry Birds?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/a-few-programming-notes-to-myself/">A few programming notes to myself</a></h1>
+      <p>In JavaScript, if on a non-boolean input will check existence. In Ruby, the same test will also check for existence with &ldquo;&rdquo; considered true; you receive a warning (warning: string literal in condition). Python performs like JavaScript. In Java, you receive a type error (Type mismatch: cannot convert from String to boolean). I show the output from JavaScript console, irb, python, and Java.</p>
+
+<p>JavaScript</p>
+
+<pre>&gt; if ("false") { console.log("true"); } else { console.log("false"); }
+true</pre>
+
+
+<pre>&gt; if ("") { console.log("true"); } else { console.log("false"); }
+false</pre>
+
+
+<p>Ruby</p>
+
+<pre>puts "false" ? "true" : "false"
+(irb):4: warning: string literal in condition
+true</pre>
+
+
+<pre>&gt; puts "" ? "true" : "false"
+(irb):1: warning: string literal in condition
+true</pre>
+
+
+<p>Python</p>
+
+<pre>&gt;&gt;&gt; if ("false"):
+...     print "true"
+... else:
+...     print "false"
+...
+true</pre>
+
+
+<pre>&gt;&gt;&gt; if (""):
+...     print "true"
+... else:
+...     print "false"
+...
+false</pre>
+
+
+<p>Java</p>
+
+<pre>if ("false") {
+    System.out.println("true");
+} else {
+    System.out.println("false");
+}
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+Type mismatch: cannot convert from String to boolean</pre>
+
+
+<p>No matter how the language handles it, it&rsquo;s bad coding style because of erratic behavior. Save the next programmer some grief and specify the full expression whose truthiness you are seeking.</p>
+
+<hr />
+
+<p>JavaScript is not multi-threaded; the spec does not specify any threading or synchronization. JavaScript in modern browsers is single-threaded. Handling multiple actions at once is done by firing off functions and waiting for callbacks.</p>
+
+<hr />
+
+<p>In Java, the default equals method will compare the memory location of two objects; the default hashcode implementation will return the memory address.</p>
+
+<hr />
+
+<p>In Java, all data structures in Collections offer a method, size(), to access the data structure&rsquo;s size. Primitive arrays have a property, length (note the difference in name and method vs property). Strings use a method, length(), to make things more confusing!</p>
+
+<pre>List&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
+System.out.println(list.size());
+0</pre>
+
+
+<pre>int array[] = new int[10];
+System.out.println(array.length);
+10</pre>
+
+
+<pre>String string = new String();
+System.out.println(string.length());
+0</pre>
+
+
+<hr />
+
+<p>One way to implement a fixed-size cache is to store elements twice: one in a hash map and one in a linked list. To add an element, first check size; if you&rsquo;re at capacity, remove the oldest element (the head of the linked list) from both structures, then insert the element into both data structures (at the end of the linked list and at the proper location in the hash map). This can be done in constant time. The contains() method is a simple hash map look-up in constant time. This data structure optimizes overall run time [O(n)] at the cost of storing elements twice.</p>
+
+<hr />
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/numbers-for-computer-scientists-in-various-units/">Numbers for Computer Scientists in various units</a></h1>
+      <p>These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here&rsquo;s a chart in the spirit of &ldquo;don&rsquo;t make me think&rdquo;</p>
+
+<pre>L1 cache reference
+          0.5 ns | 0.0005 us  | 0.0000005 ms | 0.0000000005 s
+Branch mispredict
+            5 ns | 0.005 us   | 0.000005 ms  | 0.000000005 s
+L2 cache reference
+            7 ns | 0.007 us   | 0.000007 ms  | 0.000000007 s
+Mutex lock/unlock
+           25 ns | 0.025 us   | 0.000025 ms  | 0.000000025 s
+Main memory reference
+          100 ns | 0.1 us     | 0.0001 ms    | 0.0000001 s
+Compress 1K bytes with Zippy
+        3,000 ns | 3 us       | 0.003 ms     | 0.000003 s
+Send 2K bytes over 1 Gbps network
+       20,000 ns | 30 us      | 0.03 ms      | 0.00003 s
+Read 1 MB sequentially from memory
+      250,000 ns | 250 us     | 0.25 ms      | 0.00025 s
+Round trip within same datacenter
+      500,000 ns | 500 us     | 0.5 ms       | 0.0005 s
+Disk seek
+   10,000,000 ns | 10,000 us  | 10 ms        | 0.01 s
+Read 1 MB sequentially from disk
+   20,000,000 ns | 20,000 us  | 20 ms        | 0.02 s
+Send packet CA-&gt;Netherlands-&gt;CA
+  150,000,000 ns | 150,000 us | 150ms        | 0.15 s</pre>
+
+
+<p>If the above table formatting does not work for you, maybe you&rsquo;ll prefer this one:</p>
+
+<pre>ACTION                                 ns   |   us    |   ms
+L1 cache reference                      0.5 |  0.0005 | 0.0000005
+Branch mispredict                         5 |   0.005 | 0.000005
+L2 cache reference                        7 |   0.007 | 0.000007
+Mutex lock/unlock                        25 |   0.025 | 0.000025
+Main memory reference                   100 |     0.1 | 0.0001
+Compress 1K bytes with Zippy          3,000 |       3 | 0.003
+Send 2K bytes over 1Gbps             20,000 |      30 | 0.03
+Read 1MB  from memory               250,000 |     250 | 0.25
+Roundtrip within same datacenter    500,000 |     500 | 0.5
+Disk seek                        10,000,000 |  10,000 | 10
+Read 1MB sequentially from disk  20,000,000 |  20,000 | 20
+Send packet CA-&gt;NL-&gt;CA          150,000,000 | 150,000 | 150</pre>
+
+
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/gmail-extensions/">Gmail extensions</a></h1>
+      <p>A friend of mine mentioned that he didn&rsquo;t like Gmail&rsquo;s built-in tasks, which prompted me to share a couple Chrome extensions (they exist for Firefox too) that I have come to enjoy. Here they</p>
+
+<ul>
+<li><a title="TaskForce to-do list in Gmail" href="https://www.taskforceapp.com/">TaskForce</a> - a task list that&rsquo;s a little better than Google&rsquo;s default</li>
+<li><a title="Rapportive - replace ads with useful information" href="http://rapportive.com/">Rapportive</a> - replaces the right sidebar ads with information about the person you&rsquo;re emailing&ndash;awesome!</li>
+<li><a title="Klout for Rapportive" href="http://kloutlet.com/">Klout raplet</a> - adds the recipient&rsquo;s Klout score at the bottom of the Rapportive sidebar. (Klout is a way of measuring a person&rsquo;s influence on Twitter.)</li>
+</ul>
+
+
+<div>A friend swears by <a title="Remember the Milk tasks and todos" href="http://www.rememberthemilk.com/">Remember the Milk</a>, but I&#8217;m fine with my current to-do style. Are you using any user scripts or extensions to improve your Gmail? I&#8217;d love to hear about it.</div>
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/rhyme-your-way-to-better-programs-cache-hash-and-thrash/">Rhyme your way to better programs: cache, hash, and thrash</a></h1>
+      <p>There are myriad ways to optimize a program, but you can go a long way with three rhyming concepts:</p>
+
+<p><a title="Wikipedia: Cache" href="http://en.wikipedia.org/wiki/Cache">cache</a> -  Perform operations once then store them; you trade memory for speed and reduced access to database (for example).</p>
+
+<p><a title="Wikipedia: Hash table" href="http://en.wikipedia.org/wiki/Hash_table">hash</a> -  Hash maps are fast and efficient for a lot of algorithms; for example, a trie (suffix tree) is faster when implemented as a hash map than as a tree (because insertions and lookup are constant time on average with a hash map but log(n) for trees).</p>
+
+<p><a title="Wikipedia: Thrashing" href="http://en.wikipedia.org/wiki/Thrashing_(computer_science)">thrash</a> -  Avoid competing for resources, as in database or hard drive lookups.</p>
+
+<p>I thought cache, hash, and thrash was a neat mnemonic. Do you have another go-to for optimizations? Know any other neat mnemonics?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/summer-2011-resume-updates/">Summer 2011 Resume Updates</a></h1>
+      <p>I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="http://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, &ldquo;the universe is conspiring to help us.&rdquo; Below I outline what I did and why.</p>
+
+<ul>
+<li>Name: no PhD&ndash;just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.</li>
+<li>Retooled the summary to combine summary and objective. At first I removed the sections altogether because I thought it was wasted space that can hurt more than it can help. A friend convinced me that this one section grabs the reader&rsquo;s attention and draws them in. Now that you have their attention, do something good with it, like tell them your relevant skills!</li>
+<li>I put the skills section below the new summary and broke skills into &ldquo;technologies&rdquo; and &ldquo;general&rdquo; subsections. A skills section allow busy people to determine my experience without having to read everything below. If the reader is interested in my skills after reading the summary, I&rsquo;m doing well.</li>
+<li>I&rsquo;m a recent grad so education stays up top and comes next. &ldquo;So Seth&rsquo;s summary matches our desired candidate as do his skills; he&rsquo;s educated&hellip; where has he worked?&rdquo; And that leads to work experience.</li>
+<li>I cleaned up bullet points and job experience as the resume constantly evolves!</li>
+<li>One big change in the experience section is the inclusion of &ldquo;intern&rdquo; in titles held during school. College kids are expected to have internship experience, so admitting a job was an internship does not hurt. These positions show that I balanced work and school. I had a hard time deciding on my most recent IBM job because I ended up owning a decent sized project that was important to several teams worldwide&ndash;hardly your standard internship! I felt like a part-timer, but intern is more self-explanatory.</li>
+<li>Everyone said to shorten, so I removed a couple jobs and moved the interesting bits into the skills and clubs sections. The awards and honors section is out.</li>
+<li>I&rsquo;ve left publications because they don&rsquo;t make a difference in length right now (over 2 pages with or without). Those publications show that I&rsquo;m well on my way to my 10,000 hours of writing (Gladwell&rsquo;s assertion that expertise takes 10,000 hours), and I&rsquo;m proud of the quality. I need to work on a blog post or alternate resume that shows the number of hours I&rsquo;ve put into various fields&hellip;</li>
+<li>That&rsquo;s about it. The resume spills onto three pages, and I&rsquo;m okay with that for now. I have something between a CV and a resume! I figure that later sections are just a cookie for anyone dedicated enough to read that far :) One day I&rsquo;ll get down to 1 or 2 pages&hellip;</li>
+</ul>
+
+
+<div>I hope my thought process makes sense and that people like the <a title="Seth Holloway's awesome resume" href="http://sethholloway.com/resume.html">resume</a>. I really appreciate the help and know that I&#8217;ll find a great job as a result. If you have any other suggestions or see a flaw in my logic, please let me know.</div>
+
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/summer-2011-resume/">Summer 2011 Resume</a></h1>
+      <p>After a fantastic summer I&rsquo;m starting the job hunt, excited for the stability, sociability, and focus. I&rsquo;d like to stay in Austin and do something cool with software; if you know of any exciting opportunities, <em>please</em> let me know.</p>
+
+<p>I&rsquo;ve pasted my resume below in hopes of getting constructive criticism. The formatting is ugly here, so please focus on content and ordering (or any other secret mojo that I may have missed). My resume is also available as a standalone document on <a title="Seth Michael Holloway's awesome resume" href="http://sethholloway.com/resume.html">sethholloway.com</a>. Thanks in advance for any feedback! Fire away&hellip;</p>
+
+<p>SETH MICHAEL HOLLOWAY
+Austin, TX 78757 - U.S.A.</p>
+
+<h2><a href="http://www.sethholloway.com/">http://www.sethholloway.com/</a></h2>
+
+<p>SUMMARY</p>
+
+<h2>Seven years of professional software development experience plus a PhD in Software Engineering</h2>
+
+<p>OBJECTIVE</p>
+
+<div>
+
+I am an ambitious engineer with a broad skill set and diverse interests. I would like to do cool stuff and pay the bills.
+-
+EDUCATION
+
+The University of Texas at Austin, 2007 - 2011
+
+PhD in Electrical and Computer Engineering - Dissertation: &#8220;Simplifying the Development of Intelligent Environments&#8221;
+
+The University of Texas at Austin, 2005 - 2007
+
+MS in Electrical and Computer Engineering - Thesis: &#8220;Developing Collaborative Applications Using Sliverware&#8221;
+
+The University of Texas at Austin, 2001 - 2005
+
+BS in Electrical and Computer Engineering, 3.8 Grade Point Average
+
+-
+WORK EXPERIENCE
+Summer 2011 - Fall 2011
+Austin, TX
+Software Developer and Entrepreneur, Self-employed
+* Created web and mobile applications using a range of technologies, frameworks, and platforms including Facebook, iOS, Twitter, Java, HTML/HTML5, CSS/CSS3, JavaScript, jQuery, Ruby on Rails 3, PHP, Python, MySQL, SQLite, PostgreSQL, MongoDB, Node.js, Google App Engine, Heroku, Amazon EC2/AWS, and other Cloud platforms.
+* Improved search engine ranking (SEO) of web properties to increase traffic.
+* Worked with several advertising networks in search of competitive payouts and acceptable ads.
+* Performed customer interviews, market research, product management and project management duties.
+* See PairStream.com and OilfieldIntelligence.com
+-
+Fall 2006 - Spring 2011
+Austin, TX
+Software Engineer, IBM (Lotus)
+* Automated the build veri?cation test (BVT) using STAF/STAX, Python, shell, and Rational Functional Tester (RFT) saving over 80 person-hours per week
+* Developed an automated status page using PHP, MySQL, and jQuery allowing the team to quickly understand the software process and quality
+* Refactored PHP graphing tool to increase code maintainability and improve the interface&#8217;s usability
+* Optimized and componentized the Eclipse-style PDE build signi?cantly increasing build&#8217;s speed, consumability, and maintainability
+-
+Fall 2005 - Spring 2011
+Austin, TX
+Graduate Research Assistant, Mobile and Pervasive Computing Group
+* Applied cutting-edge web development techniques to create a RESTful Web of Things architectural style that allows novice developers to quickly and easily create mobile and pervasive computing applications.
+* Researched and developed a highly usable smart home using Java ME on embedded hardware and Ruby on Rails for the server.
+* Performed multiple user studies with techniques including surveys, paper prototypes, focus groups, and direct observation
+-
+Fall 2005 - Spring 2011
+Austin, TX
+Webmaster and Systems Administrator, Mobile and Pervasive Computing Group
+* Created and maintained the group web page: http://mpc.ece.utexas.edu/
+* Developed a system utilizing Java, XML, and HTML to quickly update the Publications page
+* Setup and maintained laboratory computing infrastructure supporting SVN, htaccess, and MediaWiki on Windows, Linux, and Mac OS X
+-
+Fall 2009 - Fall 2010
+
+Teaching Assistant - Project Management, The University of Texas at Austin
+* Instructed and graded assignments for about 100 students over three semesters, ultimately receiving approval ratings of ~3.8/4.0
+* Courses: Management of Projects and Processes, Project Management and Evaluation
+-
+Summer 2006 - Summer 2006
+Austin, TX
+Software Engineer, IBM (Extreme Blue)
+* Participated in a four-person business/technical team to create a consultant scheduling system using J2EE and Web 2.0 technologies (AJAX, Struts, Spring, Hibernate, GWT) for the Systems and Technology Group&#8217;s Virtual Loaner Program
+* Performed market research to determine strengths and weaknesses of related products and identify remaining technical problems and approaches
+* Created system architecture, high-level and low-level design, and pro ject timeline for proof of concept
+* Developed GUI and back-end Java components, collaborated on MySQL DB design, and set-up development environments in a timely manner ensuring all pro ject ob jectives were met
+* Presented pro ject to over 250 people including senior IBM executives
+* Provided roadmap including architecture, rationale, and extension points to enable a development team to seamlessly transform proof of concept to a stable tool
+-
+Fall 2005 - Spring 2006
+Austin, TX
+Software Engineer, IBM (Tivoli)
+* Developed an open source silent installation application for rapid deployment of STAF on multiple operating systems saving an average of 30 minutes per installation
+* Con?gured IPv6 on Windows, Linux, AIX, HP-UX, and Solaris-SPARC enabling the group to meet DoD requirements and gain new business
+* Installed and managed laboratory hardware and software allowing developers to focus on programming
+* Performed compliance audits ensuring lab assets were properly managed
+-
+Spring 2005 - Spring 2005
+Austin, TX
+Campus Liaison, Texas Instruments
+* Coordinated, scheduled, and led presentations and recruiting events to increase Texas Instruments&#8217; visibility and applicant pool on the UT campus
+* Evangelized for Texas Instruments through recruiting presentations and exemplary behavior
+* Assisted Texas Instruments&#8217; employees on campus ensuring their stay went smoothly
+* Provided insight into student-job-seekers&#8217; mentality and reported new ways to reach top talent
+-
+Summer 2004 - Fall 2004
+Richardson, TX
+Product Engineer, Texas Instruments
+* Collaborated on extensive web-based program using LAMP stack which automated data analysis methods and common engineering tasks saving valuable time and increasing yield
+* Developed new statistical algorithms to determine quality, positively affecting data analysis
+* Led meetings and organized large social events as President of the Co-op Social Committee
+-
+Summer 2003 - Fall 2003
+Stafford, TX
+Process Engineer, Texas Instruments
+* Provided free training in sameness data analysis method improving co-workers&#8217; competencies
+* Qualified furnace processes providing 10% additional diffusion manufacturing capacity
+-
+SKILLS
+
+problem solving, morale, programming, usability, research, mobile and pervasive computing, web development, cloud computing, Java, HTML/CSS, JavaScript, jQuery, Ruby, Ruby on Rails, PHP, Eclipse, Windows, Linux, Unix, Mac OS X, SVN, Git, CVS
+-
+AWARDS AND HONORS
+
+* Thrust Fellow, The University of Texas at Austin
+* U.S. Patent Filed, &#8220;Method and system to determine user skill using natural language input&#8221;
+* MCD Fellow, The University of Texas at Austin
+* College Scholar, The University of Texas at Austin
+* Runner-up, Moore Elementary Recycling Slogan Contest
+-
+CLUBS AND ORGANIZATIONS
+
+* Austin Software Mentorship, Founding Member - Fall 2009
+* Students in Software Engineering, Founding Member, President - Fall 2008
+-
+PUBLICATIONS
+
+* Seth Holloway. &#8220;Simplifying the Development of Intelligent Environments,&#8221; PhD dissertation, 2011.
+* Seth Holloway and Christine Julien. &#8220;The Case for End-User Programming of Ubiquitous Computing Environments,&#8221; Proceedings of the FSE/SDP workshop on Future of software engineering research. 2010.
+* Seth Holloway, Drew Stovall and Christine Julien. &#8220;What Users Want From Smart Homes,&#8221; Tech Report, 2010.
+* Seth Holloway, Drew Stovall, Jorge Lara-Garduno, and Christine Julien. &#8220;Opening Pervasive Computing to the Masses Using the SEAP Middleware,&#8221; PerWare. 2009.
+* Drew Stovall, Seth Holloway, Jorge Lara-Garduno, and Christine Julien. &#8220;A Demonstration of Pervasive Device Integration with SEAP-based Middleware,&#8221; Middleware. 2008.
+* Seth Holloway, Drew Stovall, Angela Dalton, and Christine Julien. &#8220;So Many Sensors, So Little Data,&#8221; ICSE SAM. 2008.
+* Seth Holloway and Christine Julien. &#8220;ROCC: A Communication Overlay Abstraction for Wireless Users,&#8221; ICDCS CDS. 2008.
+* Seth Holloway, Alexander Griffith, Angela Dalton, Drew Stovall, and Christine Julien. &#8220;SASSI: the Sliverware Architecture for Sensor Systems,&#8221; SenSys. 2007.
+* Seth Holloway and Christine Julien. &#8220;Developing Collaborative Applications Using Sliverware,&#8221; COOPIS. 2006.
+-
+
+</div>
+
 
       
       
@@ -551,7 +811,7 @@ library(googlepredictionapi)</p></blockquote></li>
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 2021 by Seth Holloway
+  Copyright &copy; 1982 - 2021 by Seth Holloway
 </p>
 
 

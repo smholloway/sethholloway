@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Internet | Seth Holloway]]></title>
-  <link href="http://www.sethholloway.com//blog/categories/internet/atom.xml" rel="self"/>
-  <link href="http://www.sethholloway.com//"/>
-  <updated>2021-08-14T13:38:41-05:00</updated>
-  <id>http://www.sethholloway.com//</id>
+  <link href="http://sethholloway.com/blog/categories/internet/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2021-08-15T13:59:43-05:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Manage your online image with your own domain]]></title>
-    <link href="http://www.sethholloway.com//manage-your-online-image-with-your-own-domain/"/>
+    <link href="http://sethholloway.com/manage-your-online-image-with-your-own-domain/"/>
     <updated>2013-05-11T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//manage-your-online-image-with-your-own-domain</id>
+    <id>http://sethholloway.com/manage-your-online-image-with-your-own-domain</id>
     <content type="html"><![CDATA[<p>Is your facebook page your portal to the world? Don&rsquo;t let it be. For pennies a day you can have your own domain and blog. Owning your own domain and sharing what you know is a low cost, high return idea. Stake your claim and buy some virtual space before it&rsquo;s gone!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Spam comments are getting smarter]]></title>
-    <link href="http://www.sethholloway.com//spam-comments-are-getting-smarter/"/>
+    <link href="http://sethholloway.com/spam-comments-are-getting-smarter/"/>
     <updated>2013-05-10T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//spam-comments-are-getting-smarter</id>
+    <id>http://sethholloway.com/spam-comments-are-getting-smarter</id>
     <content type="html"><![CDATA[<p><a title="Akismet comment spam protection" href="http://akismet.com/">Akismet</a> does a good job of preventing most spam comments from showing up on my blog; however, a new style of comment is getting by the filter. Essentially, the comments will flatter the blog in a vague yet realistic manner. Below are some recent samples that I had to mark myself&ndash;they&rsquo;re remarkably similar to some comments that I have not marked as spam.</p>
 
 <blockquote>Hello there. Cool site!! Guy.. Stunning.. Terrific.. My goal is to bookmark your online site along with take the enters additionally…I am happy to find many useful information in this article within the post. I would like to show some gratitude to sharing…</blockquote>
@@ -43,7 +43,7 @@ actually enjoyed the standard info a person provide for your visitors? Is going 
 order to check up on new posts</blockquote>
 
 
-<p>The differentiators I&rsquo;ve found: spam comments will include a URL, name, or email that is related to selling something, while genuine comments often lack a URL and have name and email that are closely related (e.g., commenter Foo Bar would have an email address like <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#102;&#111;&#x6f;&#64;&#98;&#x61;&#114;&#46;&#99;&#x6f;&#109;">&#102;&#x6f;&#111;&#64;&#x62;&#x61;&#x72;&#46;&#99;&#111;&#109;</a>).</p>
+<p>The differentiators I&rsquo;ve found: spam comments will include a URL, name, or email that is related to selling something, while genuine comments often lack a URL and have name and email that are closely related (e.g., commenter Foo Bar would have an email address like <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#102;&#x6f;&#x6f;&#x40;&#98;&#97;&#114;&#x2e;&#99;&#x6f;&#109;">&#x66;&#111;&#111;&#64;&#98;&#x61;&#114;&#x2e;&#99;&#111;&#x6d;</a>).</p>
 
 <p>I guess spammers figure the comments are free to post (posted by bots), so why not?</p>
 ]]></content>
@@ -51,9 +51,9 @@ order to check up on new posts</blockquote>
   
   <entry>
     <title type="html"><![CDATA[I don't want to install your app]]></title>
-    <link href="http://www.sethholloway.com//i-dont-want-to-install-your-app/"/>
+    <link href="http://sethholloway.com/i-dont-want-to-install-your-app/"/>
     <updated>2012-06-12T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//i-dont-want-to-install-your-app</id>
+    <id>http://sethholloway.com/i-dont-want-to-install-your-app</id>
     <content type="html"><![CDATA[<p>I am getting tired of sites pushing their iPhone app while I am browsing on my iPhone! I&rsquo;m a minimalist, and I&rsquo;d prefer to have a small subset of useful apps. Here&rsquo;s a made up example that is very similar to what I&rsquo;ve encountered multiple times recently: I&rsquo;ll search for something simple like &ldquo;native plants in central texas,&rdquo; which will lead me to a site like Uncle Jim&rsquo;s Country Nursery and Feed Store (just an example&ndash;this site did not exist at the time of writing); the page load is interrupted by a modal dialog asking me to install their iPhone app. No! I don&rsquo;t want to install your app! I just want to see if this page has the information I&rsquo;m seeking (often, it does not).</p>
 
 <p>While tablets and mobile devices will be the primary computer in the near future, I believe the web is the right way forward. There are at least two major mobile platforms (iOS and Android, not to mention Windows, BlackBerry, and any future platforms) requiring dramatically different applications. On the other hand, pursuing a web strategy requires only one app&ndash;an app that you need regardless of whether or not you create an app. My advice as a technologist (and my preference as a user) is to pour your efforts into making a solid website.</p>
@@ -62,9 +62,9 @@ order to check up on new posts</blockquote>
   
   <entry>
     <title type="html"><![CDATA[Two factor authentication made easy]]></title>
-    <link href="http://www.sethholloway.com//two-factor-authentication-made-easy/"/>
+    <link href="http://sethholloway.com/two-factor-authentication-made-easy/"/>
     <updated>2012-06-10T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//two-factor-authentication-made-easy</id>
+    <id>http://sethholloway.com/two-factor-authentication-made-easy</id>
     <content type="html"><![CDATA[<p>Passwords are simply not secure as evidenced by numerous password breaches and numerous hacks. Identity theft is increasingly common and increasingly harmful, so we need to evolve our security sooner rather than later. <a title="Wikipedia: two factor authentication" href="http://en.wikipedia.org/wiki/Two-factor_authentication" target="_blank">Multi factor authentication</a> is a great way to improve security. In essence, we would augment our current password system with an additional factor (something the user possesses&ndash;like an RSA token or ATM card&ndash;or something unique to the user&rsquo;s person&ndash;like a fingerprint or retina scan).</p>
 
 <p>Already, many companies distribute <a title="Two factor authentication - token generators" href="http://en.wikipedia.org/wiki/Two-factor_authentication#Tokens_with_a_display_.28disconnected_tokens.29" target="_blank">RSA fobs</a> that cycle through a unique series of numbers; whenever an employee logs in with the correct password, a secondary check is issued and requires that the user input the number from the RSA device. A few banks offer this system, and <a title="Google offers two factor authentication" href="http://googleblog.blogspot.com/2011/02/advanced-sign-in-security-for-your.html" target="_blank">Google brought the same idea to their authentication system</a>.</p>
@@ -77,12 +77,12 @@ order to check up on new posts</blockquote>
   
   <entry>
     <title type="html"><![CDATA[All Unicode characters printed to HTML via JavaScript]]></title>
-    <link href="http://www.sethholloway.com//all-unicode-characters-in-html/"/>
+    <link href="http://sethholloway.com/all-unicode-characters-in-html/"/>
     <updated>2012-03-13T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//all-unicode-characters-in-html</id>
+    <id>http://sethholloway.com/all-unicode-characters-in-html</id>
     <content type="html"><![CDATA[<p><a title="The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)" href="http://www.joelonsoftware.com/articles/Unicode.html">Joel Spoelsky&rsquo;s article on what developers should know</a> motivated me to learn a bit about <a title="Wikipedia: Unicode" href="http://en.wikipedia.org/wiki/Unicode">Unicode</a> characters. To explore this awesome encoding I wrote a little <a title="Seth Holloway's HTML experiment with unicode" href="https://github.com/smholloway/miscellaneous/blob/master/javascript/funWithUnicode.html">JavaScript to print out all the Unicode characters</a>. It is interesting to note where you have significant gaps of blank white blocks with black borders (this shows what character sets you lack&ndash;sorry, I have not noted which set is displayed in the page). Be patient: the page takes a few seconds to run.</p>
 
-<p><img class="size-medium wp-image-1651" title="Unicode Snippet" src="http://www.sethholloway.com//images/UnicodeSnippet-201x300.png" alt="A taste of unicode" width="201" height="300" /></p>
+<p><img class="size-medium wp-image-1651" title="Unicode Snippet" src="http://sethholloway.com/images/UnicodeSnippet-201x300.png" alt="A taste of unicode" width="201" height="300" /></p>
 ]]></content>
   </entry>
   

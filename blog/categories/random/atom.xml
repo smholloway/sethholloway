@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: random | Seth Holloway]]></title>
-  <link href="http://www.sethholloway.com//blog/categories/random/atom.xml" rel="self"/>
-  <link href="http://www.sethholloway.com//"/>
-  <updated>2021-08-14T13:38:41-05:00</updated>
-  <id>http://www.sethholloway.com//</id>
+  <link href="http://sethholloway.com/blog/categories/random/atom.xml" rel="self"/>
+  <link href="http://sethholloway.com/"/>
+  <updated>2021-08-15T13:59:43-05:00</updated>
+  <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A bit about music theory]]></title>
-    <link href="http://www.sethholloway.com//a-bit-about-music-theory/"/>
+    <link href="http://sethholloway.com/a-bit-about-music-theory/"/>
     <updated>2011-05-20T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//a-bit-about-music-theory</id>
+    <id>http://sethholloway.com/a-bit-about-music-theory</id>
     <content type="html"><![CDATA[<p>I wrote a bit about music theory with respect to guitars for my brother and decided it was worth sharing.</p>
 
 <p>Scales are a series of notes derived with a set pattern. The root note defines the scale. Let me explain further with two scales that only contain the natural notes (no sharps or flats): A minor and C major. A minor and C major are &lsquo;enharmonic&rsquo; meaning they are the same notes;  the difference between the scales is the root note and the pattern that you follow to find the next note. Observe:</p>
@@ -73,84 +73,30 @@ Pattern (intervals between notes): root, +2, +2, +1, +2, +2, +2, +1</blockquote
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Things that make you go "hmm..."]]></title>
-    <link href="http://www.sethholloway.com//things-that-make-you-go-hmm/"/>
-    <updated>2008-11-09T00:00:00-06:00</updated>
-    <id>http://www.sethholloway.com//things-that-make-you-go-hmm</id>
-    <content type="html"><![CDATA[<p>Assuming <a title="IQ basics" href="http://www.iqcomparisonsite.com/IQBasics.aspx" target="_blank">IQ follows a normal distribution</a>, the smartest third of India outnumber the entire population of the United States of America; the smartest quarter of China outnumber the entire population of the US.</p>
+    <title type="html"><![CDATA[This is the second notice that your car warranty is about to expire...]]></title>
+    <link href="http://sethholloway.com/this-is-the-second-notice-that-your-car-warranty-is-about-to-expire/"/>
+    <updated>2008-07-21T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/this-is-the-second-notice-that-your-car-warranty-is-about-to-expire</id>
+    <content type="html"><![CDATA[<p>Over the past six months I have been getting roughly one call per day from random 800 numbers from all over the country. The voice changes, but the message is always the same: &lsquo;This is the second notice that your car warranty is about to expire.&rsquo;</p>
 
-<p>This point was countered by an Indian friend of mine who pointed out that &ldquo;it does not matter because half of India is illiterate.&rdquo; I&rsquo;m not sure that&rsquo;s true, but I know that the above fact made me go &ldquo;hmm&hellip;&rdquo;</p>
+<p>I&rsquo;ve spoken to other people who are also getting the calls. A friend of mine just bought a car and is receiving these ominous messages which cannot be true.</p>
 
-<p>This is potentially damning for countries that do not have sheer numbers as a resource. What do you think? Will nations with the highest population achieve global dominance or is there something more to the equation?</p>
+<p>The worst part is that I&rsquo;m on the <a title="block phone spam" href="https://www.donotcall.gov/" target="_blank">National Do Not Call Registry</a> which should protect me from these unwanted phone calls. Does anyone know of a class action lawsuit against the filth behind these calls? Does anyone know how to file a class action lawsuit&hellip;</p>
+
+<p>Edit: Thanks for pointing out the typo Jason :)</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Capital Metro is striking]]></title>
-    <link href="http://www.sethholloway.com//capital-metro-is-striking/"/>
-    <updated>2008-11-01T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//capital-metro-is-striking</id>
-    <content type="html"><![CDATA[<p>Friday I received this ominous email:</p>
+    <title type="html"><![CDATA[I still love technology]]></title>
+    <link href="http://sethholloway.com/i-still-love-technology/"/>
+    <updated>2008-05-27T00:00:00-05:00</updated>
+    <id>http://sethholloway.com/i-still-love-technology</id>
+    <content type="html"><![CDATA[<p>A friend did not know about Find/Replace in document editors. Instead of replacing all occurrences of a word she was rereading an assignment. I showed her Find/Replace which not only found every occurrence, including some she had missed, the feature also saved her several minutes. As <a title="see the video on YouTube" href="http://www.youtube.com/watch?v=nQUfzRF_drc" target="_blank">Kip says</a>, &ldquo;I still love technology! Always and forever.&rdquo;</p>
 
-<p><em>Attention:  All Members of the UT Austin Community</em></p>
+<p>This random tidbit merely illustrates the benefits of being technical / surrounding yourself with technical people. Work smarter, not harder!</p>
 
-<p><em>At 10am on October 31, 2008, the University was notified by Capital Metro
-that a strike of the operators of the mainline bus routes was imminent.  The
-notification states that the strike will begin on Wednesday, November 5,
-2008.  There is not currently a scheduled end date for the strike&hellip;</em></p>
-
-<p>Upon further investigation I saw (from the <a title="Capmetro.org" href="http://www.capmetro.org/" target="_blank">official Capital Metro site)</a>:</p>
-
-<p><span><span style="color: red;"><strong>&ldquo;Service Advisory –</strong>Amalgamated Transit Union Local 1091, which represents most of Capital Metro’s bus operators and mechanics, has called a strike beginning Wednesday, November 5.&rdquo;</span></span></p>
-
-<p>No word of the strike is on the <a title="Amalgamated Transit Union" href="http://www.atu.org/" target="_blank">Amalgamated Transit Union site</a>, but I imagine they are protesting low wages/poor working conditions/the usual.</p>
-
-<p>Yet another reason that public transportation does not catch on here: the workers strike! Rather than ride overcrowded, infrequent buses I will ride my bike or have Andrea take me to school. I just hope the cold weather stays away long enough for me to ride to campus during the strike. In my case, cold weather means anything below 55 degrees Farhenheit :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A few interesting, if not frustrating, articles]]></title>
-    <link href="http://www.sethholloway.com//a-few-interesting-if-not-frustrating-articles/"/>
-    <updated>2008-10-24T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//a-few-interesting-if-not-frustrating-articles</id>
-    <content type="html"><![CDATA[<ul>
-<li><a title="Let them die" href="http://www.washingtonpost.com/wp-dyn/content/article/2008/10/23/AR2008102303352.html" target="_blank">AIG is burning through money</a> from the federal bailout with no hopes of paying back taxpayers. Horray for the bailout! I guess I&rsquo;m not surprised that this would happen at a time when schools no longer have grades and competitive sports are outlawed because they expose failure.</li>
-<li>Greenspan admits he was <a title="&quot;Greenspan recants&quot;" href="http://tbm.thebigmoney.com/articles/juicy-bits/2008/10/23/greenspan-recants" target="_blank">&ldquo;partially&rdquo; wrong</a> with his direction for the economy. This is dangerous because people are using Greenspan&rsquo;s admission as a way to trash capitalism; however, America is not a shining expample of laissez-faire markets. I&rsquo;m not positive that unfettered capitalism works, but I don&rsquo;t think we&rsquo;ve tried it yet. The greedy Wall Streeters were hardly Objectivists.</li>
-<li>McCain and Palin continue their <a title="McCain Palin can't debate so they character assassinate" href="http://www.msnbc.msn.com/id/27343688/" target="_blank">despicable smear campaign</a>. Also, why is having an elite government a bad thing? If you haven&rsquo;t seen <a title="Idiocracy, the movie" href="http://www.imdb.com/title/tt0387808/" target="_blank">Idiocracy</a> (the movie) before, watch it and vote for the most elite our nation has to offer&ndash;for the future&rsquo;s sake.</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OMG! Did you ride the new The Hills bus downtown? *SQUEEL*]]></title>
-    <link href="http://www.sethholloway.com//omg-did-you-ride-the-new-the-hills-bus-downtown-squeel/"/>
-    <updated>2008-10-22T00:00:00-05:00</updated>
-    <id>http://www.sethholloway.com//omg-did-you-ride-the-new-the-hills-bus-downtown-squeel</id>
-    <content type="html"><![CDATA[<p>Last night Andrea and I had a delightful meal at <a title="Cru" href="http://www.cruawinebar.com/" target="_blank">Cru</a>; we were enticed to try the restaurant as part of <a title="Austin Restaurant Week" href="http://www.restaurantweekaustin.com/" target="_blank">Austin Restaurant Week</a> where a number of pricey restaurants offer a special menu for less. Check it out if you&rsquo;re feeling fancy.</p>
-
-<p>But I digress. The point of this post is to convince you of my brilliant scheme! So here we go&hellip;</p>
-
-<p>Shortly after we sat down a nicely dressed (I mean rich-looking) young woman came in. Thirty minutes later, three more classy (I mean rich-looking) young women showed up. The newcomers apologized profusely for being late and said they were looking for parking.</p>
-
-<p>I found it odd that more people don&rsquo;t ride buses downtown. It&rsquo;s cheap, convenient, and avoids the hassle of parking. However, something tells me that my dining mates would never ride the bus because it is too cheap. So why not make pricey public transportation?</p>
-
-<p>People want status; some people want to show their status with pricey items. It&rsquo;s like <a title="Wikipedia Gentrification" href="http://en.wikipedia.org/wiki/Gentrification" target="_blank">gentrification</a> in our transport. The plan is simple:</p>
-
-<ul>
-<li>Set the price for riding so high that no riff raff can not afford the fare.</li>
-<li>Make the buses luxurious.</li>
-<li>Stop only at trendy locations.</li>
-<li>Brand the buses with cosmopolitan (I mean vapid) shows like The Hills and Sex and the City.</li>
-<li>Seed the first runs with celebrities.</li>
-<li>Profit.</li>
-</ul>
-
-
-<p>With the fancy buses in place the rich-looking ladies' conversation about being late would change from &ldquo;Sorry, we were trying to find parking&rdquo; to &ldquo;Oh my God! We rode The Hills bus downtown! It was so <a title="Lauren Conrad the vapid heroine of The Hills" href="http://en.wikipedia.org/wiki/Lauren_Conrad" target="_blank">LC</a>!&rdquo;</p>
-
-<p>Flawless! What do you think?</p>
+<p>For anyone that does not know, most word processors and text editors (Google Docs, Microsoft Word, Open Office Writer, etc) have a feature that lets you find words and phrases matching your input. You can even replace the words and phrases. This functionality can save hours if you want to alter the style of a document, for example adding two spaces after a period. Find a period followed by a space, replace it with a period followed by two spaces. You can get fancier with <a title="chock full of information about regex" href="http://www.regular-expressions.info/" target="_blank">regular expressions</a>, but this is a start.</p>
 ]]></content>
   </entry>
   
