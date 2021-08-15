@@ -25,7 +25,7 @@ Give codes are readable by most barcode reading apps.
 
 Here’s an example--feel free to scan it and give us a few bucks ;-)
 
-![donate to swiftgive](http://i.imgur.com/evnxxKy.png)
+![donate to swiftgive](https://i.imgur.com/evnxxKy.png)
 
 My friend and [Oilfield
 Intelligence](http://www.oilfieldintelligence.com) co-founder, Ken, came
