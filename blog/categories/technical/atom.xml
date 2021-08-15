@@ -4,7 +4,7 @@
   <title><![CDATA[Category: technical | Seth Holloway]]></title>
   <link href="http://sethholloway.com/blog/categories/technical/atom.xml" rel="self"/>
   <link href="http://sethholloway.com/"/>
-  <updated>2021-08-15T17:30:38-05:00</updated>
+  <updated>2021-08-15T17:47:10-05:00</updated>
   <id>http://sethholloway.com/</id>
   <author>
     <name><![CDATA[Seth Holloway]]></name>
@@ -12,17 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Low cost genetic testing]]></title>
-    <link href="http://sethholloway.com/low-cost-genetic-testing/"/>
-    <updated>2013-10-05T00:00:00-05:00</updated>
-    <id>http://sethholloway.com/low-cost-genetic-testing</id>
-    <content type="html"><![CDATA[<p>I recently spit into a cup so that <a title="23 and Me" href="http://refer.23andme.com/a/clk/18h5Np">23andme</a> can perform genetic tests. It&rsquo;s a surreal feeling: for about $100, I gain access to some sci-fi dream that was completely unheard of even a decade ago.</p>
-
-<p>The future is going to be an awesome place!</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Thoughts on Learning Clojure]]></title>
@@ -143,6 +132,29 @@
 <p>Until search engines gain additional processing, I think we should get familiar with scoping search results and ask that answers contain version information for increased searchability.</p>
 
 <p>I think search has to solve versioning&ndash;what do you think?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lisp and order of operations (PEMDAS)]]></title>
+    <link href="http://sethholloway.com/lisp-and-order-of-operations-pemdas/"/>
+    <updated>2013-02-02T00:00:00-06:00</updated>
+    <id>http://sethholloway.com/lisp-and-order-of-operations-pemdas</id>
+    <content type="html"><![CDATA[<p>Somewhere around third grade I had the order of operations drilled into my head: parentheses, exponent, multiplication, division, addition, subtraction&ndash;abbreviated as PEMDAS and pronounced &ldquo;pem doss.&rdquo; PEMDAS allows you to succinctly communicate mathematical expressions.</p>
+
+<p>5 + 3<sup>2</sup> * 7</p>
+
+<p>Moving through PEMDAS we see there are no parentheses, but there is an exponent: 3<sup>2</sup> == 3*3 == 9. Continuing through PEMDAS we hit the M for multiplication; our example has the middle term multiplied by 7. Finally, we add 5.</p>
+
+<p>Written in a Lisp style the same expression would look something like this:</p>
+
+<p>(+ 5 (* 7 (pow 3 2)))</p>
+
+<p>Rules implicitly encoded in math must be explicitly written in Lisp (or any pre- or post-fix notation for that matter). In various other languages (<a title="REPL.it is a collection of online REPLs" href="http://repl.it" target="_blank">try a few</a>) the order of operations is encoded already.</p>
+
+<p>In a way, it is frustrating that the programming language ignores basic math rules; however, there may be benefits. I wonder, how many bugs would have been avoided by forcing people to use parentheses to group expressions? how much slower was it to type the extra keystrokes? how many future Lispers were snuffed out by explicit mathematics?</p>
+
+<p>How do you feel about the encoding? Does pre-fix notation bother you more in another way?</p>
 ]]></content>
   </entry>
   

@@ -80,9 +80,6 @@
     <li><a href="http://twitter.com/sethholloway" title="Twitter Profile"><i class="icon-twitter-sign social-navbar"></i></a></li>
     
     
-    <li><a href="http://plus.google.com/107333139913866738283" title="Google+ Profile"><i class="icon-google-plus-sign social-navbar"></i></a></li>
-    
-    
     
 
     
@@ -111,62 +108,6 @@
 
 <div class="blog-index">
   
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/seth-and-nicks-blog-6blog/">Seth and Nick&#8217;s Blog, 6blog</a></h1>
-      <p>My friend, Nick, and I started a blog to house our thoughts on technology. Seth and Nick&rsquo;s blog said fast sounds kind of like six blog, thus <a title="Seth Holloway and Nick Dollarhide's Blog" href="http://www.6blog.us/" target="_blank">6blog.us</a>. Check it out and let me know what you think!</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span12 post-container">
-      <h1 class="link"><a href="/lisp-and-order-of-operations-pemdas/">Lisp and order of operations (PEMDAS)</a></h1>
-      <p>Somewhere around third grade I had the order of operations drilled into my head: parentheses, exponent, multiplication, division, addition, subtraction&ndash;abbreviated as PEMDAS and pronounced &ldquo;pem doss.&rdquo; PEMDAS allows you to succinctly communicate mathematical expressions.</p>
-
-<p>5 + 3<sup>2</sup> * 7</p>
-
-<p>Moving through PEMDAS we see there are no parentheses, but there is an exponent: 3<sup>2</sup> == 3*3 == 9. Continuing through PEMDAS we hit the M for multiplication; our example has the middle term multiplied by 7. Finally, we add 5.</p>
-
-<p>Written in a Lisp style the same expression would look something like this:</p>
-
-<p>(+ 5 (* 7 (pow 3 2)))</p>
-
-<p>Rules implicitly encoded in math must be explicitly written in Lisp (or any pre- or post-fix notation for that matter). In various other languages (<a title="REPL.it is a collection of online REPLs" href="http://repl.it" target="_blank">try a few</a>) the order of operations is encoded already.</p>
-
-<p>In a way, it is frustrating that the programming language ignores basic math rules; however, there may be benefits. I wonder, how many bugs would have been avoided by forcing people to use parentheses to group expressions? how much slower was it to type the extra keystrokes? how many future Lispers were snuffed out by explicit mathematics?</p>
-
-<p>How do you feel about the encoding? Does pre-fix notation bother you more in another way?</p>
-
-      
-      
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
   
   
     <article>
@@ -489,6 +430,104 @@
 
     </article>
     
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/new-software-metrics/">New Software Metrics</a></h1>
+      <p>I just completed the <a title="2012 State of Clojure survey" href="http://cemerick.com/2012/07/19/2012-state-of-clojure-survey/">2012 State of Clojure survey</a> and it got me thinking about how to fairly judge languages like Clojure. We need new software metrics. Performance is easy to quantify: write a program, run it a lot, and measure the time it took. Do that across multiple languages, and you can find a winner (the one offering the most operations per time). For example, check <a title="Debian Language Shootout" href="http://shootout.alioth.debian.org/">Debian&rsquo;s Language Shootout</a> where Fortran and C rule. However, solely measuring performance misses a bigger (in my opinion) problem: development speed and ease-of-use. In my limited experience, Clojure is significantly shorter and easier to reason about that equivalent C projects. To be fair, it&rsquo;s been a while since I wrote much in C, but Clojure has also been easier to understand and change than Java code. In addition, Clojure programs are (basically) concurrent out-of-the-box. I think concurrency is generally very difficult and error-prone; however, concurrency is increasingly necessary&ndash;making Clojure that much stronger. But none of that is captured in common metrics.</p>
+
+<p><img class="alignleft" style="margin-right: 30px;" title="Software Metrics book cover" src="http://ourcraft.files.wordpress.com/2009/08/software-metrics-cover-scan.jpg" alt="Software Metrics book cover" width="59" height="89" />
+With the availability of lots of developers online I think we could tackle harder to quantify metrics like</p>
+
+<ul>
+<li>performance per line of code</li>
+<li>performance per development time</li>
+<li>performance per noob minute</li>
+<li>comprehensibility per time</li>
+<li>time to change a line of code</li>
+</ul>
+
+
+<p>The first pass on how to achieve this (tons of issues, no doubt): survey all the developers you can find. Collect all the information you can through the survey and GitHub tie-ins then ask people to perform tasks like explaining a piece of code and writing/changing programs across languages. An automated approach might start by finding a series of program solutions (from a set like <a title="99 Bottles of Beer" href="http://99-bottles-of-beer.net/">99 Bottles of Beer</a>, <a title="Project Euler Problems" href="http://projecteuler.net/problems">Project Euler</a>, <a title="Rosetta Code" href="http://rosettacode.org/wiki/Rosetta_Code">Rosetta Code</a>, or <a title="99 Problems in Scala" href="http://99problemsinscala.wordpress.com/">99 Problems in X</a>), then gather data about each solution and people&rsquo;s feelings about each. Maybe you could seed a bug and see how long it takes people to find and fix the bug.</p>
+
+<p>Have I missed better software metrics? What metrics define a language you want to write in?  How can we accurately collect those metrics?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span12 post-container">
+      <h1 class="link"><a href="/online-learning-is-taking-off/">Online learning is taking off</a></h1>
+      <p>Education is changing&ndash;big time! I don&rsquo;t think we&rsquo;ll see many people leave or bypass universities for another 10 years, but we are getting back on track for the &lsquo;Information Age&rsquo; (as social media and memes settle in to their new home).</p>
+
+<p>Online learning has evolved tremendously over the past year, with new offerings from some of the world&rsquo;s most famous professors and experts. Amazing programmers have created accessible, often beautiful, interfaces with intuitive lessons and exercises. People are experimenting with delivery methods ranging from YouTube videos and podcasts to interactive code tutorials and multiple choice questions. These are exciting times!</p>
+
+<p><img title="Up, up, and awesome" alt="Up, up, and awesome" src="http://www.legaleaglelawschool.com/wp-content/uploads/2011/04/rocket-launch1.jpg" width="381" height="481" /></p>
+
+<p>Here are a few of my favorites:</p>
+
+<ul>
+<li>Khan Academy - <a title="http://www.khanacademy.org/" href="http://www.khanacademy.org/"><a href="http://www.khanacademy.org/">http://www.khanacademy.org/</a></a></li>
+<li>Coursera - <a href="http://www.coursera.org" rel="nofollow"><a href="http://www.coursera.org">http://www.coursera.org</a></a></li>
+<li>Udacity - <a title="http://www.udacity.com/" href="http://www.udacity.com/"><a href="http://www.udacity.com/">http://www.udacity.com/</a></a></li>
+<li>MIT&rsquo;s Open Courseware - <a title="http://ocw.mit.edu/index.htm" href="http://ocw.mit.edu/index.htm"><a href="http://ocw.mit.edu/index.htm">http://ocw.mit.edu/index.htm</a></a></li>
+<li>Stanford&rsquo;s offerings - <a title="http://see.stanford.edu/see/courses.aspx" href="http://see.stanford.edu/see/courses.aspx"><a href="http://see.stanford.edu/see/courses.aspx">http://see.stanford.edu/see/courses.aspx</a></a></li>
+<li>Yale Open Courses - <a title="http://oyc.yale.edu/" href="http://oyc.yale.edu/"><a href="http://oyc.yale.edu/">http://oyc.yale.edu/</a></a></li>
+<li>Academic Earth - <a title="http://academicearth.org/" href="http://academicearth.org/"><a href="http://academicearth.org/">http://academicearth.org/</a></a></li>
+<li>EdX - <a title="https://www.edx.org/" href="https://www.edx.org/"><a href="https://www.edx.org/">https://www.edx.org/</a></a></li>
+<li>Institute for Advanced Studies - <a title="http://www.ias.edu/" href="http://www.ias.edu/"><a href="http://www.ias.edu/">http://www.ias.edu/</a></a></li>
+<li>Code Academy - <a title="http://codeacademy.com/" href="http://codeacademy.com/"><a href="http://codeacademy.com/">http://codeacademy.com/</a></a></li>
+<li>Code School - <a title="http://www.codeschool.com/" href="http://www.codeschool.com/"><a href="http://www.codeschool.com/">http://www.codeschool.com/</a></a></li>
+<li>InfoQ - <a title="http://www.infoq.com/" href="http://www.infoq.com/"><a href="http://www.infoq.com/">http://www.infoq.com/</a></a></li>
+<li>TED - <a title="http://www.ted.com/" href="http://www.ted.com/"><a href="http://www.ted.com/">http://www.ted.com/</a></a></li>
+</ul>
+
+
+<p>(Updated with Coursera: Thanks, Sean!)</p>
+
+<p>I&rsquo;ve also found some gems like</p>
+
+<ul>
+<li>MSDN Channel9&rsquo;s Functional Programming Fundamentals <a title="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals" href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals"><a href="http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals">http://channel9.msdn.com/Series/C9-Lectures-Erik-Meijer-Functional-Programming-Fundamentals</a></a></li>
+<li>John Resig&rsquo;s Learning Advanced JavaScript <a title="http://ejohn.org/apps/learn/" href="http://ejohn.org/apps/learn/"><a href="http://ejohn.org/apps/learn/">http://ejohn.org/apps/learn/</a></a></li>
+<li>Nathan&rsquo;s University, <a title="http://nathansuniversity.appspot.com/" href="http://nathansuniversity.appspot.com/"><a href="http://nathansuniversity.appspot.com/">http://nathansuniversity.appspot.com/</a></a>, which aims to teach you how to create your own programming language.</li>
+</ul>
+
+
+<p>Any virtually any other subject has lectures appearing on sites like <a title="http://www.youtube.com/watch?v=rI8tNMsozo0" href="http://www.youtube.com/watch?v=rI8tNMsozo0">YouTube</a>, <a title="http://vimeo.com/15046335" href="http://vimeo.com/15046335">Vimeo</a>, and <a title="http://blip.tv/clojure/sam-aaron-programming-music-with-overtone-5970273" href="http://blip.tv/clojure/sam-aaron-programming-music-with-overtone-5970273">Blip.tv</a>, <a title="Lanyrd" href="http://lanyrd.com/">Lanyrd</a> (to name a few).</p>
+
+<p>So much to learn! I think we&rsquo;ll see a lot more innovation with formats, content, and pricing. It&rsquo;s a great time to be alive :)</p>
+
+<p>Have you found another online learning site that looks promising or disruptive? How does/would online affect/have affected your education? Would you <a title="Thiel Fellowship encourages students to skip college" href="http://www.thielfellowship.org/">skip college and jump straight to starting a business</a> knowing that so much knowledge is at your fingertips?</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
   
   <div class="pagination">
     
@@ -507,7 +546,7 @@
       <div class="row-fluid">
         <footer class="footer-page" role="contentinfo">
           <p>
-  Copyright &copy; 1982 - 2021 by Seth Holloway
+  Copyright &copy; 2008 - 2021 by Seth Holloway
 </p>
 
 
