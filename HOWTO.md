@@ -7,9 +7,11 @@ Create a new post in `source/_posts`
 To test, run `jekyll serve` or `rake generate` then `open public/<file>`
 
 # Working with Ruby
+```
 rbenv install 2.3.8
 rbenv local 2.3.8
 rbenv rehash
 gem install bundler
 bundle install
 rbenv rehash
+```
