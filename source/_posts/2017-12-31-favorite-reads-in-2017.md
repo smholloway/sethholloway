@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Favoriate Reads of 2017
+title: Favorite Reads of 2017
 categories:
 - personal
 tags:
