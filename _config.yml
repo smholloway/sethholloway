@@ -29,4 +29,4 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
 
-google_analytics_tracking_id: UA-7555904-1
+google_analytics: UA-7555904-1
