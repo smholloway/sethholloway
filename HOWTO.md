@@ -1,17 +1,27 @@
-1. Go to `source` branch (deployments are pushed to `gh-pages` branch)
-2. Create a new post in `source/_posts`
-3. (optional) `git add source/_posts/new_post.md`
-4. (optional) `git commit -m "new post"`
-5. `rake gen_deploy` OR `bundle exec rake gen_deploy`
+How to blog on GitHub Pages using Jekyll, a Ruby static site generator
+1. Create a new file in `_posts` named `yyyy-mm-dd-title.md`
+2. Update the front matter
+```
+---
+layout: post
+title: Title Here
+type: post
+---
+```
+3. Write your post in markdown
+4. Add it to git and push to GitHub
+5. Wait for the build to complete in https://github.com/{org}/{repo}/settings/pages
+6. Navigate to your site and enjoy!
 
-To test, run `jekyll serve` or `rake generate` then `open public/<file>`
+To test, run `bundle exec jekyll serve --watch` and open http://localhost:3000
 
 # Working with Ruby
 ```
-rbenv install 2.3.8
-rbenv local 2.3.8
-rbenv rehash
+rbenv install 3.1.4
+rbenv local 3.1.4
 gem install bundler
 bundle install
 rbenv rehash
 ```
+
+At the time of writing, this site was using Ruby 3.1.4 and Jekyll 4.2 with the Minima theme ~3.0.
