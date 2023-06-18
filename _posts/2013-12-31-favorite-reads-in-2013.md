@@ -1,17 +1,22 @@
 ---
 layout: post
-title: Books read recently
-alias: /blog/2013/04/25/books-read-recently/
-categories:
-- personal
-tags:
-- books
-status: publish
+title: Favorite Reads of 2013
 type: post
-published: true
-meta:
-  _edit_last: '1'
+redirect_from:
+  - /books-read-december-2013/
+  - /books-read-november-2013/
+  - /books-read-october-2013/
+  - /books-read-september-2013/
+  - /books-read-august-2013/
+  - /books-read-july-2013/
+  - /books-read-june-2013/
+  - /books-read-may-2013/
+  - /books-read-april-2013/
+  - /books-read-march-2013/
+  - /books-read-february-2013/
+  - /books-read-january-2013/
 ---
+
 I started tracking the books I read in early 2013; below is the ever-growing list.
 
 <a title="The Progress Principle" href="http://www.amazon.com/Progress-Principle-Ignite-Engagement-Creativity/dp/142219857X/">The Progress Principle</a> by Teresa Amabile and Steven Kramer
@@ -196,3 +201,81 @@ will not read the book.
 [Across the Nightingale Floor by Lian Hearn](http://www.amazon.com/gp/product/B000OCXG4Q/ref=as_li_tl?ie=UTF8&tag=theven01-20&linkId=MTDSUNBSKW7ZSQGP). An orphan assassin, sword-fighting, revenge and rebellion--I like it!
 
 [The Wealth of Nations by Adam Smith](http://www.amazon.com/gp/product/B00JVST6CA/ref=as_li_tl?ie=UTF8&tag=theven01-20&linkId=EWWY3DMHY2TQBT7R). I've heard a ton about this book, and I'd like to have a better grasp on economics. It started off well; Smith lays the foundation of economics and currency, and it is brilliant, logical stuff. That being said, I ultimately abandoned the book about 1/6th of the way in when the author stated how much tobacco you should expect from a negro between sixteen and sixty years. I know that in 1776 statements like that were not in poor taste--Smith was likely very progressive--but one too many outdated terms made me question how applicable the book truly is. I include the book in this list because I don't plan to finish it.
+
+<a title="Amazon: Talk-Kids-Will-Listen-And-Listen" href="http://www.amazon.com/Talk-Kids-Will-Listen-And-Listen/dp/0743525086">How to Talk so Your Kids Will Talk and Talk so Your Kids Will Listen</a> by Faber and Mazlish
+
+<a title="Amazon: Greatest Salesman in the World" href="http://www.amazon.com/Greatest-Salesman-World-Og-Mandino/dp/055327757X/">The Greatest Salesman in the World</a> by Og Mandino
+
+<a title="Amazon: Poke the Box" href="http://www.amazon.com/Poke-Box-Seth-Godin/dp/1936719002/">Poke the Box</a> by Seth Godin
+
+<a title="Amazon: How to Win Friends" href="http://www.amazon.com/How-Win-Friends-Influence-People/dp/1439167346/">How to Win Friends and Influence People</a> by Dale Carnegie
+
+<a title="Amazon: Daring Greatly" href="http://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592407331/">Daring Greatly</a> by Brene Brown
+
+<a title="Amazon: Now, Discover Your Strengths" href="http://www.amazon.com/Discover-Your-Strengths-Marcus-Buckingham/dp/0743201140">Now, Discover Your Strengths</a> by Buckingham and Clifton
+
+<a title="Amazon: 4 Hour Workweek" href="http://www.amazon.com/4-Hour-Workweek-Anywhere-Expanded-Updated/dp/0307465357">The 4 Hour Workweek</a> by Timothy Ferriss
+
+<a href="http://www.amazon.com/gp/product/0553212788/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0553212788&amp;linkCode=as2&amp;tag=theven01-20">The Prince (Bantam Classics)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0553212788" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0787967076/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0787967076&amp;linkCode=as2&amp;tag=theven01-20">The Contrarian's Guide to Leadership</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0787967076" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/1936041758/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1936041758&amp;linkCode=as2&amp;tag=theven01-20">The Art of War</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1936041758" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0884271951/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0884271951&amp;linkCode=as2&amp;tag=theven01-20">The Goal: A Process of Ongoing Improvement</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0884271951" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0061733512/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0061733512&amp;linkCode=as2&amp;tag=theven01-20">Self-Compassion: Stop Beating Yourself Up and Leave Insecurity Behind</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0061733512" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/1400280222/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1400280222&amp;linkCode=as2&amp;tag=theven01-20">Mentoring 101</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1400280222" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0307887448/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0307887448&amp;linkCode=as2&amp;tag=theven01-20">Ready Player One: A Novel</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0307887448" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/1451614217/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1451614217&amp;linkCode=as2&amp;tag=theven01-20">Abundance: The Future Is Better Than You Think</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1451614217" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0321934113/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0321934113&amp;linkCode=as2&amp;tag=theven01-20">Peopleware: Productive Projects and Teams (3rd Edition)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0321934113" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0671646788/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0671646788&amp;linkCode=as2&amp;tag=theven01-20">The Magic of Thinking Big</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0671646788" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0596522347/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0596522347&amp;linkCode=as2&amp;tag=theven01-20">slide:ology: The Art and Science of Creating Great Presentations</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0596522347" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/059534559X/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=059534559X&amp;linkCode=as2&amp;tag=theven01-20">Great Demo!: How To Create And Execute Stunning Software Demonstrations</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=059534559X" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/1591845572/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1591845572&amp;linkCode=as2&amp;tag=theven01-20">The Personal MBA: Master the Art of Business</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1591845572" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/8189988042/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=8189988042&amp;linkCode=as2&amp;tag=theven01-20">Seven Spiritual Laws of Success</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=8189988042" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0795333765/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0795333765&amp;linkCode=as2&amp;tag=theven01-20">If This Isn't Nice, What Is?: Advice for the Young</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0795333765" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/B006MHF95G/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B006MHF95G&amp;linkCode=as2&amp;tag=theven01-20">Beethoven's Shadow (Kindle Single)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=B006MHF95G" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/0374533555/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0374533555&amp;linkCode=as2&amp;tag=theven01-20">Thinking, Fast and Slow</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0374533555" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/1576759776/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1576759776&amp;linkCode=as2&amp;tag=theven01-20">Leadership and Self-Deception: Getting out of the Box</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=1576759776" width="1" height="1" border="0" />
+
+My book count for this month was lower than previous months, but the total number of pages was probably the same. I finished a great, although sometimes dated, overview of philosophy, before moving to book one of <a title="Wikipedia: The Wheel of Time" href="http://en.wikipedia.org/wiki/The_Wheel_of_Time">The Wheel of Time series by Robert Jordan</a>, which was excellent. (As if I needed a 15 book epic series to keep me busy.)
+
+<a href="http://www.amazon.com/gp/product/0812511816/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0812511816&amp;linkCode=as2&amp;tag=theven01-20">The Eye of the World (The Wheel of Time, Book 1)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=0812511816" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/067120159X/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=067120159X&amp;linkCode=as2&amp;tag=theven01-20">The Story of Philosophy (Touchstone Books)</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=067120159X" width="1" height="1" border="0" />
+
+In October I continued on <a title="Wikipedia: The Wheel of Time" href="http://en.wikipedia.org/wiki/The_Wheel_of_Time">The Wheel of Time series by Robert Jordan</a>, completing books two and three (a grand total of about 1500 pages). So far I'm really liking the series, which is a fantasy hero story. As of now I still prefer <a title="Wikipedia: A Song of Fire and Ice" href="http://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire">A Song of Fire and Ice by G.R.R.M.</a>. A Song of Fire and Ice takes more risks--perhaps because the series is less about good and evil (or it is not so obvious who is truly good or evil). In any case, I will complete the Robert Jordan (then Brandon Sanderson) series.
+
+<a href="http://www.amazon.com/gp/product/B002VBV1R2/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B002VBV1R2&amp;linkCode=as2&amp;tag=theven01-20">The Great Hunt: Book Two of 'The Wheel of Time'</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=B002VBV1R2" width="1" height="1" border="0" />
+
+<a href="http://www.amazon.com/gp/product/B0030AF5DO/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0030AF5DO&amp;linkCode=as2&amp;tag=theven01-20">The Dragon Reborn: Book Three of 'The Wheel of Time'</a><img style="border: none !important; margin: 0px !important;" alt="" src="http://ir-na.amazon-adsystem.com/e/ir?t=theven01-20&amp;l=as2&amp;o=1&amp;a=B0030AF5DO" width="1" height="1" border="0" />
+
+I've continued with the Wheel of Time series, which sucks up my reading time beyond blogs and work stuff. I'm tiring a bit with the lack of diversity. A couple people commented that the middle of the series is skippable, so I plan to jump ahead to the good parts.
+
+<a href="http://www.amazon.com/gp/product/0812513738/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0812513738&amp;linkCode=as2&amp;tag=theven01-20">The Shadow Rising (The Wheel of Time, Book 4)</a>
+
+<a href="http://www.amazon.com/gp/product/0812550307/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0812550307&amp;linkCode=as2&amp;tag=theven01-20">The Fires of Heaven (The Wheel of Time, Book 5)</a>
+
+<a href="http://www.amazon.com/gp/product/B003BQZ80M/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003BQZ80M&linkCode=as2&tag=theven01-20">Lord of Chaos: Book Six of 'The Wheel of Time'</a> - I finished up book six of the Wheel of Time series and am ready for a break. This book felt like a slog, but ended really well. Some friends advised I skip the middle, so I think I'll read summaries before jumping to book 12 to start the finale.
+
+<a href="http://www.amazon.com/gp/product/0321193857/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321193857&linkCode=as2&tag=theven01-20">The Non-Designer's Design Book</a> - I thought this book had great bang for the buck. Robin Williams shows how to transform boring, bad designs using CRAP--that's contrast, repetition, alignment, and proximity. The second edition is a bit dated; perhaps the third edition is closer to today's flat UI trend.
+
+<a href="http://www.amazon.com/gp/product/0671212095/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671212095&linkCode=as2&tag=theven01-20">How to Read a Book: The Classic Guide to Intelligent Reading (A Touchstone book)</a> - This text asserts that there are four levels of reading: elementary (the basics), inspectional (quickly understanding the big idea), analytical (deep reading), and syntopical (thinking critically and comparing the words against all your related knowledge). I wish I would have read this earlier, but I probably wouldn't have gotten much out of it because I didn't think I needed it. I found that the deep dives into new subjects that I frequently did during my PhD is called syntopical reading.
+
+<a href="http://www.amazon.com/gp/product/B000FC11JW/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FC11JW&linkCode=as2&tag=theven01-20">The Effective Executive (Harper business Essentials)</a> - Management guru, Peter Drucker, provides a  great guide to working on the right things. As with many business books, you could summarize it in one blog post, but then you lose the nuance. I'm curious how Drucker would argue that a busy executive should read his entire book instead of a concise summary.
+
+<a href="http://www.amazon.com/gp/product/0932633161/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0932633161&linkCode=as2&tag=theven01-20">Are Your Lights On?: How to Figure Out What the Problem Really Is</a> - Another book from my productivity queue. This was a quick read with some interesting points. I was intrigued by thinking about whose problem something is and how decision makers' interests rarely align with he people experiencing the problem.
