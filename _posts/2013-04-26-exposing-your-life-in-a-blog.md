@@ -14,7 +14,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-For years I maintained Internet anonymity. However, that ended whenever I decided to purchase www.sethholloway.com. The domain establishes the true Seth Holloway ;-) I get to do some web programming, store files, and provide a little information about myself at the same time.
+For years I maintained Internet anonymity. However, that ended whenever I decided to purchase [sethholloway.com](sethholloway.com). The domain establishes the true Seth Holloway ;-) I get to do some web programming, store files, and provide a little information about myself at the same time.
 
 It's strange that people can search "Seth Holloway" and find my site which leads them to my blog. "How will my posts affect people's perception of me?" I wonder. I've asked some of my extremely intelligent peers for their take and gotten a variety of answers. Some say that you should censor your posts so there is nothing that would harm your future. However, short of illegal activities, what should we have to censor? Perhaps the best thing that humans could do is to know themselves and expose their opinions.
 
