@@ -384,3 +384,5 @@ Oshineye](http://www.amazon.com/gp/product/0596518382/ref=as_li_tl?ie=UTF8&camp=
 This was probably the most accessible technical book I've read. The
 application of pattern language to a career is really clever and worked
 well. As with software patterns, it's nice to see the path.
+
+Note: As an Amazon Associate I earn from qualifying purchases.

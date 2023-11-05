@@ -36,3 +36,5 @@ I'd also recommend virtually everything by <a href="http://www.codinghorror.com/
 If you're not already a member of <a title="Audible.com, an Amazon company" href="http://www.audible.com">Audible.com</a>, I highly recommend that you sign up now. Take advantage of your downtime (exercising, cleaning, commuting) by listening to books and podcasts.
 
 Did I miss something? Anything you'd recommend?
+
+Note: As an Amazon Associate I earn from qualifying purchases.

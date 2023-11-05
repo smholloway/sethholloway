@@ -23,3 +23,5 @@ Kickstarter is a great way to find out what people want! Would you have paid to 
 Luckily, we all benefit because Kickstarter is a platform. By using Kickstarter, Shroud of the Avatar did not take money from other projects--it proved a new idea and got people excited. The more people supporting projects on Kickstarter, the better off the community is. Because I'm now familiar with the site, I am more likely to pledge again in the future--the only barrier is me pressing the "Back This Project" button.
 
 Shroud of the Avatar probably could have been funded outside Kickstarter, but we should be glad that another project succeeded and more people now know about an amazing platform. I look forward to countless successes to come.
+
+Note: As an Amazon Associate I earn from qualifying purchases.

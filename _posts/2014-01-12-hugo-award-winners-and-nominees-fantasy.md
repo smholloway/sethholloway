@@ -44,3 +44,5 @@ I noticed that most of the books had Wikipedia entries that included a "Genre" e
 * <a title="Throne of the Crescent Moon" href="http://www.amazon.com/dp/B0064VQDHI/?tag=theven01-20">Throne of the Crescent Moon</a> by Saladin Ahmed (2013)
 
 This task was made bearable by scripting the look-ups with Beautiful Soup in Python. If you're interested, the source is available as <a title="Categorizing Hugo Award winners" href="https://github.com/smholloway/categorizing-hugo-award-winners">categorizing-hugo-award-winners on GitHub</a>.
+
+Note: As an Amazon Associate I earn from qualifying purchases.

@@ -51,3 +51,5 @@ into the scheme of things.
 
 [No More Mr. Nice Guy by Robert
 Glover](http://www.amazon.com/gp/product/B004C438CW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004C438CW&linkCode=as2&tag=theven01-20&linkId=7XHAOVDX33VKT7OV). I don't know how to feel about this book. I think it has a lot of really good information for nice guys who are unfulfilled; however, it raises some questions regarding masculinity and being kind but firm. Some of the positive points: men should spend time with other men, people should stand up for themselves and they should get what they want, and couples should evenly divide work.
+
+Note: As an Amazon Associate I earn from qualifying purchases.

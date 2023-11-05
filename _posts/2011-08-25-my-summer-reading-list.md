@@ -39,3 +39,5 @@ I've had a fantastic summer! I read a ton and learned a lot (I also implemented/
 That's a lot of information, so forgive me for any item I did not link. If you need help finding an RSS feed for the blogs above, just let me know and I'll dig it up.
 
 Is there something I just HAVE to read? Please let me know in the comments.
+
+Note: As an Amazon Associate I earn from qualifying purchases.

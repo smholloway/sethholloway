@@ -28,3 +28,5 @@ If firing complainers is too extreme, you have to change people. Here are a few 
   * One last idea based on <a title="http://en.wikipedia.org/wiki/Net_Promoter" href="http://en.wikipedia.org/wiki/Net_Promoter">net promoter score (NPS)</a>. Have people rate their happiness on a scale from 0 to 10; 0-6 are your detractors, 9-10 are promoters, and 7-8 are passives. Forget about detractors and focus on how to convert your passives into promoters. In addition to standard evaluation procedures, employees could be rated on their positivity. As negative people stagnate and positive people move ahead, I think your culture would change.
 
 Have you found something else that works? What's your favorite technique for curbing negativity or encouraging positivity?
+
+Note: As an Amazon Associate I earn from qualifying purchases.

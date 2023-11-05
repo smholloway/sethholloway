@@ -279,3 +279,5 @@ I've continued with the Wheel of Time series, which sucks up my reading time bey
 <a href="http://www.amazon.com/gp/product/B000FC11JW/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000FC11JW&linkCode=as2&tag=theven01-20">The Effective Executive (Harper business Essentials)</a> - Management guru, Peter Drucker, provides a  great guide to working on the right things. As with many business books, you could summarize it in one blog post, but then you lose the nuance. I'm curious how Drucker would argue that a busy executive should read his entire book instead of a concise summary.
 
 <a href="http://www.amazon.com/gp/product/0932633161/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0932633161&linkCode=as2&tag=theven01-20">Are Your Lights On?: How to Figure Out What the Problem Really Is</a> - Another book from my productivity queue. This was a quick read with some interesting points. I was intrigued by thinking about whose problem something is and how decision makers' interests rarely align with he people experiencing the problem.
+
+Note: As an Amazon Associate I earn from qualifying purchases.

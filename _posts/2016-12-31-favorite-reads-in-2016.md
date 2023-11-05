@@ -41,5 +41,6 @@ meta:
 <li><a href="http://amzn.to/2in8Et5">When Things Fall Apart: Heart Advice for Difficult Times</a> by Pema Chodron – This book dovetailed nicely with my efforts to control my emotions. I read no more than one chapter at a time because it’s heavy, introspective stuff. I was thrilled that I read this beeok when I saw Derek Sivers mention Pema Chodron in his <a href="http://nownownow.com/about">about now pages post</a>.</li>
 </ul>
 
-
 <p>That’s my not-so-short list of favorites from 2016. I hope 2017 will be filled with as many great stories.</p>
+
+Note: As an Amazon Associate I earn from qualifying purchases.
