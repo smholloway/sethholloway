@@ -9,9 +9,9 @@ type: post
 ---
 ```
 3. Write your post in markdown
-4. Add it to git and push to GitHub
-5. Wait for the build to complete in https://github.com/{org}/{repo}/settings/pages
-6. Navigate to your site and enjoy!
+4. Add it to git and push to GitHub (`git add _posts/...`, `git commit -m "foo"`, `git push`)
+5. Wait for the build to complete in https://github.com/{org}/{repo}/settings/pages ([https://github.com/smholloway/sethholloway/settings/pages](https://github.com/smholloway/sethholloway/settings/pages))
+6. Navigate to your site and enjoy! ([https://sethholloway.com/](https://sethholloway.com))
 
 To test, run `bundle exec jekyll serve --watch` and open http://localhost:3000
 
