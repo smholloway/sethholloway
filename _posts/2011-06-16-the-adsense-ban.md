@@ -40,7 +40,7 @@ cooperation.
 If you have any questions or concerns about the actions we've taken, how
 you can appeal this decision, or invalid activity in general, you can find
 more information by visiting
-<a href="http://www.google.com/adsense/support/bin/answer.py?answer=57153" target="_blank">http://www.google.com/adsense/support/bin/answer.py?answer=57153</a>.
+<a href="https://www.google.com/adsense/support/bin/answer.py?answer=57153" target="_blank">https://www.google.com/adsense/support/bin/answer.py?answer=57153</a>.
 
 Sincerely,
 
@@ -59,8 +59,8 @@ unable to reinstate your AdSense account.
 As a reminder, if you have any questions or concerns about your account,
 the actions we've taken, or invalid activity in general, you can find more
 information by visiting
-<a href="http://www.google.com/adsense/support/bin/answer.py?answer=57153" target="_blank">http://www.google.com/adsense/support/bin/answer.py?answer=57153</a>.</blockquote>
-I'm left wondering "What if you see an interesting ad on your own page?" "How motivated is Google to find click fraud when ads account for almost all of their revenue?" "What percentage of the population is Google willing to ban?" Along those lines, Google Will Eat Itself (<a title="Google Will Eat Itself" href="http://gwei.org/index.php">http://gwei.org/index.php</a>) is a performance art group that has a click fraud ring going. The proceeds of this duplicitous venture are being plowed into Google stock. In a mere 200,000 years the group can own all of Google.
+<a href="https://www.google.com/adsense/support/bin/answer.py?answer=57153" target="_blank">https://www.google.com/adsense/support/bin/answer.py?answer=57153</a>.</blockquote>
+I'm left wondering "What if you see an interesting ad on your own page?" "How motivated is Google to find click fraud when ads account for almost all of their revenue?" "What percentage of the population is Google willing to ban?" Along those lines, Google Will Eat Itself (<a title="Google Will Eat Itself" href="https://gwei.org/index.php">https://gwei.org/index.php</a>) is a performance art group that has a click fraud ring going. The proceeds of this duplicitous venture are being plowed into Google stock. In a mere 200,000 years the group can own all of Google.
 
 This was a painful lesson to learn. I messed up. In my opinion, the terms of service should be more clear and Google should either speak bluntly about black hat and bannable offenses, or not assume that offenders are black hatters worthy of a ban. Also, the minimalistic feature robot that is Google should offer more explanation for why accounts were banned and at least give the impression that a human is involved in the process--it is hard to bond with a cold, automated company.
 

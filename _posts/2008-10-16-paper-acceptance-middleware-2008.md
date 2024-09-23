@@ -14,4 +14,4 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I'm proud to say that we got a <a title="Demo proposal" href="http://mpc.ece.utexas.edu/Papers/TR-UTEDGE-2008-013.pdf" target="_blank">demonstration</a> into the <a title="Middleware 2008 official page" href="http://middleware2008.cs.kuleuven.be/" target="_blank">Middleware 2008</a> conference! While I'd like to say I'm going to Belgium, I am sitting it out this time.
+I'm proud to say that we got a <a title="Demo proposal" href="https://mpc.ece.utexas.edu/Papers/TR-UTEDGE-2008-013.pdf" target="_blank">demonstration</a> into the <a title="Middleware 2008 official page" href="https://middleware2008.cs.kuleuven.be/" target="_blank">Middleware 2008</a> conference! While I'd like to say I'm going to Belgium, I am sitting it out this time.

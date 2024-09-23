@@ -20,7 +20,7 @@ I love Google. They represent so many positive ideas about technology and offer 
 
 In last week's <a title="Randolph Bias' awesome class" href="http://courses.ischool.utexas.edu/Bias_Randolph/2009/Spring/INF385P/" target="_blank">Introduction to Usability course</a> we discussed good and bad websites, and one student selected Google Analytics as a good website. The Analytics page provides all the necessary statistics on your sites traffic including their IP address and corresponding location, the number of unique visitors, and timing. It was characteristically Google: clean, easy to use, and hugely useful. I had no idea the service was free!
 
-Inspired by the class I checked into Google Analytics further and signed up. I added http://www.sethholloway.com to the service and they generated the necessary javascript--they even told me where to place it (though I already <a title="Seth Holloway: Learning HTML/CSS" href="http://sethholloway.com/blog/?p=633" target="_blank">knew enough HTML</a> to insert the scripts)
+Inspired by the class I checked into Google Analytics further and signed up. I added http://www.sethholloway.com to the service and they generated the necessary javascript--they even told me where to place it (though I already <a title="Seth Holloway: Learning HTML/CSS" href="https://sethholloway.com/blog/?p=633" target="_blank">knew enough HTML</a> to insert the scripts)
 
 Here's the generated javascript:
 <blockquote>

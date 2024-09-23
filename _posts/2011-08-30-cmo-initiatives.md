@@ -14,7 +14,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-A few days ago I wrote about the <a title="Seth Holloway: Chief Morale Officer (CMO)" href="http://sethholloway.com/blog/2011/08/22/cmo-chief-morale-officer/">Chief Morale Officer</a>, an important role that I think more companies should fill. The previous post is a bit high level, so I thought I'd be more concrete and enumerate a few ideas on how to improve morale.
+A few days ago I wrote about the <a title="Seth Holloway: Chief Morale Officer (CMO)" href="https://sethholloway.com/blog/2011/08/22/cmo-chief-morale-officer/">Chief Morale Officer</a>, an important role that I think more companies should fill. The previous post is a bit high level, so I thought I'd be more concrete and enumerate a few ideas on how to improve morale.
 
  * At the core, I'd say companies need to respect and empower employees. Focus on happiness with a focus on each employee achieving mastery, autonomy, and purpose.
  * Our <a title="Wikipedia: Dunbar's Number" href="http://en.wikipedia.org/wiki/Dunbar's_number">primate brains can only handle between 100 and 230 connections</a>, so units and teams should be built with this in mind. Recent experiments have shown that compassion and respect are inverse with the gap in pay and humanity (tall organizational structures with tons of people in between top and bottom).

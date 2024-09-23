@@ -12,7 +12,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I'm a big fan of the Google suite of products. I've been connecting via <a title="https on wikipedia" href="http://en.wikipedia.org/wiki/Https" target="_blank">https</a> for a while now, but Google has now made it easier. There's a <a title="Encrypt your Gmail!" href="http://www.webmonkey.com/blog/Why_You_Should_Turn_Gmail_s_SSL_Feature_On_Now" target="_blank">great article on Wired</a> about encrypting your Gmail. Anyone using the Google services should do this immediately. Here's a quick how-to:
+I'm a big fan of the Google suite of products. I've been connecting via <a title="https on wikipedia" href="https://en.wikipedia.org/wiki/Https" target="_blank">https</a> for a while now, but Google has now made it easier. There's a <a title="Encrypt your Gmail!" href="https://www.webmonkey.com/blog/Why_You_Should_Turn_Gmail_s_SSL_Feature_On_Now" target="_blank">great article on Wired</a> about encrypting your Gmail. Anyone using the Google services should do this immediately. Here's a quick how-to:
 
  * Log in to Gmail (<a title="GMAIL!" href="https://mail.google.com/mail/" target="_blank">https://mail.google.com/mail/</a>)
  * In Gmail, click on "Settings" in the top right corner (beside your username).

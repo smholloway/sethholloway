@@ -11,7 +11,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-It's not all <a title="SethHolloway.com Farewell Lehman Bros" href="http://sethholloway.com/blog/?p=116" target="_blank">gloom and doom</a>! Here's a great joke I picked up recently:
+It's not all <a title="SethHolloway.com Farewell Lehman Bros" href="https://sethholloway.com/blog/?p=116" target="_blank">gloom and doom</a>! Here's a great joke I picked up recently:
 
 Q: How can you tell an engineer is extroverted?
 

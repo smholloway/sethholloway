@@ -13,7 +13,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I feel like I should write about something more insightful because of the title, but instead I'm linking (hence a <a title="10 body hacks" href="http://lifehacker.com/software/lifehacker-top-10/top-10-body-hacks-257746.php" target="_blank">link)</a> to 10 things you can learn to do with your body. My father in law can whistle like a New Yorker. Reading <a title="10 body hacks" href="http://lifehacker.com/software/lifehacker-top-10/top-10-body-hacks-257746.php" target="_blank">this article</a> has given me insight into how to do <a title="Google answers on whistling" href="http://answers.google.com/answers/threadview?id=419588" target="_blank">the same</a>--and nine other tricks. Some are lame or ill-explained, but we take the good with the bad.
+I feel like I should write about something more insightful because of the title, but instead I'm linking (hence a <a title="10 body hacks" href="https://lifehacker.com/software/lifehacker-top-10/top-10-body-hacks-257746.php" target="_blank">link)</a> to 10 things you can learn to do with your body. My father in law can whistle like a New Yorker. Reading <a title="10 body hacks" href="https://lifehacker.com/software/lifehacker-top-10/top-10-body-hacks-257746.php" target="_blank">this article</a> has given me insight into how to do <a title="Google answers on whistling" href="https://answers.google.com/answers/threadview?id=419588" target="_blank">the same</a>--and nine other tricks. Some are lame or ill-explained, but we take the good with the bad.
 
 My grandpa and Jason can make their ears wiggle like jello on a washing machine! Unfortunately, that one was not covered in the article, so I may never know how to do it... I can flare my nostrils though! Go me!
 

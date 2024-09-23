@@ -33,7 +33,7 @@ J.P. Knight left a much easier solution in the comments. If you want to see all 
 <div>Thanks J.P!</div>
 <div></div>
 <div><span style="text-decoration: underline;">ORIGINAL</span></div>
-I'm currently writing my dissertation (technically my proposal) in <a title="LaTeX Official Page" href="http://www.latex-project.org/">LaTeX</a> (think Microsoft Word without the WYSIWYG interface). As I'm searching for citations, I am overwhelmed at the number of sources in my bibtex file. Rather than staring at the bland, perhaps bloated, syntax with curly braces, spaces, and commas, I created a little script that would let me see how the citations will look in the paper--in a nice PDF bibliography. Here, I present seeAllCitations.sh which takes in your bibtex file as an argument and creates a file with all of your potential citations. After the script completes, just "compile" the file as you normally would and open the resulting pdf/dvi.
+I'm currently writing my dissertation (technically my proposal) in <a title="LaTeX Official Page" href="https://www.latex-project.org/">LaTeX</a> (think Microsoft Word without the WYSIWYG interface). As I'm searching for citations, I am overwhelmed at the number of sources in my bibtex file. Rather than staring at the bland, perhaps bloated, syntax with curly braces, spaces, and commas, I created a little script that would let me see how the citations will look in the paper--in a nice PDF bibliography. Here, I present seeAllCitations.sh which takes in your bibtex file as an argument and creates a file with all of your potential citations. After the script completes, just "compile" the file as you normally would and open the resulting pdf/dvi.
 <blockquote>#!/bin/sh
 
 # Check input for one argument

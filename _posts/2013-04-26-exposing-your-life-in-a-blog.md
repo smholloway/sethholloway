@@ -18,6 +18,6 @@ For years I maintained Internet anonymity. However, that ended whenever I decide
 
 It's strange that people can search "Seth Holloway" and find my site which leads them to my blog. "How will my posts affect people's perception of me?" I wonder. I've asked some of my extremely intelligent peers for their take and gotten a variety of answers. Some say that you should censor your posts so there is nothing that would harm your future. However, short of illegal activities, what should we have to censor? Perhaps the best thing that humans could do is to know themselves and expose their opinions.
 
-As <a title="Seth Godin's blog" href="http://sethgodin.typepad.com/seths_blog/2008/11/death-of-the-pe.html">Seth Godin says</a>, "The point is not to show up on a list, the point is to start a conversation that spreads, to share ideas and to chronicle your thinking. That's the work of an author..."
+As <a title="Seth Godin's blog" href="https://sethgodin.typepad.com/seths_blog/2008/11/death-of-the-pe.html">Seth Godin says</a>, "The point is not to show up on a list, the point is to start a conversation that spreads, to share ideas and to chronicle your thinking. That's the work of an author..."
 
 Maybe one day I'll expose my life using social media! :)

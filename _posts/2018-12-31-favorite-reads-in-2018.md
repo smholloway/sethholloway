@@ -19,4 +19,4 @@ meta:
 
 <p>I finished the available <a href="https://en.wikipedia.org/wiki/The_Years_of_Lyndon_Johnson">LBJ biographies by Robert A. Caro</a>, which I highly recommend. Between those and <a href="https://en.wikipedia.org/wiki/The_Dictator%27s_Handbook">The Dictator’s Handbook: Why Bad Behavior is Almost Always Good Politics</a> by Bruce Bueno de Mesquita I had a new framework for interpreting today’s political landscape.</p>
 
-<p>On the non-fiction front, I read and enjoyed the <a href="http://nnedi.com/books/binti.html">Binti</a> series and the <a href="https://www.goodreads.com/series/192752-bobiverse">Bobiverse</a> series. Both were quick, thought-provoking sci-fi series.</p>
+<p>On the non-fiction front, I read and enjoyed the <a href="https://nnedi.com/books/binti.html">Binti</a> series and the <a href="https://www.goodreads.com/series/192752-bobiverse">Bobiverse</a> series. Both were quick, thought-provoking sci-fi series.</p>

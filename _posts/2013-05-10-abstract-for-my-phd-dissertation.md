@@ -18,7 +18,7 @@ meta:
   _edit_last: '1'
   _wp_old_slug: abstract-for-my-dissertation
 ---
-I completed my PhD in May 2011. My dissertation, <a title="Simplifying the Programming of Intelligent Environments at UT Library" href="http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-05-3368">Simplifying the Programming of Intelligent Environments</a>, was basically about making home automation usable. Below is the abstract.
+I completed my PhD in May 2011. My dissertation, <a title="Simplifying the Programming of Intelligent Environments at UT Library" href="https://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-05-3368">Simplifying the Programming of Intelligent Environments</a>, was basically about making home automation usable. Below is the abstract.
 
 <h3>Abstract</h3>
 

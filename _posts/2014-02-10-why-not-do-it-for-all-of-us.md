@@ -28,4 +28,4 @@ can all have it, or at least part of it. We're not going to make an
 important product, but we can get a lot of stars ☻
 
 Please join me in my quest to the top. Do it for me. Do it for yourself.
-[Do it for all of us](http://doitforallof.us/).
+[Do it for all of us](https://doitforallof.us/).

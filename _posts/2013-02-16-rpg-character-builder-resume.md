@@ -17,7 +17,7 @@ Over the years I have played with a few different resume styles. I had the <a ti
 
 <img class="alignnone size-full wp-image-1869" alt="Seth Holloway Character Builder Resume Screenshot" src="/images/Screenshot-February-16-2013.png" width="505" height="439" />
 
-If the screenshot leaves you wanting, you can see my <a title="Seth Holloway RPG Character Builder Resume" href="http://sethholloway.com/alternativeResume.html">RPG style resume live</a> and check out <a title="WoW character builder" href="http://wowtal.com/#k=ff-.bqj.druid.">World of Warcraft Character Builder</a> for the inspiration.
+If the screenshot leaves you wanting, you can see my <a title="Seth Holloway RPG Character Builder Resume" href="https://sethholloway.com/alternativeResume.html">RPG style resume live</a> and check out <a title="WoW character builder" href="http://wowtal.com/#k=ff-.bqj.druid.">World of Warcraft Character Builder</a> for the inspiration.
 
 I've also <a title="Seth Holloway's resumes on GitHub " href="https://github.com/smholloway/resume">open sourced the resumes</a>. The individual READMEs there provide some more information about each template. I hope others will find this interesting and valuable.
 

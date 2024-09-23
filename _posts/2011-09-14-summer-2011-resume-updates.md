@@ -16,7 +16,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="http://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, "the universe is conspiring to help us." Below I outline what I did and why.
+I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="https://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, "the universe is conspiring to help us." Below I outline what I did and why.
 
  * Name: no PhD--just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.
  * Retooled the summary to combine summary and objective. At first I removed the sections altogether because I thought it was wasted space that can hurt more than it can help. A friend convinced me that this one section grabs the reader's attention and draws them in. Now that you have their attention, do something good with it, like tell them your relevant skills!
@@ -28,4 +28,4 @@ I received a lot of great feedback after <a title="Seth Holloway: Asking for fee
  * I've left publications because they don't make a difference in length right now (over 2 pages with or without). Those publications show that I'm well on my way to my 10,000 hours of writing (Gladwell's assertion that expertise takes 10,000 hours), and I'm proud of the quality. I need to work on a blog post or alternate resume that shows the number of hours I've put into various fields...
  * That's about it. The resume spills onto three pages, and I'm okay with that for now. I have something between a CV and a resume! I figure that later sections are just a cookie for anyone dedicated enough to read that far :) One day I'll get down to 1 or 2 pages...
 
-<div>I hope my thought process makes sense and that people like the <a title="Seth Holloway's awesome resume" href="http://sethholloway.com/resume.html">resume</a>. I really appreciate the help and know that I'll find a great job as a result. If you have any other suggestions or see a flaw in my logic, please let me know.</div>
+<div>I hope my thought process makes sense and that people like the <a title="Seth Holloway's awesome resume" href="https://sethholloway.com/resume.html">resume</a>. I really appreciate the help and know that I'll find a great job as a result. If you have any other suggestions or see a flaw in my logic, please let me know.</div>

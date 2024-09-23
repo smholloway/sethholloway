@@ -13,7 +13,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-<a title="Akismet comment spam protection" href="http://akismet.com/">Akismet</a> does a good job of preventing most spam comments from showing up on my blog; however, a new style of comment is getting by the filter. Essentially, the comments will flatter the blog in a vague yet realistic manner. Below are some recent samples that I had to mark myself--they're remarkably similar to some comments that I have not marked as spam.
+<a title="Akismet comment spam protection" href="https://akismet.com/">Akismet</a> does a good job of preventing most spam comments from showing up on my blog; however, a new style of comment is getting by the filter. Essentially, the comments will flatter the blog in a vague yet realistic manner. Below are some recent samples that I had to mark myself--they're remarkably similar to some comments that I have not marked as spam.
 <blockquote>Hello there. Cool site!! Guy.. Stunning.. Terrific.. My goal is to bookmark your online site along with take the enters additionally…I am happy to find many useful information in this article within the post. I would like to show some gratitude to sharing…</blockquote>
 <blockquote>Hey there superb blog! Does running a blog such as this take a lot of work?
 I’ve absolutely no expertise in programming but I had been hoping to start my own blog in the near future. Anyhow, should you have any suggestions or tips for new blog owners please share. I understand this is off subject nevertheless I simply needed to ask. Thanks a lot!</blockquote>

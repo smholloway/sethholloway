@@ -14,7 +14,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-This weekend I wrote <a title="Seth Holloway: Rhythm test" href="http://sethholloway.com/timing.html">a simple webpage to measure the accuracy of my rhythm</a> (the <a title="GitHub: JavaScript timing project" href="https://github.com/smholloway/miscellaneous/tree/master/javascript/timing">timing project on GitHub</a>). Just load the page then start tapping any key(s) periodically; the page records and reports on the time between key-presses.
+This weekend I wrote <a title="Seth Holloway: Rhythm test" href="https://sethholloway.com/timing.html">a simple webpage to measure the accuracy of my rhythm</a> (the <a title="GitHub: JavaScript timing project" href="https://github.com/smholloway/miscellaneous/tree/master/javascript/timing">timing project on GitHub</a>). Just load the page then start tapping any key(s) periodically; the page records and reports on the time between key-presses.
 
 In playing with the page my standard deviation normally hovered around 20ms, drifting up towards 40ms. This was without a metronome.
 

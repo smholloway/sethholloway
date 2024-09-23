@@ -14,7 +14,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time--we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="http://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="http://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="http://clojure.org/">Clojure</a>, <a title="Datomic" href="http://www.datomic.com/">Datomic</a>, and <a href="http://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.
+In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com/richhickey">Rich Hickey</a> and he blew my mind. I think Hickey is one of the most important computer scientists of our time--we will see this in the next five to years. See his amazing presentations and creations like <a title="Are We There Yet presentation" href="https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey">Are We There Yet?</a>, <a title="Value of Values presentation" href="https://www.infoq.com/presentations/Value-Values">The Value of Values</a>, <a title="Simple Made Easy presentation" href="https://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a>, <a title="Clojure" href="https://clojure.org/">Clojure</a>, <a title="Datomic" href="https://www.datomic.com/">Datomic</a>, and <a href="https://www.infoq.com/author/Rich-Hickey">more</a>. Fueled by several great videos, I started learning Clojure. Here are my notes from the experience.
 
  * I like that Clojure builds on Lisp. I feel like I'm working on something cutting edge, yet proven. It feels like joining a dynasty, perhaps.
  * With Clojure, you write right to left, which is new and different. The prefix notation was not intuitive for me.
@@ -40,17 +40,17 @@ In 2012 I discovered <a title="Rich Hickey on Twitter" href="https://twitter.com
  * I felt like I had to go to Clojure because it was not coming to me. I believe this reflects Rich Hickey's ethos: he created the language for a reason and wants you to use it in the intended way.
  * It was hard to convince my peers that Clojure was the language of the future. One of the most common questions was, "are there any large system written in Clojure in production?" Based on the reactions, I doubt Clojure will enter the mainstream anytime soon.
 
-Overall, I enjoyed learning Clojure and I feel it made me a better programmer. If you haven't checked it out, <a title="4clojure Problem 1" href="http://www.4clojure.com/problem/1">work through a few problems</a> and see what you think.
+Overall, I enjoyed learning Clojure and I feel it made me a better programmer. If you haven't checked it out, <a title="4clojure Problem 1" href="https://www.4clojure.com/problem/1">work through a few problems</a> and see what you think.
 
 Some resources I used along the way:
 
- * <a title="http://hyperpolyglot.org/lisp" href="http://hyperpolyglot.org/lisp">http://hyperpolyglot.org/lisp</a>
- * <a title="http://www.learningclojure.com/2010/08/reduce-not-scary.html" href="http://www.learningclojure.com/2010/08/reduce-not-scary.html">http://www.learningclojure.com/2010/08/reduce-not-scary.html</a>
+ * <a title="https://hyperpolyglot.org/lisp" href="https://hyperpolyglot.org/lisp">https://hyperpolyglot.org/lisp</a>
+ * <a title="https://www.learningclojure.com/2010/08/reduce-not-scary.html" href="https://www.learningclojure.com/2010/08/reduce-not-scary.html">https://www.learningclojure.com/2010/08/reduce-not-scary.html</a>
  * <a title="https://www.4clojure.com/" href="https://www.4clojure.com/">https://www.4clojure.com/</a>
- * <a title="http://gigamonkeys.com/book/" href="http://gigamonkeys.com/book/">http://gigamonkeys.com/book/</a>
- * <a title="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer" href="http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer">http://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer</a>
+ * <a title="https://gigamonkeys.com/book/" href="https://gigamonkeys.com/book/">https://gigamonkeys.com/book/</a>
+ * <a title="https://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer" href="https://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer">https://moxleystratton.com/clojure/clojure-tutorial-for-the-non-lisp-programmer</a>
  * <a title="https://github.com/relevance/labrepl" href="https://github.com/relevance/labrepl">https://github.com/relevance/labrepl</a>
- * <a title="http://java.ociweb.com/mark/clojure/article.html" href="http://java.ociweb.com/mark/clojure/article.html">http://java.ociweb.com/mark/clojure/article.html</a>
- * <a title="http://www.lisperati.com/clojure-spels/casting.html" href="http://www.lisperati.com/clojure-spels/casting.html">http://www.lisperati.com/clojure-spels/casting.html</a>
- * <a title="http://joyofclojure.com/" href="http://joyofclojure.com/">http://joyofclojure.com/</a>
- * <a title="http://pragprog.com/book/shcloj2/programming-clojure" href="http://pragprog.com/book/shcloj2/programming-clojure">http://pragprog.com/book/shcloj2/programming-clojure</a>
+ * <a title="https://java.ociweb.com/mark/clojure/article.html" href="https://java.ociweb.com/mark/clojure/article.html">https://java.ociweb.com/mark/clojure/article.html</a>
+ * <a title="https://www.lisperati.com/clojure-spels/casting.html" href="https://www.lisperati.com/clojure-spels/casting.html">https://www.lisperati.com/clojure-spels/casting.html</a>
+ * <a title="https://joyofclojure.com/" href="https://joyofclojure.com/">https://joyofclojure.com/</a>
+ * <a title="https://pragprog.com/book/shcloj2/programming-clojure" href="https://pragprog.com/book/shcloj2/programming-clojure">https://pragprog.com/book/shcloj2/programming-clojure</a>

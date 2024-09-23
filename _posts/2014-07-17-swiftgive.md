@@ -18,7 +18,7 @@ give some money.
 
 If you’re trying to raise money, just create a fund on the site.  After
 creating a fund, you can direct people to your fund’s webpage (which
-would look something like [this](http://swiftgive.com/funds/swiftgive)) or buy
+would look something like [this](https://swiftgive.com/funds/swiftgive)) or buy
 specially coded marketing products directly from the site. All marketing
 products have your fund’s give code on them (basically fancy QR codes).
 Give codes are readable by most barcode reading apps.
@@ -28,7 +28,7 @@ Here’s an example--feel free to scan it and give us a few bucks ;-)
 ![donate to swiftgive](https://i.imgur.com/evnxxKy.png)
 
 My friend and [Oilfield
-Intelligence](http://www.oilfieldintelligence.com) co-founder, Ken, came
+Intelligence](https://www.oilfieldintelligence.com) co-founder, Ken, came
 up with the idea when he was rushing to the airport late one evening.
 He took a bus from the parking lot to the terminal and the bus driver
 provided excellent service, helping him with bags and even cracking
