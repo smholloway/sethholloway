@@ -29,6 +29,6 @@ I heard "Dream on" by Christian Falk featuring Robyn on <a title="Seth Holloway:
 
 Hahaha, I love it! I can't think of another song with such (openly) dark content that is so accessible to the masses (pop). The Eagles might have been singing about a brothel, but you could easily think it was just a nice hotel in the middle of nowhere!
 
-<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/x-juuIldyZ0&amp;autoplay=true&amp;loop=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="480" height="385" src="http://www.youtube.com/v/x-juuIldyZ0&amp;autoplay=true&amp;loop=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<object width="480" height="385"><param name="movie" value="https://www.youtube.com/v/x-juuIldyZ0&amp;autoplay=true&amp;loop=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="480" height="385" src="https://www.youtube.com/v/x-juuIldyZ0&amp;autoplay=true&amp;loop=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
-<a href="http://www.youtube.com/watch?v=x-juuIldyZ0">Christian Falk featuring Robyn - Dream On</a>
+<a href="https://www.youtube.com/watch?v=x-juuIldyZ0">Christian Falk featuring Robyn - Dream On</a>

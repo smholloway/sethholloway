@@ -35,6 +35,6 @@ Flights
  * A light snack (research points to about 300 calories per 3 hours)
  * Treat people like adults!
 
-There are some other ideas in <a title="Salon" href="http://www.salon.com/technology/ask_the_pilot/2010/09/15/airplane_seating/index.html" target="_blank">this article on Salon</a>.
+There are some other ideas in <a title="Salon" href="https://www.salon.com/technology/ask_the_pilot/2010/09/15/airplane_seating/index.html" target="_blank">this article on Salon</a>.
 
 Beyond these, improved communication and more travel options would be fantastic. What would you like to see?

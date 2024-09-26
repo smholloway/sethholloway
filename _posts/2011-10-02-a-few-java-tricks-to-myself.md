@@ -61,7 +61,7 @@ Booleans default to false.
 
 Java has labels, but most people will not appreciate their inclusion and use. For example, the following code is valid Java
 
-    http://www.sethholloway.com
+    https://www.sethholloway.com
 
 ========================================
 
@@ -69,7 +69,7 @@ In mixed-type computation, Java upconverts to the larger data type due to wideni
 
 ========================================
 
-"Although common, the idiom `object.getClass().getMethod("methodName")` is broken and should not be used." -- <a title="Java Puzzlers sampler" href="http://javapuzzlers.com/java-puzzlers-sampler.pdf">Java Puzzlers sample</a>
+"Although common, the idiom `object.getClass().getMethod("methodName")` is broken and should not be used." -- <a title="Java Puzzlers sampler" href="https://javapuzzlers.com/java-puzzlers-sampler.pdf">Java Puzzlers sample</a>
 
 ========================================
 

@@ -18,11 +18,11 @@ meta:
   _edit_last: '1'
   _wp_old_slug: ''
 ---
-I'm working through <a title="Agile Web Development with Rails" href="http://pragprog.com/titles/rails4/agile-web-development-with-rails" target="_blank">Agile Web Development with Rails, 4th Edition</a>. Overall, the book is well written--readable, nice depth and breadth, great example (ecommerce site)--and I would recommend it highly; however,  Chapter 11, adding Ajax support to the cart, has given me hell.
+I'm working through <a title="Agile Web Development with Rails" href="https://pragprog.com/titles/rails4/agile-web-development-with-rails" target="_blank">Agile Web Development with Rails, 4th Edition</a>. Overall, the book is well written--readable, nice depth and breadth, great example (ecommerce site)--and I would recommend it highly; however,  Chapter 11, adding Ajax support to the cart, has given me hell.
 
-I spent hours working through the example a couple times, diffing my source against the <a title="Agile Web Development with Rails source code" href="http://pragprog.com/titles/rails4/source_code" target="_blank">source code provided</a>, starting and restarting the server, trying multiple browsers (Safari, Firefox, Chrome), grepping for errors,  and googling. Finally, I arrived at the solution:
+I spent hours working through the example a couple times, diffing my source against the <a title="Agile Web Development with Rails source code" href="https://pragprog.com/titles/rails4/source_code" target="_blank">source code provided</a>, starting and restarting the server, trying multiple browsers (Safari, Firefox, Chrome), grepping for errors,  and googling. Finally, I arrived at the solution:
 
-To remedy this problem, I updated my public/javascripts/prototype.js file from the <a href="http://www.prototypejs.org/download" target="_blank">prototype download page</a>. At the time of writing, that was <a href="http://prototypejs.org/assets/2010/5/13/prototype.js" target="_blank">http://prototypejs.org/assets/2010/5/13/prototype.js</a>
+To remedy this problem, I updated my public/javascripts/prototype.js file from the <a href="https://www.prototypejs.org/download" target="_blank">prototype download page</a>. At the time of writing, that was <a href="https://prototypejs.org/assets/2010/5/13/prototype.js" target="_blank">https://prototypejs.org/assets/2010/5/13/prototype.js</a>
 
 <strong>Debugging</strong>
 
@@ -34,7 +34,7 @@ Processing by LineItemsController#create as HTML
 Parameters: {"product_id"=&gt;"3", "authenticity_token"=&gt;"Dsv044fqfo7H46jLYx3e6qnbCgqk3Tcoij6pqbOQZx4="}</blockquote>
 So I checked the browser errors. Firefox showed
 <blockquote>Error: document.on is not a function
-Source File: http://localhost:3000/javascripts/rails.js?1277734011
+Source File: https://localhost:3000/javascripts/rails.js?1277734011
 Line: 136</blockquote>
 Inspecting the element in Chrome I saw
 <blockquote>Uncaught TypeError: Object #&lt;an HTMLDocument&gt; has no method 'on'</blockquote>

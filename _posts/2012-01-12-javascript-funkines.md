@@ -143,7 +143,7 @@ true
 true</pre>
 
 
-[http://stackoverflow.com/questions/1995113/strangest-language-feature](http://stackoverflow.com/questions/1995113/strangest-language-feature)
-[http://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript](http://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript)
+[https://stackoverflow.com/questions/1995113/strangest-language-feature](https://stackoverflow.com/questions/1995113/strangest-language-feature)
+[https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript](https://stackoverflow.com/questions/1724255/why-does-2-2-in-javascript)
 
 Have you encountered other gotchas or been bitten by anything else in JavaScript?

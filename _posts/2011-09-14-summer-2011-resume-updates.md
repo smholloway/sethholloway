@@ -16,7 +16,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="https://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="http://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, "the universe is conspiring to help us." Below I outline what I did and why.
+I received a lot of great feedback after <a title="Seth Holloway: Asking for feedback on summer 2011 resume" href="https://sethholloway.com/blog/2011/09/08/summer-2011-resume/">putting my resume online and asking for help</a>. Thanks for the help everyone! As <a title="NPR: Kevin Kelly reads his essay" href="https://www.npr.org/templates/story/story.php?storyId=18463814">Kevin Kelly might say</a>, "the universe is conspiring to help us." Below I outline what I did and why.
 
  * Name: no PhD--just Seth Michael Holloway. Since the PhD is not needed for the job, the consensus was that the suffix would do more harm than good.
  * Retooled the summary to combine summary and objective. At first I removed the sections altogether because I thought it was wasted space that can hurt more than it can help. A friend convinced me that this one section grabs the reader's attention and draws them in. Now that you have their attention, do something good with it, like tell them your relevant skills!

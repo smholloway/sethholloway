@@ -17,14 +17,14 @@ meta:
   _edit_last: '1'
   _wp_old_slug: ''
 ---
-Phishing is presumably big business (although <a title="Dancho Danchev's analysis of profit in the digital black market" href="http://www.zdnet.com/blog/security/microsoft-study-debunks-profitability-of-the-underground-economy/3522" target="_blank">maybe not</a>). Because email is very cheap to send, phishing has a low barrier for entry. Usually, Gmail's spam filter is so accurate that I don't see the phishing emails, however, recently some Blizzard themed messages have gotten through. I get the impression that the emails are crafted by foreigners who lack the finesse necessary to deceive people--a good thing, no doubt. As with most pursuits, the devil is in the details. Let me illustrate with the most recent email to pierce Gmail's phishing armor:
+Phishing is presumably big business (although <a title="Dancho Danchev's analysis of profit in the digital black market" href="https://www.zdnet.com/blog/security/microsoft-study-debunks-profitability-of-the-underground-economy/3522" target="_blank">maybe not</a>). Because email is very cheap to send, phishing has a low barrier for entry. Usually, Gmail's spam filter is so accurate that I don't see the phishing emails, however, recently some Blizzard themed messages have gotten through. I get the impression that the emails are crafted by foreigners who lack the finesse necessary to deceive people--a good thing, no doubt. As with most pursuits, the devil is in the details. Let me illustrate with the most recent email to pierce Gmail's phishing armor:
 
 <blockquote>Hello, thank you for shopping at the Blizzard Store!
 
 StarCraft II®: Wings of Liberty™: 6129523855006794206159153
 
 To use this key to activate the game, simply follow these instructions:
-1. Log in to your Battle.n Account - Or Create a <a href="http://us.battle.net.wowsuppor-check-blizzard. com" target="nofollow">Battle.net Account</a>
+1. Log in to your Battle.n Account - Or Create a <a href="https://us.battle.net.wowsuppor-check-blizzard. com" target="nofollow">Battle.net Account</a>
 
 2. Verify your e-mail address. (If you have previously verified your address, skip this step.) From the main Account Management page, click the 'verify this e-mail address' link. Then, check your e-mail account for a verification e-mail. Click the link in this e-mail to verify your e-mail address.
 
@@ -52,7 +52,7 @@ Grand Total: $59.99
 If you have any questions or concerns about your order, please contact us at:
 
 Phone: Toll-free at (1-800-592-5499)
-Website: <a href="http://us.blizzard.net/account" target="_blank">http://us.blizzard.net/account</a>
+Website: <a href="https://us.blizzard.net/account" target="_blank">https://us.blizzard.net/account</a>
 
 Live phone support is available seven days a week, 8:00AM - 8:00PM Pacific Time.
 

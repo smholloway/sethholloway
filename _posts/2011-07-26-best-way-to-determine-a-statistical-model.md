@@ -17,6 +17,6 @@ meta:
 ---
 I'm looking for the best way to determine a statistical model. I have a lot of data that comprises some (not all) variables and the associated outputs. Now, I would like to solve for the weights for the variables.
 
-In the past I used Excel as well as a now defunct super spreadsheet application.  <a title="Weka from the University of Waikato" href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a> was recommended, but I'm curious what other options exist. Is there a software package that will run different regressions, ultimately provided the best fit model?
+In the past I used Excel as well as a now defunct super spreadsheet application.  <a title="Weka from the University of Waikato" href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a> was recommended, but I'm curious what other options exist. Is there a software package that will run different regressions, ultimately provided the best fit model?
 
 Any help will be appreciated!

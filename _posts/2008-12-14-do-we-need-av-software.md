@@ -15,7 +15,7 @@ meta:
 ---
 Do we need AV software? It is naive to think that safe practices will protect you--there are simply too many ways to get into a system. You need something to protect your computer, and good AV software won't hurt.
 
-I was reading a lifehacker article <a title="Lifehacker: Do you use AV software?" href="http://lifehacker.com/384147/do-you-run-antivirus-software?cpage=2" target="_blank">asking readers about antivirus (AV) software</a>. The range of knowledge conveyed in the comments is ridiculous. Some users claimed they never had a virus. There are known botnets with over a million machines. I doubt that all million machines are owned by a single individual, which means there are multiple users who are either willingly allowing someone to use their machine, or the multiple users are unaware of the heist. With the sophistication of modern viruses (rootkits, automatic replication, dynamic signature changing, etc), it is silly to claim you would even know if you had a virus.
+I was reading a lifehacker article <a title="Lifehacker: Do you use AV software?" href="https://lifehacker.com/384147/do-you-run-antivirus-software?cpage=2" target="_blank">asking readers about antivirus (AV) software</a>. The range of knowledge conveyed in the comments is ridiculous. Some users claimed they never had a virus. There are known botnets with over a million machines. I doubt that all million machines are owned by a single individual, which means there are multiple users who are either willingly allowing someone to use their machine, or the multiple users are unaware of the heist. With the sophistication of modern viruses (rootkits, automatic replication, dynamic signature changing, etc), it is silly to claim you would even know if you had a virus.
 
 A couple users claim that there had never been a virus for Linux. I don't even know where to start on that one. Definitely false. Any script kiddie could gain access to a Linux system that had not been hardened. There are a number of measures a system administrator can take to mitigate threats on Linux, but not every Linux user is a sys admin. Services like ssh being on by default increase the risks greatly. The power of a Linux command line and access to powerful development tools make subsequent attacks easier to launch.
 
@@ -33,8 +33,8 @@ Comparisons have shown that no one piece of antivirus software will catch all vi
 
 and 2) run a few different tools:
 
- * <a title="AVG Free" href="http://free.avg.com/download-avg-anti-virus-free-edition" target="_blank">AVG</a> (or <a title="avast! Home Edition (free)" href="http://www.avast.com/eng/download-avast-home.html" target="_blank">avast!</a>) - Antivirus
- * <a title="Peer Guardian 2" href="http://phoenixlabs.org/pg2/" target="_blank">PeerGuardian 2</a> - IP Blocker
- * <a title="Ad-Aware" href="http://www.lavasoft.com/products/ad_aware_free.php" target="_blank">Ad-Aware</a> - Antispyware
+ * <a title="AVG Free" href="https://free.avg.com/download-avg-anti-virus-free-edition" target="_blank">AVG</a> (or <a title="avast! Home Edition (free)" href="https://www.avast.com/eng/download-avast-home.html" target="_blank">avast!</a>) - Antivirus
+ * <a title="Peer Guardian 2" href="https://phoenixlabs.org/pg2/" target="_blank">PeerGuardian 2</a> - IP Blocker
+ * <a title="Ad-Aware" href="https://www.lavasoft.com/products/ad_aware_free.php" target="_blank">Ad-Aware</a> - Antispyware
 
 So do we need AV software? Yes. You can never be totally safe, but you can mitigate your risks. Use common sense, a few tools, and perform frequent backups. Good luck!

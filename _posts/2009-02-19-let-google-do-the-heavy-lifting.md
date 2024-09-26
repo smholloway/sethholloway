@@ -16,17 +16,17 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I love Google. They represent so many positive ideas about technology and offer an amazing suite of tools. Gmail is fantastic. I adore Google Calendar. Google Scholar is the only site I need for research. Google Reader is the best RSS feed reader on the market. Google Docs works a like a charm and is infinitely handy. I have entrusted my workflow to Google and had positive results. They've taken over the heavy lifting and ushered in an era of browser-based productivity that I agree with wholeheartedly. I'm excited today to use yet another Google server: I added <a title="Google Analytics" href="http://www.google.com/analytics/" target="_blank">Google Analytics</a> to the site :)
+I love Google. They represent so many positive ideas about technology and offer an amazing suite of tools. Gmail is fantastic. I adore Google Calendar. Google Scholar is the only site I need for research. Google Reader is the best RSS feed reader on the market. Google Docs works a like a charm and is infinitely handy. I have entrusted my workflow to Google and had positive results. They've taken over the heavy lifting and ushered in an era of browser-based productivity that I agree with wholeheartedly. I'm excited today to use yet another Google server: I added <a title="Google Analytics" href="https://www.google.com/analytics/" target="_blank">Google Analytics</a> to the site :)
 
-In last week's <a title="Randolph Bias' awesome class" href="http://courses.ischool.utexas.edu/Bias_Randolph/2009/Spring/INF385P/" target="_blank">Introduction to Usability course</a> we discussed good and bad websites, and one student selected Google Analytics as a good website. The Analytics page provides all the necessary statistics on your sites traffic including their IP address and corresponding location, the number of unique visitors, and timing. It was characteristically Google: clean, easy to use, and hugely useful. I had no idea the service was free!
+In last week's <a title="Randolph Bias' awesome class" href="https://courses.ischool.utexas.edu/Bias_Randolph/2009/Spring/INF385P/" target="_blank">Introduction to Usability course</a> we discussed good and bad websites, and one student selected Google Analytics as a good website. The Analytics page provides all the necessary statistics on your sites traffic including their IP address and corresponding location, the number of unique visitors, and timing. It was characteristically Google: clean, easy to use, and hugely useful. I had no idea the service was free!
 
-Inspired by the class I checked into Google Analytics further and signed up. I added http://www.sethholloway.com to the service and they generated the necessary javascript--they even told me where to place it (though I already <a title="Seth Holloway: Learning HTML/CSS" href="https://sethholloway.com/blog/?p=633" target="_blank">knew enough HTML</a> to insert the scripts)
+Inspired by the class I checked into Google Analytics further and signed up. I added https://www.sethholloway.com to the service and they generated the necessary javascript--they even told me where to place it (though I already <a title="Seth Holloway: Learning HTML/CSS" href="https://sethholloway.com/blog/?p=633" target="_blank">knew enough HTML</a> to insert the scripts)
 
 Here's the generated javascript:
 <blockquote>
 <pre id="line20">&lt;<span class="start-tag">script</span><span class="attribute-name"> type</span>=<span class="attribute-value">"text/javascript"</span>&gt;
   var gaJsHost = (("https:" == document.location.protocol) ?
-                   "https://ssl." : "http://www.");
+                   "https://ssl." : "https://www.");
   document.write(unescape("%3Cscript src='" + gaJsHost +
                           "google-analytics.com/ga.js' 
                           type='text/javascript'%3E%3C/script%3E"));

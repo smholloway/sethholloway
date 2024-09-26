@@ -32,4 +32,4 @@ One of my favorite songs on the subject is <em>Policy of Truth</em> by Depeche M
 <blockquote>Hide what you have to hide / And tell what you have to tell /
 You'll see your problems multiplied / If you continually decide / To faithfully pursue / The policy of truth</blockquote>
 
-<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/3q8bXxPPKno&amp;autoplay=true&amp;loop=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="480" height="385" src="http://www.youtube.com/v/3q8bXxPPKno&amp;autoplay=true&amp;loop=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<object width="480" height="385"><param name="movie" value="https://www.youtube.com/v/3q8bXxPPKno&amp;autoplay=true&amp;loop=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="480" height="385" src="https://www.youtube.com/v/3q8bXxPPKno&amp;autoplay=true&amp;loop=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>

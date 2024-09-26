@@ -17,16 +17,16 @@ meta:
 ---
 Software libraries can tremendously help software development. At best, the libraries are well tested pieces of functionality that integrate easily into your project and prevent you from re-inventing the wheel. On the negative side, third-party libraries could add to your costs or prevent your company from being sold, they could be confusing and poorly documented, or they could work unexpectedly. I've used a number of libraries in the past (Ruby and Ruby on Rails push libraries heavily; in Java I like jsoup and log4j), but I was curious how pros chose so I asked around and searched a bit.
 
-You can read the <a title="Reddit: Handy Java Libraries" href="http://www.reddit.com/r/java/comments/kis7l/handy_java_libraries_you_use">Reddit take on handy Java libraries</a>.
+You can read the <a title="Reddit: Handy Java Libraries" href="https://www.reddit.com/r/java/comments/kis7l/handy_java_libraries_you_use">Reddit take on handy Java libraries</a>.
 
 And here's advice from Lane:
 <blockquote>I'd focus on these:
 
 Normal coding
-Apache Commons: <a href="http://commons.apache.org/" target="_blank">http://commons.apache.org/</a>
-Guava: <a href="http://code.google.com/p/guava-libraries/" target="_blank">http://code.google.com/p/<wbr>guava-libraries/</wbr></a>
-Jackson JSON parser: <a href="http://jackson.codehaus.org/" target="_blank">http://jackson.codehaus.org/</a>
-Spring: <a href="http://www.springsource.org/" target="_blank">http://www.springsource.org/</a>
+Apache Commons: <a href="https://commons.apache.org/" target="_blank">https://commons.apache.org/</a>
+Guava: <a href="https://code.google.com/p/guava-libraries/" target="_blank">https://code.google.com/p/<wbr>guava-libraries/</wbr></a>
+Jackson JSON parser: <a href="https://jackson.codehaus.org/" target="_blank">https://jackson.codehaus.org/</a>
+Spring: <a href="https://www.springsource.org/" target="_blank">https://www.springsource.org/</a>
 ActiveMQ
 
 Unit Testing:

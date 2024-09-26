@@ -16,7 +16,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-My labmate suggested I read "<a title="You and Your Research by Hamming" href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf" target="_blank">You and Your Research</a>," a transcript from a speech given by <a title="Wikipedia: Richard Hamming" href="http://en.wikipedia.org/wiki/Richard_Hamming" target="_blank">Richard "Dick" Hamming</a>. Hamming is famous for, amongst other things, <a title="Wikipedia: Hamming codes" href="http://en.wikipedia.org/wiki/Hamming_code" target="_blank">Hamming Codes</a>. The speech is meant for scientists, but I think the quotes generalize well to a large segment of the population. Below are the sections I found particularly interesting.
+My labmate suggested I read "<a title="You and Your Research by Hamming" href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf" target="_blank">You and Your Research</a>," a transcript from a speech given by <a title="Wikipedia: Richard Hamming" href="https://en.wikipedia.org/wiki/Richard_Hamming" target="_blank">Richard "Dick" Hamming</a>. Hamming is famous for, amongst other things, <a title="Wikipedia: Hamming codes" href="https://en.wikipedia.org/wiki/Hamming_code" target="_blank">Hamming Codes</a>. The speech is meant for scientists, but I think the quotes generalize well to a large segment of the population. Below are the sections I found particularly interesting.
 <blockquote>I have to get you to drop your modesty and say to yourself, "Yes, I would like to do first-class work." Our society frowns on people who set out to do really good work.
 
 One of the characteristics of successful scientists is having courage.Most mathematicians, theoretical physicists, and astrophysicists do what we consider their best work when they are young. It is not that they don't do good work in their old age but what we value most is often what they did early.
@@ -101,4 +101,4 @@ You have to change. You get tired after a while; you use up your originality in 
 
 When your vision of what you want to do is what you can do single-handedly, then you should pursue it. The day your vision, what you think needs to be done, is bigger than what you can do single-handedly, then you have to move toward management.</blockquote>
 I know this is a monster post, but it's shorter than the complete transcript. I hope you enjoyed it as much as I did.
-<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">http://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf</div>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px;">https://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf</div>

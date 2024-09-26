@@ -17,7 +17,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-I sent an email to the <a title="Students in Software Engineering @ UT" href="http://www.edge.utexas.edu/sse/" target="_blank">Students in Software Engineering</a>, but I'd like to cover my bases and make the announcement public. It is rather unorthodox to invite everyone to a proposal, but I'm doing great work and I'm ready to spread the word!
+I sent an email to the <a title="Students in Software Engineering @ UT" href="https://www.edge.utexas.edu/sse/" target="_blank">Students in Software Engineering</a>, but I'd like to cover my bases and make the announcement public. It is rather unorthodox to invite everyone to a proposal, but I'm doing great work and I'm ready to spread the word!
 
 You are invited to my Ph.D. qualifying exam on Tuesday, November 10 at 2pm in ENS 637. If you are considering a PhD, I encourage you to come and learn the process! The talk should also be entertaining for those of you interested in intelligent environments (e.g., smart homes). These presentations generally last one hour.
 

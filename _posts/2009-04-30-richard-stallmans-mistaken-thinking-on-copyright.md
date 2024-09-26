@@ -20,13 +20,13 @@ published: true
 meta:
   _edit_last: '1'
 ---
-Last Friday I had the honor of seeing <a title="Richard Stallman's Home Page" href="http://www.stallman.org/" target="_blank">Richard Stallman</a>, or <a title="Wikipedia: Richard Stallman" href="http://en.wikipedia.org/wiki/Richard_Stallman" target="_blank">rms</a> as he's known in the computer underground, delivering a lecture about copyright in the digital age at UT.
+Last Friday I had the honor of seeing <a title="Richard Stallman's Home Page" href="https://www.stallman.org/" target="_blank">Richard Stallman</a>, or <a title="Wikipedia: Richard Stallman" href="https://en.wikipedia.org/wiki/Richard_Stallman" target="_blank">rms</a> as he's known in the computer underground, delivering a lecture about copyright in the digital age at UT.
 
 First, a note on his appearance: I was near the back of a 300-person auditorium, but he looked fairly presentable. He has long hair and a ratty beard, but he was dressed in a clean, bright red shirt and slacks. He wore black Velcro shoes which he quickly slid out of. Another interesting visual was his perfectly spherical basketball-sized belly that stretched his shirt tight against his torso. It was truly amazing given his thin arms and legs!
 
 And now onto the intellectual bits...
 
-Stallman is a big believer in freedom, and he believes that software should be free (as in speech, not as in beer). Rather than referring to price, free software means the user is free to do what they please, namely <a title="Free Software Foundation Definition" href="http://www.fsf.org/about/what-is-free-software" target="_blank">modify and share</a>. Here's the <a title="Free Software" href="http://www.gnu.org/philosophy/free-sw.html" target="_blank">definition from the horse's mouth</a>:
+Stallman is a big believer in freedom, and he believes that software should be free (as in speech, not as in beer). Rather than referring to price, free software means the user is free to do what they please, namely <a title="Free Software Foundation Definition" href="https://www.fsf.org/about/what-is-free-software" target="_blank">modify and share</a>. Here's the <a title="Free Software" href="https://www.gnu.org/philosophy/free-sw.html" target="_blank">definition from the horse's mouth</a>:
 
 <blockquote><em>Free software is a matter of the users' freedom to run, copy, distribute, study, change and improve the software.  More precisely, it refers to four kinds of freedom, for the users of the software: </em>
 

@@ -16,7 +16,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-Back in the day I used <a title="Firefox addon: Greasemonkey" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> and <a title="Firefox addon: Stylish" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a> for Firefox--even contributing something to <a title="Userscripts dot org" href="http://www.userscripts.org">userscripts.org</a> (a huge repository of GreaseMonkey and Stylish scripts). Chrome is currently my browser of choice, and I thought of how nice it would be to tweak sites using a little homegrown JavaScript. Turns out, Chrome has Greasemonkey's user script capability built-in.
+Back in the day I used <a title="Firefox addon: Greasemonkey" href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey</a> and <a title="Firefox addon: Stylish" href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Stylish</a> for Firefox--even contributing something to <a title="Userscripts dot org" href="https://www.userscripts.org">userscripts.org</a> (a huge repository of GreaseMonkey and Stylish scripts). Chrome is currently my browser of choice, and I thought of how nice it would be to tweak sites using a little homegrown JavaScript. Turns out, Chrome has Greasemonkey's user script capability built-in.
 
 Any file named &lt;whatever&gt;.user.js will be interpreted as a user script. Simply open the file in Chrome and install it. Now you have a dead simple Chrome extension! As you can see below, there are a couple steps in the install process:
 
@@ -32,4 +32,4 @@ I created an example user script for Chrome that hides the black bar now appeari
 
 If you prefer a more high tech/user friendly version, check out the <a title="Chrome Extension: Personalized Web" href="https://chrome.google.com/webstore/detail/plcnnpdmhobdfbponjpedobekiogmbco#">Personalized Web extension</a> in Chrome.
 
-HT to <a title="Lucas Wiman" href="http://twitter.com/#!/lucaswiman">Lucas</a> for the Personalized Web link and idea for what to demonstrate.
+HT to <a title="Lucas Wiman" href="https://twitter.com/#!/lucaswiman">Lucas</a> for the Personalized Web link and idea for what to demonstrate.

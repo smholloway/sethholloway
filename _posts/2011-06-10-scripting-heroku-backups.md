@@ -17,13 +17,13 @@ meta:
 ---
 I was looking for a way to backup applications on Heroku and found a few options. There's a Rails plugin that stores your backups on Amazon S3 (<a title="Heroku S3 Backup plugin" href="https://github.com/edavis10/heroku_s3_backup">https://github.com/edavis10/heroku_s3_backup</a>), but I am satisfied with local backups.
 
-So I updated an existing solution (<a title="Ben Scheirman's blog" href="http://flux88.com/2010/02/scripting-heroku-backups/">http://flux88.com/2010/02/scripting-heroku-backups/</a>) based on Heroku's updated documentation (<a title="Heroku Docs: pgbackups" href="http://devcenter.heroku.com/articles/pgbackups">http://devcenter.heroku.com/articles/pgbackups</a>).
+So I updated an existing solution (<a title="Ben Scheirman's blog" href="https://flux88.com/2010/02/scripting-heroku-backups/">https://flux88.com/2010/02/scripting-heroku-backups/</a>) based on Heroku's updated documentation (<a title="Heroku Docs: pgbackups" href="https://devcenter.heroku.com/articles/pgbackups">https://devcenter.heroku.com/articles/pgbackups</a>).
 
 
 <pre># lib/tasks/backup.rake
 
 # Create a backup of a Rails application deployed to Heroku
-# Technique taken from Ben Scheirman - http://flux88.com/2010/02/scripting-heroku-backups/
+# Technique taken from Ben Scheirman - https://flux88.com/2010/02/scripting-heroku-backups/
 # Place file in lib/tasks/backup.rake (replace your_app_name with your application's Heroku name)
 # Invoke using rake your_app_name:backup
 # Dependencies: the heroku gem, the pgbackups heroku addon

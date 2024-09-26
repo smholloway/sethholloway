@@ -21,7 +21,7 @@ meta:
 ---
 TL;DR: check CustomUrl and SitesMappings.
 
-Andrea is hosting her domain, <a title="Andrea Mire Holloway" href="http://www.andreamholloway.com/">andreamholloway.com</a>, on Google Sites. This is yet another great (free) service from Google; however, as with all Google products, you have to find your own way around. For weeks her site was only accessible via the funky, internal Google Sites address (https://sites.google.com/a/andreamholloway.com/www/)--hardly the address you want to share.
+Andrea is hosting her domain, <a title="Andrea Mire Holloway" href="https://www.andreamholloway.com/">andreamholloway.com</a>, on Google Sites. This is yet another great (free) service from Google; however, as with all Google products, you have to find your own way around. For weeks her site was only accessible via the funky, internal Google Sites address (https://sites.google.com/a/andreamholloway.com/www/)--hardly the address you want to share.
 
 We googled for all kinds of keywords with no success. I believe this is a language problem at the core and the problem is particularly difficult because of jargon like DNS, CNAME, ANAME, route, address, URL, site, etc.
 
@@ -48,6 +48,6 @@ Click "Add mapping" button
 
 If you did not purchase your domain through Google Sites, you may need to adjust the DNS settings. You'll need to Google around for the right settings, but you will see a lot of ghs.google.com.
 
-For more, I'd recommend you checkout Steegle's guide available <a title="Steegle's Google Sites How-to" href="http://www.steegle.com/websites/google-sites-howtos/googlesites-frequentlyaskedquestionsfaq">here</a>.
+For more, I'd recommend you checkout Steegle's guide available <a title="Steegle's Google Sites How-to" href="https://www.steegle.com/websites/google-sites-howtos/googlesites-frequentlyaskedquestionsfaq">here</a>.
 
 I hope this information helps others--I know I spent too much time trying to figure it out myself.

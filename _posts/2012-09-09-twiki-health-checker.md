@@ -18,7 +18,7 @@ A few months ago I got tired of staring at pages of cruft while navigating the T
 
 <img class="size-large wp-image-1804" title="TwikiChecker run on Twiki WebIndex" src="/images/delthis-1024x399.png" alt="TwikiChecker run on Twiki WebIndex" width="640" height="249" />
 
-Try running it for yourself on the official Twiki page, <a title="http://twiki.org/cgi-bin/view/TWiki/WebIndex" href="http://twiki.org/cgi-bin/view/TWiki/WebIndex">http://twiki.org/cgi-bin/view/TWiki/WebIndex</a>. (Copy the contents of TwikiChecker.js, navigate to the Twiki WebIndex, open your browser's JavaScript console, paste in the contents and hit enter.)
+Try running it for yourself on the official Twiki page, <a title="https://twiki.org/cgi-bin/view/TWiki/WebIndex" href="https://twiki.org/cgi-bin/view/TWiki/WebIndex">https://twiki.org/cgi-bin/view/TWiki/WebIndex</a>. (Copy the contents of TwikiChecker.js, navigate to the Twiki WebIndex, open your browser's JavaScript console, paste in the contents and hit enter.)
 
 Hopefully this is useful for others!
 

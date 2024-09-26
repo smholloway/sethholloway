@@ -19,7 +19,7 @@ meta:
 ---
 I hope my lovely, intelligent readers do not mind the two new ad panels (at the bottom of individual posts and in the sidebar); RSS readers should not notice any changes. This was a fun technical project that may make me a dollar over about twenty years :)
 
-Here's how I added ads to the sidebar and the end of single posts in my WordPress blog. You may be able to do it easily with a plugin, such as one of the <a title="Wordpress Plugins for AdSense" href="http://www.quickonlinetips.com/archives/2006/11/10-best-wordpress-plugins-for-google-adsense/" target="_blank">ten featured in this article</a>, but I chose to do it manually to learn more.
+Here's how I added ads to the sidebar and the end of single posts in my WordPress blog. You may be able to do it easily with a plugin, such as one of the <a title="Wordpress Plugins for AdSense" href="https://www.quickonlinetips.com/archives/2006/11/10-best-wordpress-plugins-for-google-adsense/" target="_blank">ten featured in this article</a>, but I chose to do it manually to learn more.
 
 For ease, I used two tabs. In one tab I generated ads and another tab was used to edit pages.
 
@@ -47,7 +47,7 @@ google_ad_height = 90;
 //--&gt;
 &lt;/script&gt;
 &lt;script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
 &lt;/script&gt;
 &lt;/div&gt;</blockquote>
 For the sake of looks, I then needed to edit the stylesheet in the following manner:
@@ -75,7 +75,7 @@ google_ad_height = 90;
 //--&gt;
 &lt;/script&gt;
 &lt;script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
 &lt;/script&gt;
 &lt;/li&gt;</blockquote>
 And voila! We now have two unobtrusive ads on sethholloway.com.

@@ -14,4 +14,4 @@ published: true
 meta:
   _edit_last: '1'
 ---
-<a title="http://en.wikipedia.org/wiki/Mesothelioma" href="http://en.wikipedia.org/wiki/Mesothelioma">Mesothelioma</a> has really high costs for ad words. Like $50 per. That's crazy. Maybe Google will plop a few of those class action ads on my page and give me a cut :)
+<a title="https://en.wikipedia.org/wiki/Mesothelioma" href="https://en.wikipedia.org/wiki/Mesothelioma">Mesothelioma</a> has really high costs for ad words. Like $50 per. That's crazy. Maybe Google will plop a few of those class action ads on my page and give me a cut :)

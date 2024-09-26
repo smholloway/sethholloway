@@ -15,5 +15,5 @@ published: true
 meta:
   _edit_last: '1'
 ---
-<blockquote><em>The Past is history, the Future is a mystery, today is a gift that is why it's called, the Present</em> -- Master Oogway from <a title="Kung Fu Panda" href="http://www.imdb.com/title/tt0441773/" target="_blank">Kung Fu Panda</a>.</blockquote>
+<blockquote><em>The Past is history, the Future is a mystery, today is a gift that is why it's called, the Present</em> -- Master Oogway from <a title="Kung Fu Panda" href="https://www.imdb.com/title/tt0441773/" target="_blank">Kung Fu Panda</a>.</blockquote>
 Happy Friday to all. Enjoy the present!

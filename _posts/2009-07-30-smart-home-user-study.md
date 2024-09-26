@@ -26,7 +26,7 @@ If you know of anyone else who would be interested in taking part of this exciti
 
 This purpose of this study is to discover how the general populace conceives of smart homes. We hope to gather a baseline level for research in a fundamentally new approach to interacting with smart homes. The goals of this research are to support the development of intuitive interfaces for everyone with the hope of providing vastly more efficient and effective means of interacting with the home. Your assistance will help us advance this exciting new research area!
 
-<a title="Survey on Smart Homes" href="http://www.surveymonkey.com/s.aspx?sm=sHs4AQr15nT5jnRzmhJiwA_3d_3d" target="_blank">https://www.surveymonkey.com/s.aspx?sm=sHs4AQr15nT5jnRzmhJiwA_3d_3d</a>
+<a title="Survey on Smart Homes" href="https://www.surveymonkey.com/s.aspx?sm=sHs4AQr15nT5jnRzmhJiwA_3d_3d" target="_blank">https://www.surveymonkey.com/s.aspx?sm=sHs4AQr15nT5jnRzmhJiwA_3d_3d</a>
 
 We expect each study to take approximately 30 minutes. Anyone over the age of 18 is encouraged to participate. Your opinion is highly valued and greatly appreciated!
 

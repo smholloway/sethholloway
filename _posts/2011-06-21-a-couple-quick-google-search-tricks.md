@@ -19,13 +19,13 @@ I recently stumbled upon these tricks and thought others might find them interes
 
 To see results from a different location you can either
 
- * go to the Google site you're interested in and append "ncr" to the URL (e.g., http://www.google.co.kr/ncr to see Korean search results) or
- * use the gl=&lt;two letter location&gt; parameter (e.g., http://www.google.com/search?q=blah&amp;gl=KR).
+ * go to the Google site you're interested in and append "ncr" to the URL (e.g., https://www.google.co.kr/ncr to see Korean search results) or
+ * use the gl=&lt;two letter location&gt; parameter (e.g., https://www.google.com/search?q=blah&amp;gl=KR).
 
 To avoid personalization - add the `pws=0` flag
 
-I found a nice example from an <a title="SEOmoz - how can I view google..." href="http://www.seomoz.org/q/how-can-i-view-google-com-serps-from-outside-the-us">SEOmoz article on how to retrieve results for a specific location without actually being in that location</a>:
-<blockquote>Use this as a model: http://www.google.com/search?q=your+search+query&amp;pws=0&amp;gl=US (obviously put your search query in where it says your+search+query (separated by plus signs)).
+I found a nice example from an <a title="SEOmoz - how can I view google..." href="https://www.seomoz.org/q/how-can-i-view-google-com-serps-from-outside-the-us">SEOmoz article on how to retrieve results for a specific location without actually being in that location</a>:
+<blockquote>Use this as a model: https://www.google.com/search?q=your+search+query&amp;pws=0&amp;gl=US (obviously put your search query in where it says your+search+query (separated by plus signs)).
 
 Broken down:
 

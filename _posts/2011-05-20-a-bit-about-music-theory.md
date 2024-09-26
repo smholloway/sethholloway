@@ -60,4 +60,4 @@ And the A major chord contains A, C#, E (1, 3, 5 of the A major scale).
 
 That's a quick, high-level overview of the basis of all music. Now, rock on! \m/
 
-If you're looking for more information, there are some great resources online. One that is nicely chunked is http://www.musictheory.net/lessons
+If you're looking for more information, there are some great resources online. One that is nicely chunked is https://www.musictheory.net/lessons

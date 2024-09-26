@@ -19,7 +19,7 @@ meta:
   _aioseop_title: Numbers for Computer Scientists in various units
   _aioseop_keywords: jeff dean, computer science, numbers, timing, seconds, units
 ---
-These are the so-called <a title="Jeff Dean: Google Badass" href="http://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="http://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here's a chart in the spirit of "don't make me think"
+These are the so-called <a title="Jeff Dean: Google Badass" href="https://research.google.com/people/jeff/index.html">Jeff Dean</a> <a title="Quora: What numbers should computer people know?" href="https://www.quora.com/What-are-the-numbers-that-every-computer-engineer-should-know-according-to-Jeff-Dean">numbers that computer scientists should understand when tuning for performance</a> (for example, you can see that pulling data from the L1 cache is much faster than retrieving it over the Internet). The nanosecond conversion slows me down, so here's a chart in the spirit of "don't make me think"
 <pre>L1 cache reference
           0.5 ns | 0.0005 us  | 0.0000005 ms | 0.0000000005 s
 Branch mispredict

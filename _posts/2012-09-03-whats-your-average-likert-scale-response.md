@@ -15,9 +15,9 @@ published: true
 meta:
   _edit_last: '1'
 ---
-Have you ever seen a question where you select an answer from a set list like <em>Strongly disagree</em>, <em>Disagree</em>, <em>Neither agree nor disagree</em>, <em>Agree</em>, and <em>Strongly agree</em>? that's a <a title="Wikipedia: Likert Scale" href="http://en.wikipedia.org/wiki/Likert_scale">Likert scale</a>.
+Have you ever seen a question where you select an answer from a set list like <em>Strongly disagree</em>, <em>Disagree</em>, <em>Neither agree nor disagree</em>, <em>Agree</em>, and <em>Strongly agree</em>? that's a <a title="Wikipedia: Likert Scale" href="https://en.wikipedia.org/wiki/Likert_scale">Likert scale</a>.
 
-<a href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Example_Likert_Scale.svg/220px-Example_Likert_Scale.svg.png"><img class="alignnone" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Example_Likert_Scale.svg/220px-Example_Likert_Scale.svg.png" alt="" width="220" height="334" /></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Example_Likert_Scale.svg/220px-Example_Likert_Scale.svg.png"><img class="alignnone" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Example_Likert_Scale.svg/220px-Example_Likert_Scale.svg.png" alt="" width="220" height="334" /></a>
 
 Crafting a survey like this is very straightforward and easy, but doing it well is very difficult! For example, this style of survey is lacking the granularity necessary to capture answers like, "I can see both sides" or "Not applicable" or "This question warrants a richer discussion and should not be shoe-horned into a simple yes or no question." Let's forget about the problems and instead focus on appropriate usage of the Likert scale.
 

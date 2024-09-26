@@ -18,4 +18,4 @@ Can you describe the weather? If you take this question literally, the answer is
 
 What's half of 13? 6.5 is one answer, and 1 or 3 is another.
 
-<a title="How geniuses think" href="http://www.psychologytoday.com/blog/creative-thinkering/201109/how-geniuses-think">Geniuses are more likely to think differently</a>. How do you think? How do the people you admire think?
+<a title="How geniuses think" href="https://www.psychologytoday.com/blog/creative-thinkering/201109/how-geniuses-think">Geniuses are more likely to think differently</a>. How do you think? How do the people you admire think?

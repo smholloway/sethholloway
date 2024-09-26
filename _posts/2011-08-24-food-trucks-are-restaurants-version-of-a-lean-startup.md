@@ -13,7 +13,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-Austin is boomtown for food trucks. They're everywhere! For example, the trailer-food park on South 1st (http://www.yelp.com/biz/south-austin-trailer-park-and-eatery-austin). There are too many great food trucks around town to name, but a couple of my favorites are Sushi-A-Go-Go and Gourdough's.
+Austin is boomtown for food trucks. They're everywhere! For example, the trailer-food park on South 1st (https://www.yelp.com/biz/south-austin-trailer-park-and-eatery-austin). There are too many great food trucks around town to name, but a couple of my favorites are Sushi-A-Go-Go and Gourdough's.
 
 Anyway, after a recent outing where I sat at a kitschy picnic table in the summer heat eating trailer food, it struck me that food trucks are restaurant's version of a lean startup. Just as the cost of starting a software business went down with the commoditization of hardware and bandwidth, we're seeing an explosion of restaurants thanks to greatly reduced startup and operation expenses offered by trucks/trailers/carts. I imagine that by using a truck/trailer/cart, the business owner saves a ton of money; I'd guess there are significant savings on electricity (heating and cooling, lighting), service (less area to maintain, fewer waiters necessary), and rent. How cool is that?!
 

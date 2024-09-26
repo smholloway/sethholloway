@@ -19,9 +19,9 @@ meta:
 ---
 <b>The Clifton StrengthsFinder</b>
 
-Strengths as determined by a survey from the "<a title="Now, Discover Your Strengths on Amazon" href="http://www.amazon.com/dp/0743201140/">Now, Discover Your Strengths</a>" book.
+Strengths as determined by a survey from the "<a title="Now, Discover Your Strengths on Amazon" href="https://www.amazon.com/dp/0743201140/">Now, Discover Your Strengths</a>" book.
 
-Below are my top five themes of talent, ranked in the order revealed by my responses to the <a title="Strengths Finder" href="http://www.strengthsfinder.com">Clifton StrengthsFinder</a>.
+Below are my top five themes of talent, ranked in the order revealed by my responses to the <a title="Strengths Finder" href="https://www.strengthsfinder.com">Clifton StrengthsFinder</a>.
 
 As you may know, the Clifton StrengthsFinder measures the presence of talent in 34 categories called "themes." These themes were determined by The Gallup Organization as those that most consistently predict outstanding performance. The greater the presence of a theme of talent within a person, the more likely that person is to spontaneously exhibit those talents in day-to-day behaviors.
 

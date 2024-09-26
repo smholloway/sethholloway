@@ -21,7 +21,7 @@ I missed every shot. In front of hundreds of kids and their hover-parents. How e
 
 I thought a lot about how to end this post and couldn't decide on one, so I'll make it a choose your own adventure.
 
-(1) Don't judge a book by its cover! I was awesome! The tryouts were just that: tryouts. Like Allen Iverson said (http://www.youtube.com/watch?v=eGDBR2L5kzI), "We talkin' 'bout practice, not the game..." Not really :) The truth is, I was not much better than tryouts showed.
+(1) Don't judge a book by its cover! I was awesome! The tryouts were just that: tryouts. Like Allen Iverson said (https://www.youtube.com/watch?v=eGDBR2L5kzI), "We talkin' 'bout practice, not the game..." Not really :) The truth is, I was not much better than tryouts showed.
 
 (2) Embarrassment is a part of life. "That which does not kill us only makes us stronger." You can't live your life worried about what people think, so laugh about it and move on!
 

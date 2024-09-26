@@ -14,7 +14,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-As the semester draws to an end, I am pleased with the progress of the <a title="Students in Software Engineering" href="http://www.edge.utexas.edu/sse/" target="_blank">Students in Software Engineering</a>.  Leading the group has been a very rewarding experience for me, and participating has been great! I enjoyed learning more about my peers' research as well as hearing some of the professors' thoughts.
+As the semester draws to an end, I am pleased with the progress of the <a title="Students in Software Engineering" href="https://www.edge.utexas.edu/sse/" target="_blank">Students in Software Engineering</a>.  Leading the group has been a very rewarding experience for me, and participating has been great! I enjoyed learning more about my peers' research as well as hearing some of the professors' thoughts.
 
 Here are a few statistics from our inaugural semester:
 

@@ -17,7 +17,7 @@ meta:
 ---
 Preface: I like Netflix, and I've been happily using the service for years.
 
-When Netflix changed their service last year, a lot of people quit using the service. To this day, I feel that Netflix has lost customers and is succeeding due in part to their monopoly. Too many other companies can compete in the streaming video business (or they think they can, at least); however, <a title="Wikipedia - Netflix Prize" href="http://en.wikipedia.org/wiki/Netflix_Prize">Netflix has an amazing algorithm to predict how much you will like a movie</a>. If I were a product manager for Netflix I would showcase the ranking system and add a few new features to improve the user experience, rebuild the brand, and differentiate from the competition.
+When Netflix changed their service last year, a lot of people quit using the service. To this day, I feel that Netflix has lost customers and is succeeding due in part to their monopoly. Too many other companies can compete in the streaming video business (or they think they can, at least); however, <a title="Wikipedia - Netflix Prize" href="https://en.wikipedia.org/wiki/Netflix_Prize">Netflix has an amazing algorithm to predict how much you will like a movie</a>. If I were a product manager for Netflix I would showcase the ranking system and add a few new features to improve the user experience, rebuild the brand, and differentiate from the competition.
 
 Before I discuss the features I would like to see added, let me explain a bit about how I use Netflix. I watch Netflix almost exclusively on my TV connected to my PS3. My tastes are pretty diverse and I watch all kinds of content (educational TV shows to samurai movies). My queue has contained over 50 items for almost as long as I've had Netflix.
 

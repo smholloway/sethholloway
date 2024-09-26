@@ -15,7 +15,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-According to <a title="Frank Levy" href="http://web.mit.edu/flevy/www/">Frank Levy</a>, <a title="Frank Levy's lecture at Swarthmore" href="http://web.mit.edu/flevy/www/Bernie%20Saffran%20Swarthmnore%20Lecture.pdf">the New World economy is not kind to anyone but the elite</a> (economics start on page 4). This does not bode well for the future.
+According to <a title="Frank Levy" href="https://web.mit.edu/flevy/www/">Frank Levy</a>, <a title="Frank Levy's lecture at Swarthmore" href="https://web.mit.edu/flevy/www/Bernie%20Saffran%20Swarthmnore%20Lecture.pdf">the New World economy is not kind to anyone but the elite</a> (economics start on page 4). This does not bode well for the future.
 
 Levy is doing very interesting research on the changing world market. I'm particularly fond of neo-skilled labor. His research matches almost perfectly with several debates I've had with other engineers--I wish I would have read the studies earlier so I could bring a different perspective.
 

@@ -40,14 +40,14 @@ Note: This post got buried and I never posted it. I haven't played with R in sev
 
 This assumes you have R downloaded and installed.
 
-Download, install, and configure GSUtil (http://code.google.com/apis/storage/docs/gsutil_install.html)
+Download, install, and configure GSUtil (https://code.google.com/apis/storage/docs/gsutil_install.html)
 
 Load R. You should see an ugly console :) In the window type
 <pre>install.packages(c("RCurl", "rjson"))</pre>
 You will be prompted to select a mirror; find something close to you and continue.
 
 You might be frustrated that there's no success message:
-<pre>trying URL 'http://www.revolution-computing.com/cran/bin/macosx/leopard/contrib/2.13/rjson_0.2.5.tgz'
+<pre>trying URL 'https://www.revolution-computing.com/cran/bin/macosx/leopard/contrib/2.13/rjson_0.2.5.tgz'
 Content type 'application/x-gzip' length 133138 bytes (130 Kb)
 opened URL
 ==================================================
@@ -83,11 +83,11 @@ Source your libraries
 library(RCurl)
 library(googlepredictionapi)</pre>
 Some useful links
-http://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html
+https://mjaniec.blogspot.com/2011/05/google-prediction-api-v12-for-r.html
 https://code.google.com/p/google-prediction-api-r-client/
-http://code.google.com/p/r-google-prediction-api-v12/
+https://code.google.com/p/r-google-prediction-api-v12/
 
-http://csg.sph.umich.edu/docs/R/localpackages.html
+https://csg.sph.umich.edu/docs/R/localpackages.html
 
 
 
@@ -99,7 +99,7 @@ http://csg.sph.umich.edu/docs/R/localpackages.html
  * Note: If you have not installed a package from CRAN before, You will  be prompted to select a mirror; find something close to you and continue.
  * Note: A successful install will not yield a success message--it will simply not show an error message.
 
- * Download, install, and configure GSUtil: <a href="http://code.google.com/apis/storage/docs/gsutil_install.html">http://code.google.com/apis/storage/docs/gsutil_install.html</a>
+ * Download, install, and configure GSUtil: <a href="https://code.google.com/apis/storage/docs/gsutil_install.html">https://code.google.com/apis/storage/docs/gsutil_install.html</a>
  * Download the Google Predictions API for R from <a href="https://code.google.com/p/google-prediction-api-r-client/">https://code.google.com/p/google-prediction-api-r-client/</a>
  * Install the plugin *Note:* I had to do it from the command line because the install failed inside R
 

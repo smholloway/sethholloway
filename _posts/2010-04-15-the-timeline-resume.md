@@ -13,7 +13,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-Over the weekend I published <a title="Seth Holloway Timeline Resume" href="http://www.sethholloway.com/timelineResume.html" target="_blank">my resume as a timeline</a>. With the standard text-based resume I found it hard to show my simultaneous jobs (for example, in Spring 2010 I was pursuing my PhD, working part-time at IBM, researching under Christine, teaching/grading Project Management, keeping up the lab's computing infrastructure, supervising Michael Hanna, assisting a couple companies with their computing needs, and actively participating in two organizations). The timeline allows me to show these jobs at once rather than tacitly asking the reader to juggle all the "X - Present" entries under multiple headings.
+Over the weekend I published <a title="Seth Holloway Timeline Resume" href="https://www.sethholloway.com/timelineResume.html" target="_blank">my resume as a timeline</a>. With the standard text-based resume I found it hard to show my simultaneous jobs (for example, in Spring 2010 I was pursuing my PhD, working part-time at IBM, researching under Christine, teaching/grading Project Management, keeping up the lab's computing infrastructure, supervising Michael Hanna, assisting a couple companies with their computing needs, and actively participating in two organizations). The timeline allows me to show these jobs at once rather than tacitly asking the reader to juggle all the "X - Present" entries under multiple headings.
 
 <img class="size-medium wp-image-1011" title="TimelineResume" src="/images/TimelineResume-300x120.png" alt="Seth Holloway's timeline resume" width="300" height="120" />
 

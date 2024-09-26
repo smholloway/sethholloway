@@ -15,7 +15,7 @@ published: true
 meta:
   _edit_last: '1'
 ---
-As part of creating a business page for <a title="Oilfield Intel: oil and gas service and equipment reviews" href="http://oilfieldintelligence.com">Oilfield Intelligence</a> (a niche review site for oil and gas services and equipment), LinkedIn kindly provided $50 worth of credit for their ads. That was enough to entice me, so I set up the ads. Four pages: create your ads, choose your target audience, select pay for impressions or clicks, and input payment information.
+As part of creating a business page for <a title="Oilfield Intel: oil and gas service and equipment reviews" href="https://oilfieldintelligence.com">Oilfield Intelligence</a> (a niche review site for oil and gas services and equipment), LinkedIn kindly provided $50 worth of credit for their ads. That was enough to entice me, so I set up the ads. Four pages: create your ads, choose your target audience, select pay for impressions or clicks, and input payment information.
 
 At first I chose to pay per click (CPC), but they were charging close to $5.00 per. Ouch! We do not have metrics for how much a single visitor is worth, but I suspect it is much less than $5.00 each and that's if we had 100% conversion rate. Normal consumer web apps run around 1% conversion rate, so you'd need 100 people on your page before one signed up. At $5.00 per person, that's $500 per new account. Yikes! Unfortunately, by the time I had done the math and researched a bit more, my LinkedIn session had expired (really? log me out in a few minutes?).
 
@@ -40,6 +40,6 @@ My initial impressions? Advertising on LinkedIn sucks. The site feels like an 
 
 Compared to Google: Google offered $100 worth of AdWords credit--twice what LinkedIn is willing to part with. My Google ads are costing $0.39 per click--over ten times less expensive than LinkedIn! Google's setup and reporting are markedly better.
 
-Compared to Facebook: the <a title="Oilfield Intelligence on Facebook" href="http://www.facebook.com/pages/Oilfield-Intelligence/256146977729169">OI Facebook page</a> seems to be ranked way higher than the <a title="Oilfield Intelligence official page on LinkedIn" href="http://www.linkedin.com/company/oilfield-intelligence">OI LinkedIn page</a>. I interpret that to mean that the Facebook page is a better use of our time than LinkedIn in general. Reading about ads, both LinkedIn and Facebook offer an abysmal 0.1% click-through-rate, so the cost per 1,000 impressions is usually equal to the cost per click.
+Compared to Facebook: the <a title="Oilfield Intelligence on Facebook" href="https://www.facebook.com/pages/Oilfield-Intelligence/256146977729169">OI Facebook page</a> seems to be ranked way higher than the <a title="Oilfield Intelligence official page on LinkedIn" href="https://www.linkedin.com/company/oilfield-intelligence">OI LinkedIn page</a>. I interpret that to mean that the Facebook page is a better use of our time than LinkedIn in general. Reading about ads, both LinkedIn and Facebook offer an abysmal 0.1% click-through-rate, so the cost per 1,000 impressions is usually equal to the cost per click.
 
 I'll admit I'm new to setting up CPC campaigns, but LinkedIn just seems bad. Am I missing something?
