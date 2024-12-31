@@ -10,4 +10,4 @@ This year I read [20 books](https://www.goodreads.com/user/year_in_books/2024/48
 
 My most recommended book of 2024 is [Outlive by Peter Attia](https://amzn.to/4gXCC17), which summarizes longevity research in an accessible, actionable way. I really enjoy Dr. Attia's framework, and have tried to strengthen my existing good habits and adopt new habits after reading this book. Here's to a long, meaningful life in 2025 and beyond!
 
-__"May you be free of suffering and the root of suffering."__
+<em>"May you be free of suffering and the root of suffering."</em>
