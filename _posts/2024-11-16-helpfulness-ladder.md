@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Helpfulness Ladder"
+description: "The Helpfulness Ladder: Simple tips to enhance collaboration and boost your influence."
 type: post
 ---
 
